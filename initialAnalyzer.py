@@ -3,7 +3,7 @@
 ## Imports
 import numpy as np
 import matplotlib.pyplot as plt
-import scipy.signal as signal
+from scipy import optimize, signal
 import os
 import colorama as cl
 import pandas as pd
@@ -26,11 +26,15 @@ class CQ:
         else:                  
             self.parameters_path = param_path
 
+
         ## Initialize Colorama for Windows
         cl.init()
 
         ## Read parameters upon object creation
         self.readParameters()
+
+        if self.plotSetting == "Data":
+            self.plotData()
 
 
     def readParameters(self):
@@ -60,6 +64,8 @@ class CQ:
         self.redshift = float(file_values_array[1])
         
         self.prom_nums = int(file_values_array[2])
+
+        self.plotSetting = file_values_array[2]
 
 
     def plotData(self, rs = True):
@@ -92,6 +98,9 @@ class CQ:
         self.findPeaks()
 
 
+        ## Fit Gaussians
+        self.fitGauss()
+
 
 
 
@@ -103,30 +112,43 @@ class CQ:
 
         peaks, feats = signal.find_peaks(self.spectrum[:,1], distance = 5, prominence=15, width=15)
 
-        # Filter out any unwanted cosmic rays
+        # Filter out any unwanted cosmic rays or false peaks that are too flat
         ind_to_delete = []
         for p_ind in peaks:
-            y1, y2, y3 = self.spectrum[:,1][p_ind-1],  self.spectrum[:,1][p_ind],  self.spectrum[:,1][p_ind+1]
+            y1, y2, y3 =  self.spectrum[:,1][p_ind-1],  self.spectrum[:,1][p_ind],  self.spectrum[:,1][p_ind+1]
 
-            y_avg = (  (y2-y1) + (y2-y3)  )  /2     # Find average y-difference between the peak and surronding points
+            y_avgclose = (  (y2-y1) + (y2-y1)  )  /2     # Find average y-difference between the peak and surronding points
 
-            if y_avg > y2/5:        # If the spike is far too sharp, cut it out
+            if y_avgclose > y3/5:        # If the spike is far too sharp, cut it out
                 ind_to_delete.append(np.where(peaks == p_ind))
         peaks = np.delete(peaks, np.array(ind_to_delete))
 
+        # Filter out remaining peaks via signal to noise
+        snr_list = []        # List to fill with signal to noise ratios
+        for p_ind in peaks:
+            signal_array = self.spectrum[:,1][p_ind-15:p_ind+15]
+            snr = np.mean(signal_array) / np.std(signal_array)          # use mean/std for the signal-to-noise ratio
+            snr_list.append(snr)
 
-        data = np.array([[self.spectrum[:,0][i], self.spectrum[:,1][i]] for i in peaks])
-        plt.plot(self.spectrum[:,0], self.spectrum[:,1])
-        plt.plot(data[:,0], data[:,1], 'ro')
-        plt.show()
+        # Trim list until criteria is met:
+        if len(snr_list) < self.prom_nums:  # Not enough peaks found
+            print(cl.Fore.YELLOW + "Not enough prominences found! Try decreasing number of prominences to fit "+
+                    "and check quality of data!" + cl.Fore.WHITE)
+        while len(snr_list) > self.prom_nums:
+            max_ind = snr_list.index(max(snr_list))
+            snr_list.remove(max(snr_list))
+            peaks = np.delete(peaks, max_ind)
+        
+        ## Plot:
+        if self.plotSetting == 'All':
+            data = np.array([[self.spectrum[:,0][i], self.spectrum[:,1][i]] for i in peaks])
+            plt.plot(self.spectrum[:,0], self.spectrum[:,1])
+            plt.plot(data[:,0], data[:,1], 'ro')
+            plt.show()
 
+        self.peak_ind = peaks       # Define the indices of the peaks
 
-
-
-
-
-
-
+        
 
     def DopplerShift(self, wavelength_data, redshift_value):
         '''
@@ -150,6 +172,51 @@ class CQ:
         return new_wavelength   # (array)  -->  The new array of wavelenghts after the doppler shift
 
 
+    def fitGauss(self):
+        """
+        Given the peak locations from "findPeaks" function, fit Gaussians to each peak and store the gaussian data
+        """
+        ## Find FWHM of each peak:
+        peak_widths = signal.peak_widths(self.spectrum[:,1], self.peak_ind, rel_height=0.75)[0]
+
+        ## Fit each prominence of the data:
+        self.g_params , self.g_errors = [], []
+        for i in self.peak_ind:
+            half_width = signal.peak_widths(self.spectrum[:,1], [i], rel_height=0.5)[0][0]   /2
+            
+            wl1, f1 = self.spectrum[:,0][int(i- (2.5)*half_width) : int(i+ (2.5)*half_width)+1], self.spectrum[:,1][int(i- (2.5)*half_width) : int(i+ (2.5)*half_width)+1]
+            wl2, f2 = self.spectrum[:,0][int(i- (1.0) * half_width) :int( i+(1.0)*half_width)+1], self.spectrum[:,1][int(i- (1.0)*half_width) : int(i+ (1.0)*half_width)+1]
+            print(wl1, wl2)
+
+            plt.plot(self.spectrum[:,0], self.spectrum[:,1])
+            plt.plot(wl1, f1, 'r.-')
+            plt.plot(wl2, f2, 'g.-')
+            plt.show()
+
+
+
+            params1, g_errors1 = optimize.curve_fit(self.Gaussian, wl1, f1, p0 = [max(f1), np.mean(f1), np.std(f1)])
+            self.g_params.append(params1)
+            self.g_errors.append(g_errors1)
+            params2, g_errors2 = optimize.curve_fit(self.Gaussian, wl2, f2, p0 = [max(f2), np.mean(f2), np.std(f2)])
+            self.g_params.append(params2)
+            self.g_errors.append(g_errors2)
+        print(self.g_params)
+
+
+    def Gaussian(self, x, amp, mean, std):
+        """
+        INPUTS:
+            
+            - x     (array)   : Array of x-values
+            - amp   (float)   : Amplitude of the gaussian (height)
+            - mean  (float)   : Mean of the gaussian curve
+            - std   (float)   : Standard Deviation of the Gaussian
+        
+        OUTPUTS:
+            - (array)  --> A Gaussian distribution
+        """
+        return amp * np.exp(-((x - mean) / 4 / std)**2)     # Gives a Gaussian distribution
 
 
 

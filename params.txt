@@ -1,6 +1,16 @@
 File path=C:\Users\sikor\OneDrive\Desktop\Research\KansasREU\REU\spectrum_2509.csv
 redshift=0.719
 prominences=3
+plot=All
 
 
-## NOTE: NO spaces!!!!
+# NOTE: NO spaces!!!! 
+
+# Inputs:
+#         File path     :  Absolute path to the file containing the cold quasar spectrum_2509
+#         redshift      :  The redshift of the given cold quasar
+#         prominences   :  The number of prominences to examine (recommended 3)
+#         plot          :  Plot setting to determine which plots are shown              
+#                         All       -->  Gives a full idea of how the program works
+#                         Data      -->  Plots original data (recommended change plot variable when object created)
+#                         Result    -->  Show plots that display the final results
