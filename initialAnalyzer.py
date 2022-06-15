@@ -186,7 +186,6 @@ class CQ:
             
             wl1, f1 = self.spectrum[:,0][int(i- (2.5)*half_width) : int(i+ (2.5)*half_width)+1], self.spectrum[:,1][int(i- (2.5)*half_width) : int(i+ (2.5)*half_width)+1]
             wl2, f2 = self.spectrum[:,0][int(i- (1.0) * half_width) :int( i+(1.0)*half_width)+1], self.spectrum[:,1][int(i- (1.0)*half_width) : int(i+ (1.0)*half_width)+1]
-            print(wl1, wl2)
 
             plt.plot(self.spectrum[:,0], self.spectrum[:,1])
             plt.plot(wl1, f1, 'r.-')
@@ -195,20 +194,20 @@ class CQ:
 
 
 
-            params1, g_errors1 = optimize.curve_fit(self.Gaussian, wl1, f1, p0 = [max(f1), np.mean(f1), np.std(f1)])
+            params1, g_errors1 = optimize.curve_fit(self.Gaussian, wl1, f1, p0 = [np.mean(f1), max(f1), np.mean(f1), np.std(f1)])
             self.g_params.append(params1)
             self.g_errors.append(g_errors1)
-            params2, g_errors2 = optimize.curve_fit(self.Gaussian, wl2, f2, p0 = [max(f2), np.mean(f2), np.std(f2)])
+            params2, g_errors2 = optimize.curve_fit(self.Gaussian, wl2, f2, p0 = [np.mean(f2), max(f2), np.mean(f2), np.std(f2)])
             self.g_params.append(params2)
             self.g_errors.append(g_errors2)
-        print(self.g_params)
 
 
-    def Gaussian(self, x, amp, mean, std):
+    def Gaussian(self, x, H, amp, mean, std):
         """
         INPUTS:
             
             - x     (array)   : Array of x-values
+            - H     (float)   : The height of the Gaussian above 0
             - amp   (float)   : Amplitude of the gaussian (height)
             - mean  (float)   : Mean of the gaussian curve
             - std   (float)   : Standard Deviation of the Gaussian
@@ -216,7 +215,7 @@ class CQ:
         OUTPUTS:
             - (array)  --> A Gaussian distribution
         """
-        return amp * np.exp(-((x - mean) / 4 / std)**2)     # Gives a Gaussian distribution
+        return H + amp * np.exp(-((x - mean) / 4 / std)**2)     # Gives a Gaussian distribution
 
 
 
