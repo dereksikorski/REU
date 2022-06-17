@@ -3,10 +3,11 @@
 ## Imports
 import numpy as np
 import matplotlib.pyplot as plt
-from scipy import optimize, signal
+from scipy import optimize, signal, ndimage
 import os
 import colorama as cl
 import pandas as pd
+import scipy
 
 class CQ:
 
@@ -187,19 +188,48 @@ class CQ:
             wl1, f1 = self.spectrum[:,0][int(i- (2.5)*half_width) : int(i+ (2.5)*half_width)+1], self.spectrum[:,1][int(i- (2.5)*half_width) : int(i+ (2.5)*half_width)+1]
             wl2, f2 = self.spectrum[:,0][int(i- (1.0) * half_width) :int( i+(1.0)*half_width)+1], self.spectrum[:,1][int(i- (1.0)*half_width) : int(i+ (1.0)*half_width)+1]
 
+
+            # Smooth the data via a Guassian filter:
+            f1_smooth = ndimage.gaussian_filter1d(f1, 1 )
+            f2_smooth = ndimage.gaussian_filter1d(f2, 1)
+            f1_smoother = ndimage.gaussian_filter1d(f1_smooth, 1 )
+            f2_smoother = ndimage.gaussian_filter1d(f2_smooth, 1)
             plt.plot(self.spectrum[:,0], self.spectrum[:,1])
             plt.plot(wl1, f1, 'r.-')
+            plt.plot(wl1, f1_smooth, 'm.-')
             plt.plot(wl2, f2, 'g.-')
+            plt.plot(wl2, f2_smooth, 'b.-')
             plt.show()
 
+            plt.plot(self.spectrum[:,0], self.spectrum[:,1])
+            plt.plot(wl1, f1, 'r.-')
+            plt.plot(wl1, f1_smoother, 'm.-')
+            plt.plot(wl2, f2_smoother, 'g.-')
+            plt.plot(wl2, f2, 'b.-')
+            plt.show()
 
-
-            params1, g_errors1 = optimize.curve_fit(self.Gaussian, wl1, f1, p0 = [np.mean(f1), max(f1), np.mean(f1), np.std(f1)])
+            params1, g_errors1 = optimize.curve_fit(self.Gaussian, wl1, f1, p0 = [np.mean(f1), 12, np.mean(f1), np.std(f1)])
             self.g_params.append(params1)
             self.g_errors.append(g_errors1)
-            params2, g_errors2 = optimize.curve_fit(self.Gaussian, wl2, f2, p0 = [np.mean(f2), max(f2), np.mean(f2), np.std(f2)])
+
+            params2, g_errors2 = optimize.curve_fit(self.Gaussian, wl2, f2, p0 = [np.mean(f2), 8, np.mean(f2), np.std(f2)])
             self.g_params.append(params2)
             self.g_errors.append(g_errors2)
+
+
+
+
+        # xdata = [ -10.0, -9.0, -8.0, -7.0, -6.0, -5.0, -4.0, -3.0, -2.0, -1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0]
+        # ydata = [1.2, 4.2, 6.7, 8.3, 10.6, 11.7, 13.5, 14.5, 15.7, 16.1, 16.6, 16.0, 15.4, 14.4, 14.2, 12.7, 10.3, 8.6, 6.1, 3.9, 2.1]
+        # ydata = [i + np.random.randint(0,10) for i in ydata]
+        # ydata = [i + 10 for i in ydata]
+        # param, error = optimize.curve_fit(self.Gaussian, xdata, ydata)
+        # plt.plot(xdata,ydata)
+        # plt.plot(np.linspace(-10,10,1000), self.Gaussian(np.linspace(-10,10,1000), param[0], param[1], param[2], param[3]))
+        # plt.show()
+        # print(param)
+        # print(error)
+
 
 
     def Gaussian(self, x, H, amp, mean, std):
@@ -215,7 +245,7 @@ class CQ:
         OUTPUTS:
             - (array)  --> A Gaussian distribution
         """
-        return H + amp * np.exp(-((x - mean) / 4 / std)**2)     # Gives a Gaussian distribution
+        return amp * np.exp(-((x-mean)**2) / (2*std**2) ) + H     # Gives a Gaussian distribution
 
 
 
