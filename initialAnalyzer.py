@@ -102,6 +102,9 @@ class CQ:
         ## Fit Gaussians
         self.fitGauss()
 
+        ## Fit Continuum
+        self.fitCont()
+
 
 
 
@@ -177,8 +180,6 @@ class CQ:
         """
         Given the peak locations from "findPeaks" function, fit Gaussians to each peak and store the gaussian data
         """
-        ## Find FWHM of each peak:
-        peak_widths = signal.peak_widths(self.spectrum[:,1], self.peak_ind, rel_height=0.75)[0]
 
         ## Fit each prominence of the data:
         self.g_params , self.g_errors = [], []
@@ -189,47 +190,25 @@ class CQ:
             wl2, f2 = self.spectrum[:,0][int(i- (1.0) * half_width) :int( i+(1.0)*half_width)+1], self.spectrum[:,1][int(i- (1.0)*half_width) : int(i+ (1.0)*half_width)+1]
 
 
-            # Smooth the data via a Guassian filter:
-            # f1_smooth = ndimage.gaussian_filter1d(f1, 1 )
-            # f2_smooth = ndimage.gaussian_filter1d(f2, 1)
-            # f1_smoother = ndimage.gaussian_filter1d(f1_smooth, 1 )
-            # f2_smoother = ndimage.gaussian_filter1d(f2_smooth, 1)
-            # plt.plot(self.spectrum[:,0], self.spectrum[:,1])
-            # plt.plot(wl1, f1, 'r.-')
-            # plt.plot(wl1, f1_smooth, 'm.-')
-            # plt.plot(wl2, f2, 'g.-')
-            # plt.plot(wl2, f2_smooth, 'b.-')
-            # plt.show()
-
-            # plt.plot(self.spectrum[:,0], self.spectrum[:,1])
-            # plt.plot(wl1, f1, 'r.-')
-            # plt.plot(wl1, f1_smoother, 'm.-')
-            # plt.plot(wl2, f2_smoother, 'g.-')
-            # plt.plot(wl2, f2, 'b.-')
-            # plt.show()
-
-
-            params1, g_errors1 = optimize.curve_fit(self.Gaussian, wl1, f1, p0 = [np.mean(f1), max(f1)-min(f2), np.mean(wl1), np.std(f1)])
+            params1, g_errors1 = optimize.curve_fit(self.Gaussian, wl1, f1, p0 = [np.mean(f1), max(f1)-min(f1), np.mean(wl1), np.std(f1)])
             params1 = [params1, wl1]
             self.g_params.append(params1)
             self.g_errors.append(g_errors1)
 
-            params2, g_errors2 = optimize.curve_fit(self.Gaussian, wl2, f2, p0 = [np.mean(f2), max(f1)-min(f2), np.mean(wl2), np.std(f2)])
+            params2, g_errors2 = optimize.curve_fit(self.Gaussian, wl2, f2, p0 = [np.mean(f2), max(f1)-min(f1), np.mean(wl2), np.std(f2)])
             params2 = [params2, wl2]
             self.g_params.append(params2)
             self.g_errors.append(g_errors2)
 
+        if self.plotSetting=="All":
+            plt.plot(self.spectrum[:,0], self.spectrum[:,1])
+            for ind, parm in enumerate(self.g_params):
+                color = ['r.-', 'g.-', 'm.-', 'b.-', 'r.-', 'g.-']
+                plt.plot(parm[1], self.Gaussian(parm[1], parm[0][0], parm[0][1], parm[0][2], parm[0][3]), color[ind] )
+            plt.show()
 
 
-        plt.plot(self.spectrum[:,0], self.spectrum[:,1])
-        for ind, parm in enumerate(self.g_params):
-            color = ['r.-', 'g.-', 'm.-', 'b.-', 'r.-', 'g.-']
-            plt.plot(parm[1], self.Gaussian(parm[1], parm[0][0], parm[0][1], parm[0][2], parm[0][3]), color[ind] )
-        plt.show()
-
-
-
-
+        
     def Gaussian(self, x, H, amp, mean, std):
         """
         INPUTS:
@@ -248,11 +227,49 @@ class CQ:
 
 
 
+    def fitCont(self):
+        """
+        Fits the continuum
+        """
+        f_copy = np.copy(self.spectrum[:,1])        # copy to avoid changing flux
+        w_copy = np.copy(self.spectrum[:,0])
+
+        ## Subtract the Gaussians from the continuum:
+        all_ind = []
+
+        for ind, gauss in enumerate(self.g_params):
+            if ind % 2 != 0:            # Only work with even numbers as second curve is larger curve
+                i_vals = [np.where(self.spectrum[:,0] == w)[0][0] for w in gauss[1]]    # trim spectrum to appropriate range of indices
+                for i in i_vals:
+                    all_ind.append(i)
+                
+        f_copy = np.delete(f_copy, all_ind)
+        w_copy = np.delete(w_copy, all_ind)
+
+        T, c = optimize.curve_fit(self.Planck, w_copy, f_copy, p0=500)
+        
+        plt.plot(self.spectrum[:,0], self.spectrum[:,1])
+        ws = np.linspace(self.spectrum[:,0][0], self.spectrum[:,0][len(self.spectrum[:,0])-1], 5000)
+        plt.plot(ws, self.Planck(ws,T), 'r')
+        plt.show()
+
+
+    def Planck(self, w, T):
+        """
+        Exponential funciton for smoothing curve
+        """
+        c1= 2 * 6.626e-34 * 299792458
+        c2 = 6.626e-34 * 299792458 /1.381e-23
+        W = w * 10e-10
+        B = (c1/W**5) * 1/((np.exp(c2/(W*T))) -1 )
+        return B
+    
+    def expo(self,w, a, b, c,d):
+        return a*np.exp(b*(w-c)) +d
+
 
 if __name__ == "__main__":
 
     test = CQ()
-
-    #test.plotData(True)
 
     test.fitData()

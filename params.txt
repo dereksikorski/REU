@@ -1,7 +1,7 @@
 File path=C:\Users\sikor\OneDrive\Desktop\Research\KansasREU\REU\spectrum_2509.csv
 redshift=0.719
 prominences=3
-plot=Data
+plot=None
 
 
 # NOTE: NO spaces!!!! 
