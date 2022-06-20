@@ -190,10 +190,10 @@ class CQ:
 
 
             # Smooth the data via a Guassian filter:
-            f1_smooth = ndimage.gaussian_filter1d(f1, 1 )
-            f2_smooth = ndimage.gaussian_filter1d(f2, 1)
-            f1_smoother = ndimage.gaussian_filter1d(f1_smooth, 1 )
-            f2_smoother = ndimage.gaussian_filter1d(f2_smooth, 1)
+            # f1_smooth = ndimage.gaussian_filter1d(f1, 1 )
+            # f2_smooth = ndimage.gaussian_filter1d(f2, 1)
+            # f1_smoother = ndimage.gaussian_filter1d(f1_smooth, 1 )
+            # f2_smoother = ndimage.gaussian_filter1d(f2_smooth, 1)
             # plt.plot(self.spectrum[:,0], self.spectrum[:,1])
             # plt.plot(wl1, f1, 'r.-')
             # plt.plot(wl1, f1_smooth, 'm.-')
@@ -209,18 +209,18 @@ class CQ:
             # plt.show()
 
 
-            params1, g_errors1 = optimize.curve_fit(self.Gaussian, wl1, f1_smoother, p0 = [np.mean(f1), 12, np.mean(f1), np.std(f1)], method = 'trf')
-            params1  = [params1, wl1]
-            print([np.mean(f1), 12, np.mean(f1), np.std(f1)])
+            params1, g_errors1 = optimize.curve_fit(self.Gaussian, wl1, f1, p0 = [np.mean(f1), max(f1)-min(f2), np.mean(wl1), np.std(f1)])
+            params1 = [params1, wl1]
             self.g_params.append(params1)
             self.g_errors.append(g_errors1)
 
-            params2, g_errors2 = optimize.curve_fit(self.Gaussian, wl2, f2_smoother, p0 = [np.mean(f2), 8, np.mean(f2), np.std(f2)], method = 'trf')
+            params2, g_errors2 = optimize.curve_fit(self.Gaussian, wl2, f2, p0 = [np.mean(f2), max(f1)-min(f2), np.mean(wl2), np.std(f2)])
             params2 = [params2, wl2]
             self.g_params.append(params2)
             self.g_errors.append(g_errors2)
 
-        print(self.g_params[0][0])
+
+
         plt.plot(self.spectrum[:,0], self.spectrum[:,1])
         for ind, parm in enumerate(self.g_params):
             color = ['r.-', 'g.-', 'm.-', 'b.-', 'r.-', 'g.-']
