@@ -7,7 +7,6 @@ from scipy import optimize, signal, ndimage
 import os
 import colorama as cl
 import pandas as pd
-import scipy
 
 class CQ:
 
@@ -66,7 +65,7 @@ class CQ:
         
         self.prom_nums = int(file_values_array[2])
 
-        self.plotSetting = file_values_array[2]
+        self.plotSetting = file_values_array[3]
 
 
     def plotData(self, rs = True):
@@ -148,6 +147,9 @@ class CQ:
             data = np.array([[self.spectrum[:,0][i], self.spectrum[:,1][i]] for i in peaks])
             plt.plot(self.spectrum[:,0], self.spectrum[:,1])
             plt.plot(data[:,0], data[:,1], 'ro')
+            plt.xlabel("Wavelength (Ang)")
+            plt.ylabel("Flux")
+            plt.title("Peak Location")
             plt.show()
 
         self.peak_ind = peaks       # Define the indices of the peaks
@@ -205,6 +207,9 @@ class CQ:
             for ind, parm in enumerate(self.g_params):
                 color = ['r.-', 'g.-', 'm.-', 'b.-', 'r.-', 'g.-']
                 plt.plot(parm[1], self.Gaussian(parm[1], parm[0][0], parm[0][1], parm[0][2], parm[0][3]), color[ind] )
+            plt.xlabel("Wavelength (Ang)")
+            plt.ylabel("Flux")
+            plt.title("Gaussian fits on peaks")
             plt.show()
 
 
@@ -247,25 +252,31 @@ class CQ:
         w_copy = np.delete(w_copy, all_ind)
 
         T, c = optimize.curve_fit(self.Planck, w_copy, f_copy, p0=500)
-        
-        plt.plot(self.spectrum[:,0], self.spectrum[:,1])
-        ws = np.linspace(self.spectrum[:,0][0], self.spectrum[:,0][len(self.spectrum[:,0])-1], 5000)
-        plt.plot(ws, self.Planck(ws,T), 'r')
-        plt.show()
+
+        if self.plotSetting in ['All', 'Result']:    
+            plt.clf()
+            plt.plot(self.spectrum[:,0], self.spectrum[:,1])
+            ws = np.linspace(self.spectrum[:,0][0], self.spectrum[:,0][len(self.spectrum[:,0])-1], 5000)
+            plt.plot(ws, self.Planck(ws,T), 'r')
+            plt.plot(ws, self.Planck(ws, T+200), 'g')
+            plt.plot(ws, self.Planck(ws, T-200), 'm')
+            plt.legend(['Data', f'Best-fit Planck Funciton: {round(T[0], 2)}K', f'Planck Function: {round(T[0]+200,2)}K', f'Planck Function: {round(T[0]-200,2)}K'])
+            plt.xlabel("Wavelength (Ang)")
+            plt.ylabel("Flux")
+            plt.title("Fitting the emission spectrum with Planck Curves")
+            plt.show()
 
 
     def Planck(self, w, T):
         """
-        Exponential funciton for smoothing curve
+        Planck Function
         """
         c1= 2 * 6.626e-34 * 299792458
         c2 = 6.626e-34 * 299792458 /1.381e-23
         W = w * 10e-10
         B = (c1/W**5) * 1/((np.exp(c2/(W*T))) -1 )
         return B
-    
-    def expo(self,w, a, b, c,d):
-        return a*np.exp(b*(w-c)) +d
+
 
 
 if __name__ == "__main__":
