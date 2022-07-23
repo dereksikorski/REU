@@ -225,6 +225,7 @@ class CQ:
                 small_width = int(2.5*half_width)   # Gives the half width of the smaller gaussian in terms of indices
                 small_list = list(range(p_ind-small_width, p_ind+small_width+1,1))
                 self.gaus_inds.append( small_list )
+        print(self.gaus_inds)
             
         ## Plotting the points marked for Gaussian fitting:
         if self.plotSetting == "All":
@@ -334,31 +335,28 @@ class CQ:
         ## Fit each prominence of the data:
         self.g_params , self.g_errors = [], []
 
-        for i in self.peak_ind:
+        ## Loop through each peak in the emission spectrum
+        for i, idx_list in enumerate(self.peak_ind):
 
-            half_width = signal.peak_widths(self.spectrum[:,1], [i], rel_height=0.5)[0][0]   /2     # (array) --> half width of peaks
-            
-            # Slice of main body of emission line based on the FWHM
-            wl1, f1 = self.spectrum[:,0][int(i- (2.5)*half_width) : int(i+ (2.5)*half_width)+1], self.spectrum[:,1][int(i- (2.5)*half_width) : int(i+ (2.5)*half_width)+1]
-          
-            # Slice of surronding region of emission line
-            wl2 = np.concatenate( ( self.spectrum[:,0][int(i-7.5*half_width):int(i-2.5*half_width)], self.spectrum[:,0][int(i+2.5*half_width+1):int(i+7.5*half_width)]  ),axis=0)
-            f2 = np.concatenate( ( self.spectrum[:,1][int(i-7.5*half_width):int(i-2.5*half_width)], self.spectrum[:,1][int(i+2.5*half_width+1):int(i+7.5*half_width)]  ),axis=0)
+            # MgII
+            if i in (0,1):
+                # append a smaller array of shape --> [ [index-1,....,index-n] ]  of the gaussian
+                small_width = int(2.5*half_width)   # Gives the half width of the smaller gaussian in terms of indices
+                large_width = int(7.5*half_width)   # Width of larger gaussian, in terms of indices (i.e. list of indices, not wavelengths!)
+                small_list = list(range(p_ind-small_width, p_ind+small_width+1,1))
+                large_list = list(range(p_ind-large_width,p_ind-small_width+1,1))
+                large_list = list(range(p_ind-large_width, p_ind-small_width+1)) + list(range(p_ind+small_width, p_ind+large_width+1))
+                self.gaus_inds.append( small_list )
+                self.gaus_inds.append(large_list)
 
-            plt.plot(self.spectrum[:,0], self.spectrum[:,1])
-            plt.plot(wl1, f1, 'r.')
-            plt.plot(wl2, f2, 'g.')
-            plt.show()
-
-            params1, g_errors1 = optimize.curve_fit(self.Gaussian, wl1, f1, p0 = [np.mean(f1), max(f1)-min(f1), np.mean(wl1), np.std(f1)])
-            params1 = [params1, wl1]
-            self.g_params.append(params1)
-            self.g_errors.append(g_errors1)
-
-            params2, g_errors2 = optimize.curve_fit(self.Gaussian, wl2, f2, p0 = [np.mean(f2), max(f1)-min(f1), np.mean(wl2), np.std(f2)])
-            params2 = [params2, wl2]
-            self.g_params.append(params2)
-            self.g_errors.append(g_errors2)
+            # H-beta line
+            elif i in (2,3):
+                small_width = int(2.5*half_width)   # Gives the half width of the smaller gaussian in terms of indices
+                small_list = list(range(p_ind-small_width, p_ind+small_width+1,1))
+                self.gaus_inds.append( small_list )
+            # OIII line
+            elif i ==4:
+                pass
 
         if self.plotSetting=="All":
             plt.plot(self.spectrum[:,0], self.spectrum[:,1])
