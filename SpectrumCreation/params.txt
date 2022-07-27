@@ -1,7 +1,7 @@
-Image Data=C:\Users\sikor\OneDrive\Desktop\Research\KansasREU\REU\SpectrumCreation\Oct28\cstObject.fits
-Sensitivity Spectrum=C:\Users\sikor\OneDrive\Desktop\Research\KansasREU\REU\SpectrumCreation\Oct28\sens.fits
+Image Data=C:\Users\sikor\OneDrive\Desktop\Research\KansasREU\REU\SpectrumCreation\Aug7\735\735Object.fits
+Sensitivity Spectrum=C:\Users\sikor\OneDrive\Desktop\Research\KansasREU\REU\SpectrumCreation\Aug7\735\735sens.fits
 Center Row=256
-Binning=5
+Binning=4
 
 
 # NOTE: NO spaces!!!! 

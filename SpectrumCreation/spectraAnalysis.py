@@ -89,12 +89,21 @@ class Data:
         ## Preform wavelength transformation on pixel data:
         self.wlTransform()
 
+        ## Plot final data:
+        self.prePlot()
+
         ## Apply flux calibration:
         self.fluxCal()
 
-        ## Plot final data:
-        self.finalPlot()
 
+        ## Trimmed final plot:
+        self.trimmedPlot()
+
+        ## Trimmed to MgII:
+        self.trimmedtrimmedPlot()
+        
+
+        self.sensPlot()
 
         ## Close the .fits files
         self.objData.close()
@@ -111,9 +120,13 @@ class Data:
         ## Read in data as np.array objects
         sciData = self.objData["SCI"].data      # (array)  -->  Shape (#_columns, #_rows) containing flux values from 2D image
         varData = self.objData["VAR"].data      # (array)  -->  Shape (#_columns, #_rows) containing variance values from 2D image
-
-        usefulSci = sciData[int(self.center - self.bin): int(self.center + self.bin )]   # Trim the array to only the useful rows
-        usefulVar = varData[int(self.center - self.bin): int(self.center + self.bin )] 
+        
+        if self.bin == 0:
+            usefulSci = [sciData[int(self.center)]]
+            usefulVar = [varData[int(self.center)]]
+        else:
+            usefulSci = sciData[int(self.center - self.bin): int(self.center + self.bin )]   # Trim the array to only the useful rows
+            usefulVar = varData[int(self.center - self.bin): int(self.center + self.bin )] 
 
 
 
@@ -187,31 +200,61 @@ class Data:
         self.fluxVals = self.fluxVals * sens_vals       # Multiply flux vals by sensitivity function to correct
 
 
-    def finalPlot(self):
+    def prePlot(self):
         """
         Plot the final data
         """
 
         plt.plot(self.wls, self.fluxVals)
+
         plt.xlabel("Wavelength (Angstrom)")
         plt.ylabel("Flux")
-        plt.show()
+        plt.xlim([7200,7800])
+        plt.ylim([0,0.75e-16])
 
+        plt.savefig("735CQ507.png")
 
+    def trimmedPlot(self):
+        """
+        Plot the final trimmed data
+        """
+        plt.clf()
+        plt.plot(self.wls, self.fluxVals)
 
+        plt.xlabel("Wavelength (Angstrom)")
+        plt.ylabel("Flux")
+        plt.xlim([6000, 8300])
+        plt.ylim([0,0.25e-14])
 
-        
+        plt.savefig("735CQ507_trimmed.png")
+    
+    def trimmedtrimmedPlot(self):
+        """
+        Trim to interesting region
+        """
+        plt.clf()
+        plt.plot(self.wls, self.fluxVals)
 
+        plt.xlabel("Wavelength (Angstrom)")
+        plt.ylabel("Flux")
+        plt.xlim([7200, 7800])
+        plt.ylim([0,0.25e-14])
 
+        plt.savefig("735CQ507MgII.png")
 
+    def sensPlot(self):
+        """
+        Plot sens
+        """
+        plt.clf()
+        sens_vals = self.sensData[0].data
 
-
-
-
-
+        plt.plot(self.wls, sens_vals)
+        plt.savefig("735sens.png")
 
 
 if __name__ == "__main__":
+
 
 
     test = Data("C:\\Users\sikor\OneDrive\Desktop\Research\KansasREU\REU\SpectrumCreation\params.txt")
