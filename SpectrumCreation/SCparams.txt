@@ -1,0 +1,15 @@
+Image Data=C:\Users\sikor\OneDrive\Desktop\Research\KansasREU\REU\SpectrumCreation\Aug7\735\735Object.fits
+Sensitivity Spectrum=C:\Users\sikor\OneDrive\Desktop\Research\KansasREU\REU\SpectrumCreation\Aug7\735\735sens.fits
+Center Row=256
+Binning=4
+
+# INPUT FOR spectrumCreation.py
+# NOTE: NO spaces!!!! 
+
+# Inputs:
+#         Image Data            :  Absolute path to the .fits file containing the 2D image of the science MEF 
+#         Sensitivity Spectrum  :  Absolute path to the .fits file containing the Sensitivity spectrum correction corresponding to
+#                                  the given image file
+#         Center Row            :  The center aperture of the image where the peak of the continuum flux is located
+#         Binning               :  When calculating the weighted flux value for the spectrum, the pixels in the range of
+#                                  Center Row +/- Binning are used
