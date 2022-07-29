@@ -64,6 +64,9 @@ class Data:
         # Binning to use when finding flux:
         self.bin = float(file_values_array[3])
 
+        # Plot setting:
+        self.plot = file_values_array[4]
+
 
 
     def Transform(self):
@@ -96,6 +99,10 @@ class Data:
 
         ## Save file:
         self.writeFile()
+
+        ## Plot:
+        if self.plot in ("yes", "Yes", "y", "Y"):
+            self.Plot()
 
         ## Close the .fits files
         self.objData.close()
@@ -202,9 +209,32 @@ class Data:
         newFile = self.objFilePath[:-5]  # Trim ending off of the input file
         newFile += ".txt"
 
-        np.savetxt(newFile, data)
+        np.savetxt(newFile, data, delimiter=",")
 
+    def Plot(self):
+        """
+        Save a plot of the spectra if plot setting specifies
+        """
+        # Plot full spectrum
+        plt.clf()
+        plt.plot(self.wls, self.fluxVals)
 
+        plt.xlabel("Wavelength (Ang)")
+        plt.ylabel("Flux")
+        plt.title("Spectrum")
+
+        plt.savefig(self.objFilePath[:-5] + ".png")
+
+        # Plot only MgII line
+        plt.clf()
+        plt.plot(self.wls, self.fluxVals)
+        plt.xlim([7200,7800])
+        plt.ylim([0,3e-15])
+
+        plt.xlabel("Wavelength (Ang)")
+        plt.ylabel("Flux")
+        plt.title("MgII")
+        plt.savefig(self.objFilePath[:-5] + "_MgII.png")
 
 
 

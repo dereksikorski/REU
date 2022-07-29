@@ -1,0 +1,15 @@
+Input Directory=C:\Users\sikor\OneDrive\Desktop\Research\KansasREU\REU\SpectrumCombination\comboFiles
+Output File=CQ507
+Save Plot=Yes
+
+
+# Param file for spectrumCombination.py
+
+
+## NOTE: NO SPACES AFTER =
+
+# Inputs:
+#         Input Directory       :  Abs. path to the folder containing .txt files with spectra to combine
+#         Output File           :  Name of output .txt file to make. This file will be created in the current Directory
+#         Save Plot             : Yes or No. This option is whether or not to save the final plot as a .png file in the current
+#                                 directory
