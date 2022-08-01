@@ -6,6 +6,7 @@ import os
 import colorama as cl
 from astropy.io import fits
 import matplotlib.pyplot as plt
+import math
 
 
 class Data:
@@ -57,7 +58,7 @@ class Data:
         self.sensFilePath = file_values_array[1]
 
         # Center row of the image to use
-        self.center = float(file_values_array[2]) - 1   # NOTE: This is the index of the python array and NOT the physical row.
+        self.center = int(file_values_array[2]) - 1   # NOTE: This is the index of the python array and NOT the physical row.
                                                             # ex: If the center row of the image is 256 (starting at 1), then 
                                                             #     self.center = 255 as python indexing begins at 0, not 1.
 
@@ -66,6 +67,12 @@ class Data:
 
         # Plot setting:
         self.plot = file_values_array[4]
+
+        # Ref Pixel:
+        self.refPix = float(file_values_array[5])
+
+        # Ref Wl:
+        self.refWl = float(file_values_array[6])
 
 
 
@@ -86,15 +93,13 @@ class Data:
         print(cl.Fore.GREEN + "Sensitivity Function File Format table:" + cl.Fore.WHITE + "\n")
         self.sensData.info()
 
+
         ## Pull and combine the needed flux values from the image:
         self.pullFlux()
 
+
         ## Preform wavelength transformation on pixel data:
         self.wlTransform()
-
-
-        ## Apply flux calibration:
-        self.fluxCal()
 
 
         ## Save file:
@@ -153,8 +158,9 @@ class Data:
                 num = fluxes/vars
                 denom = 1/vars
 
+
                 self.fluxVals.append(sum(num)/sum(denom))
-                self.varVals.append(sum(num)/sum(denom))
+                self.varVals.append(1/sum(denom))
             
 
             else:
@@ -186,22 +192,18 @@ class Data:
         self.wls = dw*(px_range - p0) + w0  # apply transformation -->   w = dw*(p - p0) + w0
 
 
-            
+        ## Given wl of the reference sky emission line, apply a final shift on the entire spectrum to line them up
 
-    def fluxCal(self):
-        """
-        Calibrate the flux values based on the given sensitivity values
-        """
-        ## Multiply the given flux by the low order sensitivity function
-        sens_vals = self.sensData[0].data
+        dist = dw*(self.refPix - p0) + w0 - self.refWl      # This is how far the spectrum needs to be shifted
 
-        self.fluxVals = self.fluxVals * sens_vals       # Multiply flux vals by sensitivity function to correct
+        self.wls -= dist
 
 
     def writeFile(self):
         """
         Write the calculated values to a .txt file
         """
+
         # Data to write to the .txt file
         data = np.array([[self.wls[i], self.fluxVals[i], self.varVals[i]] for i in range(len(self.wls))])
 
@@ -236,6 +238,20 @@ class Data:
         plt.title("MgII")
         plt.savefig(self.objFilePath[:-5] + "_MgII.png")
 
+
+    def truncate(self, num, n):
+        '''
+        Input:
+
+            - num = Number to be truncated
+            - n = Number of decimals to truncate to
+        
+        Output:
+
+            - Truncated number
+        '''
+        stepper = 10.0 ** n
+        return math.trunc(stepper * num) / stepper
 
 
 if __name__ == "__main__":

@@ -1,8 +1,10 @@
-Image Data=C:\Users\sikor\OneDrive\Desktop\Research\KansasREU\REU\SpectrumCreation\Aug7\715\715Object.fits
-Sensitivity Spectrum=C:\Users\sikor\OneDrive\Desktop\Research\KansasREU\REU\SpectrumCreation\Aug7\715\715sens.fits
+Image Data=C:\Users\sikor\OneDrive\Desktop\Research\KansasREU\REU\SpectrumCreation\Aug7\735\735Object.fits
+Sensitivity Spectrum=C:\Users\sikor\OneDrive\Desktop\Research\KansasREU\REU\SpectrumCreation\Aug7\735\735sens.fits
 Center Row=256
 Binning=4
 Save Plot=Yes
+Reference Pixel=2938.5
+Reference Wl=7276.37
 
 # INPUT FOR spectrumCreation.py
 # NOTE: NO spaces!!!! 
@@ -15,3 +17,5 @@ Save Plot=Yes
 #                                  Center Row +/- Binning are used
 #         Save Plot             : Yes or No. This option is whether or not to save the final plot as a .png file in the current
 #                                 directory
+#         Reference Pixel       : Pixel number for a Reference sky emission line to adjust fits
+#         Reference Wl          : Wavelength of reference pixel

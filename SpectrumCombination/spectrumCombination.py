@@ -59,6 +59,8 @@ class spec:
         # Whether or not to save plot
         self.plotOption = file_values_array[2]   
 
+        self.bin = float(file_values_array[3])  # Bin size in Angstroms
+
 
     def Combine(self):
         """
@@ -67,8 +69,11 @@ class spec:
         # Read in the data from the input directory
         self.readData()
 
-        # Combine data
+        # Do actual Combo
         self.Combo()
+
+        # Plot the combined data
+        self.plotCombo()
 
 
     def readData(self):
@@ -79,30 +84,154 @@ class spec:
         self.data_dict = {}
         for i, filename in enumerate(os.listdir(self.specFolder)):
             self.data_dict[str(i)] = np.loadtxt(self.specFolder+"\\" + filename, float, delimiter=",")
-        print(self.data_dict)
 
+
+        # Unpack the dictionary into a more usable form
+        self.wls = []
+        self.flux = []
+        self.vars = []
+        for key in self.data_dict.keys():
+            data = self.data_dict[key]
+            for point in data:
+                self.wls.append(point[0])
+                self.flux.append(point[1])
+                self.vars.append(point[2])
+
+
+    def roughCombo(self):
+        """
+        Combine the data by litterally shoving the data sets together rather than matching wavelengths
+        """
+        # Loop through all of the data and sort in order of wavelengths:
+        self.rwl = []
+        self.rflux = []
+        self.rvars = []
+
+        wls = self.wls.copy()   # Avoid chaning the master lists for future combination techniques
+        flux = self.flux.copy()
+        vars = self.vars.copy()
+
+        condition = True
+        while condition == True:
+
+            firsts = []
+            for input in wls:
+
+                if len(input) != 0:
+                    firsts.append(input[0])
+                else:
+                    firsts.append(10e10)        # add if theres an empty list
+
+            min_ind = firsts.index(min(firsts))     # Find the smallest wavelengths out of the first wavelengths
+
+            min_wl = firsts[min_ind]
+            if min_wl == 10e10: # If all wl inputs have been emptied
+                condition = False
+                break
+
+            else:
+                # Add Wavelengths
+                new_wl = wls[min_ind].pop(0)
+                self.rwl.append(new_wl)
+
+                # Add flux
+                new_f = flux[min_ind].pop(0)
+                self.rflux.append(new_f)
+
+                # Add variance
+                new_v = vars[min_ind].pop(0)
+                self.rvars.append(new_v)
+
+    def roughPlot(self):
+        """
+        Plot data resulting from the rough combination technique
+        """
+        plt.clf()
+        plt.plot(self.rwl, self.rflux)
+        plt.title("Rough estimate of combined spectra via addition")
+
+        plt.xlabel("Wavelength (Ang)")
+        plt.ylabel("Flux")
+        
+        plt.savefig("RoughCombo.png")
 
     def Combo(self):
         """
-        Combine the data using a weighted average
+        Do an interperlation combo
         """
-        # Unpack the dictionary into a more usable form
-        wls = []
-        flux = []
-        vars = []
-        for key in self.data_dict.keys():
-            data = self.data_dict[key]
-            wls.append([d[0] for d in data])
-            flux.append([d[1] for d in data])
-            vars.append([d[2] for d in data])
+        # Find High and low wl
+        low_wl = min(self.wls)
+        high_wl = max(self.wls)
 
-        # Combine:
+        avg_f = np.average(self.flux)  # Use the average flux value as a baseline to check bad flux measurements
+
+        # Create lists to fill
+        self.comboWL = []
+        self.comboFlux = []
+        self.comboVar = []
+
+
+        print(avg_f)
+        wl_bin = low_wl
+        while wl_bin <= high_wl:
+            wl_compare = np.array(self.wls) - wl_bin
+
+            # Find values greater than 0:
+            inds = np.where(wl_compare < 0)[0]
+            
+            wl_compare = np.delete(wl_compare, inds)
+            wls = np.delete(self.wls, inds)
+            fluxes = np.delete(self.flux, inds)
+            vars = np.delete(self.vars, inds)
+
+            # Find values less than bin size:
+            inds = np.where(wl_compare > 0.7 )[0]
+            
+            wls = np.delete(wls, inds)
+            fluxes = np.delete(fluxes, inds)
+            vars = np.delete(vars, inds)
+
+            # Skip Chip gaps:
+            inds = np.where(fluxes < avg_f/5)[0]
+
+            wls = np.delete(wls, inds)
+            fluxes = np.delete(fluxes, inds)
+            vars = np.delete(vars, inds)
+            
+
+            self.comboWL.append(self.weightedAvg(wls,vars))
+            self.comboFlux.append(self.weightedAvg(fluxes, vars))
+            self.comboVar.append(1/sum(1/vars))
+
+            wl_bin += self.bin
+
+
+    def weightedAvg(self,vals,vars):
+        """
+        Compute the weighted averages of arrays given the values and variances
+        """
+        num = sum(vals/vars)
+        denom = sum(1/vars)
+
+        return num/denom
+
+            
+    def plotCombo(self):
+        """
+        Plot the combined data
+        """
+        plt.plot(self.comboWL,self.comboFlux)
+
+        plt.title("Combined Spectrum for CQ 507")
+        plt.xlabel("Wavelength (Angstroms)")
+        plt.ylabel("Flux")
+
+        plt.savefig(self.specFolder + "\\" + self.outName + ".png")
+
         
 
 
 if __name__ == "__main__":
-
-
 
     test = spec("C:\\Users\sikor\OneDrive\Desktop\Research\KansasREU\REU\SpectrumCombination\comParams.txt")
 

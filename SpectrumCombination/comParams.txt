@@ -1,6 +1,7 @@
 Input Directory=C:\Users\sikor\OneDrive\Desktop\Research\KansasREU\REU\SpectrumCombination\comboFiles
 Output File=CQ507
 Save Plot=Yes
+Bin Width=0.7
 
 
 # Param file for spectrumCombination.py
