@@ -1,10 +1,10 @@
-Image Data=C:\Users\sikor\OneDrive\Desktop\Research\KansasREU\REU\SpectrumCreation\Aug7\735\735Object.fits
-Sensitivity Spectrum=C:\Users\sikor\OneDrive\Desktop\Research\KansasREU\REU\SpectrumCreation\Aug7\735\735sens.fits
+Image Data=C:\Users\sikor\OneDrive\Desktop\Research\KansasREU\REU\SpectrumCreation\Oct28\800\800Object.fits
+Central Wavelength=0.800
 Center Row=256
-Binning=4
+Binning=2
 Save Plot=Yes
-Reference Pixel=2938.5
-Reference Wl=7276.37
+Reference Pixel=4043.25
+Reference Wl=8344.43
 
 # INPUT FOR spectrumCreation.py
 # NOTE: NO spaces!!!! 

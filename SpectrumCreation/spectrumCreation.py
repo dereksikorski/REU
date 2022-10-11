@@ -54,8 +54,8 @@ class Data:
         # Path to the object .fits files
         self.objFilePath = file_values_array[0]
         
-        # Path to the sensitivity file
-        self.sensFilePath = file_values_array[1]
+        # Central Wavelength
+        self.centWL = file_values_array[1]
 
         # Center row of the image to use
         self.center = int(file_values_array[2]) - 1   # NOTE: This is the index of the python array and NOT the physical row.
@@ -83,15 +83,10 @@ class Data:
 
         ## Open the .fits files
         self.objData = fits.open(self.objFilePath)
-        self.sensData = fits.open(self.sensFilePath)
 
         ## Load in data:
         print(cl.Fore.GREEN + "Object File Format table:" + cl.Fore.WHITE + "\n")
         self.objData.info()
-
-        print()
-        print(cl.Fore.GREEN + "Sensitivity Function File Format table:" + cl.Fore.WHITE + "\n")
-        self.sensData.info()
 
 
         ## Pull and combine the needed flux values from the image:
@@ -111,8 +106,6 @@ class Data:
 
         ## Close the .fits files
         self.objData.close()
-        self.sensData.close()
-
 
 
 
@@ -221,21 +214,24 @@ class Data:
         plt.clf()
         plt.plot(self.wls, self.fluxVals)
 
-        plt.xlabel("Wavelength (Ang)")
+        plt.xlabel(r"Wavelength ($\AA$)")
         plt.ylabel("Flux")
-        plt.title("Spectrum")
+        plt.title(r"CQ 4472 at $\lambda_{central}$=" f"{self.centWL}" +  r"$\mu$m")
 
         plt.savefig(self.objFilePath[:-5] + ".png")
 
         # Plot only MgII line
         plt.clf()
         plt.plot(self.wls, self.fluxVals)
-        plt.xlim([7200,7800])
-        plt.ylim([0,3e-15])
+        plt.xlim([8000,8600])
+        plt.ylim([0,4e-18])
 
-        plt.xlabel("Wavelength (Ang)")
+        plt.annotate("MgII Emission", (8200, 3.5e-18))
+        plt.arrow(8270, 3.3e-18, -50, -0.5e-18, width = 1e-19, head_length=10)
+
+        plt.xlabel(r"Wavelength ($\AA$)")
         plt.ylabel("Flux")
-        plt.title("MgII")
+        plt.title(r"MgII Emission of CQ 4472 at $\lambda_{central}$=" f"{self.centWL}"+ r"$\mu$m")
         plt.savefig(self.objFilePath[:-5] + "_MgII.png")
 
 

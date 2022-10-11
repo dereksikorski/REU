@@ -75,6 +75,7 @@ class spec:
         # Plot the combined data
         self.plotCombo()
 
+        self.writeFile()
 
     def readData(self):
         """
@@ -98,62 +99,7 @@ class spec:
                 self.vars.append(point[2])
 
 
-    def roughCombo(self):
-        """
-        Combine the data by litterally shoving the data sets together rather than matching wavelengths
-        """
-        # Loop through all of the data and sort in order of wavelengths:
-        self.rwl = []
-        self.rflux = []
-        self.rvars = []
 
-        wls = self.wls.copy()   # Avoid chaning the master lists for future combination techniques
-        flux = self.flux.copy()
-        vars = self.vars.copy()
-
-        condition = True
-        while condition == True:
-
-            firsts = []
-            for input in wls:
-
-                if len(input) != 0:
-                    firsts.append(input[0])
-                else:
-                    firsts.append(10e10)        # add if theres an empty list
-
-            min_ind = firsts.index(min(firsts))     # Find the smallest wavelengths out of the first wavelengths
-
-            min_wl = firsts[min_ind]
-            if min_wl == 10e10: # If all wl inputs have been emptied
-                condition = False
-                break
-
-            else:
-                # Add Wavelengths
-                new_wl = wls[min_ind].pop(0)
-                self.rwl.append(new_wl)
-
-                # Add flux
-                new_f = flux[min_ind].pop(0)
-                self.rflux.append(new_f)
-
-                # Add variance
-                new_v = vars[min_ind].pop(0)
-                self.rvars.append(new_v)
-
-    def roughPlot(self):
-        """
-        Plot data resulting from the rough combination technique
-        """
-        plt.clf()
-        plt.plot(self.rwl, self.rflux)
-        plt.title("Rough estimate of combined spectra via addition")
-
-        plt.xlabel("Wavelength (Ang)")
-        plt.ylabel("Flux")
-        
-        plt.savefig("RoughCombo.png")
 
     def Combo(self):
         """
@@ -163,15 +109,12 @@ class spec:
         low_wl = min(self.wls)
         high_wl = max(self.wls)
 
-        avg_f = np.average(self.flux)  # Use the average flux value as a baseline to check bad flux measurements
-
         # Create lists to fill
         self.comboWL = []
         self.comboFlux = []
         self.comboVar = []
 
 
-        print(avg_f)
         wl_bin = low_wl
         while wl_bin <= high_wl:
             wl_compare = np.array(self.wls) - wl_bin
@@ -185,23 +128,28 @@ class spec:
             vars = np.delete(self.vars, inds)
 
             # Find values less than bin size:
-            inds = np.where(wl_compare > 0.7 )[0]
+            inds = np.where(wl_compare > self.bin )[0]
             
             wls = np.delete(wls, inds)
             fluxes = np.delete(fluxes, inds)
             vars = np.delete(vars, inds)
 
             # Skip Chip gaps:
-            inds = np.where(fluxes < avg_f/5)[0]
+            if len(self.comboFlux) != 0:
+                inds = np.where(fluxes < self.comboFlux[-1]/1.75)[0]
+            else:
+                inds = []
 
             wls = np.delete(wls, inds)
             fluxes = np.delete(fluxes, inds)
             vars = np.delete(vars, inds)
             
-
-            self.comboWL.append(self.weightedAvg(wls,vars))
-            self.comboFlux.append(self.weightedAvg(fluxes, vars))
-            self.comboVar.append(1/sum(1/vars))
+            try:
+                self.comboWL.append(sum(wls)/len(wls))
+                self.comboFlux.append(self.weightedAvg(fluxes, vars))
+                self.comboVar.append(1/sum(1/vars))
+            except ZeroDivisionError:
+                break
 
             wl_bin += self.bin
 
@@ -222,13 +170,29 @@ class spec:
         """
         plt.plot(self.comboWL,self.comboFlux)
 
-        plt.title("Combined Spectrum for CQ 507")
-        plt.xlabel("Wavelength (Angstroms)")
+        plt.title(f"Combined Spectrum for {self.outName}")
+        plt.xlabel(r"Wavelength ($\AA$)")
         plt.ylabel("Flux")
+        # plt.annotate(text="MgII Emission", xy=(8000, 5e-17))
+        # plt.arrow(7900, 5e-17, -450, 0, width = 1e-18, head_length=50)
+
 
         plt.savefig(self.specFolder + "\\" + self.outName + ".png")
 
-        
+
+    def writeFile(self):
+        """
+        Write the resulting files to a .txt files
+        """
+
+        # Data to write to the .txt file
+        data = np.array([[self.comboWL[i], self.comboFlux[i], self.comboVar[i]] for i in range(len(self.comboWL))])
+
+        # Create a filename based on the original input file
+        newFile = self.specFolder + "\\" + self.outName  # Trim ending off of the input file
+        newFile += ".txt"
+
+        np.savetxt(newFile, data, delimiter=",")
 
 
 if __name__ == "__main__":

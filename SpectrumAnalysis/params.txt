@@ -1,5 +1,5 @@
-File path=C:\Users\sikor\OneDrive\Desktop\Research\KansasREU\REU\spectrum_2509.csv
-redshift=0.719
+File path=C:\Users\sikor\OneDrive\Desktop\Research\KansasREU\REU\SpectrumAnalysis\spectrum_2509.csv
+redshift=1.606
 prominences=3
 plot=All
 

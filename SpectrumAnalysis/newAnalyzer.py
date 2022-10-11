@@ -113,9 +113,9 @@ class CQ:
         ## Roughly fit Continuum
         self.roughContFit()
 
+        self.fitGauss()
         ## Fit Continuum
         self.fitCont()
-
 
 
 
@@ -152,6 +152,7 @@ class CQ:
 
         peaks, feats = signal.find_peaks(self.spectrum[:,1], distance = 5, prominence=15, width=15)
 
+        print(peaks)
         # Filter out any unwanted cosmic rays or false peaks that are too flat
         ind_to_delete = []
         for p_ind in peaks:
@@ -336,27 +337,17 @@ class CQ:
         self.g_params , self.g_errors = [], []
 
         ## Loop through each peak in the emission spectrum
-        for i, idx_list in enumerate(self.peak_ind):
+        for idx_list in self.gaus_inds:
+           
+            wl = [self.spectrum[:,0][i] for i in idx_list]
+            flux = [self.spectrum[:,1][i] for i in idx_list]
 
-            # MgII
-            if i in (0,1):
-                # append a smaller array of shape --> [ [index-1,....,index-n] ]  of the gaussian
-                small_width = int(2.5*half_width)   # Gives the half width of the smaller gaussian in terms of indices
-                large_width = int(7.5*half_width)   # Width of larger gaussian, in terms of indices (i.e. list of indices, not wavelengths!)
-                small_list = list(range(p_ind-small_width, p_ind+small_width+1,1))
-                large_list = list(range(p_ind-large_width,p_ind-small_width+1,1))
-                large_list = list(range(p_ind-large_width, p_ind-small_width+1)) + list(range(p_ind+small_width, p_ind+large_width+1))
-                self.gaus_inds.append( small_list )
-                self.gaus_inds.append(large_list)
+            g_par, g_err = optimize.curve_fit(self.Gaussian, wl, flux, p0=[np.mean(flux), max(flux)-min(flux), np.mean(wl), np.std(flux)])
 
-            # H-beta line
-            elif i in (2,3):
-                small_width = int(2.5*half_width)   # Gives the half width of the smaller gaussian in terms of indices
-                small_list = list(range(p_ind-small_width, p_ind+small_width+1,1))
-                self.gaus_inds.append( small_list )
-            # OIII line
-            elif i ==4:
-                pass
+
+            self.g_params.append([g_par, wl])
+            self.g_errors.append(g_err)
+
 
         if self.plotSetting=="All":
             plt.plot(self.spectrum[:,0], self.spectrum[:,1])
@@ -439,6 +430,6 @@ class CQ:
 if __name__ == "__main__":
 
 
-    test = CQ()
+    test = CQ('C:\\Users\sikor\OneDrive\Desktop\Research\KansasREU\REU\SpectrumAnalysis\params.txt')
 
     test.fitData()
