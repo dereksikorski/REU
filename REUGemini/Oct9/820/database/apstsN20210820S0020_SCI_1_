@@ -1,0 +1,38 @@
+# Mon 22:25:05 01-Aug-2022
+begin	aperture stsN20210820S0020[SCI,1] 1 3139. 257.5982
+	image	stsN20210820S0020[SCI,1]
+	aperture	1
+	beam	1
+	center	3139. 257.5982
+	low	-3138. -3.097893
+	high	3139. 3.097893
+	background
+		xmin -512.
+		xmax 512.
+		function chebyshev
+		order 1
+		sample *
+		naverage 1
+		niterate 2
+		low_reject 2.5
+		high_reject 2.5
+		grow 0.
+	axis	2
+	curve	16
+		3.
+		9.
+		1.
+		6278.
+		-0.1175543
+		-0.1537214
+		-0.1014799
+		-0.06753174
+		-0.05163645
+		-0.01770395
+		-0.01523456
+		0.01618493
+		0.03086515
+		0.03420513
+		0.08828631
+		-0.0412759
+

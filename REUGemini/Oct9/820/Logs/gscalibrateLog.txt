@@ -1,0 +1,83 @@
+----------------------------------------------------------------------------
+GSCALIBRATE -- Mon Aug  1 22:25:06 EDT 2022
+
+input        = @stdFiles.txt
+output       = 
+outpref      = c
+sfunction    = sens
+fluxscale    = 1.00E15
+fl_ext       = yes
+fl_flux      = yes
+fl_vardq     = no
+sci_ext      = SCI
+ignoreaps    = yes
+fl_fnu       = no
+extinction   = /N/u/dmsikors/Carbonate/Desktop/REUGemini/mk_extinct.dat
+key_airmass  = AIRMASS
+key_exptime  = EXPTIME
+observatory  = Gemini-North
+
+
+Input image : estsN20210820S0020.fits
+Output image : cestsN20210820S0020.fits
+Number of science extension (slits) : 1
+ 
+Slit #    1
+tmpsci3910qmg: EG131
+  Extinction correction applied
+  Flux calibration applied
+
+
+Input image : estsN20211028S0025.fits
+Output image : cestsN20211028S0025.fits
+Number of science extension (slits) : 1
+ 
+Slit #    1
+tmpsci3910ymg: Hiltner600
+  Extinction correction applied
+  Flux calibration applied
+
+GSCALIBRATE done. Exit status good --Mon Aug  1 22:25:07 EDT 2022
+-------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSCALIBRATE -- Mon Aug  1 22:25:07 EDT 2022
+
+input        = stObject.fits
+output       = 
+outpref      = c
+sfunction    = sens
+fluxscale    = 1.00E15
+fl_ext       = yes
+fl_flux      = yes
+fl_vardq     = yes
+sci_ext      = SCI
+var_ext      = VAR
+dq_ext       = DQ
+ignoreaps    = yes
+fl_fnu       = no
+extinction   = /N/u/dmsikors/Carbonate/Desktop/REUGemini/mk_extinct.dat
+key_airmass  = AIRMASS
+key_exptime  = EXPTIME
+observatory  = Gemini-North
+
+
+Input image : stObject.fits
+Output image : cstObject.fits
+Number of science extension (slits) : 1
+ 
+Slit #    1
+tmpsci3910jng: CQ 4472
+# CALIBRATE: Observatory parameters for Gemini North Observatory
+#	latitude = 19:49.42809
+stObject.fits[SCI,1]:   Extinction correction applied
+  Flux calibration applied
+tmpnoise3910mng: Combine sigma images for tmpcombout3910hig
+# CALIBRATE: Observatory parameters for Gemini North Observatory
+#	latitude = 19:49.42809
+tmpnoise3910mng:   Extinction correction applied
+  Flux calibration applied
+
+GSCALIBRATE done. Exit status good --Mon Aug  1 22:25:14 EDT 2022
+-------------------------------------------------------------------------------
+

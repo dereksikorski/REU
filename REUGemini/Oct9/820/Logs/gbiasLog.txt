@@ -1,0 +1,525 @@
+----------------------------------------------------------------------------
+GBIAS -- Mon Aug  1 22:10:25 EDT 2022
+
+Input images:
+  N20211006S0241.fits
+  N20211006S0242.fits
+  N20211006S0243.fits
+  N20211006S0244.fits
+  N20211006S0245.fits
+  N20211010S0031.fits
+  N20211010S0032.fits
+  N20211010S0033.fits
+  N20211010S0034.fits
+  N20211010S0035.fits
+  N20211010S0169.fits
+  N20211010S0170.fits
+  N20211010S0171.fits
+  N20211010S0172.fits
+  N20211010S0173.fits
+  N20211012S0098.fits
+  N20211012S0099.fits
+  N20211012S0100.fits
+  N20211012S0101.fits
+  N20211012S0102.fits
+
+Output bias image: MCbias.fits
+ 
+----------------------------------------------------------------------------
+GIREDUCE -- Mon Aug  1 22:10:25 EDT 2022
+
+
+Input files:
+N20211006S0241
+N20211006S0242
+N20211006S0243
+N20211006S0244
+N20211006S0245
+N20211010S0031
+N20211010S0032
+N20211010S0033
+N20211010S0034
+N20211010S0035
+N20211010S0169
+N20211010S0170
+N20211010S0171
+N20211010S0172
+N20211010S0173
+N20211012S0098
+N20211012S0099
+N20211012S0100
+N20211012S0101
+N20211012S0102
+
+Output files:
+tmpfile3910heeN20211006S0241
+tmpfile3910heeN20211006S0242
+tmpfile3910heeN20211006S0243
+tmpfile3910heeN20211006S0244
+tmpfile3910heeN20211006S0245
+tmpfile3910heeN20211010S0031
+tmpfile3910heeN20211010S0032
+tmpfile3910heeN20211010S0033
+tmpfile3910heeN20211010S0034
+tmpfile3910heeN20211010S0035
+tmpfile3910heeN20211010S0169
+tmpfile3910heeN20211010S0170
+tmpfile3910heeN20211010S0171
+tmpfile3910heeN20211010S0172
+tmpfile3910heeN20211010S0173
+tmpfile3910heeN20211012S0098
+tmpfile3910heeN20211012S0099
+tmpfile3910heeN20211012S0100
+tmpfile3910heeN20211012S0101
+tmpfile3910heeN20211012S0102
+
+GIREDUCE: Image tmpfile3910heeN20211006S0241 overscan subtracted
+GIREDUCE: Image tmpfile3910heeN20211006S0242 overscan subtracted
+GIREDUCE: Image tmpfile3910heeN20211006S0243 overscan subtracted
+GIREDUCE: Image tmpfile3910heeN20211006S0244 overscan subtracted
+GIREDUCE: Image tmpfile3910heeN20211006S0245 overscan subtracted
+GIREDUCE: Image tmpfile3910heeN20211010S0031 overscan subtracted
+GIREDUCE: Image tmpfile3910heeN20211010S0032 overscan subtracted
+GIREDUCE: Image tmpfile3910heeN20211010S0033 overscan subtracted
+GIREDUCE: Image tmpfile3910heeN20211010S0034 overscan subtracted
+GIREDUCE: Image tmpfile3910heeN20211010S0035 overscan subtracted
+GIREDUCE: Image tmpfile3910heeN20211010S0169 overscan subtracted
+GIREDUCE: Image tmpfile3910heeN20211010S0170 overscan subtracted
+GIREDUCE: Image tmpfile3910heeN20211010S0171 overscan subtracted
+GIREDUCE: Image tmpfile3910heeN20211010S0172 overscan subtracted
+GIREDUCE: Image tmpfile3910heeN20211010S0173 overscan subtracted
+GIREDUCE: Image tmpfile3910heeN20211012S0098 overscan subtracted
+GIREDUCE: Image tmpfile3910heeN20211012S0099 overscan subtracted
+GIREDUCE: Image tmpfile3910heeN20211012S0100 overscan subtracted
+GIREDUCE: Image tmpfile3910heeN20211012S0101 overscan subtracted
+GIREDUCE: Image tmpfile3910heeN20211012S0102 overscan subtracted
+GIREDUCE: Image tmpfile3910heeN20211006S0241 trimmed
+GIREDUCE: Image tmpfile3910heeN20211006S0242 trimmed
+GIREDUCE: Image tmpfile3910heeN20211006S0243 trimmed
+GIREDUCE: Image tmpfile3910heeN20211006S0244 trimmed
+GIREDUCE: Image tmpfile3910heeN20211006S0245 trimmed
+GIREDUCE: Image tmpfile3910heeN20211010S0031 trimmed
+GIREDUCE: Image tmpfile3910heeN20211010S0032 trimmed
+GIREDUCE: Image tmpfile3910heeN20211010S0033 trimmed
+GIREDUCE: Image tmpfile3910heeN20211010S0034 trimmed
+GIREDUCE: Image tmpfile3910heeN20211010S0035 trimmed
+GIREDUCE: Image tmpfile3910heeN20211010S0169 trimmed
+GIREDUCE: Image tmpfile3910heeN20211010S0170 trimmed
+GIREDUCE: Image tmpfile3910heeN20211010S0171 trimmed
+GIREDUCE: Image tmpfile3910heeN20211010S0172 trimmed
+GIREDUCE: Image tmpfile3910heeN20211010S0173 trimmed
+GIREDUCE: Image tmpfile3910heeN20211012S0098 trimmed
+GIREDUCE: Image tmpfile3910heeN20211012S0099 trimmed
+GIREDUCE: Image tmpfile3910heeN20211012S0100 trimmed
+GIREDUCE: Image tmpfile3910heeN20211012S0101 trimmed
+GIREDUCE: Image tmpfile3910heeN20211012S0102 trimmed
+
+
+GIREDUCE - Cleaning up -- Mon Aug  1 22:16:35 EDT 2022
+
+GIREDUCE -- Mon Aug  1 22:16:35 EDT 2022
+GIREDUCE exit status:  good.
+----------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+GEMCOMBINE -- Mon Aug  1 22:16:35 EDT 2022
+ 
+GEMCOMBINE: input = @tmpcombin3910eee
+GEMCOMBINE: output = MCbias.fits
+GEMCOMBINE: title = Bias
+GEMCOMBINE: bpmfile = 
+GEMCOMBINE: sci_ext = SCI
+GEMCOMBINE: var_ext = VAR
+GEMCOMBINE: dq_ext = DQ
+ 
+
+Aug  1 22:16: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 1
+  lsigma = 3., hsigma = 3.
+  blank = 0.
+  statsec = Aug  1 22:16
+                Images 
+  tmpfile3910heeN20211006S0241.fits[SCI,1]
+  tmpfile3910heeN20211006S0242.fits[SCI,1]
+  tmpfile3910heeN20211006S0243.fits[SCI,1]
+  tmpfile3910heeN20211006S0244.fits[SCI,1]
+  tmpfile3910heeN20211006S0245.fits[SCI,1]
+  tmpfile3910heeN20211010S0031.fits[SCI,1]
+  tmpfile3910heeN20211010S0032.fits[SCI,1]
+  tmpfile3910heeN20211010S0033.fits[SCI,1]
+  tmpfile3910heeN20211010S0034.fits[SCI,1]
+  tmpfile3910heeN20211010S0035.fits[SCI,1]
+  tmpfile3910heeN20211010S0169.fits[SCI,1]
+  tmpfile3910heeN20211010S0170.fits[SCI,1]
+  tmpfile3910heeN20211010S0171.fits[SCI,1]
+  tmpfile3910heeN20211010S0172.fits[SCI,1]
+  tmpfile3910heeN20211010S0173.fits[SCI,1]
+  tmpfile3910heeN20211012S0098.fits[SCI,1]
+  tmpfile3910heeN20211012S0099.fits[SCI,1]
+  tmpfile3910heeN20211012S0100.fits[SCI,1]
+  tmpfile3910heeN20211012S0101.fits[SCI,1]
+  tmpfile3910heeN20211012S0102.fits[SCI,1]
+
+  Output image = tmpcombout3910bpe, ncombine = 20
+  Number rejected mask = tmpcombdq3910cpe.pl
+  Sigma image = tmpcombsig3910dpe
+
+Aug  1 22:16: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 1
+  lsigma = 3., hsigma = 3.
+  blank = 0.
+  statsec = Aug  1 22:16
+                Images 
+  tmpfile3910heeN20211006S0241.fits[SCI,2]
+  tmpfile3910heeN20211006S0242.fits[SCI,2]
+  tmpfile3910heeN20211006S0243.fits[SCI,2]
+  tmpfile3910heeN20211006S0244.fits[SCI,2]
+  tmpfile3910heeN20211006S0245.fits[SCI,2]
+  tmpfile3910heeN20211010S0031.fits[SCI,2]
+  tmpfile3910heeN20211010S0032.fits[SCI,2]
+  tmpfile3910heeN20211010S0033.fits[SCI,2]
+  tmpfile3910heeN20211010S0034.fits[SCI,2]
+  tmpfile3910heeN20211010S0035.fits[SCI,2]
+  tmpfile3910heeN20211010S0169.fits[SCI,2]
+  tmpfile3910heeN20211010S0170.fits[SCI,2]
+  tmpfile3910heeN20211010S0171.fits[SCI,2]
+  tmpfile3910heeN20211010S0172.fits[SCI,2]
+  tmpfile3910heeN20211010S0173.fits[SCI,2]
+  tmpfile3910heeN20211012S0098.fits[SCI,2]
+  tmpfile3910heeN20211012S0099.fits[SCI,2]
+  tmpfile3910heeN20211012S0100.fits[SCI,2]
+  tmpfile3910heeN20211012S0101.fits[SCI,2]
+  tmpfile3910heeN20211012S0102.fits[SCI,2]
+
+  Output image = tmpcombout3910kpe, ncombine = 20
+  Number rejected mask = tmpcombdq3910lpe.pl
+  Sigma image = tmpcombsig3910mpe
+
+Aug  1 22:16: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 1
+  lsigma = 3., hsigma = 3.
+  blank = 0.
+  statsec = Aug  1 22:16
+                Images 
+  tmpfile3910heeN20211006S0241.fits[SCI,3]
+  tmpfile3910heeN20211006S0242.fits[SCI,3]
+  tmpfile3910heeN20211006S0243.fits[SCI,3]
+  tmpfile3910heeN20211006S0244.fits[SCI,3]
+  tmpfile3910heeN20211006S0245.fits[SCI,3]
+  tmpfile3910heeN20211010S0031.fits[SCI,3]
+  tmpfile3910heeN20211010S0032.fits[SCI,3]
+  tmpfile3910heeN20211010S0033.fits[SCI,3]
+  tmpfile3910heeN20211010S0034.fits[SCI,3]
+  tmpfile3910heeN20211010S0035.fits[SCI,3]
+  tmpfile3910heeN20211010S0169.fits[SCI,3]
+  tmpfile3910heeN20211010S0170.fits[SCI,3]
+  tmpfile3910heeN20211010S0171.fits[SCI,3]
+  tmpfile3910heeN20211010S0172.fits[SCI,3]
+  tmpfile3910heeN20211010S0173.fits[SCI,3]
+  tmpfile3910heeN20211012S0098.fits[SCI,3]
+  tmpfile3910heeN20211012S0099.fits[SCI,3]
+  tmpfile3910heeN20211012S0100.fits[SCI,3]
+  tmpfile3910heeN20211012S0101.fits[SCI,3]
+  tmpfile3910heeN20211012S0102.fits[SCI,3]
+
+  Output image = tmpcombout3910ope, ncombine = 20
+  Number rejected mask = tmpcombdq3910ppe.pl
+  Sigma image = tmpcombsig3910qpe
+
+Aug  1 22:16: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 1
+  lsigma = 3., hsigma = 3.
+  blank = 0.
+  statsec = Aug  1 22:16
+                Images 
+  tmpfile3910heeN20211006S0241.fits[SCI,4]
+  tmpfile3910heeN20211006S0242.fits[SCI,4]
+  tmpfile3910heeN20211006S0243.fits[SCI,4]
+  tmpfile3910heeN20211006S0244.fits[SCI,4]
+  tmpfile3910heeN20211006S0245.fits[SCI,4]
+  tmpfile3910heeN20211010S0031.fits[SCI,4]
+  tmpfile3910heeN20211010S0032.fits[SCI,4]
+  tmpfile3910heeN20211010S0033.fits[SCI,4]
+  tmpfile3910heeN20211010S0034.fits[SCI,4]
+  tmpfile3910heeN20211010S0035.fits[SCI,4]
+  tmpfile3910heeN20211010S0169.fits[SCI,4]
+  tmpfile3910heeN20211010S0170.fits[SCI,4]
+  tmpfile3910heeN20211010S0171.fits[SCI,4]
+  tmpfile3910heeN20211010S0172.fits[SCI,4]
+  tmpfile3910heeN20211010S0173.fits[SCI,4]
+  tmpfile3910heeN20211012S0098.fits[SCI,4]
+  tmpfile3910heeN20211012S0099.fits[SCI,4]
+  tmpfile3910heeN20211012S0100.fits[SCI,4]
+  tmpfile3910heeN20211012S0101.fits[SCI,4]
+  tmpfile3910heeN20211012S0102.fits[SCI,4]
+
+  Output image = tmpcombout3910spe, ncombine = 20
+  Number rejected mask = tmpcombdq3910tpe.pl
+  Sigma image = tmpcombsig3910upe
+
+Aug  1 22:16: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 1
+  lsigma = 3., hsigma = 3.
+  blank = 0.
+  statsec = Aug  1 22:16
+                Images 
+  tmpfile3910heeN20211006S0241.fits[SCI,5]
+  tmpfile3910heeN20211006S0242.fits[SCI,5]
+  tmpfile3910heeN20211006S0243.fits[SCI,5]
+  tmpfile3910heeN20211006S0244.fits[SCI,5]
+  tmpfile3910heeN20211006S0245.fits[SCI,5]
+  tmpfile3910heeN20211010S0031.fits[SCI,5]
+  tmpfile3910heeN20211010S0032.fits[SCI,5]
+  tmpfile3910heeN20211010S0033.fits[SCI,5]
+  tmpfile3910heeN20211010S0034.fits[SCI,5]
+  tmpfile3910heeN20211010S0035.fits[SCI,5]
+  tmpfile3910heeN20211010S0169.fits[SCI,5]
+  tmpfile3910heeN20211010S0170.fits[SCI,5]
+  tmpfile3910heeN20211010S0171.fits[SCI,5]
+  tmpfile3910heeN20211010S0172.fits[SCI,5]
+  tmpfile3910heeN20211010S0173.fits[SCI,5]
+  tmpfile3910heeN20211012S0098.fits[SCI,5]
+  tmpfile3910heeN20211012S0099.fits[SCI,5]
+  tmpfile3910heeN20211012S0100.fits[SCI,5]
+  tmpfile3910heeN20211012S0101.fits[SCI,5]
+  tmpfile3910heeN20211012S0102.fits[SCI,5]
+
+  Output image = tmpcombout3910wpe, ncombine = 20
+  Number rejected mask = tmpcombdq3910xpe.pl
+  Sigma image = tmpcombsig3910ype
+
+Aug  1 22:16: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 1
+  lsigma = 3., hsigma = 3.
+  blank = 0.
+  statsec = Aug  1 22:16
+                Images 
+  tmpfile3910heeN20211006S0241.fits[SCI,6]
+  tmpfile3910heeN20211006S0242.fits[SCI,6]
+  tmpfile3910heeN20211006S0243.fits[SCI,6]
+  tmpfile3910heeN20211006S0244.fits[SCI,6]
+  tmpfile3910heeN20211006S0245.fits[SCI,6]
+  tmpfile3910heeN20211010S0031.fits[SCI,6]
+  tmpfile3910heeN20211010S0032.fits[SCI,6]
+  tmpfile3910heeN20211010S0033.fits[SCI,6]
+  tmpfile3910heeN20211010S0034.fits[SCI,6]
+  tmpfile3910heeN20211010S0035.fits[SCI,6]
+  tmpfile3910heeN20211010S0169.fits[SCI,6]
+  tmpfile3910heeN20211010S0170.fits[SCI,6]
+  tmpfile3910heeN20211010S0171.fits[SCI,6]
+  tmpfile3910heeN20211010S0172.fits[SCI,6]
+  tmpfile3910heeN20211010S0173.fits[SCI,6]
+  tmpfile3910heeN20211012S0098.fits[SCI,6]
+  tmpfile3910heeN20211012S0099.fits[SCI,6]
+  tmpfile3910heeN20211012S0100.fits[SCI,6]
+  tmpfile3910heeN20211012S0101.fits[SCI,6]
+  tmpfile3910heeN20211012S0102.fits[SCI,6]
+
+  Output image = tmpcombout3910aqe, ncombine = 20
+  Number rejected mask = tmpcombdq3910bqe.pl
+  Sigma image = tmpcombsig3910cqe
+
+Aug  1 22:16: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 1
+  lsigma = 3., hsigma = 3.
+  blank = 0.
+  statsec = Aug  1 22:16
+                Images 
+  tmpfile3910heeN20211006S0241.fits[SCI,7]
+  tmpfile3910heeN20211006S0242.fits[SCI,7]
+  tmpfile3910heeN20211006S0243.fits[SCI,7]
+  tmpfile3910heeN20211006S0244.fits[SCI,7]
+  tmpfile3910heeN20211006S0245.fits[SCI,7]
+  tmpfile3910heeN20211010S0031.fits[SCI,7]
+  tmpfile3910heeN20211010S0032.fits[SCI,7]
+  tmpfile3910heeN20211010S0033.fits[SCI,7]
+  tmpfile3910heeN20211010S0034.fits[SCI,7]
+  tmpfile3910heeN20211010S0035.fits[SCI,7]
+  tmpfile3910heeN20211010S0169.fits[SCI,7]
+  tmpfile3910heeN20211010S0170.fits[SCI,7]
+  tmpfile3910heeN20211010S0171.fits[SCI,7]
+  tmpfile3910heeN20211010S0172.fits[SCI,7]
+  tmpfile3910heeN20211010S0173.fits[SCI,7]
+  tmpfile3910heeN20211012S0098.fits[SCI,7]
+  tmpfile3910heeN20211012S0099.fits[SCI,7]
+  tmpfile3910heeN20211012S0100.fits[SCI,7]
+  tmpfile3910heeN20211012S0101.fits[SCI,7]
+  tmpfile3910heeN20211012S0102.fits[SCI,7]
+
+  Output image = tmpcombout3910eqe, ncombine = 20
+  Number rejected mask = tmpcombdq3910fqe.pl
+  Sigma image = tmpcombsig3910gqe
+
+Aug  1 22:16: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 1
+  lsigma = 3., hsigma = 3.
+  blank = 0.
+  statsec = Aug  1 22:16
+                Images 
+  tmpfile3910heeN20211006S0241.fits[SCI,8]
+  tmpfile3910heeN20211006S0242.fits[SCI,8]
+  tmpfile3910heeN20211006S0243.fits[SCI,8]
+  tmpfile3910heeN20211006S0244.fits[SCI,8]
+  tmpfile3910heeN20211006S0245.fits[SCI,8]
+  tmpfile3910heeN20211010S0031.fits[SCI,8]
+  tmpfile3910heeN20211010S0032.fits[SCI,8]
+  tmpfile3910heeN20211010S0033.fits[SCI,8]
+  tmpfile3910heeN20211010S0034.fits[SCI,8]
+  tmpfile3910heeN20211010S0035.fits[SCI,8]
+  tmpfile3910heeN20211010S0169.fits[SCI,8]
+  tmpfile3910heeN20211010S0170.fits[SCI,8]
+  tmpfile3910heeN20211010S0171.fits[SCI,8]
+  tmpfile3910heeN20211010S0172.fits[SCI,8]
+  tmpfile3910heeN20211010S0173.fits[SCI,8]
+  tmpfile3910heeN20211012S0098.fits[SCI,8]
+  tmpfile3910heeN20211012S0099.fits[SCI,8]
+  tmpfile3910heeN20211012S0100.fits[SCI,8]
+  tmpfile3910heeN20211012S0101.fits[SCI,8]
+  tmpfile3910heeN20211012S0102.fits[SCI,8]
+
+  Output image = tmpcombout3910iqe, ncombine = 20
+  Number rejected mask = tmpcombdq3910jqe.pl
+  Sigma image = tmpcombsig3910kqe
+
+Aug  1 22:16: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 1
+  lsigma = 3., hsigma = 3.
+  blank = 0.
+  statsec = Aug  1 22:16
+                Images 
+  tmpfile3910heeN20211006S0241.fits[SCI,9]
+  tmpfile3910heeN20211006S0242.fits[SCI,9]
+  tmpfile3910heeN20211006S0243.fits[SCI,9]
+  tmpfile3910heeN20211006S0244.fits[SCI,9]
+  tmpfile3910heeN20211006S0245.fits[SCI,9]
+  tmpfile3910heeN20211010S0031.fits[SCI,9]
+  tmpfile3910heeN20211010S0032.fits[SCI,9]
+  tmpfile3910heeN20211010S0033.fits[SCI,9]
+  tmpfile3910heeN20211010S0034.fits[SCI,9]
+  tmpfile3910heeN20211010S0035.fits[SCI,9]
+  tmpfile3910heeN20211010S0169.fits[SCI,9]
+  tmpfile3910heeN20211010S0170.fits[SCI,9]
+  tmpfile3910heeN20211010S0171.fits[SCI,9]
+  tmpfile3910heeN20211010S0172.fits[SCI,9]
+  tmpfile3910heeN20211010S0173.fits[SCI,9]
+  tmpfile3910heeN20211012S0098.fits[SCI,9]
+  tmpfile3910heeN20211012S0099.fits[SCI,9]
+  tmpfile3910heeN20211012S0100.fits[SCI,9]
+  tmpfile3910heeN20211012S0101.fits[SCI,9]
+  tmpfile3910heeN20211012S0102.fits[SCI,9]
+
+  Output image = tmpcombout3910mqe, ncombine = 20
+  Number rejected mask = tmpcombdq3910nqe.pl
+  Sigma image = tmpcombsig3910oqe
+
+Aug  1 22:16: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 1
+  lsigma = 3., hsigma = 3.
+  blank = 0.
+  statsec = Aug  1 22:16
+                Images 
+  tmpfile3910heeN20211006S0241.fits[SCI,10]
+  tmpfile3910heeN20211006S0242.fits[SCI,10]
+  tmpfile3910heeN20211006S0243.fits[SCI,10]
+  tmpfile3910heeN20211006S0244.fits[SCI,10]
+  tmpfile3910heeN20211006S0245.fits[SCI,10]
+  tmpfile3910heeN20211010S0031.fits[SCI,10]
+  tmpfile3910heeN20211010S0032.fits[SCI,10]
+  tmpfile3910heeN20211010S0033.fits[SCI,10]
+  tmpfile3910heeN20211010S0034.fits[SCI,10]
+  tmpfile3910heeN20211010S0035.fits[SCI,10]
+  tmpfile3910heeN20211010S0169.fits[SCI,10]
+  tmpfile3910heeN20211010S0170.fits[SCI,10]
+  tmpfile3910heeN20211010S0171.fits[SCI,10]
+  tmpfile3910heeN20211010S0172.fits[SCI,10]
+  tmpfile3910heeN20211010S0173.fits[SCI,10]
+  tmpfile3910heeN20211012S0098.fits[SCI,10]
+  tmpfile3910heeN20211012S0099.fits[SCI,10]
+  tmpfile3910heeN20211012S0100.fits[SCI,10]
+  tmpfile3910heeN20211012S0101.fits[SCI,10]
+  tmpfile3910heeN20211012S0102.fits[SCI,10]
+
+  Output image = tmpcombout3910qqe, ncombine = 20
+  Number rejected mask = tmpcombdq3910rqe.pl
+  Sigma image = tmpcombsig3910sqe
+
+Aug  1 22:16: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 1
+  lsigma = 3., hsigma = 3.
+  blank = 0.
+  statsec = Aug  1 22:16
+                Images 
+  tmpfile3910heeN20211006S0241.fits[SCI,11]
+  tmpfile3910heeN20211006S0242.fits[SCI,11]
+  tmpfile3910heeN20211006S0243.fits[SCI,11]
+  tmpfile3910heeN20211006S0244.fits[SCI,11]
+  tmpfile3910heeN20211006S0245.fits[SCI,11]
+  tmpfile3910heeN20211010S0031.fits[SCI,11]
+  tmpfile3910heeN20211010S0032.fits[SCI,11]
+  tmpfile3910heeN20211010S0033.fits[SCI,11]
+  tmpfile3910heeN20211010S0034.fits[SCI,11]
+  tmpfile3910heeN20211010S0035.fits[SCI,11]
+  tmpfile3910heeN20211010S0169.fits[SCI,11]
+  tmpfile3910heeN20211010S0170.fits[SCI,11]
+  tmpfile3910heeN20211010S0171.fits[SCI,11]
+  tmpfile3910heeN20211010S0172.fits[SCI,11]
+  tmpfile3910heeN20211010S0173.fits[SCI,11]
+  tmpfile3910heeN20211012S0098.fits[SCI,11]
+  tmpfile3910heeN20211012S0099.fits[SCI,11]
+  tmpfile3910heeN20211012S0100.fits[SCI,11]
+  tmpfile3910heeN20211012S0101.fits[SCI,11]
+  tmpfile3910heeN20211012S0102.fits[SCI,11]
+
+  Output image = tmpcombout3910uqe, ncombine = 20
+  Number rejected mask = tmpcombdq3910vqe.pl
+  Sigma image = tmpcombsig3910wqe
+
+Aug  1 22:16: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 1
+  lsigma = 3., hsigma = 3.
+  blank = 0.
+  statsec = Aug  1 22:16
+                Images 
+  tmpfile3910heeN20211006S0241.fits[SCI,12]
+  tmpfile3910heeN20211006S0242.fits[SCI,12]
+  tmpfile3910heeN20211006S0243.fits[SCI,12]
+  tmpfile3910heeN20211006S0244.fits[SCI,12]
+  tmpfile3910heeN20211006S0245.fits[SCI,12]
+  tmpfile3910heeN20211010S0031.fits[SCI,12]
+  tmpfile3910heeN20211010S0032.fits[SCI,12]
+  tmpfile3910heeN20211010S0033.fits[SCI,12]
+  tmpfile3910heeN20211010S0034.fits[SCI,12]
+  tmpfile3910heeN20211010S0035.fits[SCI,12]
+  tmpfile3910heeN20211010S0169.fits[SCI,12]
+  tmpfile3910heeN20211010S0170.fits[SCI,12]
+  tmpfile3910heeN20211010S0171.fits[SCI,12]
+  tmpfile3910heeN20211010S0172.fits[SCI,12]
+  tmpfile3910heeN20211010S0173.fits[SCI,12]
+  tmpfile3910heeN20211012S0098.fits[SCI,12]
+  tmpfile3910heeN20211012S0099.fits[SCI,12]
+  tmpfile3910heeN20211012S0100.fits[SCI,12]
+  tmpfile3910heeN20211012S0101.fits[SCI,12]
+  tmpfile3910heeN20211012S0102.fits[SCI,12]
+
+  Output image = tmpcombout3910yqe, ncombine = 20
+  Number rejected mask = tmpcombdq3910zqe.pl
+  Sigma image = tmpcombsig3910are
+ 
+GEMCOMBINE -- Finished: Mon Aug  1 22:16:59 EDT 2022
+ 
+GEMCOMBINE -- Exit status: GOOD
+--------------------------------------------------------------------------------
+
+GBIAS: Exit status: GOOD.
+----------------------------------------------------------------------------

@@ -1,0 +1,1426 @@
+
+----------------------------------------------------------------------------
+GSREDUCE -- Mon Aug  1 21:46:10 EDT 2022
+
+Input image or list  = @objFiles.txt
+Output image or list = 
+Output prefix        = o
+
+Overscan subtraction  fl_over      = yes
+Trim image            fl_trim      = yes
+Bias subtraction      fl_bias      = yes
+Cosmic ray cleaning   fl_gscrrej   = no
+New CR cleaning       fl_crspec    = yes
+Dark subtraction      fl_dark      = no
+QE Correction         fl_qecorr    = no
+Flat field correction fl_flat      = yes
+Mosaic the CCDs       fl_gmosaic   = yes
+Fixpix chip gaps      fl_fixpix    = no
+Cut MOS spectra       fl_cut       = yes
+Add titles to MOS     fl_title     = yes
+Oversize slit length  fl_oversize  = no
+Run gsappwave         fl_gsappwave = yes
+Run gsscatsub         fl_scatsub   = no
+VAR & DQ planes       fl_vardq     = yes
+
+geointer = linear
+gradimage= 
+refimage = 
+bias     = MCbias.fits
+dark     = 
+qe_refim    = 
+qe_corrim   = 
+qe_corrpref = qecorr
+flatim   = MCflat.fits
+sci_ext  = SCI
+var_ext  = VAR
+dq_ext   = DQ
+key_mdf  = MASKNAME
+mdffile  = 
+mdfdir   = gmos$data/
+bpm      = 
+Chip gaps= gmos$data/chipgaps.dat
+
+ 
+Filter(s)/Grating ID for flatfield: 
+     MCflat.fits = OG515_G0306 + open2-8 / R831+_G5302
+GSREDUCE: Flat image MCflat.fits has been QE corrected? no
+ 
+Input image = N20211009S0221.fits; Output image = oN20211009S0221.fits
+GSREDUCE: Image N20211009S0221.fits has been QE corrected? no
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+GSREDUCE: Calling GIREDUCE to process image
+----------------------------------------------------------------------------
+GIREDUCE -- Mon Aug  1 21:46:10 EDT 2022
+
+
+Input files:
+N20211009S0221
+
+Output files:
+tmpimage13910hnc
+
+WARNING - GIREDUCE: Bad Pixel Mask filename is an empty string
+                    Only saturated pixels will be flagged
+GIREDUCE: Image tmpimage13910hnc overscan subtracted
+GIREDUCE: Image tmpimage13910hnc trimmed
+
+Output image       Bias                 Flat               Dark       Scale 
+tmpimage13910hnc   MCbias               MCflat             INDEF       0.00
+GSAT - Started: 2022-08-01T21:46:29
+GSAT: Bias level is 504.7329 Gain level is 1.675
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 1 Ybin is 2
+GSAT: Amplifier is BI13-20-4k-1, 4 1x1 Full Well Depth is: 129000.
+GSAT: Calculated CCD saturation limit is 154029.85074627
+GSAT: Calculated controller saturation limit is 65030.2671
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63729.661758
+GSAT - Finished: 2022-08-01T21:46:30
+GSAT - Exit status: GOOD
+GSAT - Started: 2022-08-01T21:46:30
+GSAT: Bias level is 498.3179 Gain level is 1.618
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 1 Ybin is 2
+GSAT: Amplifier is BI13-20-4k-1, 3 1x1 Full Well Depth is: 129000.
+GSAT: Calculated CCD saturation limit is 159456.11866502
+GSAT: Calculated controller saturation limit is 65036.6821
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63735.948458
+GSAT - Finished: 2022-08-01T21:46:31
+GSAT - Exit status: GOOD
+GSAT - Started: 2022-08-01T21:46:31
+GSAT: Bias level is 471.4428 Gain level is 1.62
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 1 Ybin is 2
+GSAT: Amplifier is BI13-20-4k-1, 2 1x1 Full Well Depth is: 129000.
+GSAT: Calculated CCD saturation limit is 159259.25925926
+GSAT: Calculated controller saturation limit is 65063.5572
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63762.286056
+GSAT - Finished: 2022-08-01T21:46:31
+GSAT - Exit status: GOOD
+GSAT - Started: 2022-08-01T21:46:32
+GSAT: Bias level is 484.9567 Gain level is 1.568
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 1 Ybin is 2
+GSAT: Amplifier is BI13-20-4k-1, 1 1x1 Full Well Depth is: 129000.
+GSAT: Calculated CCD saturation limit is 164540.81632653
+GSAT: Calculated controller saturation limit is 65050.0433
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63749.042434
+GSAT - Finished: 2022-08-01T21:46:32
+GSAT - Exit status: GOOD
+GSAT - Started: 2022-08-01T21:46:33
+GSAT: Bias level is 497.1701 Gain level is 1.69
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 1 Ybin is 2
+GSAT: Amplifier is BI12-09-4k-2, 4 1x1 Full Well Depth is: 123000.
+GSAT: Calculated CCD saturation limit is 145562.13017751
+GSAT: Calculated controller saturation limit is 65037.8299
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63737.073302
+GSAT - Finished: 2022-08-01T21:46:33
+GSAT - Exit status: GOOD
+GSAT - Started: 2022-08-01T21:46:34
+GSAT: Bias level is 475.1953 Gain level is 1.65
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 1 Ybin is 2
+GSAT: Amplifier is BI12-09-4k-2, 3 1x1 Full Well Depth is: 123000.
+GSAT: Calculated CCD saturation limit is 149090.90909091
+GSAT: Calculated controller saturation limit is 65059.8047
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63758.608606
+GSAT - Finished: 2022-08-01T21:46:34
+GSAT - Exit status: GOOD
+GSAT - Started: 2022-08-01T21:46:35
+GSAT: Bias level is 514.2152 Gain level is 1.633
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 1 Ybin is 2
+GSAT: Amplifier is BI12-09-4k-2, 2 1x1 Full Well Depth is: 121000.
+GSAT: Calculated CCD saturation limit is 148193.50887936
+GSAT: Calculated controller saturation limit is 65020.7848
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63720.369104
+GSAT - Finished: 2022-08-01T21:46:35
+GSAT - Exit status: GOOD
+GSAT - Started: 2022-08-01T21:46:36
+GSAT: Bias level is 486.4117 Gain level is 1.664
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 1 Ybin is 2
+GSAT: Amplifier is BI12-09-4k-2, 1 1x1 Full Well Depth is: 124000.
+GSAT: Calculated CCD saturation limit is 149038.46153846
+GSAT: Calculated controller saturation limit is 65048.5883
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63747.616534
+GSAT - Finished: 2022-08-01T21:46:37
+GSAT - Exit status: GOOD
+GSAT - Started: 2022-08-01T21:46:38
+GSAT: Bias level is 514.2784 Gain level is 1.604
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 1 Ybin is 2
+GSAT: Amplifier is BI13-18-4k-2, 4 1x1 Full Well Depth is: 126000.
+GSAT: Calculated CCD saturation limit is 157107.2319202
+GSAT: Calculated controller saturation limit is 65020.7216
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63720.307168
+GSAT - Finished: 2022-08-01T21:46:38
+GSAT - Exit status: GOOD
+GSAT - Started: 2022-08-01T21:46:39
+GSAT: Bias level is 395.0451 Gain level is 1.63
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 1 Ybin is 2
+GSAT: Amplifier is BI13-18-4k-2, 3 1x1 Full Well Depth is: 124000.
+GSAT: Calculated CCD saturation limit is 152147.2392638
+GSAT: Calculated controller saturation limit is 65139.9549
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63837.155802
+GSAT - Finished: 2022-08-01T21:46:39
+GSAT - Exit status: GOOD
+GSAT - Started: 2022-08-01T21:46:40
+GSAT: Bias level is 430.1983 Gain level is 1.587
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 1 Ybin is 2
+GSAT: Amplifier is BI13-18-4k-2, 2 1x1 Full Well Depth is: 125000.
+GSAT: Calculated CCD saturation limit is 157529.93068683
+GSAT: Calculated controller saturation limit is 65104.8017
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63802.705666
+GSAT - Finished: 2022-08-01T21:46:40
+GSAT - Exit status: GOOD
+GSAT - Started: 2022-08-01T21:46:41
+GSAT: Bias level is 420.4061 Gain level is 1.654
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 1 Ybin is 2
+GSAT: Amplifier is BI13-18-4k-2, 1 1x1 Full Well Depth is: 123000.
+GSAT: Calculated CCD saturation limit is 148730.35066505
+GSAT: Calculated controller saturation limit is 65114.5939
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63812.302022
+GSAT - Finished: 2022-08-01T21:46:41
+GSAT - Exit status: GOOD
+GIREDUCE: Subtracted bias MCbias from tmpimage13910hnc
+GIREDUCE: Divided image tmpimage13910hnc by flatfield MCflat
+GIREDUCE: multiplying image tmpimage13910hnc by gain
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2022-08-02T01:46:42
+File[extension]:              AMPNAME               GAIN   READNOISE
+tmpimage13910hnc.fits[SCI,1]: " "BI13-20-4k-1, 4""  1.675  4.06
+tmpimage13910hnc.fits[SCI,2]: " "BI13-20-4k-1, 3""  1.618  4.12
+tmpimage13910hnc.fits[SCI,3]: " "BI13-20-4k-1, 2""  1.620  4.12
+tmpimage13910hnc.fits[SCI,4]: " "BI13-20-4k-1, 1""  1.568  3.99
+tmpimage13910hnc.fits[SCI,5]: " "BI12-09-4k-2, 4""  1.690  4.20
+tmpimage13910hnc.fits[SCI,6]: " "BI12-09-4k-2, 3""  1.650  3.98
+tmpimage13910hnc.fits[SCI,7]: " "BI12-09-4k-2, 2""  1.633  3.88
+tmpimage13910hnc.fits[SCI,8]: " "BI12-09-4k-2, 1""  1.664  4.20
+tmpimage13910hnc.fits[SCI,9]: " "BI13-18-4k-2, 4""  1.604  4.04
+tmpimage13910hnc.fits[SCI,10]: " "BI13-18-4k-2, 3""  1.630  4.35
+tmpimage13910hnc.fits[SCI,11]: " "BI13-18-4k-2, 2""  1.587  4.02
+tmpimage13910hnc.fits[SCI,12]: " "BI13-18-4k-2, 1""  1.654  4.55
+
+GGAIN -- Finished: 2022-08-02T01:46:57
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+GIREDUCE: output counts in electrons
+
+GIREDUCE - Cleaning up -- Mon Aug  1 21:46:57 EDT 2022
+
+GIREDUCE -- Mon Aug  1 21:46:57 EDT 2022
+GIREDUCE exit status:  good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GEMCRSPEC -- Mon Aug  1 21:46:57 EDT 2022
+Using the gain value from the header = 1.
+Using the readout noise value from the header = 4.06
+Extension: 1 ny = 512 order = 5
+Using the gain value from the header = 1.
+Using the readout noise value from the header = 4.12
+Extension: 2 ny = 512 order = 5
+Using the gain value from the header = 1.
+Using the readout noise value from the header = 4.12
+Extension: 3 ny = 512 order = 5
+Using the gain value from the header = 1.
+Using the readout noise value from the header = 3.99
+Extension: 4 ny = 512 order = 5
+Using the gain value from the header = 1.
+Using the readout noise value from the header = 4.2
+Extension: 5 ny = 512 order = 5
+Using the gain value from the header = 1.
+Using the readout noise value from the header = 3.98
+Extension: 6 ny = 512 order = 5
+Using the gain value from the header = 1.
+Using the readout noise value from the header = 3.88
+Extension: 7 ny = 512 order = 5
+Using the gain value from the header = 1.
+Using the readout noise value from the header = 4.2
+Extension: 8 ny = 512 order = 5
+Using the gain value from the header = 1.
+Using the readout noise value from the header = 4.04
+Extension: 9 ny = 512 order = 5
+Using the gain value from the header = 1.
+Using the readout noise value from the header = 4.35
+Extension: 10 ny = 512 order = 5
+Using the gain value from the header = 1.
+Using the readout noise value from the header = 4.02
+Extension: 11 ny = 512 order = 5
+Using the gain value from the header = 1.
+Using the readout noise value from the header = 4.55
+Extension: 12 ny = 512 order = 5
+
+GEMCRSPEC exit status: Good
+----------------------------------------------------------------------------
+GSREDUCE: Calling GMOSAIC
+BOE  GMOSAIC 2022-08-01T21:48:13
+VIS  GMOSAIC 
+VIS  GMOSAIC -------------------------------------------------------------------
+STAT GMOSAIC Log opened at [Mon 21:48:13 01-Aug-2022]
+VIS  GMOSAIC 
+VIS  GMOSAIC --------------------
+TSK  GMOSAIC Input Parameters:
+TSK  GMOSAIC      inimages       = xtmpimage13910hnc.fits
+TSK  GMOSAIC      outimages      = tmpimage23910inc.fits
+TSK  GMOSAIC      outpref        = 
+TSK  GMOSAIC      fl_paste       = no
+TSK  GMOSAIC      fl_vardq       = yes
+TSK  GMOSAIC      fl_fixpix      = no
+TSK  GMOSAIC      fl_clean       = no
+TSK  GMOSAIC      fl_fulldq      = yes
+TSK  GMOSAIC      bitflags       = all
+TSK  GMOSAIC      dqthresh       = 0.1
+TSK  GMOSAIC      geointer       = linear
+TSK  GMOSAIC      gap            = default
+TSK  GMOSAIC      bpmfile        = gmos$data/chipgaps.dat
+TSK  GMOSAIC      statsec        = default
+TSK  GMOSAIC      obsmode        = IMAGE
+TSK  GMOSAIC      sci_ext        = SCI
+TSK  GMOSAIC      var_ext        = VAR
+TSK  GMOSAIC      dq_ext         = DQ
+TSK  GMOSAIC      key_detsec     = DETSEC
+TSK  GMOSAIC      key_ccdsec     = CCDSEC
+TSK  GMOSAIC      key_datsec     = DATASEC
+TSK  GMOSAIC      key_ccdsum     = CCDSUM
+TSK  GMOSAIC      key_obsmode    = OBSMODE
+TSK  GMOSAIC      logfile        = ./Logs/ReductionsLog.txt
+TSK  GMOSAIC      verbose        = yes
+TSK  GMOSAIC      fl_real        = no
+VIS  GMOSAIC --------------------
+TSK  GMOSAIC Input: xtmpimage13910hnc  Output: tmpimage23910inc.fits
+TSK  GMOSAIC Found a MDF, copying for later use.
+ENG  GMOSAIC imcopy  xtmpimage13910hnc[SCI,1][1:512,1:512]  tmptile3910obd[1,append][1:512,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  xtmpimage13910hnc[SCI,2][1:512,1:512]  tmptile3910obd[1,append][513:1024,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  xtmpimage13910hnc[SCI,3][1:512,1:512]  tmptile3910obd[1,append][1025:1536,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  xtmpimage13910hnc[SCI,4][1:512,1:512]  tmptile3910obd[1,append][1537:2048,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  xtmpimage13910hnc[VAR,1][1:512,1:512]  tmptile3910obd[2,append][1:512,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  xtmpimage13910hnc[VAR,2][1:512,1:512]  tmptile3910obd[2,append][513:1024,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  xtmpimage13910hnc[VAR,3][1:512,1:512]  tmptile3910obd[2,append][1025:1536,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  xtmpimage13910hnc[VAR,4][1:512,1:512]  tmptile3910obd[2,append][1537:2048,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  xtmpimage13910hnc[DQ,1][1:512,1:512]  tmptile3910obd[3,append][1:512,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  xtmpimage13910hnc[DQ,2][1:512,1:512]  tmptile3910obd[3,append][513:1024,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  xtmpimage13910hnc[DQ,3][1:512,1:512]  tmptile3910obd[3,append][1025:1536,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  xtmpimage13910hnc[DQ,4][1:512,1:512]  tmptile3910obd[3,append][1537:2048,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  xtmpimage13910hnc[SCI,5][1:512,1:512]  tmptile3910pbd[1,append][1:512,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  xtmpimage13910hnc[SCI,6][1:512,1:512]  tmptile3910pbd[1,append][513:1024,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  xtmpimage13910hnc[SCI,7][1:512,1:512]  tmptile3910pbd[1,append][1025:1536,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  xtmpimage13910hnc[SCI,8][1:512,1:512]  tmptile3910pbd[1,append][1537:2048,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  xtmpimage13910hnc[VAR,5][1:512,1:512]  tmptile3910pbd[2,append][1:512,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  xtmpimage13910hnc[VAR,6][1:512,1:512]  tmptile3910pbd[2,append][513:1024,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  xtmpimage13910hnc[VAR,7][1:512,1:512]  tmptile3910pbd[2,append][1025:1536,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  xtmpimage13910hnc[VAR,8][1:512,1:512]  tmptile3910pbd[2,append][1537:2048,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  xtmpimage13910hnc[DQ,5][1:512,1:512]  tmptile3910pbd[3,append][1:512,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  xtmpimage13910hnc[DQ,6][1:512,1:512]  tmptile3910pbd[3,append][513:1024,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  xtmpimage13910hnc[DQ,7][1:512,1:512]  tmptile3910pbd[3,append][1025:1536,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  xtmpimage13910hnc[DQ,8][1:512,1:512]  tmptile3910pbd[3,append][1537:2048,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  xtmpimage13910hnc[SCI,9][1:512,1:512]  tmptile3910qbd[1,append][1:512,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  xtmpimage13910hnc[SCI,10][1:512,1:512]  tmptile3910qbd[1,append][513:1024,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  xtmpimage13910hnc[SCI,11][1:512,1:512]  tmptile3910qbd[1,append][1025:1536,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  xtmpimage13910hnc[SCI,12][1:512,1:512]  tmptile3910qbd[1,append][1537:2048,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  xtmpimage13910hnc[VAR,9][1:512,1:512]  tmptile3910qbd[2,append][1:512,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  xtmpimage13910hnc[VAR,10][1:512,1:512]  tmptile3910qbd[2,append][513:1024,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  xtmpimage13910hnc[VAR,11][1:512,1:512]  tmptile3910qbd[2,append][1025:1536,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  xtmpimage13910hnc[VAR,12][1:512,1:512]  tmptile3910qbd[2,append][1537:2048,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  xtmpimage13910hnc[DQ,9][1:512,1:512]  tmptile3910qbd[3,append][1:512,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  xtmpimage13910hnc[DQ,10][1:512,1:512]  tmptile3910qbd[3,append][513:1024,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  xtmpimage13910hnc[DQ,11][1:512,1:512]  tmptile3910qbd[3,append][1025:1536,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  xtmpimage13910hnc[DQ,12][1:512,1:512]  tmptile3910qbd[3,append][1537:2048,1:512]  INDEF  0.
+ENG  GMOSAIC Setting rotation Xrot[1]=-0.002000, Yrot[1]=-0.008000
+ENG  GMOSAIC Setting rotation Xrot[2]= 0.000000, Yrot[2]= 0.000000
+ENG  GMOSAIC Setting rotation Xrot[3]=-0.002685, Yrot[3]=-0.010740
+
+------------------------------------------------------------
+GEMDQEXPAND Started -- Mon Aug  1 21:48:15 EDT 2022
+
+GEMDQEXPAND: Input parameters...
+
+    inimage    = tmpimg3910kbd[DQ,1][1:2048,1:512]
+    outimage   = tmpdq_imexpand3910dbd.fits
+
+
+GEMDQEXPAND Finished -- Mon Aug  1 21:48:15 EDT 2022
+
+GEMDQEXPAND exit status:  GOOD.
+------------------------------------------------------------
+
+ENG  GMOSAIC 
+ENG  GMOSAIC Transforming image tmpimg3910kbd[SCI,1][1:2048,1:512] to image tmpchipsci3910rbd
+ENG  GMOSAIC     xshift: 0.99 yshift: 0.07 xmag: 1.00 ymag: 1.00 xrot: 360.00 yrot: 359.99
+ENG  GMOSAIC 
+ENG  GMOSAIC Transforming image tmpimg3910kbd[VAR,1][1:2048,1:512] to image tmpchipvar3910sbd
+ENG  GMOSAIC     xshift: 0.99 yshift: 0.07 xmag: 1.00 ymag: 1.00 xrot: 360.00 yrot: 359.99
+ENG  GMOSAIC 
+ENG  GMOSAIC Transforming image tmpdq_imexpand3910dbd.fits[1] to image tmpdq_transimg3910gbd.fits
+ENG  GMOSAIC     xshift: 0.99 yshift: 0.07 xmag: 1.00 ymag: 1.00 xrot: 360.00 yrot: 359.99
+ENG  GMOSAIC 
+ENG  GMOSAIC Transforming image tmpdq_imexpand3910dbd.fits[2] to image tmpdq_transimg3910gbd.fits
+ENG  GMOSAIC     xshift: 0.99 yshift: 0.07 xmag: 1.00 ymag: 1.00 xrot: 360.00 yrot: 359.99
+ENG  GMOSAIC 
+ENG  GMOSAIC Transforming image tmpimg3910kbd[SCI,2][1:2048,1:512] to image tmpchipsci3910ubd
+ENG  GMOSAIC     xshift: 0.00 yshift: 0.00 xmag: 1.00 ymag: 1.00 xrot: 0.00 yrot: 0.00
+ENG  GMOSAIC 
+ENG  GMOSAIC Transforming image tmpimg3910kbd[VAR,2][1:2048,1:512] to image tmpchipvar3910vbd
+ENG  GMOSAIC     xshift: 0.00 yshift: 0.00 xmag: 1.00 ymag: 1.00 xrot: 0.00 yrot: 0.00
+
+------------------------------------------------------------
+GEMDQEXPAND Started -- Mon Aug  1 21:48:16 EDT 2022
+
+GEMDQEXPAND: Input parameters...
+
+    inimage    = tmpimg3910kbd[DQ,3][1:2048,1:512]
+    outimage   = tmpdq_imexpand3910dbd.fits
+
+
+GEMDQEXPAND Finished -- Mon Aug  1 21:48:16 EDT 2022
+
+GEMDQEXPAND exit status:  GOOD.
+------------------------------------------------------------
+
+ENG  GMOSAIC 
+ENG  GMOSAIC Transforming image tmpimg3910kbd[SCI,3][1:2048,1:512] to image tmpchipsci3910xbd
+ENG  GMOSAIC     xshift: -0.43 yshift: -0.13 xmag: 1.00 ymag: 1.00 xrot: 360.00 yrot: 359.99
+ENG  GMOSAIC 
+ENG  GMOSAIC Transforming image tmpimg3910kbd[VAR,3][1:2048,1:512] to image tmpchipvar3910ybd
+ENG  GMOSAIC     xshift: -0.43 yshift: -0.13 xmag: 1.00 ymag: 1.00 xrot: 360.00 yrot: 359.99
+ENG  GMOSAIC 
+ENG  GMOSAIC Transforming image tmpdq_imexpand3910dbd.fits[1] to image tmpdq_transimg3910gbd.fits
+ENG  GMOSAIC     xshift: -0.43 yshift: -0.13 xmag: 1.00 ymag: 1.00 xrot: 360.00 yrot: 359.99
+ENG  GMOSAIC 
+ENG  GMOSAIC Transforming image tmpdq_imexpand3910dbd.fits[2] to image tmpdq_transimg3910gbd.fits
+ENG  GMOSAIC     xshift: -0.43 yshift: -0.13 xmag: 1.00 ymag: 1.00 xrot: 360.00 yrot: 359.99
+ENG  GMOSAIC imcopy  tmpchipsci3910rbd  tmpimage23910inc.fits[1,append][1:2048,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpchipsci3910ubd  tmpimage23910inc.fits[1,append][2116:4163,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpchipsci3910xbd  tmpimage23910inc.fits[1,append][4231:6278,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpchipvar3910sbd  tmpimage23910inc.fits[2,append][1:2048,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpchipvar3910vbd  tmpimage23910inc.fits[2,append][2116:4163,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpchipvar3910ybd  tmpimage23910inc.fits[2,append][4231:6278,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpchipdq3910tbd  tmpimage23910inc.fits[3,append][1:2048,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpchipdq3910wbd  tmpimage23910inc.fits[3,append][2116:4163,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpchipdq3910zbd  tmpimage23910inc.fits[3,append][4231:6278,1:512]  INDEF  0.
+STAT GMOSAIC All 1 images successfully mosaiced.
+VIS  GMOSAIC --------------------
+STAT GMOSAIC Exit status: SUCCESS
+STAT GMOSAIC Log closed at [Mon 21:48:18 01-Aug-2022]
+VIS  GMOSAIC -------------------------------------------------------------------
+VIS  GMOSAIC 
+EOE  GMOSAIC 2022-08-01T21:48:18
+GSREDUCE: returned from GMOSAIC.
+GSREDUCE: Image N20211009S0221.fits is LONGSLIT. Will not cut spectra into separate science extensions
+GSREDUCE: Calling GSAPPWAVE
+--------------------------------------------------------------------------------
+GSAPPWAVE -- Mon Aug  1 21:48:18 EDT 2022
+ 
+inimages = oN20211009S0221.fits
+Grating: R831+_G5302
+Grating central wavelength: 810. [nm]
+Resolution (0.5'' slit): 5007.7789541338
+Anamorphic factor: 1.4585135264181
+Grating tilt (header): 43.2013
+Calculated tilt: 43.201
+nm/pix = 0.038076222834346
+Filter1: OG515_G0306
+Filter2: open2-8
+Approximate available wavelength coverage based on grating,
+    filters and detector type is: 520. - 1080. [nm]
+
+Calibrating: [SCI,1]
+    Spectrum length in pixels: 6278
+    Approximate location of grating central 
+        wavelength in pixels: 3125.8684453767
+    Approximate wavelength coverage based on
+        spectrum length and calculated dispersion is:  520 - 1080 [nm]
+ 
+GSAPPWAVE done
+--------------------------------------------------------------------------------
+GSREDUCE: Updating PHU and cleaning up
+Input image = N20211009S0222.fits; Output image = oN20211009S0222.fits
+GSREDUCE: Image N20211009S0222.fits has been QE corrected? no
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+GSREDUCE: Calling GIREDUCE to process image
+----------------------------------------------------------------------------
+GIREDUCE -- Mon Aug  1 21:48:19 EDT 2022
+
+
+Input files:
+N20211009S0222
+
+Output files:
+tmpimage13910icd
+
+WARNING - GIREDUCE: Bad Pixel Mask filename is an empty string
+                    Only saturated pixels will be flagged
+GIREDUCE: Image tmpimage13910icd overscan subtracted
+GIREDUCE: Image tmpimage13910icd trimmed
+
+Output image       Bias                 Flat               Dark       Scale 
+tmpimage13910icd   MCbias               MCflat             INDEF       0.00
+GSAT - Started: 2022-08-01T21:48:38
+GSAT: Bias level is 500.7666 Gain level is 1.675
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 1 Ybin is 2
+GSAT: Amplifier is BI13-20-4k-1, 4 1x1 Full Well Depth is: 129000.
+GSAT: Calculated CCD saturation limit is 154029.85074627
+GSAT: Calculated controller saturation limit is 65034.2334
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63733.548732
+GSAT - Finished: 2022-08-01T21:48:38
+GSAT - Exit status: GOOD
+GSAT - Started: 2022-08-01T21:48:39
+GSAT: Bias level is 494.4883 Gain level is 1.618
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 1 Ybin is 2
+GSAT: Amplifier is BI13-20-4k-1, 3 1x1 Full Well Depth is: 129000.
+GSAT: Calculated CCD saturation limit is 159456.11866502
+GSAT: Calculated controller saturation limit is 65040.5117
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63739.701466
+GSAT - Finished: 2022-08-01T21:48:39
+GSAT - Exit status: GOOD
+GSAT - Started: 2022-08-01T21:48:40
+GSAT: Bias level is 467.6888 Gain level is 1.62
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 1 Ybin is 2
+GSAT: Amplifier is BI13-20-4k-1, 2 1x1 Full Well Depth is: 129000.
+GSAT: Calculated CCD saturation limit is 159259.25925926
+GSAT: Calculated controller saturation limit is 65067.3112
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63765.964976
+GSAT - Finished: 2022-08-01T21:48:40
+GSAT - Exit status: GOOD
+GSAT - Started: 2022-08-01T21:48:40
+GSAT: Bias level is 481.805 Gain level is 1.568
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 1 Ybin is 2
+GSAT: Amplifier is BI13-20-4k-1, 1 1x1 Full Well Depth is: 129000.
+GSAT: Calculated CCD saturation limit is 164540.81632653
+GSAT: Calculated controller saturation limit is 65053.195
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63752.1311
+GSAT - Finished: 2022-08-01T21:48:41
+GSAT - Exit status: GOOD
+GSAT - Started: 2022-08-01T21:48:41
+GSAT: Bias level is 495.1435 Gain level is 1.69
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 1 Ybin is 2
+GSAT: Amplifier is BI12-09-4k-2, 4 1x1 Full Well Depth is: 123000.
+GSAT: Calculated CCD saturation limit is 145562.13017751
+GSAT: Calculated controller saturation limit is 65039.8565
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63739.05937
+GSAT - Finished: 2022-08-01T21:48:41
+GSAT - Exit status: GOOD
+GSAT - Started: 2022-08-01T21:48:42
+GSAT: Bias level is 472.0586 Gain level is 1.65
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 1 Ybin is 2
+GSAT: Amplifier is BI12-09-4k-2, 3 1x1 Full Well Depth is: 123000.
+GSAT: Calculated CCD saturation limit is 149090.90909091
+GSAT: Calculated controller saturation limit is 65062.9414
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63761.682572
+GSAT - Finished: 2022-08-01T21:48:42
+GSAT - Exit status: GOOD
+GSAT - Started: 2022-08-01T21:48:43
+GSAT: Bias level is 511.2376 Gain level is 1.633
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 1 Ybin is 2
+GSAT: Amplifier is BI12-09-4k-2, 2 1x1 Full Well Depth is: 121000.
+GSAT: Calculated CCD saturation limit is 148193.50887936
+GSAT: Calculated controller saturation limit is 65023.7624
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63723.287152
+GSAT - Finished: 2022-08-01T21:48:43
+GSAT - Exit status: GOOD
+GSAT - Started: 2022-08-01T21:48:44
+GSAT: Bias level is 480.7578 Gain level is 1.664
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 1 Ybin is 2
+GSAT: Amplifier is BI12-09-4k-2, 1 1x1 Full Well Depth is: 124000.
+GSAT: Calculated CCD saturation limit is 149038.46153846
+GSAT: Calculated controller saturation limit is 65054.2422
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63753.157356
+GSAT - Finished: 2022-08-01T21:48:44
+GSAT - Exit status: GOOD
+GSAT - Started: 2022-08-01T21:48:45
+GSAT: Bias level is 512.0533 Gain level is 1.604
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 1 Ybin is 2
+GSAT: Amplifier is BI13-18-4k-2, 4 1x1 Full Well Depth is: 126000.
+GSAT: Calculated CCD saturation limit is 157107.2319202
+GSAT: Calculated controller saturation limit is 65022.9467
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63722.487766
+GSAT - Finished: 2022-08-01T21:48:45
+GSAT - Exit status: GOOD
+GSAT - Started: 2022-08-01T21:48:46
+GSAT: Bias level is 393.6145 Gain level is 1.63
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 1 Ybin is 2
+GSAT: Amplifier is BI13-18-4k-2, 3 1x1 Full Well Depth is: 124000.
+GSAT: Calculated CCD saturation limit is 152147.2392638
+GSAT: Calculated controller saturation limit is 65141.3855
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63838.55779
+GSAT - Finished: 2022-08-01T21:48:46
+GSAT - Exit status: GOOD
+GSAT - Started: 2022-08-01T21:48:47
+GSAT: Bias level is 427.9136 Gain level is 1.587
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 1 Ybin is 2
+GSAT: Amplifier is BI13-18-4k-2, 2 1x1 Full Well Depth is: 125000.
+GSAT: Calculated CCD saturation limit is 157529.93068683
+GSAT: Calculated controller saturation limit is 65107.0864
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63804.944672
+GSAT - Finished: 2022-08-01T21:48:47
+GSAT - Exit status: GOOD
+GSAT - Started: 2022-08-01T21:48:48
+GSAT: Bias level is 418.2616 Gain level is 1.654
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 1 Ybin is 2
+GSAT: Amplifier is BI13-18-4k-2, 1 1x1 Full Well Depth is: 123000.
+GSAT: Calculated CCD saturation limit is 148730.35066505
+GSAT: Calculated controller saturation limit is 65116.7384
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63814.403632
+GSAT - Finished: 2022-08-01T21:48:48
+GSAT - Exit status: GOOD
+GIREDUCE: Subtracted bias MCbias from tmpimage13910icd
+GIREDUCE: Divided image tmpimage13910icd by flatfield MCflat
+GIREDUCE: multiplying image tmpimage13910icd by gain
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2022-08-02T01:48:48
+File[extension]:              AMPNAME               GAIN   READNOISE
+tmpimage13910icd.fits[SCI,1]: " "BI13-20-4k-1, 4""  1.675  4.06
+tmpimage13910icd.fits[SCI,2]: " "BI13-20-4k-1, 3""  1.618  4.12
+tmpimage13910icd.fits[SCI,3]: " "BI13-20-4k-1, 2""  1.620  4.12
+tmpimage13910icd.fits[SCI,4]: " "BI13-20-4k-1, 1""  1.568  3.99
+tmpimage13910icd.fits[SCI,5]: " "BI12-09-4k-2, 4""  1.690  4.20
+tmpimage13910icd.fits[SCI,6]: " "BI12-09-4k-2, 3""  1.650  3.98
+tmpimage13910icd.fits[SCI,7]: " "BI12-09-4k-2, 2""  1.633  3.88
+tmpimage13910icd.fits[SCI,8]: " "BI12-09-4k-2, 1""  1.664  4.20
+tmpimage13910icd.fits[SCI,9]: " "BI13-18-4k-2, 4""  1.604  4.04
+tmpimage13910icd.fits[SCI,10]: " "BI13-18-4k-2, 3""  1.630  4.35
+tmpimage13910icd.fits[SCI,11]: " "BI13-18-4k-2, 2""  1.587  4.02
+tmpimage13910icd.fits[SCI,12]: " "BI13-18-4k-2, 1""  1.654  4.55
+
+GGAIN -- Finished: 2022-08-02T01:49:02
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+GIREDUCE: output counts in electrons
+
+GIREDUCE - Cleaning up -- Mon Aug  1 21:49:02 EDT 2022
+
+GIREDUCE -- Mon Aug  1 21:49:02 EDT 2022
+GIREDUCE exit status:  good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GEMCRSPEC -- Mon Aug  1 21:49:02 EDT 2022
+Using the gain value from the header = 1.
+Using the readout noise value from the header = 4.06
+Extension: 1 ny = 512 order = 5
+Using the gain value from the header = 1.
+Using the readout noise value from the header = 4.12
+Extension: 2 ny = 512 order = 5
+Using the gain value from the header = 1.
+Using the readout noise value from the header = 4.12
+Extension: 3 ny = 512 order = 5
+Using the gain value from the header = 1.
+Using the readout noise value from the header = 3.99
+Extension: 4 ny = 512 order = 5
+Using the gain value from the header = 1.
+Using the readout noise value from the header = 4.2
+Extension: 5 ny = 512 order = 5
+Using the gain value from the header = 1.
+Using the readout noise value from the header = 3.98
+Extension: 6 ny = 512 order = 5
+Using the gain value from the header = 1.
+Using the readout noise value from the header = 3.88
+Extension: 7 ny = 512 order = 5
+Using the gain value from the header = 1.
+Using the readout noise value from the header = 4.2
+Extension: 8 ny = 512 order = 5
+Using the gain value from the header = 1.
+Using the readout noise value from the header = 4.04
+Extension: 9 ny = 512 order = 5
+Using the gain value from the header = 1.
+Using the readout noise value from the header = 4.35
+Extension: 10 ny = 512 order = 5
+Using the gain value from the header = 1.
+Using the readout noise value from the header = 4.02
+Extension: 11 ny = 512 order = 5
+Using the gain value from the header = 1.
+Using the readout noise value from the header = 4.55
+Extension: 12 ny = 512 order = 5
+
+GEMCRSPEC exit status: Good
+----------------------------------------------------------------------------
+GSREDUCE: Calling GMOSAIC
+BOE  GMOSAIC 2022-08-01T21:50:11
+VIS  GMOSAIC 
+VIS  GMOSAIC -------------------------------------------------------------------
+STAT GMOSAIC Log opened at [Mon 21:50:11 01-Aug-2022]
+VIS  GMOSAIC 
+VIS  GMOSAIC --------------------
+TSK  GMOSAIC Input Parameters:
+TSK  GMOSAIC      inimages       = xtmpimage13910icd.fits
+TSK  GMOSAIC      outimages      = tmpimage23910jcd.fits
+TSK  GMOSAIC      outpref        = 
+TSK  GMOSAIC      fl_paste       = no
+TSK  GMOSAIC      fl_vardq       = yes
+TSK  GMOSAIC      fl_fixpix      = no
+TSK  GMOSAIC      fl_clean       = no
+TSK  GMOSAIC      fl_fulldq      = yes
+TSK  GMOSAIC      bitflags       = all
+TSK  GMOSAIC      dqthresh       = 0.1
+TSK  GMOSAIC      geointer       = linear
+TSK  GMOSAIC      gap            = default
+TSK  GMOSAIC      bpmfile        = gmos$data/chipgaps.dat
+TSK  GMOSAIC      statsec        = default
+TSK  GMOSAIC      obsmode        = IMAGE
+TSK  GMOSAIC      sci_ext        = SCI
+TSK  GMOSAIC      var_ext        = VAR
+TSK  GMOSAIC      dq_ext         = DQ
+TSK  GMOSAIC      key_detsec     = DETSEC
+TSK  GMOSAIC      key_ccdsec     = CCDSEC
+TSK  GMOSAIC      key_datsec     = DATASEC
+TSK  GMOSAIC      key_ccdsum     = CCDSUM
+TSK  GMOSAIC      key_obsmode    = OBSMODE
+TSK  GMOSAIC      logfile        = ./Logs/ReductionsLog.txt
+TSK  GMOSAIC      verbose        = yes
+TSK  GMOSAIC      fl_real        = no
+VIS  GMOSAIC --------------------
+TSK  GMOSAIC Input: xtmpimage13910icd  Output: tmpimage23910jcd.fits
+TSK  GMOSAIC Found a MDF, copying for later use.
+ENG  GMOSAIC imcopy  xtmpimage13910icd[SCI,1][1:512,1:512]  tmptile3910pqd[1,append][1:512,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  xtmpimage13910icd[SCI,2][1:512,1:512]  tmptile3910pqd[1,append][513:1024,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  xtmpimage13910icd[SCI,3][1:512,1:512]  tmptile3910pqd[1,append][1025:1536,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  xtmpimage13910icd[SCI,4][1:512,1:512]  tmptile3910pqd[1,append][1537:2048,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  xtmpimage13910icd[VAR,1][1:512,1:512]  tmptile3910pqd[2,append][1:512,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  xtmpimage13910icd[VAR,2][1:512,1:512]  tmptile3910pqd[2,append][513:1024,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  xtmpimage13910icd[VAR,3][1:512,1:512]  tmptile3910pqd[2,append][1025:1536,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  xtmpimage13910icd[VAR,4][1:512,1:512]  tmptile3910pqd[2,append][1537:2048,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  xtmpimage13910icd[DQ,1][1:512,1:512]  tmptile3910pqd[3,append][1:512,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  xtmpimage13910icd[DQ,2][1:512,1:512]  tmptile3910pqd[3,append][513:1024,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  xtmpimage13910icd[DQ,3][1:512,1:512]  tmptile3910pqd[3,append][1025:1536,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  xtmpimage13910icd[DQ,4][1:512,1:512]  tmptile3910pqd[3,append][1537:2048,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  xtmpimage13910icd[SCI,5][1:512,1:512]  tmptile3910qqd[1,append][1:512,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  xtmpimage13910icd[SCI,6][1:512,1:512]  tmptile3910qqd[1,append][513:1024,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  xtmpimage13910icd[SCI,7][1:512,1:512]  tmptile3910qqd[1,append][1025:1536,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  xtmpimage13910icd[SCI,8][1:512,1:512]  tmptile3910qqd[1,append][1537:2048,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  xtmpimage13910icd[VAR,5][1:512,1:512]  tmptile3910qqd[2,append][1:512,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  xtmpimage13910icd[VAR,6][1:512,1:512]  tmptile3910qqd[2,append][513:1024,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  xtmpimage13910icd[VAR,7][1:512,1:512]  tmptile3910qqd[2,append][1025:1536,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  xtmpimage13910icd[VAR,8][1:512,1:512]  tmptile3910qqd[2,append][1537:2048,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  xtmpimage13910icd[DQ,5][1:512,1:512]  tmptile3910qqd[3,append][1:512,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  xtmpimage13910icd[DQ,6][1:512,1:512]  tmptile3910qqd[3,append][513:1024,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  xtmpimage13910icd[DQ,7][1:512,1:512]  tmptile3910qqd[3,append][1025:1536,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  xtmpimage13910icd[DQ,8][1:512,1:512]  tmptile3910qqd[3,append][1537:2048,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  xtmpimage13910icd[SCI,9][1:512,1:512]  tmptile3910rqd[1,append][1:512,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  xtmpimage13910icd[SCI,10][1:512,1:512]  tmptile3910rqd[1,append][513:1024,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  xtmpimage13910icd[SCI,11][1:512,1:512]  tmptile3910rqd[1,append][1025:1536,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  xtmpimage13910icd[SCI,12][1:512,1:512]  tmptile3910rqd[1,append][1537:2048,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  xtmpimage13910icd[VAR,9][1:512,1:512]  tmptile3910rqd[2,append][1:512,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  xtmpimage13910icd[VAR,10][1:512,1:512]  tmptile3910rqd[2,append][513:1024,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  xtmpimage13910icd[VAR,11][1:512,1:512]  tmptile3910rqd[2,append][1025:1536,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  xtmpimage13910icd[VAR,12][1:512,1:512]  tmptile3910rqd[2,append][1537:2048,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  xtmpimage13910icd[DQ,9][1:512,1:512]  tmptile3910rqd[3,append][1:512,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  xtmpimage13910icd[DQ,10][1:512,1:512]  tmptile3910rqd[3,append][513:1024,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  xtmpimage13910icd[DQ,11][1:512,1:512]  tmptile3910rqd[3,append][1025:1536,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  xtmpimage13910icd[DQ,12][1:512,1:512]  tmptile3910rqd[3,append][1537:2048,1:512]  INDEF  0.
+ENG  GMOSAIC Setting rotation Xrot[1]=-0.002000, Yrot[1]=-0.008000
+ENG  GMOSAIC Setting rotation Xrot[2]= 0.000000, Yrot[2]= 0.000000
+ENG  GMOSAIC Setting rotation Xrot[3]=-0.002685, Yrot[3]=-0.010740
+
+------------------------------------------------------------
+GEMDQEXPAND Started -- Mon Aug  1 21:50:13 EDT 2022
+
+GEMDQEXPAND: Input parameters...
+
+    inimage    = tmpimg3910lqd[DQ,1][1:2048,1:512]
+    outimage   = tmpdq_imexpand3910eqd.fits
+
+
+GEMDQEXPAND Finished -- Mon Aug  1 21:50:14 EDT 2022
+
+GEMDQEXPAND exit status:  GOOD.
+------------------------------------------------------------
+
+ENG  GMOSAIC 
+ENG  GMOSAIC Transforming image tmpimg3910lqd[SCI,1][1:2048,1:512] to image tmpchipsci3910sqd
+ENG  GMOSAIC     xshift: 0.99 yshift: 0.07 xmag: 1.00 ymag: 1.00 xrot: 360.00 yrot: 359.99
+ENG  GMOSAIC 
+ENG  GMOSAIC Transforming image tmpimg3910lqd[VAR,1][1:2048,1:512] to image tmpchipvar3910tqd
+ENG  GMOSAIC     xshift: 0.99 yshift: 0.07 xmag: 1.00 ymag: 1.00 xrot: 360.00 yrot: 359.99
+ENG  GMOSAIC 
+ENG  GMOSAIC Transforming image tmpdq_imexpand3910eqd.fits[1] to image tmpdq_transimg3910hqd.fits
+ENG  GMOSAIC     xshift: 0.99 yshift: 0.07 xmag: 1.00 ymag: 1.00 xrot: 360.00 yrot: 359.99
+ENG  GMOSAIC 
+ENG  GMOSAIC Transforming image tmpdq_imexpand3910eqd.fits[2] to image tmpdq_transimg3910hqd.fits
+ENG  GMOSAIC     xshift: 0.99 yshift: 0.07 xmag: 1.00 ymag: 1.00 xrot: 360.00 yrot: 359.99
+ENG  GMOSAIC 
+ENG  GMOSAIC Transforming image tmpimg3910lqd[SCI,2][1:2048,1:512] to image tmpchipsci3910vqd
+ENG  GMOSAIC     xshift: 0.00 yshift: 0.00 xmag: 1.00 ymag: 1.00 xrot: 0.00 yrot: 0.00
+ENG  GMOSAIC 
+ENG  GMOSAIC Transforming image tmpimg3910lqd[VAR,2][1:2048,1:512] to image tmpchipvar3910wqd
+ENG  GMOSAIC     xshift: 0.00 yshift: 0.00 xmag: 1.00 ymag: 1.00 xrot: 0.00 yrot: 0.00
+
+------------------------------------------------------------
+GEMDQEXPAND Started -- Mon Aug  1 21:50:14 EDT 2022
+
+GEMDQEXPAND: Input parameters...
+
+    inimage    = tmpimg3910lqd[DQ,3][1:2048,1:512]
+    outimage   = tmpdq_imexpand3910eqd.fits
+
+
+GEMDQEXPAND Finished -- Mon Aug  1 21:50:15 EDT 2022
+
+GEMDQEXPAND exit status:  GOOD.
+------------------------------------------------------------
+
+ENG  GMOSAIC 
+ENG  GMOSAIC Transforming image tmpimg3910lqd[SCI,3][1:2048,1:512] to image tmpchipsci3910yqd
+ENG  GMOSAIC     xshift: -0.43 yshift: -0.13 xmag: 1.00 ymag: 1.00 xrot: 360.00 yrot: 359.99
+ENG  GMOSAIC 
+ENG  GMOSAIC Transforming image tmpimg3910lqd[VAR,3][1:2048,1:512] to image tmpchipvar3910zqd
+ENG  GMOSAIC     xshift: -0.43 yshift: -0.13 xmag: 1.00 ymag: 1.00 xrot: 360.00 yrot: 359.99
+ENG  GMOSAIC 
+ENG  GMOSAIC Transforming image tmpdq_imexpand3910eqd.fits[1] to image tmpdq_transimg3910hqd.fits
+ENG  GMOSAIC     xshift: -0.43 yshift: -0.13 xmag: 1.00 ymag: 1.00 xrot: 360.00 yrot: 359.99
+ENG  GMOSAIC 
+ENG  GMOSAIC Transforming image tmpdq_imexpand3910eqd.fits[2] to image tmpdq_transimg3910hqd.fits
+ENG  GMOSAIC     xshift: -0.43 yshift: -0.13 xmag: 1.00 ymag: 1.00 xrot: 360.00 yrot: 359.99
+ENG  GMOSAIC imcopy  tmpchipsci3910sqd  tmpimage23910jcd.fits[1,append][1:2048,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpchipsci3910vqd  tmpimage23910jcd.fits[1,append][2116:4163,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpchipsci3910yqd  tmpimage23910jcd.fits[1,append][4231:6278,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpchipvar3910tqd  tmpimage23910jcd.fits[2,append][1:2048,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpchipvar3910wqd  tmpimage23910jcd.fits[2,append][2116:4163,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpchipvar3910zqd  tmpimage23910jcd.fits[2,append][4231:6278,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpchipdq3910uqd  tmpimage23910jcd.fits[3,append][1:2048,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpchipdq3910xqd  tmpimage23910jcd.fits[3,append][2116:4163,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpchipdq3910ard  tmpimage23910jcd.fits[3,append][4231:6278,1:512]  INDEF  0.
+STAT GMOSAIC All 1 images successfully mosaiced.
+VIS  GMOSAIC --------------------
+STAT GMOSAIC Exit status: SUCCESS
+STAT GMOSAIC Log closed at [Mon 21:50:17 01-Aug-2022]
+VIS  GMOSAIC -------------------------------------------------------------------
+VIS  GMOSAIC 
+EOE  GMOSAIC 2022-08-01T21:50:17
+GSREDUCE: returned from GMOSAIC.
+GSREDUCE: Image N20211009S0222.fits is LONGSLIT. Will not cut spectra into separate science extensions
+GSREDUCE: Calling GSAPPWAVE
+--------------------------------------------------------------------------------
+GSAPPWAVE -- Mon Aug  1 21:50:17 EDT 2022
+ 
+inimages = oN20211009S0222.fits
+Grating: R831+_G5302
+Grating central wavelength: 810. [nm]
+Resolution (0.5'' slit): 5007.7789541338
+Anamorphic factor: 1.4585135264181
+Grating tilt (header): 43.2013
+Calculated tilt: 43.201
+nm/pix = 0.038076222834346
+Filter1: OG515_G0306
+Filter2: open2-8
+Approximate available wavelength coverage based on grating,
+    filters and detector type is: 520. - 1080. [nm]
+
+Calibrating: [SCI,1]
+    Spectrum length in pixels: 6278
+    Approximate location of grating central 
+        wavelength in pixels: 3125.8684453767
+    Approximate wavelength coverage based on
+        spectrum length and calculated dispersion is:  520 - 1080 [nm]
+ 
+GSAPPWAVE done
+--------------------------------------------------------------------------------
+GSREDUCE: Updating PHU and cleaning up
+ 
+GSREDUCE done
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSREDUCE -- Mon Aug  1 21:50:18 EDT 2022
+
+Input image or list  = @arcFiles.txt
+Output image or list = 
+Output prefix        = a
+
+Overscan subtraction  fl_over      = yes
+Trim image            fl_trim      = yes
+Bias subtraction      fl_bias      = yes
+Cosmic ray cleaning   fl_gscrrej   = no
+New CR cleaning       fl_crspec    = no
+Dark subtraction      fl_dark      = no
+QE Correction         fl_qecorr    = no
+Flat field correction fl_flat      = no
+Mosaic the CCDs       fl_gmosaic   = yes
+Fixpix chip gaps      fl_fixpix    = no
+Cut MOS spectra       fl_cut       = yes
+Add titles to MOS     fl_title     = yes
+Oversize slit length  fl_oversize  = no
+Run gsappwave         fl_gsappwave = yes
+Run gsscatsub         fl_scatsub   = no
+VAR & DQ planes       fl_vardq     = no
+
+geointer = linear
+gradimage= 
+refimage = 
+bias     = MCbias.fits
+dark     = 
+qe_refim    = 
+qe_corrim   = 
+qe_corrpref = qecorr
+flatim   = 
+sci_ext  = SCI
+var_ext  = VAR
+dq_ext   = DQ
+key_mdf  = MASKNAME
+mdffile  = 
+mdfdir   = gmos$data/
+bpm      = 
+Chip gaps= gmos$data/chipgaps.dat
+
+Input image = N20211009S0295.fits; Output image = aN20211009S0295.fits
+GSREDUCE: Image N20211009S0295.fits has been QE corrected? no
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+GSREDUCE: Calling GIREDUCE to process image
+----------------------------------------------------------------------------
+GIREDUCE -- Mon Aug  1 21:50:18 EDT 2022
+
+
+Input files:
+N20211009S0295
+
+Output files:
+tmpimage13910nrd
+
+GIREDUCE: Image tmpimage13910nrd overscan subtracted
+GIREDUCE: Image tmpimage13910nrd trimmed
+
+Output image       Bias                 Flat               Dark       Scale 
+tmpimage13910nrd   MCbias               INDEF              INDEF       0.00
+GIREDUCE: Subtracted bias MCbias from tmpimage13910nrd
+GIREDUCE: multiplying image tmpimage13910nrd by gain
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2022-08-02T01:50:39
+File[extension]:              AMPNAME               GAIN   READNOISE
+tmpimage13910nrd.fits[SCI,1]: " "BI13-20-4k-1, 4""  2.010  8.02
+tmpimage13910nrd.fits[SCI,2]: " "BI13-20-4k-1, 3""  1.950  6.88
+tmpimage13910nrd.fits[SCI,3]: " "BI13-20-4k-1, 2""  1.970  6.02
+tmpimage13910nrd.fits[SCI,4]: " "BI13-20-4k-1, 1""  1.910  5.88
+tmpimage13910nrd.fits[SCI,5]: " "BI12-09-4k-2, 4""  2.030  6.71
+tmpimage13910nrd.fits[SCI,6]: " "BI12-09-4k-2, 3""  1.970  6.34
+tmpimage13910nrd.fits[SCI,7]: " "BI12-09-4k-2, 2""  1.960  5.39
+tmpimage13910nrd.fits[SCI,8]: " "BI12-09-4k-2, 1""  2.010  5.86
+tmpimage13910nrd.fits[SCI,9]: " "BI13-18-4k-2, 4""  1.950  6.10
+tmpimage13910nrd.fits[SCI,10]: " "BI13-18-4k-2, 3""  1.950  6.13
+tmpimage13910nrd.fits[SCI,11]: " "BI13-18-4k-2, 2""  1.890  5.98
+tmpimage13910nrd.fits[SCI,12]: " "BI13-18-4k-2, 1""  1.950  6.79
+
+GGAIN -- Finished: 2022-08-02T01:50:45
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+GIREDUCE: output counts in electrons
+
+GIREDUCE - Cleaning up -- Mon Aug  1 21:50:45 EDT 2022
+
+GIREDUCE -- Mon Aug  1 21:50:45 EDT 2022
+GIREDUCE exit status:  good.
+----------------------------------------------------------------------------
+GSREDUCE: Calling GMOSAIC
+BOE  GMOSAIC 2022-08-01T21:50:45
+VIS  GMOSAIC 
+VIS  GMOSAIC -------------------------------------------------------------------
+STAT GMOSAIC Log opened at [Mon 21:50:45 01-Aug-2022]
+VIS  GMOSAIC 
+VIS  GMOSAIC --------------------
+TSK  GMOSAIC Input Parameters:
+TSK  GMOSAIC      inimages       = tmpimage13910nrd.fits
+TSK  GMOSAIC      outimages      = tmpimage23910ord.fits
+TSK  GMOSAIC      outpref        = 
+TSK  GMOSAIC      fl_paste       = no
+TSK  GMOSAIC      fl_vardq       = no
+TSK  GMOSAIC      fl_fixpix      = no
+TSK  GMOSAIC      fl_clean       = no
+TSK  GMOSAIC      fl_fulldq      = no
+TSK  GMOSAIC      bitflags       = all
+TSK  GMOSAIC      dqthresh       = 0.1
+TSK  GMOSAIC      geointer       = linear
+TSK  GMOSAIC      gap            = default
+TSK  GMOSAIC      bpmfile        = gmos$data/chipgaps.dat
+TSK  GMOSAIC      statsec        = default
+TSK  GMOSAIC      obsmode        = IMAGE
+TSK  GMOSAIC      sci_ext        = SCI
+TSK  GMOSAIC      var_ext        = VAR
+TSK  GMOSAIC      dq_ext         = DQ
+TSK  GMOSAIC      key_detsec     = DETSEC
+TSK  GMOSAIC      key_ccdsec     = CCDSEC
+TSK  GMOSAIC      key_datsec     = DATASEC
+TSK  GMOSAIC      key_ccdsum     = CCDSUM
+TSK  GMOSAIC      key_obsmode    = OBSMODE
+TSK  GMOSAIC      logfile        = ./Logs/ReductionsLog.txt
+TSK  GMOSAIC      verbose        = yes
+TSK  GMOSAIC      fl_real        = no
+VIS  GMOSAIC --------------------
+TSK  GMOSAIC Input: tmpimage13910nrd  Output: tmpimage23910ord.fits
+TSK  GMOSAIC Found a MDF, copying for later use.
+ENG  GMOSAIC imcopy  tmpimage13910nrd[SCI,1][1:512,1:512]  tmptile3910atd[1,append][1:512,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage13910nrd[SCI,2][1:512,1:512]  tmptile3910atd[1,append][513:1024,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage13910nrd[SCI,3][1:512,1:512]  tmptile3910atd[1,append][1025:1536,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage13910nrd[SCI,4][1:512,1:512]  tmptile3910atd[1,append][1537:2048,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage13910nrd[SCI,5][1:512,1:512]  tmptile3910btd[1,append][1:512,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage13910nrd[SCI,6][1:512,1:512]  tmptile3910btd[1,append][513:1024,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage13910nrd[SCI,7][1:512,1:512]  tmptile3910btd[1,append][1025:1536,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage13910nrd[SCI,8][1:512,1:512]  tmptile3910btd[1,append][1537:2048,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage13910nrd[SCI,9][1:512,1:512]  tmptile3910ctd[1,append][1:512,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage13910nrd[SCI,10][1:512,1:512]  tmptile3910ctd[1,append][513:1024,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage13910nrd[SCI,11][1:512,1:512]  tmptile3910ctd[1,append][1025:1536,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage13910nrd[SCI,12][1:512,1:512]  tmptile3910ctd[1,append][1537:2048,1:512]  INDEF  0.
+ENG  GMOSAIC Setting rotation Xrot[1]=-0.002000, Yrot[1]=-0.008000
+ENG  GMOSAIC Setting rotation Xrot[2]= 0.000000, Yrot[2]= 0.000000
+ENG  GMOSAIC Setting rotation Xrot[3]=-0.002685, Yrot[3]=-0.010740
+ENG  GMOSAIC 
+ENG  GMOSAIC Transforming image tmpimg3910wsd[SCI,1][1:2048,1:512] to image tmpchipsci3910dtd
+ENG  GMOSAIC     xshift: 0.99 yshift: 0.07 xmag: 1.00 ymag: 1.00 xrot: 360.00 yrot: 359.99
+ENG  GMOSAIC 
+ENG  GMOSAIC Transforming image tmpimg3910wsd[SCI,2][1:2048,1:512] to image tmpchipsci3910etd
+ENG  GMOSAIC     xshift: 0.00 yshift: 0.00 xmag: 1.00 ymag: 1.00 xrot: 0.00 yrot: 0.00
+ENG  GMOSAIC 
+ENG  GMOSAIC Transforming image tmpimg3910wsd[SCI,3][1:2048,1:512] to image tmpchipsci3910ftd
+ENG  GMOSAIC     xshift: -0.43 yshift: -0.13 xmag: 1.00 ymag: 1.00 xrot: 360.00 yrot: 359.99
+ENG  GMOSAIC imcopy  tmpchipsci3910dtd  tmpimage23910ord.fits[1,append][1:2048,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpchipsci3910etd  tmpimage23910ord.fits[1,append][2116:4163,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpchipsci3910ftd  tmpimage23910ord.fits[1,append][4231:6278,1:512]  INDEF  0.
+STAT GMOSAIC All 1 images successfully mosaiced.
+VIS  GMOSAIC --------------------
+STAT GMOSAIC Exit status: SUCCESS
+STAT GMOSAIC Log closed at [Mon 21:50:47 01-Aug-2022]
+VIS  GMOSAIC -------------------------------------------------------------------
+VIS  GMOSAIC 
+EOE  GMOSAIC 2022-08-01T21:50:47
+GSREDUCE: returned from GMOSAIC.
+GSREDUCE: Image N20211009S0295.fits is LONGSLIT. Will not cut spectra into separate science extensions
+GSREDUCE: Calling GSAPPWAVE
+--------------------------------------------------------------------------------
+GSAPPWAVE -- Mon Aug  1 21:50:47 EDT 2022
+ 
+inimages = aN20211009S0295.fits
+Grating: R831+_G5302
+Grating central wavelength: 810. [nm]
+Resolution (0.5'' slit): 5007.7789541338
+Anamorphic factor: 1.4585135264181
+Grating tilt (header): 43.2013
+Calculated tilt: 43.201
+nm/pix = 0.038076222834346
+Filter1: OG515_G0306
+Filter2: open2-8
+Approximate available wavelength coverage based on grating,
+    filters and detector type is: 520. - 1080. [nm]
+
+Calibrating: [SCI,1]
+    Spectrum length in pixels: 6278
+    Approximate location of grating central 
+        wavelength in pixels: 3125.8684453767
+    Approximate wavelength coverage based on
+        spectrum length and calculated dispersion is:  520 - 1080 [nm]
+ 
+GSAPPWAVE done
+--------------------------------------------------------------------------------
+GSREDUCE: Updating PHU and cleaning up
+ 
+GSREDUCE done
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSREDUCE -- Mon Aug  1 21:50:48 EDT 2022
+
+Input image or list  = @stdFiles.txt
+Output image or list = 
+Output prefix        = s
+
+Overscan subtraction  fl_over      = yes
+Trim image            fl_trim      = yes
+Bias subtraction      fl_bias      = yes
+Cosmic ray cleaning   fl_gscrrej   = no
+New CR cleaning       fl_crspec    = no
+Dark subtraction      fl_dark      = no
+QE Correction         fl_qecorr    = no
+Flat field correction fl_flat      = no
+Mosaic the CCDs       fl_gmosaic   = yes
+Fixpix chip gaps      fl_fixpix    = no
+Cut MOS spectra       fl_cut       = yes
+Add titles to MOS     fl_title     = yes
+Oversize slit length  fl_oversize  = no
+Run gsappwave         fl_gsappwave = yes
+Run gsscatsub         fl_scatsub   = no
+VAR & DQ planes       fl_vardq     = no
+
+geointer = linear
+gradimage= 
+refimage = 
+bias     = MCbias.fits
+dark     = 
+qe_refim    = 
+qe_corrim   = 
+qe_corrpref = qecorr
+flatim   = 
+sci_ext  = SCI
+var_ext  = VAR
+dq_ext   = DQ
+key_mdf  = MASKNAME
+mdffile  = 
+mdfdir   = gmos$data/
+bpm      = 
+Chip gaps= gmos$data/chipgaps.dat
+
+Input image = N20210820S0020.fits; Output image = sN20210820S0020.fits
+GSREDUCE: Image N20210820S0020.fits has been QE corrected? no
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+GSREDUCE: Calling GIREDUCE to process image
+----------------------------------------------------------------------------
+GIREDUCE -- Mon Aug  1 21:50:48 EDT 2022
+
+
+Input files:
+N20210820S0020
+
+Output files:
+tmpimage13910mtd
+
+GIREDUCE: Image tmpimage13910mtd overscan subtracted
+GIREDUCE: Image tmpimage13910mtd trimmed
+
+Output image       Bias                 Flat               Dark       Scale 
+tmpimage13910mtd   MCbias               INDEF              INDEF       0.00
+GIREDUCE: Subtracted bias MCbias from tmpimage13910mtd
+GIREDUCE: multiplying image tmpimage13910mtd by gain
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2022-08-02T01:51:09
+File[extension]:              AMPNAME               GAIN   READNOISE
+tmpimage13910mtd.fits[SCI,1]: " "BI13-20-4k-1, 4""  1.675  4.06
+tmpimage13910mtd.fits[SCI,2]: " "BI13-20-4k-1, 3""  1.618  4.12
+tmpimage13910mtd.fits[SCI,3]: " "BI13-20-4k-1, 2""  1.620  4.12
+tmpimage13910mtd.fits[SCI,4]: " "BI13-20-4k-1, 1""  1.568  3.99
+tmpimage13910mtd.fits[SCI,5]: " "BI12-09-4k-2, 4""  1.690  4.20
+tmpimage13910mtd.fits[SCI,6]: " "BI12-09-4k-2, 3""  1.650  3.98
+tmpimage13910mtd.fits[SCI,7]: " "BI12-09-4k-2, 2""  1.633  3.88
+tmpimage13910mtd.fits[SCI,8]: " "BI12-09-4k-2, 1""  1.664  4.20
+tmpimage13910mtd.fits[SCI,9]: " "BI13-18-4k-2, 4""  1.604  4.04
+tmpimage13910mtd.fits[SCI,10]: " "BI13-18-4k-2, 3""  1.630  4.35
+tmpimage13910mtd.fits[SCI,11]: " "BI13-18-4k-2, 2""  1.587  4.02
+tmpimage13910mtd.fits[SCI,12]: " "BI13-18-4k-2, 1""  1.654  4.55
+
+GGAIN -- Finished: 2022-08-02T01:51:14
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+GIREDUCE: output counts in electrons
+
+GIREDUCE - Cleaning up -- Mon Aug  1 21:51:14 EDT 2022
+
+GIREDUCE -- Mon Aug  1 21:51:14 EDT 2022
+GIREDUCE exit status:  good.
+----------------------------------------------------------------------------
+GSREDUCE: Calling GMOSAIC
+BOE  GMOSAIC 2022-08-01T21:51:15
+VIS  GMOSAIC 
+VIS  GMOSAIC -------------------------------------------------------------------
+STAT GMOSAIC Log opened at [Mon 21:51:15 01-Aug-2022]
+VIS  GMOSAIC 
+VIS  GMOSAIC --------------------
+TSK  GMOSAIC Input Parameters:
+TSK  GMOSAIC      inimages       = tmpimage13910mtd.fits
+TSK  GMOSAIC      outimages      = tmpimage23910ntd.fits
+TSK  GMOSAIC      outpref        = 
+TSK  GMOSAIC      fl_paste       = no
+TSK  GMOSAIC      fl_vardq       = no
+TSK  GMOSAIC      fl_fixpix      = no
+TSK  GMOSAIC      fl_clean       = no
+TSK  GMOSAIC      fl_fulldq      = no
+TSK  GMOSAIC      bitflags       = all
+TSK  GMOSAIC      dqthresh       = 0.1
+TSK  GMOSAIC      geointer       = linear
+TSK  GMOSAIC      gap            = default
+TSK  GMOSAIC      bpmfile        = gmos$data/chipgaps.dat
+TSK  GMOSAIC      statsec        = default
+TSK  GMOSAIC      obsmode        = IMAGE
+TSK  GMOSAIC      sci_ext        = SCI
+TSK  GMOSAIC      var_ext        = VAR
+TSK  GMOSAIC      dq_ext         = DQ
+TSK  GMOSAIC      key_detsec     = DETSEC
+TSK  GMOSAIC      key_ccdsec     = CCDSEC
+TSK  GMOSAIC      key_datsec     = DATASEC
+TSK  GMOSAIC      key_ccdsum     = CCDSUM
+TSK  GMOSAIC      key_obsmode    = OBSMODE
+TSK  GMOSAIC      logfile        = ./Logs/ReductionsLog.txt
+TSK  GMOSAIC      verbose        = yes
+TSK  GMOSAIC      fl_real        = no
+VIS  GMOSAIC --------------------
+TSK  GMOSAIC Input: tmpimage13910mtd  Output: tmpimage23910ntd.fits
+TSK  GMOSAIC Found a MDF, copying for later use.
+ENG  GMOSAIC imcopy  tmpimage13910mtd[SCI,1][1:512,1:512]  tmptile3910zud[1,append][1:512,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage13910mtd[SCI,2][1:512,1:512]  tmptile3910zud[1,append][513:1024,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage13910mtd[SCI,3][1:512,1:512]  tmptile3910zud[1,append][1025:1536,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage13910mtd[SCI,4][1:512,1:512]  tmptile3910zud[1,append][1537:2048,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage13910mtd[SCI,5][1:512,1:512]  tmptile3910avd[1,append][1:512,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage13910mtd[SCI,6][1:512,1:512]  tmptile3910avd[1,append][513:1024,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage13910mtd[SCI,7][1:512,1:512]  tmptile3910avd[1,append][1025:1536,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage13910mtd[SCI,8][1:512,1:512]  tmptile3910avd[1,append][1537:2048,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage13910mtd[SCI,9][1:512,1:512]  tmptile3910bvd[1,append][1:512,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage13910mtd[SCI,10][1:512,1:512]  tmptile3910bvd[1,append][513:1024,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage13910mtd[SCI,11][1:512,1:512]  tmptile3910bvd[1,append][1025:1536,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage13910mtd[SCI,12][1:512,1:512]  tmptile3910bvd[1,append][1537:2048,1:512]  INDEF  0.
+ENG  GMOSAIC Setting rotation Xrot[1]=-0.002000, Yrot[1]=-0.008000
+ENG  GMOSAIC Setting rotation Xrot[2]= 0.000000, Yrot[2]= 0.000000
+ENG  GMOSAIC Setting rotation Xrot[3]=-0.002685, Yrot[3]=-0.010740
+ENG  GMOSAIC 
+ENG  GMOSAIC Transforming image tmpimg3910vud[SCI,1][1:2048,1:512] to image tmpchipsci3910cvd
+ENG  GMOSAIC     xshift: 0.99 yshift: 0.07 xmag: 1.00 ymag: 1.00 xrot: 360.00 yrot: 359.99
+ENG  GMOSAIC 
+ENG  GMOSAIC Transforming image tmpimg3910vud[SCI,2][1:2048,1:512] to image tmpchipsci3910dvd
+ENG  GMOSAIC     xshift: 0.00 yshift: 0.00 xmag: 1.00 ymag: 1.00 xrot: 0.00 yrot: 0.00
+ENG  GMOSAIC 
+ENG  GMOSAIC Transforming image tmpimg3910vud[SCI,3][1:2048,1:512] to image tmpchipsci3910evd
+ENG  GMOSAIC     xshift: -0.43 yshift: -0.13 xmag: 1.00 ymag: 1.00 xrot: 360.00 yrot: 359.99
+ENG  GMOSAIC imcopy  tmpchipsci3910cvd  tmpimage23910ntd.fits[1,append][1:2048,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpchipsci3910dvd  tmpimage23910ntd.fits[1,append][2116:4163,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpchipsci3910evd  tmpimage23910ntd.fits[1,append][4231:6278,1:512]  INDEF  0.
+STAT GMOSAIC All 1 images successfully mosaiced.
+VIS  GMOSAIC --------------------
+STAT GMOSAIC Exit status: SUCCESS
+STAT GMOSAIC Log closed at [Mon 21:51:17 01-Aug-2022]
+VIS  GMOSAIC -------------------------------------------------------------------
+VIS  GMOSAIC 
+EOE  GMOSAIC 2022-08-01T21:51:17
+GSREDUCE: returned from GMOSAIC.
+GSREDUCE: Image N20210820S0020.fits is LONGSLIT. Will not cut spectra into separate science extensions
+GSREDUCE: Calling GSAPPWAVE
+--------------------------------------------------------------------------------
+GSAPPWAVE -- Mon Aug  1 21:51:17 EDT 2022
+ 
+inimages = sN20210820S0020.fits
+Grating: R831+_G5302
+Grating central wavelength: 810. [nm]
+Resolution (0.5'' slit): 5007.7789541338
+Anamorphic factor: 1.4585135264181
+Grating tilt (header): 43.2013
+Calculated tilt: 43.201
+nm/pix = 0.038076222834346
+Filter1: OG515_G0306
+Filter2: open2-8
+Approximate available wavelength coverage based on grating,
+    filters and detector type is: 520. - 1080. [nm]
+
+Calibrating: [SCI,1]
+    Spectrum length in pixels: 6278
+    Approximate location of grating central 
+        wavelength in pixels: 3125.8684453767
+    Approximate wavelength coverage based on
+        spectrum length and calculated dispersion is:  520 - 1080 [nm]
+ 
+GSAPPWAVE done
+--------------------------------------------------------------------------------
+GSREDUCE: Updating PHU and cleaning up
+Input image = N20211028S0025.fits; Output image = sN20211028S0025.fits
+GSREDUCE: Image N20211028S0025.fits has been QE corrected? no
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+GSREDUCE: Calling GIREDUCE to process image
+----------------------------------------------------------------------------
+GIREDUCE -- Mon Aug  1 21:51:18 EDT 2022
+
+
+Input files:
+N20211028S0025
+
+Output files:
+tmpimage13910hvd
+
+GIREDUCE: Image tmpimage13910hvd overscan subtracted
+GIREDUCE: Image tmpimage13910hvd trimmed
+
+Output image       Bias                 Flat               Dark       Scale 
+tmpimage13910hvd   MCbias               INDEF              INDEF       0.00
+GIREDUCE: Subtracted bias MCbias from tmpimage13910hvd
+GIREDUCE: multiplying image tmpimage13910hvd by gain
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2022-08-02T01:51:38
+File[extension]:              AMPNAME               GAIN   READNOISE
+tmpimage13910hvd.fits[SCI,1]: " "BI13-20-4k-1, 4""  1.675  4.06
+tmpimage13910hvd.fits[SCI,2]: " "BI13-20-4k-1, 3""  1.618  4.12
+tmpimage13910hvd.fits[SCI,3]: " "BI13-20-4k-1, 2""  1.620  4.12
+tmpimage13910hvd.fits[SCI,4]: " "BI13-20-4k-1, 1""  1.568  3.99
+tmpimage13910hvd.fits[SCI,5]: " "BI12-09-4k-2, 4""  1.690  4.20
+tmpimage13910hvd.fits[SCI,6]: " "BI12-09-4k-2, 3""  1.650  3.98
+tmpimage13910hvd.fits[SCI,7]: " "BI12-09-4k-2, 2""  1.633  3.88
+tmpimage13910hvd.fits[SCI,8]: " "BI12-09-4k-2, 1""  1.664  4.20
+tmpimage13910hvd.fits[SCI,9]: " "BI13-18-4k-2, 4""  1.604  4.04
+tmpimage13910hvd.fits[SCI,10]: " "BI13-18-4k-2, 3""  1.630  4.35
+tmpimage13910hvd.fits[SCI,11]: " "BI13-18-4k-2, 2""  1.587  4.02
+tmpimage13910hvd.fits[SCI,12]: " "BI13-18-4k-2, 1""  1.654  4.55
+
+GGAIN -- Finished: 2022-08-02T01:51:43
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+GIREDUCE: output counts in electrons
+
+GIREDUCE - Cleaning up -- Mon Aug  1 21:51:43 EDT 2022
+
+GIREDUCE -- Mon Aug  1 21:51:43 EDT 2022
+GIREDUCE exit status:  good.
+----------------------------------------------------------------------------
+GSREDUCE: Calling GMOSAIC
+BOE  GMOSAIC 2022-08-01T21:51:43
+VIS  GMOSAIC 
+VIS  GMOSAIC -------------------------------------------------------------------
+STAT GMOSAIC Log opened at [Mon 21:51:43 01-Aug-2022]
+VIS  GMOSAIC 
+VIS  GMOSAIC --------------------
+TSK  GMOSAIC Input Parameters:
+TSK  GMOSAIC      inimages       = tmpimage13910hvd.fits
+TSK  GMOSAIC      outimages      = tmpimage23910ivd.fits
+TSK  GMOSAIC      outpref        = 
+TSK  GMOSAIC      fl_paste       = no
+TSK  GMOSAIC      fl_vardq       = no
+TSK  GMOSAIC      fl_fixpix      = no
+TSK  GMOSAIC      fl_clean       = no
+TSK  GMOSAIC      fl_fulldq      = no
+TSK  GMOSAIC      bitflags       = all
+TSK  GMOSAIC      dqthresh       = 0.1
+TSK  GMOSAIC      geointer       = linear
+TSK  GMOSAIC      gap            = default
+TSK  GMOSAIC      bpmfile        = gmos$data/chipgaps.dat
+TSK  GMOSAIC      statsec        = default
+TSK  GMOSAIC      obsmode        = IMAGE
+TSK  GMOSAIC      sci_ext        = SCI
+TSK  GMOSAIC      var_ext        = VAR
+TSK  GMOSAIC      dq_ext         = DQ
+TSK  GMOSAIC      key_detsec     = DETSEC
+TSK  GMOSAIC      key_ccdsec     = CCDSEC
+TSK  GMOSAIC      key_datsec     = DATASEC
+TSK  GMOSAIC      key_ccdsum     = CCDSUM
+TSK  GMOSAIC      key_obsmode    = OBSMODE
+TSK  GMOSAIC      logfile        = ./Logs/ReductionsLog.txt
+TSK  GMOSAIC      verbose        = yes
+TSK  GMOSAIC      fl_real        = no
+VIS  GMOSAIC --------------------
+TSK  GMOSAIC Input: tmpimage13910hvd  Output: tmpimage23910ivd.fits
+TSK  GMOSAIC Found a MDF, copying for later use.
+ENG  GMOSAIC imcopy  tmpimage13910hvd[SCI,1][1:512,1:512]  tmptile3910uwd[1,append][1:512,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage13910hvd[SCI,2][1:512,1:512]  tmptile3910uwd[1,append][513:1024,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage13910hvd[SCI,3][1:512,1:512]  tmptile3910uwd[1,append][1025:1536,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage13910hvd[SCI,4][1:512,1:512]  tmptile3910uwd[1,append][1537:2048,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage13910hvd[SCI,5][1:512,1:512]  tmptile3910vwd[1,append][1:512,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage13910hvd[SCI,6][1:512,1:512]  tmptile3910vwd[1,append][513:1024,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage13910hvd[SCI,7][1:512,1:512]  tmptile3910vwd[1,append][1025:1536,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage13910hvd[SCI,8][1:512,1:512]  tmptile3910vwd[1,append][1537:2048,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage13910hvd[SCI,9][1:512,1:512]  tmptile3910wwd[1,append][1:512,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage13910hvd[SCI,10][1:512,1:512]  tmptile3910wwd[1,append][513:1024,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage13910hvd[SCI,11][1:512,1:512]  tmptile3910wwd[1,append][1025:1536,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage13910hvd[SCI,12][1:512,1:512]  tmptile3910wwd[1,append][1537:2048,1:512]  INDEF  0.
+ENG  GMOSAIC Setting rotation Xrot[1]=-0.002000, Yrot[1]=-0.008000
+ENG  GMOSAIC Setting rotation Xrot[2]= 0.000000, Yrot[2]= 0.000000
+ENG  GMOSAIC Setting rotation Xrot[3]=-0.002685, Yrot[3]=-0.010740
+ENG  GMOSAIC 
+ENG  GMOSAIC Transforming image tmpimg3910qwd[SCI,1][1:2048,1:512] to image tmpchipsci3910xwd
+ENG  GMOSAIC     xshift: 0.99 yshift: 0.07 xmag: 1.00 ymag: 1.00 xrot: 360.00 yrot: 359.99
+ENG  GMOSAIC 
+ENG  GMOSAIC Transforming image tmpimg3910qwd[SCI,2][1:2048,1:512] to image tmpchipsci3910ywd
+ENG  GMOSAIC     xshift: 0.00 yshift: 0.00 xmag: 1.00 ymag: 1.00 xrot: 0.00 yrot: 0.00
+ENG  GMOSAIC 
+ENG  GMOSAIC Transforming image tmpimg3910qwd[SCI,3][1:2048,1:512] to image tmpchipsci3910zwd
+ENG  GMOSAIC     xshift: -0.43 yshift: -0.13 xmag: 1.00 ymag: 1.00 xrot: 360.00 yrot: 359.99
+ENG  GMOSAIC imcopy  tmpchipsci3910xwd  tmpimage23910ivd.fits[1,append][1:2048,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpchipsci3910ywd  tmpimage23910ivd.fits[1,append][2116:4163,1:512]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpchipsci3910zwd  tmpimage23910ivd.fits[1,append][4231:6278,1:512]  INDEF  0.
+STAT GMOSAIC All 1 images successfully mosaiced.
+VIS  GMOSAIC --------------------
+STAT GMOSAIC Exit status: SUCCESS
+STAT GMOSAIC Log closed at [Mon 21:51:46 01-Aug-2022]
+VIS  GMOSAIC -------------------------------------------------------------------
+VIS  GMOSAIC 
+EOE  GMOSAIC 2022-08-01T21:51:46
+GSREDUCE: returned from GMOSAIC.
+GSREDUCE: Image N20211028S0025.fits is LONGSLIT. Will not cut spectra into separate science extensions
+GSREDUCE: Calling GSAPPWAVE
+--------------------------------------------------------------------------------
+GSAPPWAVE -- Mon Aug  1 21:51:46 EDT 2022
+ 
+inimages = sN20211028S0025.fits
+Grating: R831+_G5302
+Grating central wavelength: 850. [nm]
+Resolution (0.5'' slit): 5369.4896180025
+Anamorphic factor: 1.4916275898628
+Grating tilt (header): 42.0651
+Calculated tilt: 42.065
+nm/pix = 0.038110957206656
+Filter1: RG610_G0307
+Filter2: open2-8
+Approximate available wavelength coverage based on grating,
+    filters and detector type is: 615. - 1080. [nm]
+
+Calibrating: [SCI,1]
+    Spectrum length in pixels: 6278
+    Approximate location of grating central 
+        wavelength in pixels: 3125.8804134914
+    Approximate wavelength coverage based on
+        spectrum length and calculated dispersion is:  615 - 1080 [nm]
+ 
+GSAPPWAVE done
+--------------------------------------------------------------------------------
+GSREDUCE: Updating PHU and cleaning up
+ 
+GSREDUCE done
+----------------------------------------------------------------------------

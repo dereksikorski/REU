@@ -1,0 +1,73 @@
+----------------------------------------------------------------------------
+GSCALIBRATE -- Wed Jul 20 20:36:18 EDT 2022
+
+input        = @stdFiles.txt
+output       = 
+outpref      = c
+sfunction    = sens
+fluxscale    = 1.00E15
+fl_ext       = yes
+fl_flux      = yes
+fl_vardq     = no
+sci_ext      = SCI
+ignoreaps    = yes
+fl_fnu       = no
+extinction   = ../raw/mk_extinct.dat
+key_airmass  = AIRMASS
+key_exptime  = EXPTIME
+observatory  = Gemini-North
+
+
+Input image : estsN20211028S0025.fits
+Output image : cestsN20211028S0025.fits
+Number of science extension (slits) : 1
+ 
+Slit #    1
+tmpsci3839fff: Hiltner600
+  Extinction correction applied
+  Flux calibration applied
+
+GSCALIBRATE done. Exit status good --Wed Jul 20 20:36:19 EDT 2022
+-------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSCALIBRATE -- Wed Jul 20 20:36:19 EDT 2022
+
+input        = stObject.fits
+output       = 
+outpref      = c
+sfunction    = sens
+fluxscale    = 1.00E15
+fl_ext       = yes
+fl_flux      = yes
+fl_vardq     = yes
+sci_ext      = SCI
+var_ext      = VAR
+dq_ext       = DQ
+ignoreaps    = yes
+fl_fnu       = no
+extinction   = ../raw/mk_extinct.dat
+key_airmass  = AIRMASS
+key_exptime  = EXPTIME
+observatory  = Gemini-North
+
+
+Input image : stObject.fits
+Output image : cstObject.fits
+Number of science extension (slits) : 1
+ 
+Slit #    1
+tmpsci3839qff: CQ 4472
+# CALIBRATE: Observatory parameters for Gemini North Observatory
+#	latitude = 19:49.42809
+stObject.fits[SCI,1]:   Extinction correction applied
+  Flux calibration applied
+tmpnoise3839tff: Combine sigma images for tmpcombout3839vbf
+# CALIBRATE: Observatory parameters for Gemini North Observatory
+#	latitude = 19:49.42809
+tmpnoise3839tff:   Extinction correction applied
+  Flux calibration applied
+
+GSCALIBRATE done. Exit status good --Wed Jul 20 20:36:26 EDT 2022
+-------------------------------------------------------------------------------
+

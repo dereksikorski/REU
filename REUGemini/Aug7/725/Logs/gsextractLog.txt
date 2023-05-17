@@ -1,0 +1,42 @@
+--------------------------------------------------------------------------------
+GSEXTRACT -- 2022-07-28T19:47:56
+ 
+inimages     = @stdFiles.txt
+outimages    = 
+outprefix    = e
+refimages    = 
+apwidth      = 1.
+fl_inter     = no
+find         = yes
+recenter     = yes
+trace        = yes
+coloffset    = 0
+tfunction    = spline3
+torder       = 9
+tnsum        = 20
+tstep        = 50
+weights      = variance
+clean        = no
+background   = none
+fl_vardq     = no
+sci_ext      = SCI
+key_ron      = RDNOISE
+key_gain     = GAIN
+ron          = 3.5
+gain         = 2.2
+ 
+
+Extracting spectrum stsN20210820S0017.fits[SCI,1]
+Jul 28 15:47: FIND - 1 apertures found for stsN20210820S0017[SCI,1]
+Jul 28 15:47: TRACE - Trace of aperture 1 in stsN20210820S0017[SCI,1] lost at column 4189.
+Jul 28 15:47: TRACE - Trace of aperture 1 in stsN20210820S0017[SCI,1] recovered at column 4239.
+Jul 28 15:47: TRACE - Trace of aperture 1 in stsN20210820S0017[SCI,1] lost at column 2051.
+Jul 28 15:47: TRACE - Trace of aperture 1 in stsN20210820S0017[SCI,1] recovered at column 2001.
+Jul 28 15:47: TRACE - 1 apertures traced in stsN20210820S0017[SCI,1].
+Jul 28 15:47: DATABASE - 1 apertures for stsN20210820S0017[SCI,1] written to database
+Jul 28 15:47: EXTRACT: Aperture 1 variance spectrum bias factor is 0.9993973
+Jul 28 15:47: EXTRACT - Aperture 1 from stsN20210820S0017[SCI,1] --> tmpspec5217wph
+ 
+GSEXTRACT: Done -- 2022-07-28T19:47:57
+GSEXTRACT: Exit status GOOD
+--------------------------------------------------------------------------------

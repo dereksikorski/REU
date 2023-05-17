@@ -1,0 +1,69 @@
+----------------------------------------------------------------------------
+GSSKYSUB -- Wed Jul 20 20:36:05 EDT 2022
+
+input        = tObject.fits
+output       = 
+outpref      = s
+fl_vardq     = yes
+fl_oversize  = no
+sci_ext      = SCI
+var_ext      = VAR
+dq_ext       = DQ
+long_sample  = 10:200,300:500
+mos_sample   = 0.9
+mosobjsize   = 1.
+naverage     = 1
+function     = chebyshev
+order        = 1
+low_reject   = 2.5
+high_reject  = 2.5
+niterate     = 2
+grow         = 0.
+fl_inter     = no
+
+ 
+GSSKYSUB: Sky-subtraction started
+ 
+  Input image     = tObject.fits
+  Output image    = stObject.fits
+  Observing mode  = LONGSLIT
+  Number of slits = 1
+  Slit #1 ; background sample = [10:200,300:500]
+         RMS of the fit (for VAR plane propagation) = 1.838716
+
+GSSKYSUB done. Exit status good -- Wed Jul 20 20:36:11 EDT 2022
+-------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSSKYSUB -- Wed Jul 20 20:36:11 EDT 2022
+
+input        = @stdFiles.txt
+output       = 
+outpref      = s
+fl_vardq     = no
+fl_oversize  = no
+sci_ext      = SCI
+long_sample  = 10:200,300:500
+mos_sample   = 0.9
+mosobjsize   = 1.
+naverage     = 1
+function     = chebyshev
+order        = 1
+low_reject   = 2.5
+high_reject  = 2.5
+niterate     = 2
+grow         = 0.
+fl_inter     = no
+
+ 
+GSSKYSUB: Sky-subtraction started
+ 
+  Input image     = tsN20211028S0025.fits
+  Output image    = stsN20211028S0025.fits
+  Observing mode  = LONGSLIT
+  Number of slits = 1
+  Slit #1 ; background sample = [10:200,300:500]
+
+GSSKYSUB done. Exit status good -- Wed Jul 20 20:36:17 EDT 2022
+-------------------------------------------------------------------------------
+

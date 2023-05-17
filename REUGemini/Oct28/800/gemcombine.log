@@ -1,0 +1,34 @@
+--------------------------------------------------------------------------------
+GEMCOMBINE -- Tue Aug  2 02:48:40 EDT 2022
+ 
+GEMCOMBINE: input = @objFiles.txt
+GEMCOMBINE: output = Object.fits
+GEMCOMBINE: title = 
+GEMCOMBINE: bpmfile = 
+GEMCOMBINE: sci_ext = SCI
+GEMCOMBINE: var_ext = VAR
+GEMCOMBINE: dq_ext = DQ
+ 
+WARNING - GEMCOMBINE: five or less images to combine.
+
+Aug  2  2:48: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 1
+  lsigma = 3., hsigma = 3.
+  blank = 0.
+  statsec = Aug  2  2:48
+                Images 
+  oN20211028S0019.fits[SCI,1]
+  oN20211028S0020.fits[SCI,1]
+
+  Output image = tmpcombout3910bji, ncombine = 2
+  Number rejected mask = tmpcombdq3910cji.pl
+  Sigma image = tmpcombsig3910dji
+ 
+GEMCOMBINE: Propagating DQ values
+GEMCOMBINE: Attaching the MDF
+ 
+GEMCOMBINE -- Finished: Tue Aug  2 02:48:42 EDT 2022
+ 
+GEMCOMBINE -- Exit status: GOOD
+--------------------------------------------------------------------------------

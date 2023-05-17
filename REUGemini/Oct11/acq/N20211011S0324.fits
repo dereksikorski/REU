@@ -1,0 +1,6207 @@
+SIMPLE  =                    T / file does conform to FITS standard             BITPIX  =                   16 / number of bits per data pixel                  NAXIS   =                    0 / number of data axes                            EXTEND  =                    T / FITS dataset may contain extensions            COMMENT   FITS (Flexible Image Transport System) format is defined in 'AstronomyCOMMENT   and Astrophysics', volume 376, page 359; bibcode: 2001A&A...376..359H INSTRUME= 'GMOS-N  '           / Instrument used to acquire data                SEQEXVER= '20210819-e79f3bea'  / Seqexec version                                OBJECT  = 'CQ 4472 '           / Object Name                                    OBSTYPE = 'OBJECT  '           / Observation type                               OBSCLASS= 'acq     '           / Observe class                                  GEMPRGID= 'GN-2021B-FT-201'    / Gemini programme ID                            OBSID   = 'GN-2021B-FT-201-18' / Observation ID / Data label                    DATALAB = 'GN-2021B-FT-201-18-003' / DHS data label                             OBSERVER= 'Theodore Rudyk'     / Observer                                       OBSERVAT= 'Gemini-North'       / Name of telescope (Gemini-North|Gemini-South)  TELESCOP= 'Gemini-North'       / Gemini-North                                   PARALLAX=                   0. / Parallax of Target                             RADVEL  =                   0. / Heliocentric Radial Velocity                   EPOCH   =                2000. / Epoch for Target coordinates                   EQUINOX =                2000. / Equinox of coordinate system                   TRKEQUIN=                2000. / Tracking equinox                               SSA     = 'S.Stewart'          / SSA                                            RA      =     25.1415291666667 / Right Ascension                                DEC     =               0.0415 / Declination of Target                          ELEVATIO=     66.0738708333333 / Current Elevation                              AZIMUTH =    -143.652216666667 / Current Azimuth                                CRPA    =    -108.714592125464 / Current Cass Rotator Position Angle            HA      = '+00:55:31.94'       / Telescope hour angle                           LT      = '01:37:58.5'         / Local time at start of observation             TRKFRAME= 'FK5     '           / Tracking co-ordinate                           DECTRACK=                   0. / Differential tracking rate Dec                 TRKEPOCH=     59498.4789506354 / Differential tracking reference epoch          RATRACK =                   0. / Differential tracking rate RA                  FRAME   = 'FK5     '           / Target coordinate system                       PMDEC   =                   0. / Proper Motion in Declination                   PMRA    =                   0. / Proper Motion in RA                            WAVELENG=                6300. / Effective Target Wavelength                    RAWIQ   = '70-percentile'      / Raw Image Quality                              RAWCC   = '70-percentile'      / Raw Cloud Cover                                RAWWV   = 'UNKNOWN '           / Raw Water Vapour/Transparency                  RAWBG   = '20-percentile'                                                       RAWPIREQ= 'YES     '                                                            RAWGEMQA= 'USABLE  '                                                            CGUIDMOD= 'Basic   '           / Carousel Mode                                  UT      = '11:37:59.0'         / UT at observation start                        DATE    = '2021-10-11'         / UT Date of observation (YYYY-MM-DD)            M2BAFFLE= 'VISIBLE '           / Position of M2 baffle                          M2CENBAF= 'CLOSED  '           / Position of M2 central hole baffle             ST      = '02:37:13.7'         / Sidereal time at the start of the exposure     XOFFSET =    0.197122969742744 / Telescope offset in x in arcsec                YOFFSET =   -0.303124344746507 / Telescope offset in y in arcsec                POFFSET =    0.196699536300906 / Telescope offset in p in arcsec                QOFFSET =   -0.303399284767132 / Telescope offset in q in arcsec                RAOFFSET=    0.343970790991713 / Telescope offset in RA in arcsec               DECOFFSE=    0.111471648963912 / Telescope offset in DEC in arcsec              RATRGOFF=                   0. / Target offset in RA in arcsec                  DECTRGOF=                   0. / Target offset in DEC in arcsec                 PA      =                 285. / Sky Position Angle at start of exposure        IAA     =               179.92 / Instrument Alignment Angle                     SFRT2   =      178.84498383212 / Science fold rotation angle (degrees)          SFTILT  =              44.9415 / Science fold tilt angle (degrees)              SFLINEAR=                  -2. / Science fold linear position (mm)              AOFOLD  = 'park-pos.'          / AO Pick-Off Mirror Position                    PWFS1_ST= 'parked  '           / PWFS1 probe state (frozen,guiding,parked)      PWFS2_ST= 'parked  '           / PWFS2 probe state (frozen,guiding,parked)      OIWFS_ST= 'guiding '           / OIWFS probe state (frozen,guiding,parked)      AOWFS_ST= 'parked  '           / AOWFS probe state (frozen,guiding,parked)      SCIBAND =                    2 / Science Ranking Band                           REQIQ   = '85-percentile'      / Requested Image Quality                        REQCC   = '70-percentile'      / Requested Cloud Cover                          REQBG   = '80-percentile'      / Requested Background                           REQWV   = 'Any     '           / Requested Water Vapour                         NUMREQTW=                    0 / Number of Requested Timing Window REQTW entriesOIARA   =     25.0776041666667 / RA of OIWFS guide star                         OIADEC  =   0.0231555555555556 / Declination of OIWFS guide star                OIARV   =                   0. / OIWFS Heliocentric Radial Velocity             OIAWAVEL=                6500. / OIWFS Effective Target Wavelength              OIAEPOCH=                2000. / Epoch for OIWFS guide star coordinates         OIAEQUIN=                2000. / Equinox for OIWFS guide star coordinates       OIAFRAME= 'FK5     '           / OIWFS Target co-ordinate system                OIAOBJEC= '451-002074'         / Object Name for OIWFS, Chop A                  OIAPMDEC=  -0.0521000000001022 / OIWFS Proper Motion in Declination             OIAPMRA = 0.000673333388071333 / OIWFS Proper Motion in RA                      OIAPARAL=                   0. / OIWFS Parallax of Target                       OIFREQ  =                 200. / OIWFS sampling frequency (Hz)                  HUMIDITY=                 22.5 / The Relative Humidity (fraction, 0..101).      TAMBIENT=                -0.51 / The ambient temp (C).                          TAMBIEN2=               31.082 / The ambient temp (F).                          PRESSURE=     462.930503996181 / The atmospheric pressure (mm Hg).              PRESSUR2=               61719. / The atmospheric pressure (Pa).                 DEWPOINT=    -19.5502031260482 / The dew point (C).                             DEWPOIN2=    -3.19036562688669 / The dew point (F).                             WINDSPEE=              9.00277 / The wind speed (m/s).                          WINDSPE2=     20.1386229420186 / The wind speed (mph).                          WINDDIRE=                42.28 / The wind direction (degrees).                  INPORT  =                    5 / Number of ISS port where GMOS was located      GMOSCC  = 'GMOS-N (V7-13)'     / GMOS components controller s/w                 TIME-OBS= '11:37:59.0'         / Time of observation                            PREIMAGE=                    F / MOS pre-imaging                                CONID   = 'ARC-III '           / Detector controller ID                         DETECTOR= 'GMOS-N + Hamamatsu' / Detector name                                  DEWAR   = 'Lab Cryostat'       / Dewar name                                     ARRYTMPD=             -102.706 / Array temperature D (Celsius)                  ARRYTMPA=              -96.931 / Array temperature A (Celsius)                  ARRYTMPB=              -96.569 / Array temperature B (Celsius)                  ARRYTMPC=              -95.761 / Array temperature C (Celsius)                  ARRYTSET=               -102.7 / Array temperature Setpoint (Celsius)           DETSIZE = '[1:6144,1:4224]'    / Detector size                                  NCCDS   =                    1 / Number of CCD chips                            NAMPS   =                    4 / Number of amplifiers                           SHUTTER = 'OPEN    '           / Shutter state during observation               AMPINTEG=                 4000 / Amplifier integration time                     OBSEPOCH=     2021.77682336744 / Epoch at start of exposure                     TIMESYS = 'UTC     '           / Time system used                               DATE-OBS= '2021-10-11'         / UT Date of observation (YYYY-MM-DD)            GMOSTHT = 'WARNING '           / Shutter health                                 NSUBEXP =                    1 / Number of sub exposures                        UTSTART = '11:38:04.3834'      / UT at observation start                        UTEND   = '11:39:04.3834'      / UT at observation end                          EXPTIME =                  60. / Exposure time in seconds                       ELAPSED =                  60. / Elapsed observation time in seconds            DARKTIME=     69.5833439826965 / Dark current integration in seconds            MASKID  =             10005354 / Mask/IFU barcode                               MASKNAME= '1.0arcsec'          / Mask name                                      MASKTYP =                    1 / Mask/IFU type (0=none/-1=IFU/1=mask)           MASKLOC =                    0 / Mask/IFU location (-1=unknown/0=FP/1=cassette) FILTER1 = 'open1-6 '           / Filter 1 name                                  FILTID1 =             20000018 / Filter 1 barcode                               FILTER2 = 'r_G0303 '           / Filter 2 name                                  FILTID2 =             20000003 / Filter 2 barcode                               GRATING = 'MIRROR  '           / Grating name                                   GRATID  =             30000008 / Grating barcode                                GRWLEN  =                   0. / Grating wavelength at slit (nm)                CENTWAVE=                   0. / Central wavelength (nm)                        GRORDER =                    0 / Grating order                                  GRTILT  =                  65. / Grating tilt angle (degrees)                   GRSTEP  =     6911.36533333333 / Requested grating motor step position          DTAX    =                 84.4 / Detector translation X position (microns)      DTAY    =                76.16 / Detector translation Y position (microns)      DTAZ    =                1736. / Detector translation Z position (microns)      DTAZST  =                1736. / Focus at observation start (microns)           DTAZEN  =                1736. / Focus at observation end (microns)             DTAZME  =                1736. / Mean focus during observation (microns)        DTMODE  = 'FOLLOW-XY'          / Detector translation stage mode                ADCMODE = '        '           / ADC mode                                       GMOSDC  = 'gmosdc-6.10'        / GMOS detector controller s/w                   DETTYPE = 'S10892-N'           / Detector array type                            DETID   = 'BI13-20-4k-1,BI12-09-4k-2,BI13-18-4k-2' / Chip IDs                   EXPOSURE=                  60. / Requested exposure time in seconds             ADCUSED =                    1 / ADC used? (0=yes/1=no)                         DETNROI =                    1 / No. regions of interest                        ADCENPST=                   0. / Start entrance prism angle of ADC              ADCENPEN=                   0. / End entrance prism angle of ADC                ADCENPME=                   0. / Mean entrance prism angle of ADC               ADCEXPST=                   0. / Start exit prism angle of ADC                  ADCEXPEN=                   0. / End exit prism angle of ADC                    ADCEXPME=                   0. / Mean exit prism angle of ADC                   ADCWLEN1=                   0. / Lower wavelength for ADC calculation           ADCWLEN2=                   0. / Upper wavelength for ADC calculation           DETRO1X =                 2923 / ROI 1 X start                                  DETRO1XS=                  300 / ROI 1 X size                                   DETRO1Y =                 1987 / ROI 1 Y start                                  DETRO1YS=                  308 / ROI 1 Y size                                   AIRMASS =     1.09454325338667 / Mean airmass for the observation               AMSTART =     1.09381039207582 / Airmass at start of exposure                   AMEND   =     1.09534537396341 / Airmass at end of exposure                     PROP_MD =                    F / Proprietary Metadata                           RELEASE = '2022-04-11'         / End of proprietary period YYY-MM-DD                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             XTENSION= 'IMAGE   '           / IMAGE extension                                BITPIX  =                   16 / number of bits per data pixel                  NAXIS   =                    2 / number of data axes                            NAXIS1  =                  182 / length of data axis 1                          NAXIS2  =                  308 / length of data axis 2                          PCOUNT  =                    0 / required keyword; must = 0                     GCOUNT  =                    1 / required keyword; must = 1                     BZERO   =                32768 / offset data range to that of unsigned short    BSCALE  =                    1 / default scaling factor                         INHERIT =                    F / inherit the primary header                     DATATYPE= 'Intensity'          / Type of Data                                   CTYPE1  = 'RA---TAN'           / R.A. in tangent plane projection               CRPIX1  =     542.093883518858 / Ref pix of axis 1                              CRVAL1  =      25.141624729946 / RA at Ref pix in decimal degrees               CTYPE2  = 'DEC--TAN'           / DEC. in tangent plane projection               CRPIX2  =     150.056897211601 / Ref pix of axis 2                              CRVAL2  =   0.0415309897378817 / DEC at Ref pix in decimal degrees              CD1_1   = -5.81319334962287E-06 / WCS matrix element 1 1                        CD1_2   =  2.1722178999541E-05 / WCS matrix element 1 2                         CD2_1   = -2.17202122865317E-05 / WCS matrix element 2 1                        CD2_2   = -5.81182582170078E-06 / WCS matrix element 2 2                        RADECSYS= 'FK5     '           / R.A./DEC. coordinate system reference          EQUINOX =                2000. / Equinox of coordinate system                   MJD-OBS =     59498.4855168918 / MJD of start of obseration                     CCDNAME = 'BI12-09-4k-2'       / CCD chip name(s)                               AMPNAME = 'BI12-09-4k-2, 3'    / Amplifier name(s)                              GAIN    =     1.97000002861023 / Amplifier gain                                 RDNOISE =     6.34000015258789 / Readout noise                                  CCDSIZE = '[1:2048,1:4224]'    / CCD chip size                                  CCDSUM  = '1 1     '           / CCD sum                                        CCDSEC  = '[875:1024,1987:2294]' / CCD section(s)                               DETSEC  = '[2923:3072,1987:2294]' / Detector section(s)                         DATASEC = '[33:182,1:308]'     / Data section(s)                                BIASSEC = '[1:32,1:308]'       / Bias section(s)                                FRMNAME = 'FRAME-0 ROI-0, CHIP-g<2>, AMP-3<5>' / Frame name                     FRAMEID = '0       '           / Frame Id                                       DATATYP = '        '           / Type of data frame                             EXTVER  =                   -1 / Number assigned to a FITS extension.           END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             ‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚J‚‚~‚ˆ‚“‚Œ‚Œ‚†‚ƒ‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚@‚‹‚…‚Œ‚y‚„‚‡‚s‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚	‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚C‚‚‚€‚…‚{‚‡‚‰‚u‚z‚	‚‚‚‚‚‚‚‚‚	‚‚
+‚‚‚‚‚‚	‚‚‚‚‚‚
+‚
+‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚	‚‚‚
+‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚
+‚‚‚	‚
+‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚	‚‚‚‚‚	‚‚‚‚‚‚‚
+‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚
+‚‚
+‚‚‚‚‚‚	‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚
+‚‚
+‚‚‚‚‚‚‚‚	‚‚
+‚‚‚
+‚
+‚‚L‚‚~‚‡‚“‚z‚€‚Œ‚w‚
+‚‚‚	‚‚‚‚‚	‚
+‚
+‚‚	‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚	‚‚‚
+‚‚‚‚
+‚‚‚‚‚	‚‚ÿ‚‚
+‚
+‚	‚‚‚
+‚‚‚‚‚
+‚‚‚	‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚	‚‚
+‚‚‚‚‚‚‚‚
+‚‚	‚‚‚‚‚‚‚
+‚
+‚	‚‚‚‚	‚‚‚‚
+‚	‚‚‚‚‚‚‚	‚‚‚‚‚
+‚
+‚C‚Š‚{‚…‚‰‚‚|‚‚Ž‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚
+‚	‚‚‚‚‚‚‚‚‚‚
+‚‚
+‚	‚‚‚‚‚‚‚‚‚‚‚
+‚‚
+‚‚‚	‚
+‚‚‚‚‚
+‚	‚‚‚	‚‚‚‚	‚‚‚‚‚‚‚	‚‚‚	‚‚‚‚‚‚‚
+‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚	‚	‚‚‚‚‚‚	‚‚‚‚‚	‚‚‚‚
+‚‚‚‚‚‚‚	‚
+‚‚‚‚‚
+‚‚‚‚‚‚‚‚E‚y‚Š‚w‚y‚|‚„‚„‚‡‚‚‚	‚ ‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚	‚‚‚	‚‚
+‚ ‚‚‚‚‚
+‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚
+‚‚
+‚	‚ý‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚
+‚‚‚
+‚	‚‚
+‚‚	‚	‚‚‚‚‚‚
+‚ ‚
+‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚
+‚‚ÿ‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚
+‚‚‚‚B‚€‚ƒ‚…‚ˆ‚{‚ƒ‚v‚p‚‚‚‚‚‚‚‚
+ý‚‚ ‚‚‚‚‚ü‚‚ ‚‚‚‚‚‚‚‚‚‚ ‚	‚‚‚‚‚
+‚‚‚‚ ‚	‚‚‚‚‚‚‚ü‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚ÿ‚‚
+‚
+þ‚	‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚	‚‚‚	‚‚
+‚	‚‚‚‚‚
+‚
+‚‚‚‚‚‚
+‚‚‚	‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚ ‚
+‚	‚‚‚‚‚‚‚ý‚‚‚
+‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚
+‚@‚~‚|‚…‚~‚|‚}‚x‚i‚‚‚ü‚‚‚‚ ‚ü‚ÿ‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚ü‚‚ ‚‚‚‚ÿ‚‚‚‚‚‚ ‚‚‚‚‚‚‚‚‚‚	‚ þ‚	ÿ‚‚‚‚‚‚‚‚‚‚ ‚‚‚ ‚‚	ÿ‚‚‚‚‚‚‚ÿ‚‚‚	ü‚‚ ‚‚‚‚‚ÿ‚‚‚ü‚‚ÿþ‚	‚‚‚‚þ‚‚‚‚ÿ‚‚‚‚	‚‚‚‚‚	‚‚‚‚‚‚‚ÿ‚‚‚‚‚‚‚ ‚û‚	‚‚‚‚ þ‚‚‚‚‚þ‚‚
+‚‚ ‚þ‚‚‚ÿ‚‚‚‚ ‚þ‚‚‚‚‚ý‚‚=‚x‚l‚t‚u‚h‚v‚r‚l‚‚‚‚‚‚‚‚‚‚‚‚‚‚ÿ‚‚‚üþÿ‚‚þþ‚‚ ‚‚ ‚‚‚‚‚‚ ‚‚‚‚‚ÿ‚‚‚	‚‚‚ ‚þ‚	‚‚‚‚‚‚ ‚‚‚‚‚‚‚ ý‚‚‚ ‚‚‚‚‚‚
+‚‚‚‚‚ ‚‚‚‚ ‚‚‚‚‚‚‚
+þ‚þ‚‚‚‚‚ý‚‚‚‚‚‚ ‚ü‚‚ ‚‚‚‚þþ‚‚‚
+‚‚ ‚‚‚‚
+ÿ‚‚‚‚ ‚‚	‚‚‚‚‚‚	‚‚‚‚‚‚‚‚ ‚‚þ‚þþÿ‚‚‚ÿ‚‚‚‚þ‚‚ý‚ý‚‚‚‚‚ ‚‚‚‚8‚‚‚‚w‚‚€‚}‚t‚{‚	‚ÿÿ‚ ‚‚ú‚ý‚ ‚‚‚üþ‚‚‚û‚þ‚ ‚‚ø‚ ÿþþ‚‚ ‚‚‚‚‚ þ‚þ‚‚ ‚ü‚‚‚ý‚‚‚‚ ‚þ‚‚‚‚‚ ‚‚‚‚	‚‚‚‚‚‚‚‚‚‚üþ‚‚‚‚‚ü‚‚ÿ‚‚ ÿ‚‚ ‚‚‚‚‚‚‚ý‚‚‚ÿ‚‚‚ÿ‚ÿ‚ þ‚þ‚ û‚
+‚‚‚‚‚‚	‚‚‚‚
+‚‚þ‚‚ ‚	‚‚
+‚ ‚þ‚‚‚ ‚‚ý‚ú‚‚‚‚ýü‚‚‚‚ÿ‚ ‚‚‚‚‚‚ ÿþ‚‚‚ ‚‚‚ ÿ‚‚‚‚3‚v‚€‚t‚‚‚|‚{‚m‚ý‚øú‚ ‚û‚‚ ýü‚‚ÿÿ‚‚‚‚‚þÿ‚‚ýû‚þ‚‚ ‚ ‚ ‚þ‚‚‚ü‚ ýÿ‚‚ ü‚‚‚	‚ ‚þ‚‚‚ü‚û‚ÿ‚‚‚ÿ‚ý‚‚‚
+‚‚ÿû‚‚ü‚‚‚ ‚‚‚‚û‚‚‚‚‚‚ý‚‚‚‚ ‚‚þü‚‚ÿ‚ ‚‚‚ü‚ÿ‚‚‚‚‚‚‚‚‚‚‚ü‚‚ ‚ÿ‚ ‚‚úý‚ ‚‚ ‚ üþþ‚ÿ‚öÿ‚‚ÿ‚‚þ‚‚þþ‚	‚ýýû‚‚ý‚ þ‚‚‚‚ ü‚ÿ‚‚ ‚‚‚
+‚7‚v‚l‚p‚€‚x‚q‚‚l‚‚‚‚ ÿÿ‚‚‚‚ü‚þ‚ ‚‚ûû‚‚÷þý‚ÿüü‚ù‚‚ ‚ þ‚‚‚‚‚ ‚	ù‚‚‚‚ ‚ú‚ÿ‚ÿÿÿ‚‚ÿö‚‚‚üý‚ ‚ÿ‚‚ ÿþ‚‚ üû‚ûþþ‚‚‚‚‚ú‚ ‚‚‚ û‚ ‚ý‚‚ýý‚ ‚	þþ‚‚ ‚‚þ‚þ‚‚‚ÿÿþ‚ù‚ü‚ûÿÿ‚‚þÿþý‚‚
+‚ú‚ýþ‚‚‚‚ÿ‚‚‚ÿ‚‚ÿÿ‚ú‚‚ûüû‚ ‚ú‚ þ‚ õ‚ ÿ‚ ý‚‚ ‚
+úü‚‚ÿ‚ý‚5‚m‚z‚u‚c‚z‚n‚u‚t‚ù‚ ü‚üÿû‚ûý‚ üþÿü‚ü‚ü‚ùþ‚‚ÿ‚øýø‚‚ ‚þþ‚ ÿ‚üýÿ‚‚ ýü‚ ÷‚	‚‚þÿ‚‚üû‚ ‚‚ ‚úýû‚	ü‚úý‚‚þ‚ÿ‚‚ýü‚þ‚	ý‚ û‚‚‚‚ÿø‚‚ ‚‚ ‚‚ ÿüýý‚‚þÿøþ‚‚ ÿ‚‚‚ü‚‚‚‚þ‚‚‚‚‚ úý‚þ‚‚‚úþü‚ ‚‚ÿý÷‚þûü‚þöù‚û‚ ÷‚‚‚ý‚ù‚ý‚ûû‚‚ÿ‚ þþû‚ ‚‚ú‚‚;‚…‚…‚|‚{‚‚r‚v‚ÿ‚ø÷ù‚ÿ‚ø‚ý‚ø‚‚ þúþùÿü‚ÿüùûø‚þ‚öùÿ‚ù‚ÿ‚ ‚ýú‚ÿü‚‚ ‚ ú‚ÿ‚‚þÿ‚ ù‚‚‚ýùú‚ýþÿÿþ‚ þüÿ‚ÿ‚ýþ‚ þý‚ûüûüû‚ü‚ý‚ ú‚ ‚‚ÿÿý‚ü‚ÿýþ‚û‚þ‚‚þ‚ ü‚‚	ýÿùÿ‚ûþÿúþüþþù‚þÿ‚ ÿüþþ‚þ‚ ýþüüý‚ÿýúý‚‚‚ þú‚ü‚û‚‚ ‚ù‚û‚ ÿ‚þ‚ þ‚‚‚9‚i‚y‚r‚‚‚|‚w‚t‚v‚ú‚ÿÿþ‚‚ þøþ‚ ‚ûüû‚þ‚ø‚ý‚‚ ‚ú‚‚‚ ûý‚ ‚‚‚‚‚ÿ‚‚üöû‚‚ ÿüþÿÿ‚ ‚ ûüüý‚ú‚ ‚ÿ‚ ú‚øÿ‚þÿ‚ý‚þÿüÿúþ÷ýú‚ûüûû‚ ‚ü‚þü‚‚‚ ‚ÿ‚þÿÿ‚ ÿ‚ ‚ þ÷‚‚ ÿøþÿ‚ûüü‚ ‚ þÿþü‚ûÿûÿÿü÷ÿþþ‚‚ ýù‚ü‚ÿ÷ùþýþüøý‚‚ þü‚ÿ‚‚‚üý‚‚ û‚ü‚û‚ýÿõ‚ ‚.‚€‚o‚}‚c‚c‚u‚w‚rýý‚ý‚ ‚ öþ‚‚ùþþ‚÷ÿþþûþ‚ÿú‚ü‚û‚øûýþöþûüþ‚úýù‚ûÿû‚ ‚ ÿù‚‚‚‚ þü‚‚‚ úù‚ ýþþöÿ‚ ý‚ú‚ þ‚ûýþÿþûùþ‚ýýþú‚ù‚û‚ ÿø‚‚ ø‚ñü‚ÿõ‚ ø‚úÿûý‚ÿ‚‚üÿüü‚ÿÿýøÿû‚þ‚ÿúý‚üÿúý‚ üÿÿúýýü‚ ÷‚ûþ‚ ÷‚þúÿúù‚‚ÿþõùþ‚üôýùúþ÷ÿ‚‚8‚z‚…‚v‚z‚x‚‚d‚rüûøþþüûü‚ùû‚‚þü÷ûùþýþóýýÿô‚ üû‚ ü÷þþúûÿ÷‚ý‚ üþýüüþ‚ ‚ùýûû‚ ‚ý‚ ù‚‚ü‚ ÿÿÿûþû‚‚‚ üúýÿ‚üýù‚ÿÿü‚ üøõþüýþüùÿý‚úýþ‚‚‚ÿ‚ú‚ ø‚ üü÷‚ ô‚ ùÿüÿüþô‚ûýöû‚ ÿø‚õý‚‚ û‚ ü‚ÿýúýþýûÿ÷‚üøýüþ‚ üÿý‚ùþúûüÿ‚þþô‚ù‚ü‚ ‚2‚p‚€‚t‚p‚~‚u‚|‚o‚ùýùû‚óûúúûþùýùûüûüþ‚ûø‚ü‚ ý‚‚ ýô‚úýöýþ‚öùù‚ýýü‚ þ‚ùü‚þû‚ ‚ü‚ þ‚ ‚ý‚ ÿ‚‚ýü‚‚ øùùûÿþüùù‚ ‚ ‚üøüþ÷‚ ÿþúþúþÿ‚ûþüþ‚þõÿô‚þúûûÿþúýÿþýýû‚ø‚ùÿøû‚‚ø‚ö‚ ÷‚õüùýü‚ ÷ü‚ úøÿöý‚ûòùý‚ùúû‚ýÿ‚ýÿýü‚ ôùþùùûüþ‚.‚s‚k‚r‚~‚p‚„‚t‚dÿýÿùúÿùþ‚ýú‚þýþ‚ ‚ úþ‚ýùûú‚øúýÿý‚÷ú‚‚úöô‚‚ýûýþÿû‚ þû‚ÿ÷üÿ‚
+ûÿúøþÿüüôüúûù‚ ûõû‚þüÿù‚ýýýùü‚ ùøûýýôý‚ýüõüúü‚ýõüø‚ü‚ý‚øÿû‚÷‚ ‚ üþ‚ ø‚ þûöøóýúùóüûûøûúþ‚ÿúúý‚ úüùüþ‚üýýÿýÿû‚‚ þúùüþû‚ ùýúú‚ üùûþ‚/‚t‚w‚u‚i‚„‚j‚|‚fûø‚ úú‚ öù‚ûõúüýûøýüþ‚ ü‚÷ÿýþýÿúùùú‚ÿ÷ÿø‚üÿôûü÷ô‚ ô‚úþú‚þ‚üùý‚þýúüú‚ ýþü÷‚ÿüúúþûþ‚ÿùýü÷ûý‚üùüûûü‚ú÷‚‚‚õúüüõ‚ ùûýþóôù‚ýúÿý‚ ‚ ÿüö‚‚ úûøû‚úÿöýù‚‚ ‚ øþû‚üôúõôþðþøúöø÷ÿúùöýÿý‚þø‚ þ‚ ûùþø‚þ‚ü‚5‚t‚n‚u‚n‚z‚i‚j‚e÷üøøùùóøý‚‚ ÷ûýùûúþùýúýùûû‚ûûÿù‚ýü÷‚ùüó‚‚úûýù‚÷û÷‚ ‚ ‚úüö‚ýüþúøÿúýøú÷ûùþúÿûÿþ÷‚ýþöôÿ‚úûùøü‚ üúøý÷þúü‚õúý÷ùüøõ÷ûûùüø‚ûûþü÷‚ ø‚öúýüô‚ü‚úûõùýÿõüõùù÷üþòþù‚ û‚ ùùû‚ øüòý‚üüûüüõúüþþ÷÷‚ ù‚ ‚‚'‚}‚x‚v‚p‚u‚n‚w‚hþÿüýùöÿúûúùýÿþøúýüúüøü÷ùöö‚þöóùþ‚ýû‚ûþûü÷‚ùÿùüüýùøöûôþ÷ôùþö‚ ÷ÿþûúúùøý‚÷ôüÿû‚ ùüýúýúþÿ‚ ûöüüÿ÷ö÷úùþÿùüø‚ýÿû÷ÿöþ‚øýøø÷úô‚ üúöú‚þýõò‚øüõùü‚úûöùù‚úûúüøûø‚ùüúûöüÿöøúü‚ùøôúúûùöûüûùûÿ‚2‚h‚n‚r‚|‚t‚l‚f‚bòüÿýô÷ôÿûþûñøøúý÷ûùøþý÷‚øýúð‚ ýÿü‚÷‚öúúþüû÷ýùõóüøþñþóýûýôùþ‚ ø÷ù‚ûûýþö‚ûûúüøýøýÿýúýúùÿþøúùÿþù÷ûüúýûööùý÷üúùüùùûúýýöô‚ýùûüüüÿú‚ø‚øýý‚ þöõùù‚ õþúúù‚ ÷ýüüüýúøôúùÿöùúùöüúþúþøùùüóþ÷ÿù‚0‚l‚p‚n‚o‚~‚~‚w‚_úûøúûùöõù÷ùüüÿþýøþúÿüöüüô÷úüýüó÷öüñþý÷òÿöÿøÿÿûþ‚ùûô‚øúû‚ þÿ÷‚÷ùú÷óý‚üõüù‚ ùýûûõÿþùüüþÿúûûúúùøñùÿúóøñ‚ý÷ýôúþúõó‚ÿÿùõùüú‚öüýÿ÷üøÿø‚ ÿüôÿûú÷úûùú‚÷ùøþüûöûýúûûôýüúøøöýðõ÷ýþüó÷û‚ø÷øý‚3‚l‚n‚u‚k‚x‚s‚}‚yúþüöõüþùùöûùöüúöúûõùþÿýöüöüøüøõþûü‚ýüü‚÷üüû÷üýü÷úö‚ õýýø÷þôýõ‚ýøøýüýöþ÷ù‚üûøôüùþ÷‚ øôúû÷ù‚ôúüü‚úüûöûþþ÷ùû‚úúö‚ø÷ýùñý÷÷öûúýôüøÿøþù÷üúôûøþôüúÿóúûÿüúþöúþöþòøöø÷ýúöôø÷ùüûøø÷‚ úùùùù‚'‚l‚v‚n‚m‚o‚_‚u‚m÷úýþøöóý‚ ûûõ÷÷‚ þòúúúõøú‚ øûóøûüýúøýùýùúðõ÷‚ùöùþù‚ ÷þ÷‚ûúöýû‚ úúøøúü÷øüúöõôþüõöùùø‚ýüôù‚ûúûþûüýúýùþüþûÿüùùôø‚üûòøù‚ úûõ‚ù‚ ÿöúþúþõ÷øúõøùûøùõúüøõúñ‚õ÷ôùôüüü‚þ÷ú‚ûüþôùúøø÷ööùúû÷÷úøø‚0‚d‚r‚f‚h‚s‚‚x‚|ýýú÷úüÿóúûý÷ö÷øûþúøúý÷ø÷ÿûÿòý÷‚ ù‚ýúù÷ö‚ü‚ûóúýø‚ø‚ùõýÿùôùÿöùûø÷ýõøö‚þûùû‚ÿþûøü‚ üûúþýÿøúû‚ùöý÷þÿùúôúüúõüùûùüööþ‚ û÷õÿùøýûñû÷úöøüùñùø‚óÿû÷÷‚ûûõýüûùüûûù‚óúþúó÷øù÷úúüûúùûõýýøüÿ‚úú‚#‚o‚t‚k‚x‚€‚u‚w‚rõøøùüúôøúýü÷÷ûôúôûôöùù÷öóù÷úûú÷‚þþõùö‚ü‚ ñüýúùûõõûüùúö‚ýÿúýü÷ù÷ýýöüôóþûóøùûû÷úóöô‚ øòöùóùõøüùýþü‚ üþòú‚ ûù‚ öúóýþúïû÷þûûùöõýôüóþöùúþøþùúù÷ÿþõûöþ÷üýøùøúùîù‚þ÷õøûø‚þúùü÷øöþöóûõüüøø‚&‚b‚k‚Š‚l‚a‚n‚n‚yøüûõøóýúýûúõùù‚ ûû÷ûøüóÿòþõùõýø÷ôÿúúñûüÿöùùûòøô‚ ú÷ùôøþûöúþûúõûøýöýùûÿúøõùøýúùý‚ þöûþú‚øûöûøø÷üöøõûùÿýýóúýþûûùùüþûþûþúÿü‚÷ÿõûý‚ ùúò÷ó÷ñûôööþöû÷õù÷öûùøùüõþúøúúúþþùúüùûöúõýööõøûøü‚‚f‚h‚p‚j‚{‚x‚e‚iöü÷ûñôôùùôùùöûðûôüø÷ñõ÷þ÷÷óù÷úô‚ ü‚ öüõøõûúøöýø÷üýöúöøöýûöøøÿööøýüûøúúüþöýøü‚ ÷ûûÿøøöûúüõøøüüýïúòøø÷ù÷ôûòõù‚ öùøüùüöü÷÷ùùøüú÷ùýøüõþõþùøüùûüóööþöõøûúùòö÷÷ýòôýô‚ ÷îõùüø÷úøúüöþüúüô‚ ‚5‚g‚n‚d‚p‚{‚|‚u‚_ùùýö÷ôùúúôøùýõõöûþøñöòýöúôýüøõùõþÿù÷úóùøüöùóþô÷úúöõøÿøþøüøûúô÷‚üýýùùûù‚ üòúøýùúúùóú÷‚ ðøúøüøøÿ÷ùýüùþôøóùóûüóôûó‚ôøû‚ùýúþø‚ ùúþûõûô‚ü÷õûöù÷ýöõø÷øõöûóö÷õ÷ûúùúúüúþñûùúöõøö÷ý÷õôýùý‚.‚o‚j‚s‚}‚n‚z‚n‚vøþøúþöûüøõóûûüõþÿúö‚ùõø÷÷úùüñúôüùÿøþúøùûýþøóôþ÷þùûöüõøùùüõö‚ ûüý÷óöüý÷öúýôòý÷ü÷öûû÷øöùúöýþøùòúû÷õõúûü÷÷þøüýþï‚öüûú÷ùõúöþû‚õ÷öÿøùòõù÷øôêùøÿóô÷üûú÷ûúûùôøý÷øð÷‚ øýýüøøüýóúõøýùûõö‚3‚f‚m‚y‚s‚i‚q‚a‚`ý÷ùø‚ùõüùðúøúôò÷üóýóùðüüúõþöþôûýùóþ÷õõõòûõøôýýøùùúÿüøúùøÿøøõüýúúùýýúúôûÿøøùûú÷õõõøùüôöüûúøô÷÷üüüøööùôþõôùüøùù‚ýõõüûþöÿö÷üöôûõþøøúùôÿüüüñõùþøõøñûùö÷øõüöúúúøøûúûû÷÷÷óùöÿûõò‚ù‚‚+‚e‚m‚v‚q‚‚w‚e‚\öú÷ûþ÷ø÷÷øôùöüôø÷õùþöýü÷ôýüÿðú÷ýõýòøñôñöøý÷úùöø‚ ýýúýø‚ÿ÷üüûüööúýúøõûöùüõûöýöîóùûøòôøþúýõöø‚ùüøøøý÷þùüõø÷‚ ÷ýøü÷ýöùùûøþ÷øòùôüôüùõõ÷üõûýøóòøüôóøûùúöööøøúøûÿõùûûùþù÷þùüöö÷÷÷øùýú‚'‚u‚t‚e‚n‚p‚u‚r‚h÷÷ü÷ø÷ûöýûøóöùÿõùôöòûõó÷úôùõúúùöûÿü÷øùþúýóøùõûùôøôüøùöõù‚÷ûðõ‚ õþö÷ûûôúùýûøùþûùùýòü÷ûõúðôóú÷øõ÷øýñûùûüúôýôùôü÷‚ üøûü÷‚ýøóöúúó÷öù÷ýøöö÷öÿøöüùööûýû÷òóúùöó÷öúôþøùùúø÷õøúÿòþö÷úúô‚‚-‚l‚u‚y‚g‚u‚v‚l‚púøðýûûòúôûõøù÷øýö÷÷ûùûô÷óþ÷‚÷÷üøôööýþùûûòõòúö÷öóñúùùóô÷úùúùüüúööùþû÷õûþõûûþúù÷úõüþöîøúÿøþïüüùûøùÿöõú‚õûõúóüùÿ÷ôø÷÷‚ õøòþýüõùõþ÷ùõôûüóüõûþýõýøøòôðù‚ óôù÷‚ ùõøüýûþø÷ùúöøúüùïùøòøñ‚3‚_‚{‚s‚s‚]‚r‚c‚eüñþüû÷ùö‚ýüøýùÿüüøùøþøúúùì÷øöùûòöûüöøòøöûöùúóþø÷ÿ÷òüúöùûþùùõøû÷ùøøõûùûð‚ üûûüöûù‚÷øúüõø÷‚õóù‚ ñýõùðûøú÷ùø÷óûýùöúö‚ ûýõøùø÷ôùüòúû÷öôúûòõ÷øôôø÷øýõøöøÿþúöõüø÷úôüöõúø÷úñôôúöüõóóÿ÷ü‚-‚l‚|‚t‚i‚€‚e‚…‚júøü÷öøòþôýöù÷øõüöÿùöô÷÷þõúòúúôõû‚þýôùûùùøóùúüùòúöûü÷úûüö÷ùüøþõò÷ù÷þùýõüõùõùüýñúûùùõöüõü÷øøÿüþøùõ‚ ûüúûö‚ô÷ôùýô÷÷óûðø÷úýúðúõûþ÷üñüúúüôþþöþýûúùúùõóøõòùüøô÷ôõüüöõ÷ø÷ù÷øóøöùøüõöø‚4‚g‚q‚s‚t‚a‚l‚n‚oûôþòöö‚ ÷õøøòüðùõûù‚øúúûûúýúôùùþöò÷ùùûïøòöúôøõýüôõþöûüö‚ûûþøùúÿýûöõù‚õø÷÷üûóúö‚õ÷öøöõöüúÿö÷öüýÿîùöúúõöúôùõû‚öøûû‚÷÷ùùúýú÷öü÷øøúû÷óúÿúüóöôúùôóóööõüúõøúøúóüüûùõðúõûó÷öúñøòÿ÷úðù‚*‚h‚€‚c‚o‚s‚j‚s‚nþöøõñÿ÷ùøüúýîüûúùööõøþôüöûöûôøöüø÷ôõ‚ýõûù÷úùùüþûþôþú‚ öð÷ùùüóøüùøòöüùúøÿ÷ýú÷÷þþøòùûþò‚ ö÷ù‚ ø÷ñûùüøùüúöüðúóüùúúûóûúøøþý÷ìùóýøôòñøü÷õôþüóöùöøööû÷ûøöøûüúøúøýýüøöõþñøôõùøøúïø÷ùó÷ú‚-‚h‚w‚]‚l‚e‚c‚p‚jþùûòøüöøþýøôÿøùôùÿûôÿýüùúöõúÿùöî‚üø÷ùúøúôøõ÷üøòùôüø÷úûöùöúøú÷ø÷üùùùøøûøøõ‚øüõúï÷òüøúôôúûö‚ ö‚ øýòýýûõùòúÿøôùöûøú÷ùýøóøöøô÷ùõóúøúøûüüûöüøûûõñÿüùòôôúùýóûñüôýÿþú÷ôøüüõúòøøüñûóñ÷‚‚%‚s‚b‚k‚€‚n‚q‚|‚gööóû÷üøóø‚ ú÷ôúýûüõóøô‚ùøö÷úùñüú÷õúûüúðüùûùüúöøøõýô‚ ù÷öÿôøõùôôø÷óúôûôùòúùýøúõýûüûþôüõÿ÷ýøû÷øøüø÷õûöùõüõôùöõòöü÷ùöôõ÷‚ þ÷üûøõûýû÷ú÷óùöýüøööúÿùüðüø÷øÿõûö‚øùùýõúøþðôô÷ù÷ðøôÿüùî÷ù‚1‚_‚q‚a‚‚‚u‚}‚y‚p÷öûöù÷öüùõûöúñööùõõðöõðþõöõú÷øûûôùøøõýö‚öû÷þö‚õù÷ûøöõøúûï÷õøõüð÷öú÷ùòûúþõÿõüô÷üúúýöøùúûûùúóøûøõôþúøûúõ÷þ‚öñ÷ùþôò÷õûôùøûøþõò‚ ÿ÷ôôýþÿïü÷ùõùñûôýúù÷úòýñúùøôõðùùþôõöú‚ üòüõúõùøóòù‚6‚t‚l‚q‚j‚j‚g‚v‚eøþû÷úùööóúü÷úïùøøøóûúùùôüøóøù÷úõõþþòùóûôøò÷øýùøðûòþøûõÿø‚ ‚ õú‚ ùøõúðúüûôøü‚ ùôýùõ÷÷ùòüú÷÷ñùú÷üùõÿýö÷ø‚ü÷ñøûú‚ ÷ôôúûÿøûù÷öüùøòûõ÷öýóøòöóûúúíúóûõùòüôúôóôüú÷öûö‚ úüùöúùõùøüòîøùúøîôó‚0‚t‚o‚c‚q‚l‚j‚w‚púõûý÷üùû÷üùúøüûõô÷ùÿðûðûõûóó÷ùøúöþñûôöõüõõ÷ûôøöõüúúú÷úûùôúùôöúøôøøüóõþøùúøøôúøøúùõ÷òý÷ôöð÷ùùøðøðøùú÷øïýöø÷øöü÷ùû‚ öÿûúù÷÷ùîùüúóÿùúùúõüûüóöøúûòüûï÷õø÷ûùóõøøþôòòïøþøöò÷úôþõ÷öýý‚(‚s‚p‚t‚v‚`‚n‚h‚võ÷øòûññõüõùðýööøýöþûôóú÷úùöñ‚ôýöúöýõø÷ûúúùûøþñòõöøöñúøúûõüóûúúùúõúöõù÷ûùñùõúøöüúüüùõôõõüòøø‚öýúýøûúûö‚ úõùûôÿñý÷öýüøøøüôøøøõõ÷úõÿûø÷üúûòúö‚ô÷ôóùøöòõõóùþûõò÷ûöøúôùúùüúóù÷õøû÷ÿ‚0‚o‚l‚w‚n‚~‚f‚q‚fòøðûùúóôî‚ôøóûõýûýóúòûøÿùüõõôýöûõ÷úüûúóö÷‚ó÷÷øüûõøööüúôõýóôùõû÷ôûû÷þúöòùøôüøúúüüùî‚úøÿþ÷üüÿ÷õúûööúûõùóôúùüýðùõüúúõø÷‚ ÷õ÷ûûùôÿûûõùôôùÿõöðóøôõôï÷üøòö÷ùöøöøöñúõ÷÷õöòõúöüòöñùø÷ñ‚,‚w‚i‚_‚d‚j‚q‚s‚kþùùôúöû÷ÿî‚ óúöõòôõüôöïùûùóøóûüúò‚ ûÿòúþ÷ûúÿÿûöóúþÿù÷ùøùøùóøøööòïøøùõøøý÷ýóø÷÷óúøùõúôùõöÿýñûöþú÷ôöýþúûöûôù÷ýòýú÷÷úûùúüùüóüòõôûõú÷ôûýýøïøøüóöø÷öú÷øõøûïõýùøñóýó‚ ÷øôîöûïû÷ûöøðøø‚‚$‚k‚w‚q‚l‚y‚_‚o‚fõüõüööúûùøóôòöùúóýøûïôÿøøöøþøúûúøúðúú÷ø÷ðøúôýûùø÷öôûöúúøúþõõôø‚ ü÷ôùûö÷ù÷ùòôõÿóþíø÷‚øõ÷ýýþù‚ öýýûøøùùúùüùõüúúíùñøôúô÷òùîôüýøöô‚øüðöüúýþù÷úóó÷ùùðùñôúøýòõùüÿùóûøü÷ùôùõüñüúøö÷óüû‚‚e‚{‚w‚f‚x‚x‚b‚qøùû÷öñùùüòõ÷÷ùñò÷ôøûý÷ûúûùýûûúïúÿúôöù‚ üöøóûûýöòùøúõüøüíùöøõþòöóüõõøùôøö‚ ø÷öü÷úøùöû÷ýù÷üüóüþ÷õóûúðúõöõûöûöýôõýùùîöþùõóöøôøôùõùôøôý÷ôòñöøúúôúõþýúöüõýüóó÷õýôúõùöõõøöüóïüú÷ôîÿö‚ ‚0‚o‚o‚k‚u‚x‚f‚u‚póýø÷ü÷õøòúùøõ÷ûóöüô÷÷ïõôøøü÷÷÷öÿÿöùþûöý÷ýøôõþð‚ ÷øúü÷õòûôýôùöôôýõù÷ûõùöÿöú÷û÷üòúîõ÷õõ÷ûüòûø÷óþú‚ùù÷÷ûùýóòûôôûùù÷öîùú÷õóôü÷óõóõøôø÷þüý÷ó÷‚ ïøøôôù÷õõûùúòö÷úúùööûúüúôýòúõÿ÷øô÷òýû‚(‚r‚o‚x‚{‚v‚t‚c‚döúôöøø÷öñôõ÷ñþóüõ÷õùûÿû÷òøøù÷ý÷÷óõôýó÷÷üùø÷ÿõúøøôüûýñø÷üýù÷ûôýúõõøúýðõööõò÷õúýööúøùööúûþùñýòüõû÷ùõòóúòô÷úôþóûóø÷öøù÷þõþù‚ ñú÷þóüôõöò÷üñüôóöûøøõøöüöýõô÷øöøøøôùøýøúùööúöôôöõýôð‚,‚n‚s‚h‚t‚l‚y‚n‚_ùðööýö÷õùø‚ öýûüù÷ðùõúùú÷öðø÷ù÷ùöû÷þ÷ùøø÷ÿõ÷ðýùþüúøøø‚ úúøõðóöüõöøô‚ ö÷÷îûýùöööûøõû÷úööõú‚üôûöýôúý÷öÿöüõùöúøýôþòüööøùðúñÿõöòðõü÷üðúüøôòõûõûûöúö÷ôõ‚ù÷üõ‚úó‚ ûùøõøôñ÷öøôôõõþýôúõôü‚-‚h‚a‚i‚m‚€‚k‚z‚fúþôýûöö÷òúðöó÷öùöùò÷ïûûùõ÷ïþñöõüó‚ ÿúùüöûüûõðùùû÷ôüòöûõüõöõø÷üõùôö÷÷øøô÷òúó÷÷õöøùûôøúôøûõüóúöÿûýôôù‚ øùõÿûý÷úñù÷ôõøúô÷øöýûøöøô‚õö÷üùõùñõüöù÷õöýöúùóõðõøúúô÷ïø‚ ö÷ôö÷ýøúöùøüñõùøô‚-‚d‚l‚v‚c‚`‚u‚q‚húïõñ÷óúôüõúöù÷ø÷øøüõùúúôþ÷úõñøúø÷ó÷úùûòûÿýûöõüúþ‚ ù÷ûøóõúúöôôôþñøðõøø÷öòûøüõ÷øþöþðþýüøüý‚÷úûûøùûùñÿóõðññûøùó÷ûùöùþþõþø÷ú÷ùùøö÷øô÷ùöüýöó÷õýõûò÷òõøûü÷óóöúúüëöóôó÷òó÷úò÷ô÷ôô÷þóý‚+‚k‚p‚i‚v‚r‚g‚|‚~üúúóüü÷ûôýøûô÷ö÷öÿøõüû÷ùøøõùòôûöøûñõúùøýôôøûüõóûüúôôúôýôõôýûþôûùûõû÷öô‚îøöúûúóýõöûýóùø÷÷‚ ôü÷õ÷öö‚øï÷ÿýýöü÷ÿýøúöúóóõóùûö÷õùÿùõóõüôøõõ÷öõûòöüúüõôýö‚öùô÷ýú÷öõ÷ùúùýðöôúö‚ øø÷õôú÷‚1‚j‚k‚q‚w‚k‚k‚|‚oøöôøñõøõóõöÿöúõñôûüõîÿóüöø÷õôøóùõøç÷üúõúô÷øý÷ùõøôõõüóööû÷øòüüûóýøõøøôùóùô÷ôûöýò÷õýû÷÷ùùøü÷ûùûúùü÷úóôÿôùôôüüúÿõõüùòøôòðüô‚ ôôô‚øúò÷ø‚öüóú÷øóúúô÷õù‚ õõõôõüöù÷÷ûøøôøûøüúóùóöøóöôü‚*‚t‚‚q‚l‚n‚s‚`‚e÷÷ûôøôööðôþúúôøôúü‚ñööòôý÷øøûùúõ‚ ùùöùõ÷÷ÿô÷úü÷óý‚ öýôû÷ùöùðûïóóùýóñûúþûúôøþøöõúõõð‚üøóùõöýþô÷ó÷öðùùïôõúöüúüóüüúõööø÷ýôùõöûõíúóùóúõôöýùñòù÷øõûóùù÷ùýô÷÷ùûüôõóõõøööñù÷ô÷÷ùõøöôûû‚1‚n‚p‚t‚t‚v‚r‚j‚\óÿúúùûö‚ öûóúðý÷ùõùõ‚ ùü÷ü÷ú÷ûöõöõôûõüüöóõõýùôõøôûøòòô÷õ÷ûüúòûõõÿùûõúýüñþ÷úúüùñüûõù÷ûøúùùôõôôöúôøõûöøúýöùøýöùòõõøûýòöóþ÷ýøøôüúúùøöùõüöüõûñôòýüñôøøô÷òõýôúðóûõöðöùú÷öóýöúúóùüõð÷‚*‚a‚m‚a‚w‚o‚s‚a‚ˆñöøò÷óôòúõüõöõüù‚ õúùööùýüöóôøüû÷ýðóûøöõõúõüúö÷øýúùüù÷þöòòø÷÷ø÷óýóúýúö÷ðþòøúüíöôý÷úö÷úûõø÷‚øúþüôûøøôöú÷õøù‚ õøøôýýõùôûûùùóõðòüøõõòûõøüõûøõöô÷ùøøóúûõúûýøúô‚ úûôòð÷÷ýîõîøóö÷ýñù÷ü‚-‚u‚s‚z‚q‚r‚u‚{‚nóüûûøöóúóöûüúýøööùýõøôó÷øùôó÷ûýïûù÷ôÿøüýøù÷øþø÷õøôöòùñøõýòöðûøúîö÷‚öúôúõúýý÷ú÷üóúüýùûöÿóõøööö÷öôúöûõø÷ûõúöóõøöúúøñ÷ñúú÷üóõøöú÷òúöøõø÷÷òûó÷öûøö÷‚ ôöóøôóöõïôõ‚ ôñðúòûôùùõð÷÷‚òûò‚+‚a‚e‚t‚t‚i‚k‚e‚köõõýøôøöøúýúïúÿûöúöý÷ú÷ýóûøûôþöùõÿùÿõõõ‚ úüòþö‚ ÷úù÷ýûôøòûøøõÿùùñôöúüøóøð÷öôòöò‚ õ÷õøüöøøþúùúúô‚ ‚ õü÷ôúïúöûù÷ôô÷ÿ÷òïöõú÷ùíööüôù÷ùñ‚ øû÷ööúîùóõôüöôõúõûöùóùùûñû÷øñòùùóöôøôþøøòúøøõõ‚'‚h‚n‚p‚r‚w‚s‚|‚tùöüóöõöõøöøúÿóùöþö÷ïúõû÷òòýõûñûøúòüõöúöõþøøúþôúüøöøøüøóøøù÷ûöòõùüòú÷÷ñø‚øøõñø‚øøõøùûøùü÷ùþôøôÿóóôûôøõþøùø÷òýöúïóóüööðñöÿöö÷þìûô‚ þôöñ÷øöþóöùùüöù‚úöùúöñöûòóøò÷ñõôôø÷òøùøðõöýùþ‚/‚t‚b‚g‚~‚w‚l‚p‚sýüïûù÷÷üõùîø÷óùøõóì‚ ù÷ôõù÷÷ôñôüûó÷õùýôöõúþù÷÷þøõõôúøùöõôüøúøûþ÷òùûý÷úøøóúöòôùöù÷üõùö÷îùùöõýôùûûõõõþù÷ôþùýôùöúö÷ôñöýìøóö÷øöøøþù÷òúýúôúóøüÿûðú÷üøûûôøü÷öùú÷óñýööôõõ÷ûõõü÷úöóòûö‚,‚\‚w‚|‚s‚m‚t‚m‚b‚ô÷ôøùùïïôú÷úïñóüüûöù‚ ööùüùòôòúöõõû÷òùõøôùùýøøõõö÷øúïôôüùòôô÷ÿöùõúøôóúõúðóðüýýìúöûùýøùûýöùôýóöüùôùõöúôô÷ùúñ÷ö÷öòõüøøôôýúúùúýüúùõóóûõöøûð÷õ÷ùöñõùüõûðüöüü÷óùôùø÷ùúñôðû÷øñîõ‚ñ÷‚$‚x‚w‚o‚v‚s‚w‚z‚k÷üþûù÷ýüúøøöø÷ñöøúùð÷÷øòûøùúþõùùöòþø‚øøöö÷ýóúïýõóóúúüòü÷úûöðòüùöõöúüþöùöú‚øøù÷üõúôòøüñ÷öùùòö÷õùô÷òöùöõíøù÷úûôýøüúôüøöôøþõöôöùõòøõ÷ôùôüô÷ò‚ûúïòúûôúóõôøóùðû÷ôóûøî÷ùùýõõôüøýñõú‚3‚k‚s‚t‚i‚|‚y‚y‚jøùîúøûö÷úóôüó÷ýù÷ôðù÷õñûöú÷üöûóøý‚ ùùõöðúõûíþùýóõùòõýõóöúùööýýùúûýùÿúö÷øýóðöõõúñøøûþðöûøôüøýôûöúò÷úýñ÷ôõüùòôñ‚ ÷ùïýøöøÿïûøúóúûþôúò‚øûüøùùóúõõúûóúóøøöõôôôóúõÿúöýòóùùúøñúøúöö÷øý‚6‚f‚m‚p‚l‚t‚d‚c‚pùøü÷ùøòôýõúøýôóüüýùöûòýûúóþõùñùùûö‚÷÷ýøóúøöóúöööùøüúþýóúÿ÷÷÷ÿööóóûø÷úòòýúöý÷úùÿýü÷ôùö÷úóñüô‚ øö÷÷÷üøüîüûúøùõýö‚ ýùù‚ ùüø‚öþúøùõíúòôøúñõùýøýöø÷øøõøöú÷÷ÿöúìöùûü÷öòüûøðùùöôöû÷ðôó‚‚'‚n‚m‚r‚y‚{‚y‚r‚gñ‚õú÷ùôõóüøõï÷ø÷òøïóóøùòõôôùøùîùõÿôþöûúù÷ÿ÷ùòø‚úôüöúôôù÷ùóöôøúøðþøöôóúúú÷õùøýúúùýð÷õöûù÷ùõúýÿôøüþùûò÷÷ô÷üîýùù÷ôû÷÷÷ìý÷öñöùýô÷ðö÷ýýööýøþÿù‚ õôýø÷õöóò÷ù÷õôòððüøï÷ðøöôùïûóöõöõûö‚(‚p‚j‚s‚}‚u‚t‚f‚nøóûøúùüö÷óÿõõø÷øøõ÷÷üúöøýûúîøø÷þùúõùðùøùùöõùóóó÷úøöýöûöøúñóù÷ûôûòþöõôù÷þòøô÷øüôó÷ûõüöþöûíû÷þûôöøûùóùïúöùóûõþõõûøù÷õôöûø÷õîöþõóùøýõóôöùôõò÷õòøúù÷öóýùú‚øõúù‚ ùüðøùüúöòùùóùöñøóù‚#‚s‚j‚c‚p‚g‚p‚i‚gðùÿúõó÷ÿõó÷ôù÷þöó÷ôøùùþóôüøöúùúõù÷ù÷ù÷ýúûõüóüôÿöùòúûý÷õõýûýôùõûôøõøùúõùøýúþù÷úûõüôùú÷ôø÷ùøøóøù‚úöñ÷öøùñöúôòøûúú÷òøüþÿ÷ñúôùóõòùõöòöòþùùúüðþûÿôùøüôýö÷óøõôóýôüøõøöñùñùöûñ÷ùø÷û÷‚(‚h‚t‚s‚x‚e‚€‚b‚\ùû÷øûøøüùø÷ùñû÷ööùöøôûüøùøöôñýõö÷ûô‚ôøøöôóî÷ú÷øõóùöüòúóöýøúûõ÷õúýûýú÷üùýýðýúöúøöòõ÷ù÷ù÷û÷ó‚ õþùûõøôôñøô÷óø÷öõüöÿîóûþõøñ÷ù‚ õÿóø÷ûõûûùõúòûýù÷úø÷óøöýïùöö÷øöûúôòøöýôô÷ø÷õöñ÷÷óõóü‚&‚g‚e‚a‚h‚o‚m‚g‚jõòøúþò÷õøóùðýöúüõóþóöúøóüüÿøöôüûýöõøòöúýúò÷õÿö÷øøùüõûþ÷üùõöö÷øóõøùóô÷÷ûóñúøûõ÷öû÷üôþñøúûûÿñ÷ùüööõüõÿìöùöñóðþùöôöúýöùðþøûùöøþöøöû÷õõùôýø÷ñõýöóòõúúøøø÷ö÷ûü÷ûõøïýõñõøïûóôõõùý÷ü‚$‚i‚r‚‚s‚y‚t‚n‚_óýöûûøöôô‚ úöïöõø÷÷ðùóôü÷ý÷õøñôùýòþüðóõ÷ùöô÷ôù÷ôòøøðöõöõøõúù÷ø÷üúþõùûùøûôýõýûýòùøýòûñ÷ôøõ÷òùôõõ‚ö÷òôúþù÷ööõþôùõø÷øöúúýôøøõùüöùóõøöøíöóøøöøùýýùõüýøýôúõô÷ùú÷ôõðþ÷øô÷îüùüòøðúùùô‚2‚j‚z‚s‚‚l‚l‚g‚v‚óóòøöð÷ôõôùöþõôóñõþûõó÷ûûûúúü÷ü÷ÿ÷üïþôøú÷óõðüþù÷þööú‚õüöö÷ûöþô÷óøõú÷øñûõôùôùõïýò÷õóû‚ ÷÷õõø‚ ýôûûøýüõøóýøôõ÷ôúôúöú÷õöôúúðóô÷÷ùöýöþòþõûÿüñúñõðýöõòõùôòûøó÷úðù‚ ýóóûýóÿøöøóóöóÿôù‚‚k‚x‚g‚v‚k‚r‚n‚röõó÷ùú÷òû÷ùòÿûüó÷öüöþóüñÿøùõúôùõùòÿôøú÷õøöþøûôø÷øü÷ï÷ôýõóõøñøôõùõôôöûöþ÷ùüúúùôúüýùðûóùüûüöõûù÷öúóúòýôùóöõôûúôùô÷úüñûôÿùú÷÷óøøÿòöôöþò÷ýõø÷ùöüü÷ðöö‚ôôøùõøöö÷øøøõù÷öðùøòùóõó÷÷ù‚‚k‚m‚|‚i‚`‚p‚a‚l÷‚ ÷úôóñøùøóôîùöûûùñøôýøõõÿõúôþ÷üøýõúùùúööï÷óôüøõ÷ùóùùôûøüùõôùüñôøøûööÿÿõúø÷úþ÷óóòõøôþõïôøð‚ ÷÷ö÷úùôõúûòþúú÷‚õÿñöúøøüóõò‚ õò÷öõ÷õÿúïûôõöýûðú÷úöòøüðöúõõûø÷úúñö÷üø÷øø÷ñúöùõóùõ÷þó‚!‚d‚t‚o‚z‚h‚k‚t‚týóùðúñúöõñùôýø÷øõ÷þñöóúðù‚ûúøóø÷ùüûòúûùúùî‚ ûùýüü÷ûöûûòôûööüú÷õôùõûôúðúûýòøïùööøüøøóþùÿ÷ôøûö‚õøó÷ùøóúõúøöõöõöòöôøôòñûõ÷óôúûýøôøöÿöööôøøùõûöøòôõöûõò÷ñöùöõõ÷ùõúðó÷õõù÷üõúñõ÷ùîõ‚$‚]‚{‚k‚h‚o‚{‚e‚zööúùüøøú÷ùùþú÷÷öøûøø÷ðøúñõóùôõöó÷øöùÿöôôþøúøöóüüÿôõö÷òüôýöùòóñüùüóú÷ûùûðü÷ýùôöúôøó‚ ôøùôóøøýòõõú÷õúúñý÷ô÷ú÷þõû÷õüúùøùöñøüûóòõýúöõñ÷ùùõôúøöøö‚ øøõüóÿýûïúû÷ñúðû÷úôòõúó÷úúøøñôûøö‚.‚Z‚l‚t‚n‚p‚s‚i‚kõöó÷ø÷÷ñòôûþð÷ñõú÷õôð÷ùýöú÷üøýô‚ø÷ûúóþóóôýû÷ôøöýôûíó÷þòøùõõûøýòùû÷÷üýúòûô÷ùööõ÷ÿõøõ÷ýòù÷öøöüúò÷úõûüøö÷úöùõúóõõ‚öøôøøõòüõù÷ýöùùùõøöúöõøùñúñóôøôûøöðüøýúõöþîöûöø÷ùõôûúÿõóùôôúðû‚)‚b‚{‚g‚g‚j‚j‚o‚oøðøïÿùÿýøñüùøñýðõòùûùóýüøôøòÿøúïôö‚ ôúðõõõôõôúôöûô÷ýû‚ õûùøùùúöÿù÷øþöúùøúöú÷öøôùôüùûôúòúúùö÷ï÷ùþñôóüûõòöóò÷þûþô‚ õýùýùøø÷÷øôöóõóúíúø÷õóùöûúôúõõúû÷þõ÷ôôøóù÷óúöõøúùôïþúøñïùöùðõ÷ô‚,‚n‚}‚h‚g‚e‚t‚v‚oûþõøôùóùøûõÿ÷÷÷øôøõ÷öõó÷ùöõúõøõòùùôùûþúõú÷ùþ÷ùóúûøõøúùùøôòøûôò÷÷ýõøö÷üúøù÷‚ ýõ÷ûöùõúôööù÷ýöüöÿûõøüúûñûöúíûôùöüôøøõùöðþôø÷üó÷øö÷øôüùöø‚òýô÷ø÷ýöòøúûïó÷÷÷ñòôôöüñøúÿôóøöõõöúôøøüø‚-‚c‚m‚n‚n‚f‚y‚d‚tùõûñóøóø÷õñ÷ûûòöúüöñôöõþôôóøîöóöòöùòòüø‚ñôöø÷ýðüñýöñöúö÷øöõûöüõý÷õòõöýööð÷öûúùöýÿýùüûôü÷øøöûöõöûù÷úùöú‚õùññùõõó÷ûõöòûþøôúùûûøÿüöõïúúþìøòøöúï÷÷õòýòùôúôø÷úïúõüòöúöòøùý÷øøøõõúû‚/‚n‚k‚n‚p‚m‚l‚m‚uõùþó÷ôûøúöôøû÷þîøôúõøïùöøô÷òùø÷ôúøóöøðþøùôùùÿöúøò÷üüöîùñøöôùôøöôúúùöøûüùûöýøóûõòûùûøö÷ô÷øùõ÷øýï÷øôô÷öúöùúöøþýþôþòúûùùøöüõ÷óü÷ü÷üôüïúüðøòïúöþøùñõøüùöïùù÷ùùòùôöøöøøùîóøüûýñ÷ûô‚%‚q‚U‚k‚}‚t‚r‚r‚møøøüùöíôø‚óñòöó÷öññõûûô÷óûùùúõ÷üü÷üøøôúôü÷õ÷ôûûùøñùõøõüøöóùúõø÷õóòúñøûø÷øñþù÷ùõñùõûöúòøøû‚õõþôúüøøýøöñü÷üôð÷ûô÷òôñúúûðùõýóöøû÷üóöøúüûõ‚ ú÷ôô÷ñõõñõõû÷óù÷ôûùóóôÿ÷øñùûõúüðøñøö÷ú‚0‚q‚`‚X‚p‚x‚u‚f‚cõóõñøöúúøøööûôöøþþöô÷ü‚ úôýõüööø÷ööøôóùõýóûöùõùôüðûöúøúûüûùõúûþ÷øô÷øùöôùüöÿøøöüñû÷üóùõûöóõùô‚ óöùöøö÷õóööøøòó÷òþùø÷÷ú÷ýùúöõøüùúúòöûøûîüú÷ñøøÿõùôó÷úõ÷îþõ÷ôúöøúúòñúùòôõúí÷õïôñöú‚)‚j‚v‚p‚t‚u‚f‚p‚{ùûøûöôõô÷ôö÷÷õöðýôùñ÷øöóöíýûùõùóøõùù‚ ò÷ù‚ûþüúùýöÿòøöóòþø÷ðôöõ÷÷ü÷÷ýù÷øü÷÷÷ûùóüùüóúÿòúüüýýõóóð‚ù÷óûý÷ÿøòùöþóööùóøóùôöû÷õûôûñöö÷ôùñú÷øòöúø÷÷ïøõù÷ýøûö÷ôöúúðòòøôùôôóúüôùöüøô÷óõ÷‚0‚j‚x‚m‚j‚i‚k‚t‚tø÷øüöú÷ôñ÷ûúñòöüôýüûõøù‚õøùöðøõ÷ø÷úøõùô÷úöóúûþöûûùøôûúòöùý÷öûöõû÷ö÷ûöôõúüôðòùóúúóø÷ø‚ðýùøýùø÷÷‚ ôóôüûôíÿó÷÷ùõöûöóüñþõôøöóýúøõùùüõûø‚ ôûòõùýöôöú÷ôð÷õøúüóøûòùõûùöôøøõú÷ðò÷úõôðö÷‚4‚l‚b‚[‚j‚j‚l‚g‚aöòòú÷õùðö÷þùôôÿúúôø‚ õûúîûöýòöõþóüøúïù÷ýúøø÷üùöõøýøõù÷òùøóøùõõôðþüòöõóúõ÷öùö‚öõ÷ÿüüùúø‚÷úùúüùñüûüòõòóùûööïüóôöú÷ûôøõ÷÷øôüðöðþøú÷ùõùöýûýþ÷õùùüôòùúþöô÷ûõùöô÷÷óóøúôöïúöõù÷ðõùúøö‚*‚g‚q‚x‚u‚‚k‚i‚dùöóûñûñöø÷øøööôüõù÷úùÿóüööõöò÷ûúõõøùÿ÷õûúøúøôôôóúòø÷øîöóúôøöýøùõùõ‚÷øõú÷öùûúüôû÷öú‚ óøôúøõôúòýøùïû÷ÿ÷ýóûôý÷úòúñíöùóöõøøô÷öôñÿ÷÷ôøø÷øõøûôüøõ÷þöúúûöóúöõø÷õèø÷öõùõùòþüöòùô÷óþñö÷‚(‚s‚f‚^‚j‚b‚r‚p‚g÷øõî÷ûøþöôø÷ûóôôõúøüúöüþøüõööôøöõôø÷ùöø‚ õüööþúò÷ôûüøòúùúù‚ôùöúü‚ ö÷ñõöýñôïüøùöýüûòùúÿõøòþøúòøôøõòõööøõüööööõùüúùö÷öÿûõøøù‚öõøûû÷ûø÷ûîøòöúøòøòúùþùööúõûîúúüõïöûóûïùóúúõõù÷óóõúù‚‚a‚c‚W‚h‚„‚n‚p‚aý÷ôøûùúóúø÷òùøûïûóûùûôôôûõùíýóøõ‚ôûûû÷ýöùöýþýûþøûüÿöõõüõúõùôùóø÷ûúøðøÿüø÷ôõõóøõùûóúöôð÷ÿùùòöÿúø÷ôùöõöø÷üö÷öûýñóúùüö÷õøúøìöôùðøøùøüõþøÿûøóü÷ýõùô÷ûúþøòùøûôõõùöýðòõ÷üúõúôýúûúùþ‚+‚c‚j‚n‚s‚s‚j‚q‚xòøùøõøñý÷‚ûöòýùùöúïü÷ûöûôüó÷ûýôúøùöõô÷òùóøóõùøõøì÷ýþùûø‚ø÷ùû‚õöò÷þôôùõøúøù÷÷úôóñûóòòúòüùû÷ööøöøô‚ôøõöø‚ùûõüù÷óùöúöýùûüøööø‚ûúõø÷ýò÷öøúøöïôõôø÷ôööõøòô÷ùùùúôûü÷û÷÷÷÷óúøôö÷ùöú÷‚#‚v‚n‚r‚s‚p‚‚s‚aûööýôö÷ùûðõöøúûòõùôûøöø÷öúúõöööùõðñ‚ ÷òñúúú÷ý÷ú‚ ùøõööôúöóöôôüóýûòôûôûñýóøõÿù÷ò‚öôý÷ûþöú÷úöúôùøöôú÷ûöùö÷ñ‚ ÷ýòûøôúûùùõò÷ùþúóõùüùóûðùöùø÷óüôóöûøúôüøúøú‚ ûøüòúùùøúñùòýöùöúûðúüöôóô‚(‚f‚r‚€‚m‚|‚n‚t‚küúûþôúû÷øõþôûûöóòõþõúøþñùöþôüó÷ô‚îûõûüúùûô÷óøôúõùðû÷üúòùõøýööòý÷úöúøþ÷ûþó‚ÿïøù÷÷øúøðõö÷ö÷üôôóù‚öùøó÷þöðöûöôü÷ûõòúøóýöùïûøýøûòùôþúò÷ùø‚ðùõÿý÷ñõøûõöõ÷ïõîö÷õõñ÷øøùêòøÿù÷÷öòþöùÿ‚.‚b‚j‚l‚„‚q‚g‚o‚lðüôùñüûþñüôúöüú÷ùþõûø÷ñù÷ôöûôöõñ÷ùôøôúòûúöôö÷òþúúóùþ‚ öûùòþûüðõûóüðüôôù÷óúúöôöôûôøóý÷ùûóòüûùöûøüö‚öøõûô÷ýýóõñû‚ú÷‚ óûûÿ÷öûúüúñöóþûøóûöýôú÷øûöòóô‚ öñõú÷úööúúûô÷óûûóõ÷ó÷ùøõöùöóøþ‚)‚o‚x‚h‚h‚k‚‚‚x‚rõô‚ýöúðõüø÷óùôöúöüú÷úôõù÷õöòúùõ÷÷öþý÷ùôþüôõúöý÷öùüýüïô÷üöùõóõúóÿöøùúðÿøúòøóö÷üøúóúùúüûù‚ ÷øñöûôõôù÷øþ÷ó‚þ÷ü÷ùúø÷÷÷÷‚ ûñø÷øø÷ôï÷úüó÷õùõø÷øö÷ñøøöúúðûõýõùòðôøöõìöùúñøïýôôõùúøùøõ‚ ‚.‚l‚u‚s‚q‚z‚v‚|‚oùùõöúôø÷ù÷øôøóöñõøòïöõþõøöøøýøýöûôÿ÷ýòöüøøøòûñÿ÷ôóúòùóøùúþùøüöþ÷õùúôúöùñ÷üö÷úûùî‚öùøùüýüù÷ù‚ øõðùüùúôîøøüüúñøùööüûööùïüöøôûúøòûöûøûõøýýõýîüøòóõ÷øóôôúôüúûòþôùõøùóúô÷üõø÷õööóû‚‚,‚c‚n‚w‚^‚`‚q‚j‚iöõõúðøúõòÿøøïúøýöõõúø‚ íööùùôïõ÷ø÷÷øÿñøïúûø÷‚ ô÷öûÿý‚ ýø÷÷ýùôû÷÷ùùúøûúúõöõóø÷üô÷ü÷óøîýóöøùúúùòõ‚ öÿôøóüôýôôùúøöõýôùôùþú÷ûñ‚ ûüö÷ú÷óùóùôûûöóûøøöûúúõúôù÷÷òõúùúöøõúûúýòùõùôñúô÷ïõöÿþ‚0‚l‚n‚z‚}‚y‚u‚v‚küõýù÷öùôùøþôõóûûôóùÿöü÷ò÷ùôõøõúøú÷øøøüñÿøôóúôõüüõõøú÷ôòþï‚ úóññûøöùôüø‚ýûíüúüøø÷ûñöôûôüñ÷öþûûù÷úõ÷ùóøøý÷÷÷ùýþøö÷ôúöõüøøîöôôùóõúúüüóûöøöüûùõú÷øõýúõôøõùöùöõðþïô÷þôöóùùüôþôöúúöþ‚‚g‚e‚n‚z‚j‚Z‚n‚†óõüþôöøööõù÷õöúôøüøöùøüõ‚ ú‚ õ÷úüòúøõòöðöôùôóöøö‚ ñüöüõüõúõúö÷øýóýò‚øù÷ôùöôôõúõõóùõúøúýõùòõôöûúóöõúùùöò÷ùõûõùøöùùôü÷ööüýÿ÷ùôÿúþùñúýùþôøóüìñðþóûöôõöôùòúðöó÷òøó÷øùôõøùõ÷ðÿýöðúö÷û‚%‚v‚x‚q‚l‚u‚g‚t‚rõúöûôÿø÷öõúøôûùý÷úø÷öúòööôöñðúóÿôøôöõü÷ûõõöû÷öîûúøøòøùúù÷ö÷öúòõø÷ðòô÷ú÷øóùûúüóÿöôüüùõôùùøøýùüòûó‚ ÷øõùõ‚ïøïøôûöúú‚ò÷öøûûóüóø÷úðøùùóøùûüöøõôÿúöùüøûûúùðûôûõ÷úõùôù÷ùùððøùõõðôôõþ‚(‚q‚|‚o‚r‚q‚m‚w‚mõó÷øúóõð÷ûõñ÷ôöóö÷öùúó÷÷üúóöýþøüûõöúøúùüòöþùôòõ÷ö÷øùöòöüõ÷øýúøùùôùùüõ‚øûò÷óùóùöõ÷úõ÷÷‚ôõõüúýøõûõûúöýýýòýõùùøù÷óýøøôûöôöûõõ÷ûø÷ýûõöøöüöùøòûÿùøòùøüúôó÷ûüóõ÷úõúõüõ÷öøøùøöï‚öýðü‚+‚h‚e‚s‚]‚j‚l‚j‚lüøôõûùöõúõ÷÷øóûøüóüüüòûõ÷òüöñïúöùùúõöôúøûôøøþòûóýù÷øùôûùùñùûüö÷÷÷óýûöùöóúòúöúøøôüüýöøþôý÷ýüüúúðôóþùñøø÷üõüöóûþ‚ ööøñúôý÷÷øùõ‚ûùóõô‚õöóüõüó÷øþô÷÷üûõñøø‚ ø÷õ÷ùõöö÷øðõõúíø÷õõúùùý‚!‚h‚h‚v‚m‚w‚{‚g‚qõþ÷÷ú‚ ôýøûö÷öúôøíõ÷öùüòøôùùôùú÷÷úúü÷öüøüöôúö÷üøúú÷úõ÷ùôôïøøôúñ÷øõùüýûûüö÷ùøöùôõ÷úúûøýô÷õüúöòøôûðþõø÷ò÷‚ôøóøóúøýòýôûööõøñøñúôýõóõüûùøøùúôöôüøùõõøúøöõøöõóôúõóôñõøùòðóõöû÷öùø‚ ú‚*‚b‚k‚h‚k‚o‚]‚c‚mööùô‚ñöñùøòððòõü÷õõøûöü÷þøõû÷öúöüûÿøôóýúóöòõúööóøûùùõü÷õöÿúýøüóôô‚õýöôô‚ÿùõþþþø÷öûôûôüöúúöôýøÿöõùúøúóòõûïñúûûûôûöûùøôöøþ÷ü‚ûùñþøøÿ÷ôöùüöô÷÷òûùýðøùô÷øøýðúøþóü÷óóþôõ÷øöøñùòõøú‚‚k‚m‚t‚h‚„‚n‚q‚qöøùûõñú÷ÿõõóûóùöõôýòøôûøùñüôõù÷ðøõñòüøõùùðüöýýøôûøþûúõù÷øòüøúîõõýøôöõöùúû÷øøûòø÷öû÷÷ôùú÷óôüõôöøôøúñùóö‚ûñ÷úþøýö÷÷ý÷üòþôôñø÷ýøôò÷ýøöùó‚òúôóøùóü÷ý÷úòýû‚ ñøóö÷øòïôøòöôóõ÷ùöøøûöú‚"‚v‚t‚z‚l‚j‚‚j‚sîø÷úûùñöôûøú÷ññ÷ï÷ñøòöù÷óüûûõø‚øøýúùöù÷úô÷øðöö÷úóöôúúùøûøùõúüôùø÷úùûôõþûþ÷øüø÷üòùôöúñöø÷üòüøø÷øüþøüüùøýý‚ øûëÿûûóöôýõ÷ø÷÷üóùóþôúöòöýõùôùþüøú÷úøñöðõñùôïóøóû÷ñûúõõôúøûíõ÷öôöóöü‚0‚f‚v‚t‚z‚v‚q‚k‚hþöúù÷ó÷ôûöö÷öôøúúøùúõúôõùõúöñþõöøþóþøöùø÷ùöø÷ýøûøõïþüúù÷ú÷ôùõýõõò÷ùøî÷ï÷ôüöû÷úûüðúúýôùòûöú‚ ÷÷ýýø÷‚ øüõõøö÷úöñööþûöøóøüúøõù÷öúøñüó÷øùýõñòõþòûö÷øýõüðõúôôùðöð‚÷ùóûþøñûóõõ÷ö÷óúðö‚‚j‚l‚l‚d‚b‚i‚y‚tøú‚ óø÷õø÷ôüùøõòõüõú÷üòøøõôöñüñ÷öøôû÷þøü÷ý÷‚ ñø÷úöúõúóöõ÷ôýôñðúøø÷óùöú÷öóöù÷ûýúùúòöö÷ÿøõöòùøïôôøöóóöü‚ ô÷õúþûô÷ôûõøõûõ÷ñø÷þúùôõüþõôòôóýóôîùûù÷÷ö÷îùóú÷ýöîóõôøõóôöôõóùúûïöúõ÷ýööù‚"‚p‚€‚j‚m‚g‚k‚s‚bòÿñ÷öüôðòùøúîõò÷÷ööôù‚ ú÷ú÷ïùöüøøü‚ôøøøýúô÷õ÷óïöüõöó÷õúøðøõü÷óðûûùûöôôóûóÿ÷ýðûüööý÷ùöþúùñûùøóúúøùùöú÷úóôóöùûòõóùôûí÷úüôû÷úüýùúõþôõöþûôö‚ úÿúø÷ù÷ûòí÷ôöõõóó÷õùùïøóóôöùúøöðõùù÷öõ‚,‚t‚p‚y‚n‚o‚o‚j‚túöøñ÷üüòñúöùóüóúñõýúûôòõõ‚ ÷÷ñõòýóöïøøôíúõúúú÷þøþüüóþõùùûó÷øóùÿðøñö÷þôöö÷÷øôô÷ùñøóþõööù÷öüöóóúõóóôøúû÷óúýùúôúüúø÷ý÷÷÷ñóüõùñöøýóöòôòøòóýþøûôùøù÷÷öþøûòüõúõøóýôü÷òô÷øúôùñýúû÷÷ôø‚#‚k‚{‚u‚j‚u‚w‚t‚a÷òûóøõþó÷üøú÷ò÷òø÷òðýô÷ðùûøùôûû÷ü÷ûøúóþûýôøöýôøøøøõûøõýööûñ÷ø÷øôöúøööýýóùúôüùüùõóÿö÷òýôøùùùúöýñ‚ úûööôøîúõúõúôþöüöûõõòöõøúô÷õõóûÿð÷óûûúùÿøøø÷øõööñùøú÷ðúûýöøööÿùööòóùöûû÷÷òùùþ‚*‚c‚q‚j‚v‚o‚l‚e‚gûôüú÷õùúùïòþôôúöùöøøùø÷ùÿùøöó÷ùóøøööôõ÷ùûðùúû÷õóüòûøú÷ÿûüòÿùúøòüüöþòúûùñüñ÷ô‚ ïõùöùûïöôüôúóùöûûþùôûøúýòþùôôùøü÷ùù÷ÿ÷ô÷ö‚þõ÷õõóôüò÷øðó÷öøóòò÷üôúõøöøóøõúùþúúøýø‚òùøü÷ýóõôññõó÷÷‚$‚a‚s‚o‚w‚j‚e‚g‚o÷ýù÷ôöôýðö÷úðõøùõüõóôû÷ûñøóöôôîúôüòôüûûùô÷óþùøîÿý÷øú÷ûøóöõò÷öôôôöùñøúùúøöùú‚ úóõôüûöøøóûùû÷þøûõöøúõöñøóûóüôÿõÿøôøþóûòùõýñüñöòúúùöõ÷úóýôôôõôúöøöøõûõõøþñúûõøööúóùøðøðùúôûòòüóûõ‚)‚r‚s‚b‚‡‚f‚u‚v‚^ýõ‚ óûõ÷úõò÷÷ôïû÷ú÷ôõóôýöúõöøúýùðúñõüú÷ýöûù÷õõøûúù÷öøôüúóùõøüúùóùùøúüûúïôöüøöëûôúòõ÷õôöôüúú÷ýûÿôõõþüû÷ööüø÷ó÷óû÷ÿòü÷ü‚ óöøôöñúó÷÷úôùôüøöüúûøõøôø÷óóôúüööú÷ýúùüò÷úñõøøóùöôôûïôïú‚(‚]‚h‚p‚r‚s‚e‚o‚jøò÷ûüöòøúüøûòú÷ú‚ öü÷øùùýþô÷üû÷ø÷ùøýòöùù÷þùùôøõùöòðýöüøøôý÷þøõôôùòúùòþîùúõù‚ ÷úõýý÷õú÷ÿô‚ ÷øùúôõöÿøö÷úõúøõðüüùôòúûõ÷øõõøûòò‚ ÷ú÷÷øöôøö÷øú÷óüûô÷ùøùõÿòóóü÷ôôúùýøóí÷öþêôúôîððöôúôöõ‚)‚r‚o‚q‚u‚~‚t‚r‚iôýùüûö÷ÿòõôüúöóùõõò÷õôöøðüôúðöô÷óùñ÷÷ôôùø‚ô÷ùûõúùûòöôûôòöøòúøõóûõøóöøúõøúøûÿ÷õóùùõù÷üùúö÷ó‚ ùùøùøöñýõ÷÷üô÷øü÷õôùùôòùòûÿõðõðûðúöòõúõøù‚ ôúöøûÿ÷úñõþùõñ÷ýðùõÿõôøûóôõöðûõõòùöüúø÷ø‚'‚q‚s‚u‚z‚d‚w‚h‚uûøûøûòöó‚ñùôóõùô‚öø÷ø÷úöùñõôùõôòøûùõñðûöýõñöõùû÷ûùùôýþÿøøðøýöõôöü÷ú÷ö÷üúòóøùöôñùóñ÷ûõúýüóû÷ÿùù÷ÿñü÷ööøýøöþöøóüöùóøùö÷üõøùúòøúúôøûýùþ÷öú‚ùöñù÷÷ôõûöøþúùøôûöùþúøòöøô‚ ô÷øøõóóõø÷‚2‚n‚_‚v‚z‚o‚i‚z‚m÷öûøò÷úþ÷úùöüúóûôöø÷õø÷òóúñöùøòöôôýõøôøøýøõöøÿøùúôûú‚ôúöøõöóüóñúýùüøùôøõùøûù÷õþüôôúõüôöó‚ õôõöøüõúóùðûíøø‚ úõõö‚ùúöø‚ ùýùúóúùóùøúö÷úõýøüõôúúûöþõ÷ôõîóûù‚ øòÿõûöùö÷òöòýõö÷ô÷÷üûöüú‚0‚w‚‚z‚|‚‚‚‚s‚wõûöûôúúùôýòùøøô÷ùüúùõþúüøúùÿ÷úøùõùñøÿúóøóþ÷ýðøõýùúõø÷óøùþÿõýòúøýûòñüûõ÷÷úüóøðôùù÷÷ùóòùú÷÷ñùúõùþ÷ýôøûýûý÷øü‚÷þõòùúóöøùöõñøûúöÿöúúö÷öôüïòòúóöùõóøô÷÷÷ó÷òüøùöööùúûõøöüþüýúöüø÷ûú‚/‚l‚{‚j‚q‚r‚^‚z‚kúò÷ôøø‚÷öôþúö÷ýñøùýóùü÷ù÷øýööúúöúöùõûôùñûùù÷úùöõûþúõ÷ýøüúùóüøøóûôøõõúþò÷÷öüöîøòüòûùóöô÷‚òþòøôüøûñôôúöúôõòøïøöøýùöüöûôùûø÷÷óøòúúñ÷öúøõøòöûüôñôøóôýõûö÷öúýýúùñýûóîùõýðõñôóõóøôø‚!‚n‚j‚v‚u‚q‚p‚u‚lüøôö÷øùüõõùö÷ù÷øôùö÷üýûðóõùûôíüñúóÿø‚óûõýüúõýöýøû÷ö÷úïòöùòóôùõÿóù÷ûüüòøóüõõúûùû÷‚ôùôõ÷ûø÷ôôöïÿú÷öôùüú÷ùùûøøôõúòõù÷ýôùöôüûüôö÷ýðø÷úùú÷ýúÿõý÷þùûõ‚ ÷õúûö÷ùüòúïõñ÷ùöñ÷òôøôôù÷úñúù‚3‚‚p‚s‚z‚l‚v‚o‚jýüïýööñ÷öùôúõüõøôñöûïøõúøüûüöøôÿöþ÷üøûýöôøùúøþøðõüúþò÷úþúþöôõüòü÷õöõúù÷úù÷óôýüúöôùÿ÷ûõúýûôöûûüüõúùúïüùûóøúøôú÷úñÿÿýöûöü÷üøôòúòøö÷÷ùø÷øúôõõôùóòó÷ûôû÷ó÷öøÿõûôôýûöõó÷ôö÷õùñóõòô‚0‚h‚n‚a‚o‚r‚j‚u‚^÷ûùõúöø÷õúþôù÷ùýû÷øúüüóõôöñøúñôøó÷öõú÷÷ý÷þûü÷ûõõøøöð÷õóþôüóüøüòúôõö÷õöðüñüôýùúÿúôýûüø÷ùúùùóúñùøùïùõõóøû÷ö÷ùûñþù÷ûúõø÷üüôòùõòûüøóñôü÷úöóö÷÷÷üûöõüø÷ûøùó÷û‚ ôúô÷øýööóüõüí÷õð÷øúü‚$‚m‚d‚y‚x‚‚n‚n‚sùûõû÷û‚øö÷øùÿôúðþõû÷öö÷ñû÷ûøøñúú‚ûÿ÷ýøÿöü÷üøóôûñøòôó÷õúòöõùùööùóýù‚ õúöøúø÷ûøøú÷û‚ôóôýûöóñøøþüöðýüööôýôóøõøöûöò÷ýøúóöøúüÿòöùþôøúýùúôöñùøûïüó‚óüúöôùóô÷ùóñð÷÷ûööóôþúô÷ø÷õùöõóûø‚(‚d‚x‚k‚a‚‚r‚j‚döõõùôøòúøûöøøöòüöøóøòýðþúõ÷ô÷òúÿøùö‚ôôôú÷øóúôûöõôùùÿñöúüôöõøóøüöùøùôù÷ù÷ööøùýõ÷öùûû÷øöúõüõôø‚ øþñøóüöûôöøùõöòøñûñüúýöúùüÿÿ÷úùûø÷óùùþ÷÷øô÷ôøøøøñõôõùúðõôöÿöð÷óøõöóóøùùùóõûòûõöý‚4‚j‚~‚h‚m‚o‚€‚w‚k÷øù÷øñýûúúïþþöôøô‚ùû÷øùüôøóôôö÷ø÷ûøûþööþõúøûøùõùù‚ôöïö÷ýðùïûøô÷ûöÿùúöøûø÷úôý÷ýöòûûôíòüõûöïóøòûðñþ÷õöûúôöùøýýÿöõûüñ÷òõùýøöøúùúóøùùú÷ó÷îøûõ÷øõùóüòûúþñ÷óüûôóúøûñøñÿùùùúõþóóôöûú‚(‚o‚s‚w‚{‚r‚n‚h‚x‚ ÷ôðúüùòøõþõøûüôúñöøû÷ðòûøýöúùúúýõþøþûúùýóúüùõùôúóüúð÷øûûõù÷ûøø÷õñüóôòüøòòþùøÿöòøùúóõùùþöýõóûÿûùùýúøðúñüôýðøóõö÷ùü÷óíöôþôüó÷òü‚øöúù‚óúòúúúôùõùôô÷øö÷ôûøüõöôðöô÷÷öñõøøùöõõúôòø‚%‚n‚m‚s‚w‚u‚p‚‚pïúóøöýøýñôùô÷øïöùüõ÷üüöñõúõùøøõøõôüñðùõýôøõ÷ûûþò÷øýôûø÷úôóûõúõÿòööôôùòüóöþöòüûüöýöøøúôúüþöóõùøüôöôùóööÿû÷íø‚ üõúôúøøû÷ù÷÷ðùüùøý÷óöóùõóùöøîùöúù÷÷õø‚÷òöüûûóø÷ö÷úøøóùíûöùõúó÷ôýð‚%‚y‚o‚{‚…‚k‚‚t‚‚öùøø÷úùøù÷÷ý÷õõûõýðøõüöüùõõúùÿõüõúôõöùöùõü÷þõýýöøøôýóûöûõüõüùüööúöúü÷þóùöøööö÷öûóôñðøùñøùúüñøúýùôòûüþöõý÷øøööøûð÷õýøõö÷û÷ôúóþöüòô÷‚ öõô÷ùûöõô‚øúóõó÷÷øùúó÷øòóø÷öñø÷øøøñúøûööñÿ‚$‚r‚€‚~‚{‚ƒ‚„‚ˆ‚xúôýóòöûúûïöóûýüù÷ùüøúøùóúõøïûöóóùó÷üÿôõöõöùó÷÷õïøøýõòýýøñ÷ûÿöïôúøõúøöúñôøýøôòóù÷ûõòøûþ÷ùöü÷÷úûøûüøïüöùóúôøî÷ö÷ôýõõñÿ÷üô÷ûôõþó÷ó÷óøúúøùôûùúúóð÷úõøõùô÷ûô‚õúûðüøöóôöúõøôø÷÷õ÷ô‚‚.‚ƒ‚}‚ƒ‚‚y‚u‚~‚qø‚÷ûòúúý÷öóõûýú÷ïûøþö÷÷ð÷úôöúöðóôòõøöö÷ûüøøøüùýüóùþøøòý÷õúþøûóÿ÷öõùøü÷ûøøúùôøò‚óýøÿùùòø÷üöõîúøûöþôù÷øøôúþøùöýõ÷ûö÷ùõöîøþûöóïõô‚ øðõùùøóøöîøöûùþùóðùýýô÷ôúù‚ òøöóùñõùòùûüöûüôîúû‚,‚t‚k‚‚‚l‚†‚…‚‰÷ûõúòùùôóø÷÷ôûôúøýûÿòý÷ûüûøøöúôûøþõøõüöýóùò‚ ööùøþùõùõüùøöùôõìüøüú÷÷ûñÿùöóùõñúùöõùøþóûÿøôùøúøùöûùþöòò‚ ÷ôöøü÷ôüöüôüôóùöîûùøúúöüõþüþöüüùýýøúóöÿ÷òúðùñúôôôöõúöùôöùûöøôõôùûûúõõú÷‚‚2‚~‚}‚x‚’‚~‚Ž‚v‚Œùùúõöùöóþûúïú÷úûööôúõ÷ùøúóòû÷òú÷üôúöôüõõõüúõôôûúððùûûÿòúôÿ÷øòóý÷ôúõöô÷øúöüóøøþøûôùõ‚üûõúúþû‚óòôýóûïôòøï÷ô‚ ÷ûñýüööòõüöúóùõú÷öõùùùøõüýõö÷û÷ññò÷ö÷òñôýùûòõýúñúõö÷üöúöòðúööñøúþöþ‚7‚‚…‚‹‚‹‚‚˜‚’‚Šóøøÿûôöøùöúüúòúïöõùýøïýøýñûôúöûôøùüùú÷ûóõüù÷ûöýïýöøôñøùöøûü÷üðúñ‚ùùøöýùøÿôøûöùúúüóòöÿ÷òøôòúöøôòöúúùøøð÷ýôý÷óôüøüôõôýõøöýôýóøüúùøñüõóôüö÷öýñüøÿüõöüïüùúñøõñõýøøðòõüûýóõó‚øøôôü‚'‚‚‚–‚…‚‹‚Ž‚š‚‹‚–÷ûøøíüîüûñ÷õöùóüôöúúöõýÿù÷øøúõøùûùóýöù÷òöõöôøþô÷úúþøùþööôôøþ‚ ÷õû‚ ùøøüÿ÷ýôùûö÷ñø÷öôôùùôþûöøý÷úôü÷÷õûóõøúðûùú÷ù÷‚óöòýõúö÷òýøúôòöÿò÷ó÷ø÷øøô÷öýô÷ùööúòø÷÷øðþüúûóùþ÷ýñòõùùöòôòöøõú‚7‚—‚–‚‚‚‘‚›‚£‚’öõ÷øóýúôòöúöùûôøúù÷üùýô÷÷ýöõõ÷ùùôõô÷ôúöúñýðöööýûô‚÷ùúûöùüÿúúôõ÷÷üü÷‚ òûôùôûõ÷ø÷ö÷òôõùøúô÷ü÷ú÷óõûþöóùôôûúüû÷ùö÷þÿøù÷þöýøòùùô÷óöðõú÷ñ÷ñúôöüûööñþõý÷õöûùûõ÷ôüùõøùô‚òôï÷ú÷ôõø÷÷÷÷ý‚8‚œ‚–‚¢‚•‚«‚›‚Ÿ‚³úüøýÿ÷ýõüúÿóõô÷ôýïôóùù÷óöîþôõôýôüôþþüöùõþøùòøöøôúôü÷õùüöûôöõ÷ü÷õ÷÷ü÷ùøøÿüü÷ðöúöóøöùøúûõúõúøùýýñ÷øýù‚ ÷öóøò‚óüóú÷ýùúñ÷øøûýöõòþô÷÷ÿûùûùôúøöó÷øûô÷öøøöö÷ñþüõíûúø÷÷ö÷üùú÷õþöööýùñù‚J‚¡‚º‚´‚§‚±‚­‚À‚ªò÷ôøôþô÷ñøüóø÷óú÷û÷ù÷úöùüúõûúòøøüóúöó÷ïù÷ðóôùóô÷ôöýõüûÿóôùýûþòüòúøôùüóÿõõúùòýõüõýô÷úûþþñø‚øúüöúöüôôùúöøøóñúôøðùõÿõù÷óüø÷÷òýñôõôûøñôòóþö÷ïòùùøôöüøùö÷ûþøø÷ÿùþ÷ùõüøúòüøõöúíýòõü‚>‚¤‚½‚¸‚µ‚Í‚Ç‚´‚½ñõòûýùúò÷ùúûý÷øùîúøøõôó÷÷úóýòúøöõýöý÷ùñüõþøúñôúûûûùýõô÷ÿøúòöòúþõôô÷ÿø‚ òöøôõûøÿø÷õõüý÷úôúõöø÷÷ûùðøúúø‚ ùôõøûÿðóöûùùõùúûúû÷òöôïýòùø÷ñùø‚òü÷ÿúùõýðþ÷õ÷øöøóûùùóôøùøúïõñóú÷ùöôòòüùÿ‚D‚¶‚±‚Á‚Ê‚Ê‚Ç‚ä‚Æù÷øûõùøóúï÷ôùûöóûùýõ÷óüøúóÿõó÷øúúö÷øýúûøöóÿûûòôúýóòöòôóúþùúùöøüü÷ðõüúùòõòøùöõôøüñúúüöõöüõÿøöóûþúøýøÿüýøøøþôûõúñóöüòõîüøõøüôùöòúü÷óõýûýðüùûú÷ìýø÷ûóõü÷öóúõïúõùûõùóòú÷üûõôóôýóú‚:‚³‚Å‚ç‚Ò‚é‚Ø‚ã‚Óñúñõõõùÿùùòøýúýÿòøùÿ÷÷öôúøøúùôûôôöôûýøõøûøú÷ÿ÷öûøúþúÿóðûüù÷÷øñÿøøø÷øøòõ÷ööù÷üóþñúöúøúöüïùøÿõöñø÷þõúöùûúõüøúñüöúôô÷‚ üüöòûúúööýôüö÷ó÷÷òïõúøðôú÷ö÷úûøøøôûúöô÷ôô÷ùøûóôòððøúôðñöø÷‚A‚Å‚À‚ä‚ô‚üƒ‚øƒüõñüöüøô÷÷ûüõõòÿôøóùñþñ÷óôûöö‚øùñ‚ùúñùõüÿùöýõüöö÷õîûõùôöúùø÷óøóûüö÷‚ öüôûüúýôùüùüõîúÿû÷òþúüôôÿõøùòû÷øö÷øþúùúøøòûñø÷õøûóüòùøù÷ùøüøüúüüøóøöû÷ööýóÿôûôûõöööñøîýïòôùôüó÷üôúúüúøúï‚ ‚D‚Ö‚ï‚ü‚öƒ"ƒƒ/ƒ÷ôýöøñ÷öùö÷ðúïõ÷úþú÷ù÷þúüõø÷÷ùûõùöõöøøõõð÷þôûôùø÷ùøøüûöô÷ýùùúøýõùüùûöôðôúýíúõ÷òù‚ ôîû÷ùö÷ôøüùðúûûðîô‚ öýðøöþúýóûøø÷úöýðþ÷ùòûùøüøîõúúõïô÷îöóüöíö÷÷õüþô÷÷óúùõûöúùñöøþüýùö÷÷óùöùøý‚E‚ã‚éƒƒ3ƒVƒ5ƒ;ƒ5öüòóøõõöõüüüôõûýø÷öüüö÷öö÷ù÷úøúøüøõûùõø÷ûûøî÷øùôýøüô÷ÿ‚ôöôûøúø÷ð÷òý÷øøøôûúþýú÷÷öüóõøÿ÷òùùõýñ÷øúúûöõùûôô÷÷úøõúõúüöøöý÷þýõî÷ôøøõöõöþöùûþøùøþûþúú÷ùú‚ð÷øÿøññúòüôôîõôóñ‚öûô÷úùô÷ú‚Z‚ìƒƒ ƒFƒJƒeƒXƒaóúö÷úÿòöùöú‚õûíøõúöùùöòýúüôùùüöÿó÷úüìùñöù‚ùöôûú÷ô‚ øùûöôü÷ýýôøûýøúÿõøöõõþõ÷ðòûööùøõùüöñùöú÷úýýöù÷‚ ýüùþùúûüöúøùõþöü÷ûõøöõôúó‚ óûöùðúøùõòõøúúô÷÷üû÷øúõú÷ýþöøøúÿ÷ö÷õúôûúøöñôúùðòõþ‚O‚îƒƒ2ƒNƒgƒ‘ƒzƒWòóûðøöôöôý÷÷ûøø÷ïüüöõîø÷üùôùøøûôñøûúúú÷ýõù÷øðùôöõû÷ûúù÷÷ù‚øóüúõøøûñýùÿõøøúïþÿú÷ùøþöÿöüõ‚ùòòúüù÷øñöóøô÷øøõúüøòõøøûùúýòöýúùûøöüûöóóòøñïóùöööùôüøúõ÷õôôþûõ÷ùôû÷ýúýòûøöù÷íùùý÷úö‚‚[‚òƒ+ƒ5ƒTƒˆƒ„ƒˆƒmûõûõöû‚òúöüþýóùûú÷úòøòýõ÷ïúöñùùùùø÷üþü÷ô‚ù‚ õõõøñýöøôùøûóÿö÷öÿøóùüóõöõûö÷ùö÷÷÷òøþõñøùýøôûôóøóóõú÷ð÷÷‚ùúü÷ôÿüö÷øöúøù÷ÿðùüúûúõøð÷øòïøöû÷üñöôúúùôüõöùöïüòùóùûúùøõüñúõöøþøû÷üûõûò‚ ‚\‚öƒƒ,ƒaƒoƒ—ƒ«ƒˆîôüúùõôúùúóúøøöûï÷ù÷öúóüôúôùøùôõ÷ùô÷ôøúûöúüõ‚ öðø‚úóùøûøûûöóøúðøûôüöøúöøòòöóöøöùòùúüýù÷‚ùúôüþùøöóûöûúöûýóúòÿûõñóõüöññôúùõüöþû÷öùüöôöó‚ ööõõôýôúö÷õúøöøúôúôóôø÷ý÷ö÷÷üúþôôúùôòò‚ý‚L‚Øƒƒƒ?ƒJƒqƒƒs÷÷ï÷ö÷øùþõûûôýþùúóòýü÷ôûòþúþñúöüö÷òûøû÷øöùôþõþñøøüöý÷‚ ööúùôþóøóùöýðûõöõøüôöù÷üùûòûòûø÷öúòû÷ûô÷øÿñûûþõýøõûöõöýøûù÷ùö÷ûøùóúøøööò÷óüÿô÷øôüùüõøõøöúõýôõùôöúñþóùñôòùøûòõñó÷ûöùóúúÿ‚H‚Ôƒ
+ƒƒ1ƒLƒRƒjƒOýóúòöô÷÷ùò÷ø÷ø÷øûô÷ôûóüóô÷öôôôóúýõý÷øüøö‚ øõóþûóû÷÷øõöôðø÷ñöõ‚ ôðûøùöøöôöú÷ñöúþû÷ù÷ü÷úöøûòðô÷þò÷÷úõÿõùóüý÷òþôûðôøõðøôùðûòõýú÷óóý÷ùÿúòúöÿ÷÷øóöõöøìûôóòøôôõõõóø÷üòòõöùôó÷ÿýüòôúÿù‚]‚Ò‚ï‚þƒƒƒMƒJƒ öúòùùôû÷ôú÷øõ÷øùúøòõøûúóöûö÷òñúöóùôóõúûøòø÷öýôúõýýöøüûùð÷ýüöóóøóÿúòüöòøöúð‚øýøøüúñöùûúüöûñüûùñõúýð÷õýøöøöôþ÷ù÷÷ûüú÷ô÷þôþùùÿøøøøþùùóñúúôöð÷öú÷÷òûò‚ôüôù÷ôõú÷þøôõüùýï÷øúôðòõ÷ùø‚N‚Ì‚ß‚×‚ÿƒƒƒƒùùüýöþûúúú÷öñøò‚ úúô÷óþö÷öôö÷ôþõýöüñúôù÷øúø÷úú‚üýÿ÷øûõöü‚ ùõõöôÿøøð÷üÿõ÷÷ûúùúøøøðüô‚ þõóøúþ÷õüòõø÷ôõú÷öûøý÷ûùü÷ùùùöþøõðüöþôûòõóþýöóþøüþù÷õòúòùúú÷òöüöúòøöø÷øñüöñöó÷ñòøüûûú÷þü÷öþ‚C‚³‚Ð‚Ö‚êƒƒ‚ì‚ßøôú÷÷÷ü÷ûø÷öù÷ùôøôùúÿúýôúýúþøù÷ðõúüòúöüùóõûîúúò÷òöóöÿüöùüý÷ûý÷÷ùø‚ ôûöóðûüöóú÷úúóóùó‚ðõøúôõùûøý÷øó‚ õ‚ðúûø÷ùôôõþü÷óÿûôóþúøôöõý÷ÿõ÷ôþõòõüòøöóüùøöõõòøòøùñ÷ùýûúþûôüù‚ ûúýö÷ú÷‚ðñõÿ‚D‚­‚°‚µ‚È‚ì‚Õ‚É‚Õüùöõúöóøööõ÷öõõõúô÷ôö÷ùôôñòýúöóôûúöùø÷ûñ‚ üúóùú‚ø÷óó÷ûöüòûñ÷ýùøôòýöù÷ø÷öôüïüûúöüý‚úøùûôöûóõ‚ òôñø‚õõø÷õ÷õø÷öôðó÷úüìøùù‚úöö÷úøúôü÷õöûòý÷øÿú÷ÿúööÿðùúýöýôýóó÷üøùðôõ‚öîð÷ñüôðõööø÷‚?‚¢‚®‚­‚¶‚¿‚Ñ‚Á‚Àõøýûøú÷÷ðöôöôüòøùôûòöúúýóýîöùùõúüÿôùõ‚öõ÷ýÿöóøöûóýøóúöùýôóøõùüüúööòùþùùöñôûûúõîýü÷ó÷öóü÷õô÷öùôüþùöù÷þøýóýúüôúù‚ûúöõöúúýð÷ñúõõøöõøúùôø÷øüýùüòùøöú÷óõøúø÷÷ùðôùùóüúóõûú÷óóþýýùøú‚;‚Š‚š‚º‚»‚˜‚ ‚ž‚—ôõö÷÷ôùòøüòùõóúõþ÷üó÷÷ú‚ úõõþüü÷ö÷ôóöùõúöõýùúùõùýûöõøøõöôõö÷ûôýñûøûõüïüôððüù÷ðüõÿúù÷üü‚ ùöõùöý÷õ÷ü÷÷ðöøÿòõôûùøøùóüõ÷õ‚ ü÷óúùùùøþõöüõüúøöòüúùð÷ôô÷üúô÷õ÷þúüñúïûøúöúòøóööýîóöüõöõû‚)‚‚™‚ž‚¢‚š‚•‚—‚’ÿøùöüúüôøôûúøùüüõõþ÷úóôööøøñ÷ó÷ôõùýõøúö÷þòùúöûûõöõúûû÷ýúúñþøúõðûööüöúòüüøùó÷þùûûõùøóþöùùøöòóûùöòöùõöøõö÷ôùö÷ùúõûùù÷üôýûü÷üöûö÷òøðööùòü÷øúüüöðúúúïôøûøõòöóööúùøòùõùøôôôôôýüòúþ‚4‚’‚—‚‚œ‚‘‚‹‚˜‚Œõúóöôüüûóõõöøôôø÷ùõõúõøöø‚ ô‚ úô÷ûöûôüøøüúöøøúùòôõö‚ ùòòöøøúõõøú÷‚ö÷øøòúøú÷üõúõñöúî÷ùûù÷õøöûîùó‚üøóøùþóùùúñûöüùýòóùüùøîôòù÷ôóöùÿô÷üýøøôøôøùùóôöõñòøùúøü÷ïüôüøóôþý÷óñûøüóüûõþööüú‚1‚y‚~‚‚œ‚’‚y‚~‚šúûùÿ÷üöùúù÷øû‚ ÷öôøüùøùöúöõìòôùíúöøóúöù÷òù‚ óúò‚ ùýïùøüõ÷øüûöùõõûöù÷óõùöþû÷õõüöøøõüö÷üýùöøøøûö÷ôóûøî÷õôûõþöýùüõõöüôøõúüùõÿõû÷ù÷øøÿõøòö÷ùöûòüòúôøðûûþöûøûóøùýüõøöøøöùìõðýõöð÷ôøó÷‚1‚Œ‚‚€‚†‚‡‚Œ‚v‚Ž÷óù÷þöûÿûûòïúöúüôòúû‚óøõö‚ üøúóüúóõüõöúú÷õòúøøùóøö÷ñöýñüøý÷÷ðù‚ öÿôýùü÷øôýúýò‚ úøóö÷øð÷ôõôüõõõ‚ ôúûùôúõüòú÷úôúøøñÿùúó‚ õöòóýúôúùòíüûúõñøøùõòöýýööòüûõñøô÷øöòúþöñôúúüøúúúûøôüùü÷øøý‚-‚‡‚x‚y‚Š‚€‚‚†‚tûöôöôòü÷õô÷üû÷úóúòýóúùøòüùûüüòùøô÷÷úøñúñýñöóô÷þòøõõôþúüðýúþ÷öùúöùó÷ù‚ øø÷‚óù÷õøúûöñþöûúð÷÷öüùööûùúöõúööôøùõöñõõù÷÷úôýùúû÷øùóùøþú‚÷ýôþöûôø÷øóûûüõùïþð‚ ùùòùùûû÷ö÷öýúöòýööðöóõñòù‚&‚„‚‚c‚y‚€‚}‚‚‚}üööøúÿùúôúøüøöõÿùùõúüòôúôòóùóóöúòôúúöúòüôù‚ õøÿôøôûûöøöøùø÷÷ôø÷õûúùøôüõùõþùùøþôýûö÷ùú‚òýöüôúöõöùõùüúûøö‚ õ÷ùýøûöúóüöýøòõûôüõöòúó÷õù÷øøúøôùúïþ÷üúúùûýúüûñõøõöøõ÷úöùôôøô÷÷úùíøøõö‚%‚|‚~‚{‚k‚|‚‚|‚€ùöõùõóõýûöóüöôùøøööøóüýôîøó‚ ôüòöóÿ÷ûøø÷ô÷þ÷úó÷ñùöüô‚ôøôøøùðûöú÷÷÷ü÷ÿï÷øü÷öùûôõòùúøöööüüüöîýüöþö÷ôûûú÷÷üùúùúðûöõúúûúñôùúô÷ñøøþöø÷ú‚ úöüýøóÿôýóõïöôüøñø÷óüöóîÿøøóõû÷ûúøõôûõý÷ûúø‚!‚r‚u‚}‚t‚r‚u‚t‚x‚øúöö÷÷öûøüòø÷ôöÿõýøøóÿúöïö÷÷öóððó‚ úøïõõþ÷øõó÷üøñýùõúý÷þüöóóùüùóñõôüùøúþõûõøúýùýôû÷‚ õùüû÷öòùøý÷ûôüôûîõõøüüòüðùùùõþ÷ùø‚ úõùùöûõ‚òôñöôúõøòúû÷õòøúó‚ ôùûúõòõù‚ ûöõþøô÷óö÷õñïöñùñôõý‚,‚w‚s‚z‚s‚p‚p‚…‚möõùúúöóûúÿö÷øúùøøòöùõôûø÷õ÷ûøöú÷ïøøõ÷òøøùöúõøýüöööøôùôûï÷ôùö‚ ýøóøøýøüòþú‚ îùùú÷ø÷úòöõõöûöûîöúøøüòõõýô÷öùûùðùúú‚ ÷õùûùôøõöòóóööýùñúöÿúòøõúûûõòøþ÷öúõúòöøúø÷ö÷õþöïóøùúñýíõþüøôúÿü‚2‚t‚o‚j‚r‚t‚x‚e‚iõ÷÷üöýóõñþóûîøôüòûúüýûôþõþùüôøôûùþ÷ü÷ùøûùñ÷ûöûøùøûùô÷ýùùöøùöøúïø÷ûöñùÿûùöñùùýõöúõôöúüôõûúû÷ú‚õù÷øûúôõñüø÷ò÷ö÷ùùöøôúøöûÿîûõúöøúúøõôøöýøúîøôøûôòöòø÷õùûõñöþö‚ ùöøõûþôòô÷ùöù÷òõòý‚'‚_‚€‚u‚o‚q‚|‚|‚u÷ú÷ôõòõý÷üþüöùúúøúûõ÷õýöñúñùõøöö÷÷ôõõõüýòúøö÷÷÷þôþúù÷ÿý÷û‚óøöùø÷òøô‚ ô÷÷úü÷ôýø‚÷ø÷÷ñý÷ø÷ó÷úôþõùðøúúùúðöûú÷ùöÿôøöþýöùøøþø÷ôóýöóóõ÷÷÷÷ïûøüóòóýóùó÷÷õ÷úõûö‚ óùøùõõ÷õñúúøóøôøøøõúùû‚%‚p‚i‚z‚s‚x‚p‚t‚vüòûùöô‚úõóøúþûøñöøüôöóúõ÷úüöûø÷õþûööüúüí÷öøúøóõóøôøøü÷óò‚÷úøõóý‚ þôøûüøøóööûü÷ôøýîðùûðúñôõ÷÷ôôýöüòþôúûüôõôúóùòýóùôøóùïñøþõúð÷ö÷ôõö÷ôù÷üûûòùúüúøõûöûúüöúööõôùùõúôùòúùö÷õùöùôöô÷‚'‚n‚v‚t‚q‚n‚r‚l‚jüõóôîúõýðöùôöõö‚õùöùúüúõôü÷ûöóûùöùøõö÷ôùù÷õôøûøúùú÷óù÷ùûýóõóüúýøøóøöýóýúøó÷÷úõøõõûý÷øú‚òüó÷øöòøööòõöüúöðýöö÷ûýõï÷øûüøö÷øûúõöüÿõ÷ù÷ùôô÷öø÷óùôûøôúñ÷÷ùôøøõöûóðôúøûðü÷üú÷ø÷õøíõø‚(‚a‚h‚w‚s‚s‚z‚y‚k÷ø÷þùõöûöøòøóÿúõööóþ÷ûïõ÷ûööõûòñöûïõøøøûù‚ ÷ûô‚ ûøîùõúúööõòòúýðøïúûóóüöüú÷÷ôôù÷ùöõøòúúùûùôùùÿ÷þòôüûüøðþüýôýôþõúõõôùööðÿð÷õúôôïøø÷òõøúõøð‚ü÷ôöþ‚ öþôý÷ý÷õôøó÷øúúô÷óõùøöòó÷øôõóúðý‚$‚}‚o‚i‚g‚Œ‚n‚k‚dýóÿûûò÷øò÷üó÷òöôòõùôúøõúö÷öõü÷ú÷ùø÷ð÷øø÷úðõöôöòùùøôøþúø‚ùøù÷úùô‚ öõôúýÿøøöúôüóöóöóöøúóö÷ýõþôüõùÿùóþ÷öò‚üøööñþøú÷øüûõúûýøñùøùúðýñø÷øûöúúøõøñúõõòôüöôöõùøûüøöûóöýþøüùøñüóýñôù‚ùû‚#‚g‚j‚w‚h‚s‚n‚m‚kûñöóûøÿùúüü÷ùúüòöôöøûöòòûùúõ÷ôúîöõÿ÷ýðøûûøôöúóÿôôúýøùö‚úöøúúõ÷õîôôôô÷øÿôùø÷÷õùù‚ ööùóýûøòúüøúù‚õø÷õúò÷ùîøûøûöôýö‚üúõùüùõûóùôýöúø‚òùøüøõôõõûôüïõôúòùôùöùøùòüöýðüøôò÷öôóùû÷õüû÷ô‚$‚m‚r‚i‚a‚h‚k‚q‚p÷þö÷õüùþó‚ öûóúòûúñõø÷øöû÷ýõþøôùüýýõÿõý÷ñùùý‚õ÷öùöù÷íòùóúøôûõòùûü÷òø÷õùûú÷õùøýøõúù÷öóþûøòûüøôúõú÷üøóõ‚õûôý÷ôûöðïôùõôôüðý÷öôþþõ÷üøúïùùúøýôýýýùôøöùúöûöñóõñòúòóñùóûùûõòùõöóõóùò÷‚%‚l‚~‚h‚o‚q‚s‚j‚„õôøøõù÷öðýöüòöúþîøøýö÷ô÷óüõùóýøùõû÷ùòøúûùùõÿúøþýõú÷üùöùûúþö÷óù÷ùøøô÷ùøõúôûóôôýùóóüúùõúûøþûö‚üü÷ùùýùöõ÷ùôûðñúúþöõúöûøû÷üúúôþøüñ÷úþõýóùöÿ÷öóûøúôõõóü‚óüôü÷ùûýüúöùòôùøòòïüîöò÷ôú‚(‚n‚t‚l‚„‚f‚v‚s‚cøöùöùöþôû‚ùöúñ÷û‚ö÷î÷üöóöð÷ûôøúõõøöû‚ò÷öúûôüõùüþûö÷øúôü÷øðóüöôðûöí÷øöþúöôúùúöýúùóùûûúûñøôüýüòÿöþø‚ õûöñøõöúö÷öÿöýõúøúüõõùôúíú÷úðúøÿôöý÷ûöñ÷ù‚ òó÷øùô÷þúò÷øöóúûïøûúöòøóôôúó÷ôúñù‚#‚j‚‡‚z‚v‚w‚a‚†‚a÷ôü÷õýóýüþöïööøõúûþóøòúûüþùð‚ûûõÿøÿ÷ÿøøûúñýôöùô÷ýò‚óýóþ÷ûûûõùøùõõø‚ ôþõùùþýõõûôüñøüööüðúøùùõùüöüöüú÷÷øôöô÷ôñ÷öùööôðýþ÷õõù‚ øöþô÷ôýöúüöõùú‚÷ô÷ýóþöøòùôôïùôûñûøúôùøþõûùóöûööõ÷òöú‚(‚c‚s‚m‚m‚g‚m‚v‚`ôñðøõ÷öøõ‚öøüüû÷ûûûøõùò÷ùûöúõùøõø÷öòúö÷þöö÷ûúøúøõþùú÷øüþõüõüô÷øøõöòôøøøñøõøôûù÷öü÷ùóùõýóüû÷÷ûøüô÷øýóúöúùöí÷÷ùõø÷ýöûùûôûùûôüõøöòøõñùð‚öýõóûøüöôù÷óýûöö÷ûõúûõûõ÷ýøù÷ôöúùóò÷öõûï‚&‚g‚t‚u‚y‚i‚x‚u‚‚÷þù‚ ñÿüú÷úø÷öÿòööö÷úñúðùùøñøòý÷öóüöûûþ÷ø÷ûüþôù÷÷õööõóùùúóñ÷úöþøúúúñúûþ÷÷öýùýöøùûýûõôø÷öùõùøüõñóøûõ÷öùõÿùõùýøðôüøùïôúûõ‚ óúøù÷üõýôûóüõúùø÷úõûøùúúîùõþíøô÷õ÷óöóøõôô÷øõõüüóøöøøòú‚#‚n‚j‚m‚j‚l‚m‚|‚`óðøúýùûòöúùô‚òúô÷ýö÷÷÷üÿùù÷üööù÷úöüñõôûøöòöûòöõøõúööõóøüùþùõøûöøùüöõõøýøøøïÿùúùõ÷úöùóüøù÷üóÿðýöüøúô÷ù÷ðøö÷õùöüôóõõþýöóôú÷ö÷ùóöó÷ôý‚ô÷ö‚ ÿðúöóýóôöòûúô÷ïûõùø÷÷ùúüôöóòùþñôñ‚ú÷úý‚*‚b‚h‚€‚b‚x‚o‚_‚cóòöûùõôõûñü÷öõûòÿöúôòôøöüõûò÷úúúüôúýúñü÷ü÷ùõùõýñøòÿüóïùøûö÷úùöùì÷õ‚ ïóúøôþôûøùýøúýúüôööõýööùùþùöóóûÿùúôóúòøñøùöñùúÿú÷ööúüõúñüôô÷ùùùðùõù÷÷ö‚õýõùúôõùðôíôõøôõõüøúîö÷úöôïõ÷÷ýöõõ÷‚$‚j‚n‚|‚p‚g‚r‚‚\øÿùøóöó÷ôø÷÷ððúüñøôôûû÷öúûõ÷øúüñ÷óúúúý÷÷ûøúúöôõûõ÷úôõ÷úúüú÷ùûøûøôýùòù÷üõðþüùúòôöþöõñ‚þýñôøùýüîýø‚úõûüúòòþöúóøñøõùðù÷øñúò÷õúüøôýôüöýøúòøúûûøöóøø‚ úñøòõüüððýùóóôûú÷øúúüýóõøûòôú‚(‚d‚z‚g‚{‚\‚y‚g‚uïüö÷òøõýóûø÷ïùýûôüñ‚ öûóúùý÷÷üüò÷óûóöñøûûôùðüýýý÷óú÷ý÷úûùôøùþö÷÷óúúó÷öùôðóöúøöøôøÿôûôøý÷õùúûô÷òõúþõùðüúùûöõùöÿúûöûóýúýòöõöû‚ ñýôøóøðùòùôüõøðúø÷ðüõöòõôûõøõûõûõóóúôúõóù÷÷øûýôöõû‚!‚g‚~‚x‚o‚f‚z‚u‚oúùúûóöøöüöøòýþôýû÷ùïøöòø÷ø÷ùüýôùüõûûôüüøõûööøùøöóøö÷ñûóùóúþûôøùúú÷óõö‚ øþúÿöùý‚ úûù÷ô‚ùúñùòûòüùù÷øùóøÿ÷úôûùøöøòüúùúôüûüóïùöùþöðùýõöóøôõúýûøöùð÷ûÿöóðÿøôùñðõõùíûóýö÷óúðÿõóøüöôò‚‚&‚m‚c‚{‚c‚q‚q‚}‚\÷ûüòôøøòûù÷îúñúò÷ùùðùôý÷þôøöüùûðü÷ÿòüðûùôñôõûõÿóþøùöú÷þþüúø÷ùöôï‚óùõùýøð÷‚÷úù÷ûúúúõüøûïùýôùûôùóûûü÷ÿöúü‚ ÷öøúöøøüôúïúþüøùòþýýöøöýôüûùôúõüôþó÷ôøúøóûõøýýîúùýôýðöøýøýîúüüùúøúîøø‚-‚w‚u‚o‚_‚†‚„‚p‚hûøôûò‚úöùþöüõü÷ööùûöôøöùøôúðýóõõúöõüù÷úóüþøøôþüùøô‚ ýøú÷öôöüùøôôîööûòöôõ÷ùøúíûõ‚ ò÷öüöúüõóùøý÷ÿöûó÷÷ú÷ùôö÷úøú÷ÿûýøøö‚û÷ôúõøôóþõîõóúöüôòùöúúòòõñûøö÷öùüóúöûùøöôûü÷õøööõõúóúùûð÷ý‚+‚S‚l‚k‚x‚g‚r‚f‚pöýõúýúöûûû÷ó÷ññýõøëúöùõø÷üõþøõùúöù÷ýú÷îþõøö÷õöôùõøúùõööùõûôúõ÷ú÷óýþû÷öóùùü÷ø÷úúòþý÷ôõøúúöøô÷÷ôõðûðùü÷øú÷þõööùóúóüúþõùõþûøïûøþôøôø‚ÿöú÷ü÷÷÷ý÷ûî÷õ÷õóòôòýùóðøõùöúöõôùûòøöõýöûû÷‚(‚h‚i‚o‚s‚j‚o‚u‚pûøùöõø÷õþ÷öõøööüùøôøýûõúûôøø÷úöþúñ÷÷øúöõñúöö÷öóóø÷ûùóû÷ýöûùüøóô‚ú÷öóøþôøúø÷ûõùùüûö÷ýøöíüôúõ÷öõýÿõðôúõýööõþùû÷øüôùúüýùÿüþ÷üüùöòõ÷ö÷öøûùõòöùöóøõøôüòöõúôøý‚ úüóõõûý‚ìù÷ûøøùôðÿñû‚‚g‚i‚x‚q‚v‚n‚~‚dýøúööôúöþöúòúöö÷ö÷÷óüöüõòòüûüòúóþ÷ÿøú÷üùôöÿúþ÷øùý÷ûùúñüüó÷üúüùööøúýööûùõ÷úøøùõúòúöõ÷ùúòø÷ù÷÷ðûùøúöôû÷ÿûýôú÷ûùþñöøùüúôýôúõùööòõøúõöõùöøðùñ÷øüúùùôô‚ ö÷õóöø÷ùëñõôôü÷÷ôøðûûøôõòúû‚$‚c‚s‚‚‚j‚h‚i‚k‚póûïöôûõõýõöþóùúøùôòûúøù÷÷ùùöôùõþøô÷ø÷øýýùõôòø÷÷òôõûùðøýùýòøöý÷ÿôúõüùýúóøöôüûüúùõ÷õü÷úôöûü÷øòþúüôõ÷ÿóùôýùõóùöüööò÷ûûðóôúþúùôôýøþò÷ûõ÷úþøø÷øöüøöúóõóó‚ ïõòöüóùôúüöúóõöÿò÷øùúôôùõ‚‚k‚w‚p‚o‚p‚x‚m‚jùøöñõùõúðúýüüþó‚ ôýòöþú÷÷óü÷ü÷õïüñõþ‚÷øõþÿü÷ûøùöööùüøòúòþþù÷öúýôõùöñû÷öïøùûüøøöûúû÷úüööù÷ùöøöø÷üòøòüö÷õùôùúüñöúúööùýôúûýôúûúôýøûñõôü÷÷÷÷öýöùñý÷÷õúô÷õù÷öøôòöõ‚òöøøøüõùò÷öúöøùû‚‚_‚v‚p‚t‚u‚t‚j‚k÷ùû÷ûøùò÷ýù÷÷òúôöõ÷ùúõö÷ýøóôöüùùøùüûøöúúúýööøöÿöóûôûøòôóöøõóóøþý÷÷ò‚ùûú÷øùóûúýöùùú÷ÿô‚ õýöóõ÷øùñ÷øüùõ÷ûõû÷ùûøùøø÷òûùüòøöüòýýõõ÷õýú‚ùúôúúýóüõõ÷ùü÷÷ýõööööõùôôòðòöôüóóúûûýõùõüóþ‚#‚`‚l‚u‚q‚{‚}‚m‚oôúûüùõ÷÷ýøüùõðöøùõùòôù÷õþ÷úñùùüúý÷ú÷òõ÷÷÷öùñ‚öööúøûðôúûýûïùôýõóöôûýîúùøôöòüôÿõööùøùú‚øüûüú÷øü÷üôüÿôÿòóøöøúõøõô÷÷ùõùúñöõôö÷þýõüúüóôùûóúñõøûúøóûôüùøóúøþîýùýøöóøð‚ õòóüúùñõööíóû‚‚o‚y‚n‚f‚c‚|‚|‚tõþöùúùõùøúöúòûùúøûõøùõüõôÿ÷øòôùúõýôùø÷÷÷õþúöúúôùûúô÷ôüøúûûîö‚ ùüøùýû÷öøúööñöýüõøöü÷ûøøõÿõóðûôûó÷öûõýöôúý÷ù÷‚ õþ÷úüùüûòúûüòôôÿòýõýööùõöú÷öóôõ÷ôüöôöø÷õúûüùøïôöüùðôò÷õôþõöø÷öÿþý÷‚!‚t‚v‚v‚n‚m‚v‚d‚zø÷÷þþòøûÿôöùö‚öýóôþúôõò÷úúúûðöïû÷úûýõýúÿùüñùú÷ó÷÷÷ñõñûêøøýøøñ‚ üþù÷ó‚÷÷òûù÷ôöýýøüõûúÿ÷øøûùúöùøùõ÷óû÷÷ùø÷ûú÷ôóüöüñüûúö÷óýøüôøøøõ‚ùþõô÷üôõòö÷ú÷ÿ÷øöøôúöõôûíöñûöôóüûùöþ÷õø÷ööôÿóÿ‚‚f‚n‚w‚x‚g‚c‚u‚döõøõöîüýõøù÷ùø÷‚ ùþúõöøüòõ÷óöúóðõöøõö÷ø÷þöõ÷÷ù÷ü÷õôôûøûñþõøûùøöýýøøöúïôôùòûòôóùøýõû÷‚ òúôúøùóóôøôüôüðöù‚÷ø÷úõùúüôøõûöÿøúøüöøþöúñðþþöóù÷ô÷÷öôóôôòüüôöüøýùøùùõ÷õùùþö÷øõ÷ùó‚óøõøøþ‚!‚m‚X‚k‚w‚s‚q‚w‚pùöóý‚ óöõüöûöõôø÷üðóóôõüöùòûý÷öøú÷ø÷öõóÿøöòþôýùûñùûûùóñúöúöúðõõûúü÷ÿ÷þþþøýööóùùôøòôþ÷ùúôûúøñôüùøõóûøøûùõýøú÷øþ÷õøò÷öüïððýøùóõóôøüøõöùðüúøóôôùööúøñõõüðþðôõùøôòÿôñôúóûùþôöüøûõû‚ ‚a‚r‚r‚e‚~‚u‚{‚v÷ùóôøúöüúüöõôøõø÷öñù‚ úøùù÷÷õöôûþöý÷óóúöüúðü÷öööùøúþö÷ùùýýúüøþûýöù÷þöùóûúüóúòþôüùöö÷öùôùïùòþý‚òùøÿÿøûóñúõþñöøûöúóùûøúõøýöýîú÷úýôõúöõöøøüñõòõôøòô÷öú÷ñôþïüø÷ú‚üñôúú‚ö÷ò÷÷øñóòõñ‚‚e‚e‚e‚t‚m‚n‚T‚jð÷óøóõùôöþòôúüõõõüúø÷û÷ûû‚ ôûô÷õûôùôüùõõüöù÷ýöùûûúÿð‚òúùôôþôöõöóøùøýùôÿüóúööùôûøùôùüøø‚ óöûøøú÷÷õúüöðúüðúùúòýô‚ø÷õùôùõõóû÷úøÿóøñúúúý÷õùôúïÿöùóöõ÷óú÷óöýõúöûôöóôòùõùóñù÷ô÷õööþþø‚ ‚g‚}‚o‚o‚t‚u‚t‚nüõøõú‚ ûøùùöö÷öôôõñøòüú÷óôöøþöñóù÷óôýøùóúüòùõõùöûõøöûóööùööùòø‚ ô‚ îúøþø÷ïüôüúûòõñôó‚÷ýòöøüûûõúõûõÿô‚øûúöôþòùõûùðõôöûôõïõùõõøôúôø÷ýøø÷ùùûðöü÷ýùñýùùù÷óô÷ùóøùòôõüø÷øøò÷öúõôðõïüõø‚‚g‚}‚h‚p‚}‚a‚p‚Söðøõøð÷ò‚ úõôùøûúù÷ùöþñÿùýôõ÷ùûüñûóóõúòüóöùýôþöþúöùýöú÷ÿòþúøúÿùûòùýòøôúýôøïõý÷ùùùøøð÷úööôúõýýøøõü‚ ôöþ÷ôöñïûùøôù÷ÿôøúþöýôöòùöùúúøùò‚ øóøÿöýööõûþöôôòùôýøõù÷ú‚ öúüùîþõúñøóõûòöôñõö‚‚n‚i‚p‚m‚n‚j‚y‚]öøùøõó÷ûö÷üúôöóùûúüûøö÷÷ôöôõóøîö÷ùòúöøÿøùøúôõþøù÷óû÷òúúôûñúýúôô÷üöõõûùøóúôüõúöøø÷öûú‚õöòúöûïøøøúùøùõøø‚öúôùøøó÷ø÷öö÷üóûù‚öúóöûúòþôóøù÷øöûõúôúüúùôõùþóôñöú÷÷óðüôøñóø÷óò÷üøü÷ýô‚0‚[‚y‚c‚„‚n‚}‚l‚xñ÷øýùöðý÷ýööòõõüôûúýóöúüóùøú÷ÿøúôùðþùúðò÷üúóûüøÿôö÷øúøôùùû÷ûùöüúöÿ÷ûöôøøööõðöø÷öôõöþó÷úóú÷úýûõúùûøýù÷öûîûò÷îó÷þøøñü÷øò÷óûöýóûûôûûûþöúùÿùöó÷óúòö÷öôúõù÷‚ õ÷ò÷úøôúôñþúöôòýõööúú÷‚‚[‚o‚s‚g‚h‚p‚l‚gøøóúþôòõùúöûñö÷òýõ÷úúùõúùüöøõýñôòÿ÷þðøüòú÷ö‚ ùóöûû‚÷þõúüøýýøüôùïõöúñüñöøúôööûóýö‚üýõúõþöü÷öööôüðýôûöù÷ûõûöøøóûùôùñþ÷òûúùúùõýøøò÷ôúöõøûöõóÿøû÷øøùüûòùûúðöøúöú÷õð‚÷ûõøòõòõó‚ ñýòò‚%‚q‚n‚‚‚|‚k‚u‚s‚býô÷ðýïù÷üõ÷õýòòùüòúòúôøøïõöõúóý÷ýøûòõúþùøïóöøøöñò÷úó÷øý÷ûóþóøûôöúýþöýùÿûüÿù÷ûûòùö÷òùòó÷ïù÷ôøùô÷ûùõôùø÷ôûøôùõôüûþôøøÿñøõùôöûøó‚ ùüóüõù÷ùøüø÷ø÷ûýðúøôñõ÷÷öúóùúýúööüõüóõ‚ ôö‚ ø÷öùø‚‚l‚ƒ‚j‚‚x‚k‚h‚l÷ü÷ûûùùôôýùûöðó÷ûøöø÷ùùöö÷÷ýøó÷øöøóôôúöóõó÷ô‚ öù÷øúõøþôõñôóü÷÷øþùÿúõøýöþ÷øòýõüòùýöõûöýöýõùöýûñôøöõó÷îøûüöô÷úúõùøúøùø÷ýôø÷‚øúóþþùûûûîôø÷÷ôõ÷ðûýòñ÷÷øîóøüúþ÷÷÷úóûùüõöóø÷úùúùøõ÷ó‚&‚[‚x‚‚„‚m‚v‚a‚m÷öúüôÿõýÿþóþõü÷‚ õøüõö÷ò÷òü‚ üñóöÿòûö÷í‚öûúþøûð‚øüýûòñô‚ úøðõùöúüñúú÷ôõüúûùøöüõùùøüõòóöýûûôôóøóýîöøõüüöùòýú÷ùýþøø‚õýùöúýøÿîöúýóôøýúÿóôòø÷øó‚ îùúùöÿøúôúöýù÷õ÷ïûõòóòüùúöûúôûþøõ‚ ü÷‚&‚x‚r‚m‚q‚f‚m‚n‚iõ÷ýûý÷÷ýúø÷øúúö÷÷ü÷ùôöòøøþ÷öú‚ ôûúýøõùúøþðû÷óúûïøôÿø÷øôøûúü÷‚ýü÷ûõÿóø÷øöý÷÷õÿòùöøöûõüôñöô÷õ÷þõûôüûüùöïùþöôøõ÷ôùø÷ñøøôøù÷óùö÷ôøþøö÷ÿúñþ÷ûüù÷øý‚ òóôôöøõøñùó÷ùùòýôùûøõùøõíþóýñ÷øø‚‚_‚^‚f‚w‚w‚c‚z‚eøôÿûôôû÷ùøþ÷ú÷øñûöûóôøýöüó÷öüùðóõñöû‚÷ùôüü÷ùðùþöûüüÿøôüõü÷øøòûøû÷ðñø÷øûõõüø÷õùøýòõ÷ûô÷ûúýþñøøöø‚ ðýú÷ùöíùúúøôöþòýóúòû÷öùóòþòøøöòùôùúû÷ïùøöúôýùõöûþøôøóûöù‚øõøõ‚ üöõîòøøðóìðõøñ÷‚#‚X‚u‚h‚l‚m‚s‚q‚føöõöùûøûûüùö÷ùõüúõûúööõú÷öõóôôþ‚úüúôýþú÷øöÿõôõùøøóúðúôúúúù÷öúûüøôöúõ‚ ôþõýüøöÿúúõûô÷óûî÷ôöòñûÿøýúû÷÷üúïùúýöø÷óý÷üýõ÷þøööõõõøõö÷õý÷øûûùûõû÷üô÷ôþù÷ðøøõõõøûóóõøúÿ÷øöü÷ûøöõûø‚ñú÷‚%‚`‚u‚k‚d‚u‚r‚h‚`÷ùøüöúñùøþñøôõõýú÷÷ý÷ýõøôû÷ýõøüöõÿ÷úýû÷øôøóö÷öùøùüïü÷øýúó÷÷÷öþðö÷ôöüõô÷ôüûúÿôõôüÿ÷ýôú÷ù÷úðýø÷ú‚ øõôþúÿöøõöôûóóùõôù÷ýôÿ÷ùöú÷øôýüùöùøùó‚õúîúüúúúòùûø÷÷óùõòùø÷ûúø÷øø÷õôùùõöôòö÷÷ô‚‚g‚o‚~‚s‚^‚s‚j‚aõíûû÷üöúýýùøùøúûôõúøøúïø÷úøøõøûùþùöùðú÷üú÷ôýü÷ïùüöó÷ù‚ úüôõùþúøòÿõùïõõþ÷ø÷úøþóø÷üô÷õõùùúöð÷ùþøöòõøüõö÷úøøð÷÷ûõøööüø÷úü÷úõ÷öööòôõô÷øøòùùüøþñùøõûöóöô÷òýöøöøò÷ûõôòð÷øùïøôúøôò‚ ûû‚‚]‚`‚v‚u‚y‚m‚c‚^ûúúðýõûüúñøõ÷ðýøõôûòùóùúõô÷ôùøýóøó÷ø‚óüôù÷øðöþúöùóùñøøñòùõöÿüôüùöÿüûõóöúü÷ôþ÷ùõøøûöøôõýóôûýùîùðþûú÷þöùöûøûöúòüöúóõù÷ýýðÿöûôýüüóúôøò÷öùüýòýöùöýøüô÷ðûû÷÷ñòúøüðõøûøúööùüùóþôõÿô‚&‚m‚e‚f‚k‚k‚h‚u‚sôóøýô÷õúÿõûûóüúøûúùööøú÷õõüöøûóûøöööøôüôüóöø‚ úø÷úùþ÷ùòøöúùúöôóùö‚ õúóýòýùüñúùúýøõóúÿûýó‚‚ ÷ÿÿúýúùøôð÷òúô÷ðùüøôø÷üùöû÷ýúøóóùýõúú÷ýõøøû‚õòõþ÷õîûö÷ñ÷ùô÷ÿòõöÿüùñô÷ûðý÷öóðòûüüîò÷ü÷‚)‚j‚†‚u‚s‚n‚t‚t‚aó÷ùøúùô‚ öúöùôöøÿõüøùúûúûóýôüûùùöùúü‚ ùùóõùýýþõø÷‚ û‚ øõøù÷ÿúúòøóûøúöó÷÷ø÷ùûóüöüùòùùûòõò÷öùóùøôûù÷þøüõúüýûôôÿöûöúøöóùøÿöýø÷õõõÿõôü÷ö÷ôüû‚ ùûøú‚ ‚ ø÷õúøúóøôò÷óó‚ ÷ñõõøþùòö÷õ÷ðö÷õûùúõ‚‚m‚q‚|‚u‚k‚w‚x‚m÷÷öúùúøöñóúûøòúôúùøüòû÷üûùôúüúûõ÷÷ûûüôôö÷ûðõø÷ùõòüõøôûüûüõö‚ï‚ ÷üùõõúóõøû÷ûóþò‚øøöóöúöýøþôú÷üøÿõùöúýõôþóýú÷õõ÷ü÷ùúû÷õüøøüõúøöõúóùýøöú÷ñüúüööùüñúùþ÷ùòöøþñöóýÿõôûøüöùô÷ôõõøóøñø‚‚j‚m‚r‚j‚z‚i‚s‚tûôûøõóõ÷û÷øñûþýôöóÿøþùõ÷ú÷ûòýóûòýð÷óýùô÷÷ùþþöô÷øûö÷ôüõüþöôþ÷þûùöøôþôòòüøòúüúøñ÷ýûÿöñøúüôîùõöòúõôûüøø÷úøöôøõýööôüüúñúü‚ ûÿøýôûôûö÷óñòüòúóùøøöúòööüùøøòúúöÿñøøúóüûù÷ù÷ðòõùöòþüõù‚(‚i‚l‚}‚e‚k‚u‚m‚lóÿú‚öûúýúüòöø÷ôøòó÷÷üöðúúùöü÷øüðøúøòüýúýöõõøúûõù‚ úøõú÷üõ÷õùúúúüùýóöøýøúñüõùü÷ñùöûõüô÷ö÷ôýöýôôùúùþ÷üù‚úýû÷õúöû÷ôöùñøøûöôùöþüõýù÷üôöûúüûõ÷öý÷ýù÷øùõûûøñóùöôüöüôþüùöõôüôùõóóýïþù‚*‚j‚u‚h‚s‚s‚r‚x‚oö÷îùöÿúõó÷ö÷õüóöôû÷ýüùô÷óõûõõùóù÷úúö÷õðüûûôüóüô÷ýõúýöøøÿõ÷ùûòôöúõùúóõùûûòöööúýüÿôøüõùøûýóõùùýõøòý÷ùõýòúôõöóõþ÷÷ô‚öøøüøýôúòøÿýðúô‚÷ûöøûüúüòõøðöûô÷òóúúõûòõøûîñøùüûóóîöû÷öñöö÷õ‚,‚l‚m‚x‚|‚…‚‚r‚_õôô÷ùù÷øöúýñûóúúùôööøôôøôýòöûñúýøô‚ òøüúüóøöúúûôú÷ÿüóøþðø÷ýðõøýö÷ùÿõøüùúøôþóþùõóùý‚óþõù÷÷ïõóýó÷ñù÷õòøõûú÷õö÷ÿñòöúõ÷ùôüüø÷ôøôöñüûóñöøøøøóôôýûõöùúõûùþö÷øùú‚ ûóöûøúõöòóñûïóùýõöûû‚‚r‚o‚t‚e‚h‚b‚x‚bùùùø÷øõïùòùöÿïøìøúûööúúø‚ õþøööûööóúôùøùôî÷‚öõòúõúúñïöøûöùýüúùúÿú‚øùöüùöøøööøö÷ò÷ýöññøûøùòòõûøôõüúöôýþúöúûýýùöõõþöôõ÷õúø÷ñþõþñøþûîõóú÷ûô÷òûñôõúþ÷öøõùöÿôú÷öøüúöï÷þþöôóûùüöøôòó‚*‚i‚y‚p‚a‚b‚v‚x‚púúøüóÿôùóúüøôúýüúû÷úøû÷ùøøøíùõõõ÷îùÿ÷öóõõý‚ùöýúÿüöþõûùûøùùúøô÷üøóóúïý÷óöôýûòùõÿôþ÷ôòýùûøôýöòùöý÷úñóû‚õùöûùüù÷óúöùöøõùùóñùôûú÷úøóõõüøõöóöøúúöð‚þûüôøø÷ûýýóþõö÷ÿñöòõ÷ôõûõöÿþôõ÷‚"‚n‚g‚g‚{‚s‚r‚p‚rù‚ ùþö÷ùüôûùôõøùúõùð÷ôýöóïúóúöùöøøöøûõùôúöúôùñ÷‚ ýõúôùõþýúð÷úüôôøôúþøõöüûùôúþùøøùô÷îõôõûöï÷úöýöø÷ùþôöóûúôõûó‚þú÷ûöùôûøÿôõõû÷ÿõüñøýüøúôüò‚ü÷ôúöüõþúúôúöûöùøùöøôòôþóøõøøóóöùø÷ööú‚&‚l‚n‚v‚l‚q‚‚‚o‚nôõýúñðüõùðóõúýøöûôýø÷ýýüó÷úöýüöõúø÷ù÷ôñõùùøôðöý÷÷óóþôôöýýùö÷óý÷ùõùþøõüüÿõýùóû‚ øüöûôüúùòüú‚ öüôûõõôüõöúõïþúùóü÷ýûøüüúýüõõûûúóúúúõúþøüøõöûö÷õóúøøõò÷ôÿøõûöõö÷üú÷ôö÷úøýò÷ôúøùøþñÿ‚‚y‚h‚l‚w‚r‚i‚v‚aú÷ÿ÷ù÷ú÷úöûöùóùõõöúøøóý÷÷üøôúøýîýö÷óÿööüþ÷üôüýù÷üøþÿþöøø÷öûõõõûûûöùôûúúôööûýüúüùÿùùùùÿüøôøù÷ïöøöøù÷öùüøýõúøü÷þöøøùôøøøõûùþùÿõøùûõúöö÷úöÿõûüöùþýûöøõúùôóûòùñóðöøñøúòøîõüôõ÷ï÷ú‚$‚c‚Y‚r‚t‚p‚n‚y‚iøûòúôö÷úúúô÷ù÷ùòõøúúìøùùúñüúþøóúýþ÷öüõúøúûøúôøøûüñôùø÷õöüùúû÷÷þõýþ‚öûõúüùøûúøöü÷÷ôü÷øöùööüüò÷õøõùùþõùòü÷ýýòó‚ øøôöüþôùööôöóóýöøùõ‚ùö÷øõõûøýóóõõþùùòùþõø÷÷öøùüðùùùôöùùõþó÷øûõ÷ô‚$‚h‚k‚o‚o‚h‚d‚q‚hôøùúòöö‚ ôöôùýû÷úòýúüòõöûöÿøõñöüù÷ûôñïõõõóõõ÷øüó÷üùûóýÿüÿõ‚úúöüõú÷öùõ÷óõûôùñöúüõ÷ûûøõûõûø÷÷úúùòù÷þøù÷úúüúöñþùøö÷øýûûõ÷ú‚ùûùþò÷øùõúìøòù÷ôöûòðñùú÷õóúþøöõöùõ÷õûþñ÷÷þøôôôô÷úñöòù÷‚‚q‚r‚h‚r‚i‚w‚x‚søöøøöðûûõýúùúôûöùüóûõúõ÷øüúöôûüöóùüø÷ýúýñøúø÷úûõôüôþúôøùúýôûñ‚ òõùüôõðúöûôúöÿöýúüø÷øûöûóûööðøõüúú÷÷üúø÷ôöøûû÷ûüøòöûöüýôöú÷ûôò÷úøùúöûòøõúøù÷íúûøþñõôûü÷øöïøõøöùøøñøïÿøþõùóû÷üóø‚‚h‚e‚g‚t‚‚|‚q‚dÿùõôûùõõûòùôýúöûüðùô‚ øñóý÷øõûøù÷ÿ÷ôóþ÷÷ôúöùûöùûïûöùýùõñ÷ûüý÷ûýúýÿôùöúöõùõöïùõñ÷üò÷úöùúôûöûòøðúýûñøõÿýúø÷÷þùüøúøóøõõûøùö÷÷þ÷ûõù÷ûöóöýôöðõùùóùõ÷óúõüûõùûóýú÷ø÷õøùóõôúöþô÷úìù÷öü‚!‚i‚u‚^‚j‚w‚j‚s‚nôôùúüúõúúûûùûøùüñüøýüðí÷÷ú÷óíîý÷÷öúó÷úñ÷óû÷òûýýõýûúûúóõúýü÷òü÷ûïüúúöö÷‚ó‚ öùûûô÷öûùøøöòùùÿõòõøõüôúñõòôóÿúôöøù‚ ý÷òùûþ÷ðùõûõûùòøùøôþý÷ðòùùüöôõõùóíøüþðöõüöóùýòÿ÷ñôùôøïýñûúûô÷öÿû‚‚_‚c‚e‚w‚i‚u‚b‚jòÿöøòúüõ÷úøùùþüôð‚ ÷óõý÷û÷÷ôüûÿúù÷üòöùþùûóþùûöùøðòúùøõù÷ûúýøûýýüøùõù÷ùþõ÷íöû÷ûôôøùøõôõúøú÷óúøøöúùþøþõþõþôúúþõ÷ñùöý÷÷ôýúýòùøüûüúþñ÷öûùýöûøùöþûúô÷ôþ÷òøõúöóðòôúñóöøýôñüøûòúû÷ýúù‚ ‚m‚w‚q‚p‚}‚g‚n‚hô‚ úöñøùü÷ùöõüúñþùûó÷ùüõûùùøüùöóüôï÷õ÷üóõ÷úôýñú÷ýðýùôùüûûð‚÷õú÷ûýúüó÷ýýöùöýöõô÷õóüûòýùÿ÷øùÿôøûùú÷õô÷ÿøüö÷úøóüúð÷úúòùò÷ùü÷øø‚ ýóøþü÷ñüöøøöóõ÷þøû÷þ÷úúûùûõ÷÷ø÷úíÿôÿôû÷ù÷‚ ôõø‚ ôôôø‚%‚u‚q‚‡‚z‚r‚q‚n‚oúüúôýøùòõôøöûöúúþôôùüùúðüöùóù÷üöýñùóøùûøõõôõøÿüòúøúõùùôóòøùöóöõñþöõöùþöøüüùöõü÷÷÷ò÷ýöýóø÷õòùúøøüöö÷ý÷÷ó‚ ïðõøüûúôò‚ ü‚õøöúôþõóôüøöòûòööüüöúùø÷úûþøó÷øúóúñø÷óïóôüõñøóõú÷øóöøïôö÷‚)‚b‚p‚v‚o‚‚s‚p‚dþùö÷óúüóõíüûóõõ÷ÿüøôøþùøúöùóòöþùù÷üôùýòóü÷úìøý‚ ñúõúóüöôýóöûëþòúóûôþõüùù÷ù÷õõýöõðùùúõ÷÷úú÷öõùûõ‚ùû÷ôûöûùúøñ÷ù÷øüõøõ÷úðöúùöøùøûùùûóõùøòûøùøôöõöúñ÷ôøõô÷üôüöþùúóú÷û÷ùøú÷ôõ÷îûóùú‚#‚a‚m‚k‚w‚h‚q‚c‚pîýõøóöõûûùöøõûûýôøôüõøüûú÷øûüùóóôøøøóùö÷ñúõúÿ÷üõ÷ùüûõþ÷üûõõ÷ùõùöõøø‚ öñöø‚÷öøúú‚ øúô÷úùôüûúöþùýùùöõòüöõóôö÷ûùôûóøõ÷üþñúôõþú÷öòþòûóùøøöùóóû÷øó÷þõüöþ÷øøõò‚üôòõûøøúòóúúõòõùü÷üîóö‚!‚[‚€‚€‚h‚r‚g‚s‚~òùøÿ÷øñöøùøúû÷ñýõ÷ö‚ ÷üò÷ùøúúóùòÿüúõ÷òÿþüôúöýùÿôõùûöõõ‚ ñ÷ô÷øöýöôùüüõ÷úþ÷ûòüù÷üùñûøøööÿù÷üöü÷úùôøýöøüõûúýýð÷üýøô÷öûöôøûôùñõ÷üò÷õüôüìöûú‚ ûôùóûöúõöóõóü÷÷óõóþõøøüôùöõõúöüúúüúöüôý‚"‚l‚o‚v‚u‚}‚h‚n‚h÷õýõûöñðõôöðø÷ýøöøûúúöõ÷úôùòùù÷ôöùùõòôúúóöøñûûúöýþù÷úûþùøûõ÷‚÷ôöúùöü÷óñúò÷ï‚ ÷óúù÷÷ô‚ ùøøý÷÷øþùúùøÿüöùíûõúõøøòó‚ õüôøøóïÿúöñöüõ÷ôùûüúùôûþòùóõùøüöøüõøïúþûùø÷øûõ÷ïûü÷ôòõöòñ÷øú÷ñù‚&‚m‚^‚s‚`‚|‚{‚€‚gùüöû÷ôýóúõùûüøýøø÷ÿúóôõòúñýñ÷÷÷ó÷øûý÷óöù‚ õûøûóøîüöýøóõôùüóúõõôöø‚ôûñöüøùöõùôþúüîùûýüø÷ûýùúûõúñóö÷úù÷ôöø‚øüùúú÷öøôüûúùôöüñúô÷óõö÷÷ýõøô÷ùûîùñö÷üôõöúøûõ‚ ñöùü÷õôòôü÷öóùùûôýøô÷ôû‚‚e‚j‚h‚j‚p‚u‚y‚jñûûþöùúüôö÷üù÷õõóýõöõöõþ÷òô÷öüúúýöùú÷üñöñõòúùöõûöý÷ûúû÷ûø÷ùöùõúûý÷ùúýûüõûüýûùóýõööú÷ûóõôûüùø÷öþóõöùúøýûùüööõþöûîûøüûúøô÷ûõúöúù÷ûýòù÷÷õóù÷÷øòöö÷øøõúùõôñûõ÷÷óùúúøîøøøúýøûðýó÷û‚‚k‚s‚k‚o‚ƒ‚t‚o‚mñûîúôõö÷ÿüôø÷ùùýöþöûóúùýúúòúøúóýôúîøôúüøòü÷ùöõûýùýôúôþùùõýùþùýÿøöö÷ýù÷ô÷õöüö÷óôôúúùûôûöööøùúøüô÷ùôúöüúú÷ûüüñ‚ öõø÷÷øòùú÷õûüù÷ýîýôøóòøûòóó÷ôöøûöþñùøýý÷ú‚ õù÷øóùúøðø÷øýööóó÷ñ÷óø‚#‚n‚p‚e‚w‚v‚p‚r‚u‚ó÷õøùþöøðúõúö÷öñöùúôöûúöõ÷óøûõöö÷úüõþúõüõøôôùöðõóôòòúðøôøùøú÷øÿù÷õýöÿöÿôûùýþöõøñüøûôõòüõþøöîõüøïýùüöÿúý÷üðøöþõõóû÷üõöúùùùñòø÷öðø÷÷ôòüöõ÷ôõûùñø÷÷öúüøóðûûõûòöõüøóöÿüøõüøøñûóú‚'‚l‚c‚m‚s‚‚n‚|‚còöò÷õòúùõñ÷õûõúðööúúöîüöüúüöùúý÷úôùøúòôöûôòô‚õöñöûüûýöøøüûüù÷ðøûü÷øúúöûúüööùúðýñõõöúöõõ‚ ýùóöøþúóûúõüôþúøõôúöüüô÷ùúüõô‚ôøôøóùùýøüôüôúúýóúïõð÷öôòõð÷øùõøù‚ úùöùûþõôóúõøõúùúöôôüõ‚!‚f‚n‚f‚r‚Z‚u‚e‚vøõñ‚öøôûø÷ýýöÿö÷þúûýöø÷öøõùóøôóóöúòþöøûùöúúÿôñöùúôôùûúúù‚ùûùðöÿúúù÷ôöûöõü‚ úùôüÿ÷úöûõöùöõõúøðýõöõúöùõþ‚ öõúù‚øýîôøûôøöýö÷üùóöôùòüôõóñúùò÷ñýôúüüöùýúóøúûûûööóû÷ðùúôðõùø÷þðøóüüðó‚‚l‚x‚f‚k‚y‚t‚d‚oïýüøö÷ùþôóùüòøñõôþø÷ö÷úùöÿøõô÷óúøùùûùüðüýüúùóúøûûöòùõõóûóùüúûõóûù÷úýøùÿøñøö÷÷óýôñøø÷þùòõô‚ûüùõùöûùùôøòùñüüü÷ûúüóþðôôöúõôýôùüþ÷úö‚ öûôôö÷÷úöÿíúöÿø÷ðøõøòõùòôöñ÷÷üðóùý÷÷ù‚øõúû÷ÿ‚!‚j‚c‚‡‚|‚m‚w‚n‚oûöôùõðùòõ÷úöòïüúõöúøòúûô÷öýû÷÷õö÷õôôððùöóûõûûøúöýýôÿö÷úýøýõöòüøõûõõ‚óúóøöõôøú‚÷ôòüüÿòþøüúý÷ùöÿôüôüù÷õöïüõúô÷öøöõõúøúôöôýöûñõýôúúñô÷úúù÷ùûúöøû÷ÿöôöûýù÷üúüõõøõùüòôóùõøõøïôôýôû‚!‚\‚h‚m‚l‚w‚n‚o‚jûûýö÷û÷öþ÷‚øúôýýùöôòýùþöøðûñüöùùýùúúÿùõõÿ÷üöúüûúüôúûúúöø÷÷ýóúöúôùõ‚ùùúúûýûþøýõýøóúýöøúù÷öú÷óúúýòõú÷øöõùöûùù÷öüøøöøøùõþõùñôôþøòíôúøùöóûóÿ÷ô÷üôõ÷ÿööñóðþ÷‚ ñô÷ø÷øöùööõõòûúþðùôöù‚‚r‚t‚p‚l‚l‚{‚l‚iòÿ÷øòøûøóþõõ÷÷õúöûøûü‚þöüþüýúõøøöüöùôôóøúôöõ÷ø÷ùõöüýúõúýùøöüûòûõûûööðóþøùôøóüùùôù÷øöñøöñùø‚öÿüøò‚ùûùùüùô÷ôøó‚ îóùûüüöûööûú÷øúöóüûùüöôùùùøõôûýüõûøõúöøñûõööÿù÷ö÷þôú‚ öûòüôòôôðù÷‚!‚g‚v‚‚h‚f‚h‚r‚tøþ÷÷óýúõùúø‚ ø‚ ù÷øþõõù‚òõùñøþõûïû÷ùôùôüûûõõôÿ÷ÿ÷öüýüþõ÷öúú÷÷÷÷ùùÿùùýôò‚úøóùøöúü÷ö÷üþõûúûüöøóòýöøïøýññ÷õýùöòúýþòøôþùõûðøûòúôûøùøúõþòùúøöøñúõúñ÷÷÷õüø‚÷öù‚ þýôöðúóûöüöôîõø÷ûòóøö‚‚!‚`‚`‚c‚s‚q‚‚l‚kô÷úóôöýýóõùøú÷öùùüúøöûøóöøõùøôö÷ùôõþü‚ øûööôõù÷øôñöýøõùòüú÷óûþúø÷ñûõýôûõ‚òúôþøüóö÷üú÷ôøùûôøôú÷ý÷úûùöþòüöõûñóöþùõöòöüöôúôþüðõöúø÷÷ûøùöýüû÷ñóþöýóööóø÷îôöõøùûøùþôüó÷øüôøõ÷ôúøõøý‚‚x‚y‚p‚s‚{‚f‚h‚lñ÷ùöôóûôÿôúõüñÿ÷öü÷÷ô÷úúþõ÷úúùúóöôùôýôóõùùùôôôü÷÷ó÷úûõùøóøööõý‚ ÷÷öø‚ øüõ÷ûöö÷öýüõòõ÷öùÿòúû÷ôøûýôøûöôû÷õðúö‚öúõúóþ÷ùø‚ýûö‚ ÷ÿö‚ ÿøøúôúøýôðñüôóøõùõü÷óöôÿöû÷÷÷õòõóýúøöùø÷öÿøúôøùòú‚'‚_‚p‚j‚r‚v‚v‚n‚|øøùûôøôùúõñóô÷ýõòôùøû÷ôóøøùóøûòñööüýüûöûþøüù÷ø÷õþóûóõðûùöôüöú÷üõúñýúóôüûûúøõûõ‚ øûùûòúûúùöîöò÷÷òóùöõõýöúõøúø÷ÿõööûûùøööûüöôôü÷øôõüôöùö÷òüùûöøõýùùõ÷óù÷üòøîûõöúúõúòüüþöø÷øü‚ ñõþ‚‚b‚s‚_‚y‚w‚‚‚b‚kòüøùõøøøìûøúöôõøùÿòöõýø÷øü÷ùõúøþõöõúøõøõñõø÷úñöùïüýúøúü÷ô‚ üþôóþúùûöù÷úûúøùøõûüüôýîïùøóôøÿúøõýöúöüîúüö÷õôþñùôùöõöúîûøüñùúú÷‚ùüöùøþùøüþùöú÷ô÷óôö÷ôôóòøõóòõø‚ ùï÷õù÷÷üøôïöýúþûóô÷‚#‚h‚m‚a‚m‚k‚l‚t‚eúôöú÷÷úòûüý÷öóûöþú÷ø÷ûùûýúøôóþùúùöóýûûö÷÷ôöú÷öûùùûõûôýûýóûúúöþ÷üôø÷ýøýóûü‚ ý÷÷ûúüùøöô÷øô‚ ö÷ò÷ûùùòõøóõøöñúø÷óúúøùöýüôÿ÷ôüü‚ ùúöú÷úðöùþüñóüøüúöóôôþóøóùóõùõ÷üñøõýùöìûõøñõúõôõðöñþ‚)‚a‚i‚n‚]‚v‚r‚w‚bõ÷ÿôÿú÷öûúýìôõùüõöõóúòðõøóøô‚ óø÷ûõýõûøû‚ ûùþüþõþ÷÷ùöò÷ùøûóõùõûøýûôûôôøüúðôû÷ü÷ñúõýöõö÷øôõûýùöòýýûùøö‚ ûþòøüûòööüôùúõòûòûóøõöø÷÷øôýó÷úù÷ýöýõ‚úöø‚ ÷þø÷îõôûòòõøøöúùø÷òöôþù÷ôñóý÷÷ý‚‚y‚n‚n‚o‚o‚z‚u‚q÷øöüöôùùûüöøùùûóüûôú÷ï÷öûôóúüû÷õôñûö÷ù÷úúóø÷öúþñúóöõú‚ ýöòô‚ ûý÷ûøþûû÷øüöòúõû÷úõ÷ùûõûóûûø÷òöøôûò÷úýöøôúøõüüøøö÷òüúñùýþü‚ ÷ùú÷öüúòùú÷øõúñúóøôúõ÷÷úöøôõõôñ‚û÷ñýúþøøôøúùðöôýøûôõùýø‚‚s‚r‚u‚a‚€‚n‚l‚nõø÷ú÷úôúÿû÷öõýõýöþ÷ñóôøýõòóýûûñöõùúööüõøööúúý÷ôùùüùøóú÷øïõúøù÷÷û÷ûõûûøúùú÷ù÷‚ ôþ÷÷ùîö÷ùûõññúøøóõñùøóûø÷øóþü‚ùùôýù‚òõüøûþö‚÷üöôñùõùò÷øöòôóúó÷ñø÷ùù÷ööù‚õöñõóüðø÷øøõø÷øÿ÷øøúûùøø‚‚k‚x‚p‚m‚p‚|‚w‚hôúú÷÷õúøøûñöôüüõîüöûõùöööøøûò‚ ÷ù÷úüÿô÷øùö÷ú÷ò÷öõîú÷úôõóùñøöúøøôüòþùúòöøö‚þõõøþüô÷ûööùÿñüúöúõùýüùúüôýúòôþøóõôùòõôòôÿúöñúú‚üùöøóþùôüüùúóþüúöøùö÷úîóøùôóðøïøöúíüõøóúùúùõöùôùôó÷ü‚‚d‚^‚q‚s‚t‚f‚g‚nûñû÷ø÷üùõíú÷÷øôõúöúûõõûøø÷öõòööýÿñòý÷üûùôûùõüýùúúôùþò÷öýþóùõü÷ðýþýõôùý÷ûøöøóøûúýùý÷ú÷øö÷ôýöôøùôûò÷ôûöþùýöÿúþúô÷ûó‚ ÷ûôøôýüúøþñøøúùôðú÷÷ùõôôù÷ñôøöøõúýöùðú‚ üúóôöú÷óõ÷ôøøïðúõöï‚‚#‚`‚c‚o‚i‚o‚w‚s‚gõõ÷ôþûýöøý‚ ÷þùûúøöýñ÷òö÷øñù÷úôøòù÷ö÷ùú÷õûôýòýòùõûõøöúóúûüòüóøøüû÷ûûøùó‚ úø÷ÿýûóúýüùúõõóúòöõû÷ýòõóùüöùùþöôùú‚ úò÷ùûýùòöùÿóöõõøõù÷ïþôòóúø÷ðúóûùüù÷õüó÷ðöôøòùëóóø÷ûùúö÷õ‚ ùööûòþþøõ‚‚b‚y‚p‚q‚i‚u‚i‚tóû÷ýôüúöòúùþùöøú÷ýõôôû÷úýûüýùüøõúýòÿúóôüöù÷ôóóùøöôóüöûûûýôüù÷÷üú÷òýüøøø÷üôúó÷úþùúöûöþúõöúòööüùõòþøûöüòöòöò÷îûöûöúøýúø÷øùúöùù‚ñøôøÿøü÷öüóûöûùóøýðóóòúóõû÷öôõøþùöñúÿýúõûôøùôõ÷ü‚ ‚X‚j‚r‚r‚f‚Š‚m‚jó÷ýþôùúýö÷öýùþôúóÿùúùúùõ÷ýöõñøóöúýóúúþö‚ùùûýõþïúýøïùóúóûø÷øöö÷òýôõõû÷øöõõüüûüóþ‚úûùù‚ øô÷ñõùöõöüúñùñú÷÷øïû÷ü÷õòúú‚õøõøþ‚ ôÿ÷ööù÷ü÷úóöøúøôôü÷ý÷ùúýøúôüùõ÷ôôúñùõ‚ øøõöúþø÷øøýüûøó‚ ‚$‚`‚x‚~‚m‚[‚k‚i‚tûùõôúö‚ùöðüùóúûùðôøþùóûôýøýþù‚ ô÷ûú÷õþ÷÷ùùüúùüöøø÷üúÿöðøùøýù÷õûüûôùøÿøýüøúøùùôüûÿõûòÿøýöü÷ýùøöÿ÷ýú÷ù‚ùûñöúù÷úõ÷ïøóüôóõüðþùû‚ÿôùüþúöõûúôöúô÷üø÷ôúüôýõüóô÷öñøòôôîø÷ùûùöýúúòúüþ÷÷‚‚a‚|‚k‚m‚t‚b‚s‚uûöøù÷÷úïúíùøöóøúü÷þõ‚ý‚ úüôþ÷ùùøóûûóùúúÿóùó‚óõò÷ñÿøøöû‚úöÿûþôøûûùüö÷óþöö÷÷õüùüñôúõ÷÷úùùø÷úùþùúöøýûûñö÷þ÷ûñûùúõøúüûûõüýùúùöüôõüùõöñúòùóüùïðöõ‚ ôúôøõûøþóû÷üöú‚ öñúýýðøöýôøôùò÷öô÷‚%‚e‚x‚i‚z‚n‚‚‚k‚jõùõýû÷òúõù÷úùùðöôõõ÷øòøôøùô÷ï÷úùû‚øöùüõùùýýðüúòúúÿøòüöüýþ÷ðùûôùööûôøùùÿ÷ûõøùøòúóüôõúøóûñõôúóõ÷þùùõþûõ÷þôþ÷úóüùúõú‚ ûðùûùñøíøñþöñòÿúûôúôûýøùöùþùõüùùðùûüøøôòôøþööôñùóõööóøùõ÷ùô‚"‚d‚‚‚r‚v‚g‚e‚e‚fõý÷ü÷õù÷ø‚ ïùú‚ ó÷ôú÷þòøñôþûùþ÷ùöôöüøüûýõöøúõö÷ø÷ööú÷‚ôüö‚ üöüýùöööôöðøñöúùõðú÷úøöùôô÷öó‚÷õøöüöýùøþ÷ùü÷ùùøõüøùöþóóðøþõòúöýóü÷øïûòøõøùôôúøûó÷øù÷ýóúýûööüûôóøú÷õõûöÿòöôþøöóò÷òñûòñ‚‚R‚b‚`‚l‚b‚q‚p‚m÷ø÷÷ö÷ö÷ùöü÷÷úôþ÷îøûþùóöùöõñïññûôõ÷ñõùõýýôýüÿýõ÷ùýùûôûõöøù÷úøøòüøõóúðöðùøûô÷÷ùøüòþùÿôõøýöýôøñùôòõúúøëöûþ÷õõú÷þóõúú÷÷÷ûöøüöûï÷úùõøöóôô÷÷ú÷òõôýúñúúöýûûôõõúõûôûòøööõüöøìùøöøöõý‚‚r‚{‚y‚n‚}‚s‚p‚jþõþùúòþùùö÷÷úóøöøø÷ôû÷úõùøüúõ÷÷öüÿûóüùöôûôøûüôýùü÷òù‚öõó÷ûøôöñù÷ùøôûöûúüýõö÷øõöüïööûóüöôøöýüòúøú÷ûøúù‚ ôúòøýøðúøúð÷òöõöõúôþúùð÷ô‚öýóøöøó÷üüòûø÷ùýòÿïúüûõôöùüøðöù÷÷úôûûô÷õöô÷ðú‚‚p‚c‚d‚Y‚j‚k‚y‚i÷÷÷ùðõö÷ûùðùûý÷õôø‚ ùûûøøûòôþùùöò÷óõûöõõñÿóôúúøþúøôùùþøööûõýõôøü÷úõüùùôûõþòúðý‚ ùúõùþù‚úúôôü‚ ñþ÷øüõ÷óôûöõíýýñóööù÷øúö÷ýôõùùøñøöúöôøøôüøøýùøõúøùúøõó÷÷þï÷öøüöôööøñ÷ô÷÷õïùõñ÷ÿøóö‚‚g‚y‚j‚}‚f‚w‚m‚n÷ùù÷òú÷ùòüûø÷øøüõþõñôõööïøï÷õþôõòûüÿúôø‚ úùþöõøúÿðöòüøôûôöûóó÷øûùöøùùùôôø‚ÿøøùû‚ôöüù÷ù÷õò‚òûôøùøòýøóúøööù‚ ïù÷ùöööôîû÷üðúóöñü÷õöùøôù‚ ó÷÷úúúôû÷üþúõöýýøøöõö÷ù÷ñ÷ôøõöùìõùûúøøõòöþ‚%‚a‚r‚k‚p‚s‚t‚[‚eõøöóõúúüðùóúõúõòõüüüóøôõöþùúûüôüôûôüô‚ üøòûûøïúóþ÷ððûõûúòùûùüòýøüùÿúÿðüôô÷úöòïõøýøöðôõùô÷ùü÷òûûøúöüõúüùöýüùõõ‚ööýóòöùþðõô÷÷úøùùýùþûûô÷óÿõýòõøöðýõúôòùýûøñõöýòóõýúúõüøùùþù‚öóîù‚‚c‚q‚j‚e‚p‚y‚~‚cøòþ÷÷õúøúûÿõûùôûýóû÷÷óù÷øûóóõòôùûðøúøûùóûóûüüùüþõ÷‚ úû÷øûÿöûñîýúùïúôûòôùú÷üøùýûõÿôüöûù÷öóöþòøøù÷øñöóýøøòòôõöýôøóúúýø‚ òøôýüòðûõõõõóôòöôø‚ ú÷ôúõõ÷õöøûüõòúüùøøöùúû÷ñóõùôøøùôóóúôù‚#‚d‚b‚w‚s‚t‚s‚y‚oû÷ó÷üõøñü÷óüô÷ùò÷õùô÷ñúó÷ó‚ùôóù÷øõø÷‚ öùúùôüõöòþôýùøúöôûò÷õüôõ÷üõûôüõöý‚ òôô‚ ýúòóñ÷úûóøúôöúøüúòøõûýöõõÿûøú÷õøòûûôúùøõöøõøøôþ÷ûùöö‚÷üñ÷ôÿûùùùúþ÷öööòùòø÷öõóõøðøóúóüùýõýòÿöõõøõúó‚‚X‚t‚s‚w‚t‚e‚l‚töúùúôóñø÷öõøóøõøùôô÷øþù‚ ÷ùöüüùõûööòýöö÷ñõõüÿúùóøùúýôùúýüÿ÷ùôùúûü÷÷þúøóøöûðü÷÷ôúù÷úöóùó‚ùöõþûüööùøöþöüòúñø÷ú÷øîöøõ‚ øøúø‚÷ýóûùôööôúúïóøöù÷ûóøø÷õòòú÷ôôõöûøõñ÷ý÷ûõúòö÷ýüøúööùöôô‚‚a‚q‚i‚f‚y‚j‚{‚xö÷÷÷ôõöýóøôüôþúðõýöùòöðôóüöûõüðôöþøø÷þ÷ýôüöú÷õöýö÷óüÿù÷ööøöýôöö÷óÿüöóüÿýúý÷û÷÷üúùøôø÷ùøõôõõûøøóùýôôõúùùôûöûôøøþùúòþóúöþñøô÷ôööü÷ôõøôýîýöøûýùùøûø÷øú÷‚ õ÷ðùûýôøò÷òøöõôöð÷öùùõô÷‚‚g‚t‚o‚v‚g‚o‚i‚sÿðúôûøüõÿþüü÷øùõþíøöøûôñùùùøõööúøúóøùøôòûøøûî÷ûøù÷ûøööõøøúøöðý÷ÿ÷ùõý÷þýûõú÷‚ øýô÷òþ÷÷úùïöðþôûõöõþõýòùü÷÷óôü÷ûõùôýöùô‚ øðöö÷ùú÷óøõúúôúúöúþööóõùï÷ööôõùööûôöùùþöðúüöóøøñ‚ ùûùûõúôÿ‚#‚Y‚g‚Z‚j‚w‚x‚v‚eú÷üòöøöøùöüõüõôóüóýòþ÷÷÷ôõýóöðôòûóùòûòúûúôùõùùúðùöýýýïüöþýÿõùùúýöùýõúù‚ úø÷÷ûýøÿöüýøýûóüõ÷÷ö÷õ÷õõû÷õøùúúùøùöúùû÷ööù‚ ýúùõ‚üûü‚öøõûõûöôõùöûôûöûôöò÷ö‚ õù÷ùöûóûóöñü÷ýùüøõùûùòôõñ‚þ‚‚Y‚t‚l‚|‚e‚m‚p‚jøø÷ûóúúùö÷ôûõúøöôöùòîõöôù÷îø÷ùùùùýõþþúûöùûõûùùýùóøùþøõøôüúñôöûû÷öõú÷üøöôúöúöÿüúôþøôòöðùóûöøñùùøööõý÷ûô÷÷øöôöüõùùûùÿô÷ñúýøï÷õýò‚ øõûøûùóù÷÷ùùø÷ÿö÷òöøøõöýðûóðüöýôööûüûöôóúûüö‚ö‚'‚Y‚h‚k‚w‚x‚h‚^‚uøùòð÷‚ñôïú÷õôþôûùûðôùÿô‚ øûôõ÷üøþñóö÷û÷õüöóöûòþøùõøúùóôøþõþúú÷þ÷þôù÷ñõöûòíøõù÷õ÷öðúøôùõûó‚üòûüúø÷ûúúú‚ øúôýòõö÷óôïøôúööïú÷‚ðú÷úô÷öùñúöýüüõøóýùýööõò÷ûñúõøòôúúôûøýòí÷ú÷þí÷òùùöñø‚‚c‚j‚c‚l‚o‚r‚x‚aûöùöõóûööóõúüöøõõõùöú÷òïûûùõõôøöñöõô÷öõóóúóÿûùö÷õüùûüóôûùúõþ÷úôùø‚úü÷øûûõùôýôùñüô÷õøíùùúöøòûùüð÷òøø÷øøöûó÷ù‚ øúòüøþûöôóöýùöõùöþùøöøüöööøõñöûõúöóôý÷üóöö‚ööó÷÷ùóöñüôøîöõùðøï÷úø‚!‚^‚q‚‰‚h‚k‚e‚z‚oúóÿøûôñ÷‚ûöõú÷ÿøûò÷öúóôôùðüøý÷ûøüõùõøõÿðýùùöö÷ýó÷îûú÷ñõõ‚ û÷ô÷úýúùôþõù÷úöøù÷÷úøöõòöúøúùôûõüøôõü÷ûúÿòúúóø‚ üûóùùøóöðöööùòóøúûòúñùóùòø÷÷óôùþøøòûòüõ÷ðôõ÷÷ó÷úùüòõõýúûöõòùõúúõôõ÷ôù‚(‚X‚z‚i‚q‚k‚o‚v‚múöôöøýô÷ôùöÿúùöùÿù÷÷øôôõõõôùñòù÷õõúô÷òüùøüùôöõøÿú÷÷ô‚øüöûýûüûõ÷÷÷ööôýööñûôüùòòþûüòóùÿöûóöôû÷ôñþõùõýûöõõõù÷ý÷öøûöøöùôü‚ ûûúûÿùôöôõ÷ó÷ïû÷îõöúøùõ÷ô÷ôõðø‚ ÷ñôöûöû÷ôùûùöúýòøòôöùôõï‚‚m‚|‚u‚z‚g‚v‚y‚höûøùöøûùõöö‚ ó÷õú÷öóüôúöýôúòóñú÷ùöõõùô‚ûôòÿþþóú÷ûøýúöøùòñúøùõ÷÷ñþ÷üû÷ûþóûûöúþõõ÷ûýöøòùõýúòñùöøôóõ÷÷øöüüùô÷úþüúïø÷öýú÷ü÷÷òù÷õ÷ú÷ùñö÷öôùõøóùôúÿôñòôþôøòøøþóôóõûùøùûþíö÷÷ùøö÷ôôõø‚#‚t‚t‚i‚w‚i‚c‚l‚bûööôü÷÷úööøñ÷ö÷ò÷øôüúõ÷õõùùöùôüöýòöùûþó÷ôöôúýöðüõù÷ýõùö‚øùõüúûöüõøöÿôñ÷ùòùðú÷õóôôúôøðúþøöýò‚öýÿüõ÷ôøöøø÷÷öõ‚óøøïø÷ôöòû÷ùøøú÷õùòöûõô÷úùòô÷÷öõ÷ôñúùòôñþöóúúùþúûñþøùôüïùòúüòöûôý‚‚o‚f‚x‚d‚r‚b‚t‚x÷òôýùóüöúôõöüùúñýõùöùõüõýõ÷û‚ ó÷ùõõüôÿõøòöö‚ ýúôýõú÷úûøðû÷üôòòòúùôõñú÷øõùòú÷öüùþõõöõ‚ùôøùúú÷öÿøùðùõø÷õøûöúðù÷þøùô÷úüùúøôöþòÿöøûþû÷ôýøøñôõùòöï‚ ùõòûôüùôõÿú÷÷ö÷‚ôùúòø÷ôõúûùûòøúúø‚‚T‚{‚z‚q‚n‚k‚p‚j÷ø÷÷ù‚õùöö÷ùüùøúôóööþøîöòúøõóöùúùùøöòõùùøøøùööóôùñõóøòöùòôûôú÷øøøúþóú÷üôóôøõøùúùúöýú‚ ôýôúôùôøñüöýõø÷ÿúüù÷üø÷öõòõøîõ÷üöõðøõùôõòøÿûø÷óøúòúõù÷ôõúúù÷ôõòüööôöùõõôùûùõùöõþõ÷øò‚ îöû‚‚b‚i‚b‚m‚l‚w‚o‚nñÿöüòõõüôõöüøûöùúüöýòùùüøùò÷÷÷÷ô÷ýôõùùùøñ‚ õúõöõúúõôþøôòöú‚õúñùüýùñøû÷ûøöòóûûùû÷õþ÷ùøûúøó÷ûÿúúúúüþðøðùõöôøøùú÷ó÷öü÷üîþöúûú÷ú÷øóýüüòôõýñü÷óð÷øöóùóþúúô÷õþòõøú÷öõùúøóòóöù÷ðúõóúó‚‚k‚l‚x‚k‚k‚f‚v‚|üùø÷ùöøûúóùóýøðûûýúòùúùûø÷ðôû÷ùúûøýôõúõüýõõúôúôþöñõøùúøü÷ôôúô‚ö÷òöý÷ôúù‚ ðýüøùþøþôúûùüýööñûðùòõúùï‚ ø÷õôüö÷ùöúóûöóùôö‚ûøñøûøôùñôò÷úïööøò÷ýúõôøüùúôøñ‚ ùùñýô÷ò÷óòñùõôøýõöôòòú÷øîý‚!‚a‚r‚l‚c‚€‚g‚‚r÷ùùõüöòó‚ øùñôóûôúö÷óôøþôùøüúÿúùöÿöúøþú÷ùù÷ùòøíõööù÷ñùö÷øù÷üùúôý÷ööö÷÷üúøøúþûõúûõùööóóüóúúüòööúúú÷÷ùúú÷ïúõúöø÷úðüöøýúôóó‚ýþó÷ù÷ùùñùúþøôøÿòøðúùö÷óõúñõôñøöðøôøõüöñúøúüùöùúûûôùô‚'‚g‚x‚r‚u‚v‚w‚p‚töõùöì÷ôôòõñûû÷ó÷üþøóùùöüúöøú÷óòôýúùøñý÷õúúùõûüûõ‚ õûùüøòùúúýöøõððöðúòôó÷ôúöõ÷ùõûøýôÿòþôüøóòöö÷÷úóöøüø÷ó÷õòöñ÷úôùõúùûùô÷öòùýûûñóõóù÷÷ôøöõöýúùþïøøúôøüöüøóþøõùý÷úðòþüøôïöñ÷òøðøù‚‚`‚j‚w‚m‚q‚d‚q‚oïùûöóøöúîøøúøùñóóúð÷ôöøöõýôø÷ûôü÷ø÷ýþúîþôûöööûòýöôùôõòöþò÷òööò÷÷øýõùöúùùöùøüõòúöööùôûûùô÷ù÷ûûþøíûõûùùõöñùùøõööùõÿðúñóññ÷‚øöõûøûýûíü÷üøøûþõôõýõûøñôúöøõüøñõöðýöõôôöùþöòôùûþï÷ù‚‚j‚t‚l‚{‚g‚p‚_‚iùþõõõ÷øûö÷ôøûÿûñöúñý÷öûøúüùö÷úóõ÷øõööïôúùþõõôüÿúóöøÿö÷õ÷öúòüùþøøõøòòòþõüô÷õôïýùôòøøûøú÷öûýûøóùøúøóøøõöóø÷ýòõöøøúööúüÿùôýõøõùøõÿõøôúøøîøøòööôñú‚ øôî÷öøö÷ðùöúööúõöøðûóøöòõûñðó÷‚!‚`‚h‚{‚~‚m‚i‚z‚føòùö÷õ÷õûúÿðúöøúù÷ýñùó÷ðúöõóõõûúýîûøúøüò÷ñþûùôúôúòùòøúóôðõþ÷öðôôúöûúúøõûöüþóöøûûüùü÷úýþ÷ñûõùöôúô÷ýðó÷þòøõúõùôûòõÿúï÷ôùøøøøøþöýòööøóøöùðùñøôûóõóúúù÷öïþùöóøúõóðöøõøöïõøôôñùùöö‚‚a‚m‚„‚i‚p‚f‚x‚oöý÷úòôô÷ûüôõöôúùï÷ñô÷ûñðùöõøõùøõûôôúøóüþöøý÷ùýý÷öôôöðõþõöø÷ûûôù÷ù÷ÿ÷÷ùûñ÷ø÷øöîýóüùøîúøüôõøþõ÷öùü‚õû÷ÿùùøü÷÷ñ÷öööúïôöùúúðõóú‚ ùòøóøúþôú÷óüïûöøîõüöôõôùóûøöðýöûöøö÷÷ø÷üòþ÷öõýû÷ñ‚"‚Z‚v‚f‚s‚a‚n‚r‚hùúïúõúõöóöôöö÷ùý÷üôûóúõûóõúûöõñþõùõü÷÷öýùùôüýý÷ùøûùüôôôùóöø÷÷øõûùô÷õ÷úôüíòùøùûü÷÷õÿþõúööòúöðúöùñòôûøüøôøøø÷öüúöì‚üüûöóûø‚ôúûùûþøúõøóó÷ù÷õòøöôùüóúñý÷óôôùøöýóôõø÷ûôøòó÷øúõøö÷ú‚!‚_‚g‚a‚s‚r‚l‚u‚rùööóúøûùôûùø÷ôõôô÷ôúõôôøöûûùôôúö÷øø÷ûüúúðùûþóö÷õöùï÷÷ùö÷ðùùõ÷û÷öøùóþöýòô÷ÿõþñúùöüÿô÷ô‚ ôøûýøüðøõüüòôüü‚ øüôøýü÷õûöôõúúõ÷ðøôÿøõÿú÷÷õöùôùü‚óòúùýúóôùüúõòûûöùñüööøõøðõóòóûõ÷øùúø÷ú‚‚l‚y‚s‚b‚x‚e‚{‚cþøûùþú÷ñ÷ûþòùøûôùùýúûôòøÿöûñüùùöúòýùýúþñöùùôûøúðûõ‚÷öööñ‚ öøõøõöðõøüõùõóøúóòòõ÷ðøõôùõøñúüùöøõøýøúõúüüúööûò‚ öýõüùõôøù÷ðõôüõ÷ï‚ öùùõõ÷öüòöò÷÷÷÷üóùóöüö÷ùùûôüùùõô÷øó÷öðûóò÷÷ùõõòóò‚‚d‚k‚v‚`‚i‚e‚n‚nñùøüðúóõøý÷ð÷ùüôíúòùûõöüõöóöþ÷ôðû÷ù÷ø÷òýòøöõ÷÷ûúõñù÷ûôþ‚ ûü÷ùúñÿøúõ÷øûøüöûõüöúø‚ò÷ôø÷ûóúðýûù÷öôþöúôøöñòöóý÷øòöúûûüõû÷ùû÷÷öùùôõùùý÷ôúöøõôúõõóôø÷ûøîó÷úö÷õùúüôúõöõýñøóó÷øñüùüôøò‚&‚q‚r‚n‚‚l‚s‚v‚k÷þõþóùúýù‚ óõóøõóòóðýîúòûùõðù÷ùò÷üø÷ø÷÷ööúûô‚ óøûùø÷ôþóûùùôùøùñúùùûôùûøøÿù÷þþö÷üôúù÷÷ôûõòõøúõõýóöýøöøóùôøùøóø÷ùñüõöõöøüïüýöø‚ õöõùôüðýðòóûôüø÷øø÷ÿñúòùôö÷õôý÷ôðûû÷ôúøóõ÷øúüõòùöú‚‚c‚l‚m‚n‚n‚_‚n‚pôõ÷õñ÷ööõôõóøôõõõû÷÷õúö‚ úöüùþ÷øõùúûôôûóøûóóðòþôûúûüùû÷÷‚ôøï‚ øúóüùøõ÷÷øùüò÷ñúõõõøõôôøûøòùôüøúñôûøûöóøñüôøúø÷ûøþù÷ûûôùóúúôöùøöö÷ô÷üðûðøýõôòðøóøðîõöõøôüò÷üúûùóùôóôþñõïõðòúøôöðþ‚‚e‚b‚p‚c‚w‚w‚w‚f÷÷úùûôúúôõõôüîùóúôùù÷øùòøö‚ôôöþöûöøö÷ö‚ùôû÷õýòö÷‚óøô÷öøõúöñöøóúøüñôøüûïöûø÷ýôûùûü÷ùû÷ûôýô÷õ÷ú‚ øö÷ñüûúûõüñþ‚÷òù÷‚ óþþýñóîýùþðêò÷û÷ìûø÷ùôøýòùõô÷úýóùþòøùüù÷õùñöõùúóôôôþøóð÷üùöù÷‚‚c‚j‚t‚p‚t‚c‚v‚[ùûñöô‚ùøõöüüõöüüøõ÷ýüþõúúúþòöüüõýúûõôûöûüöõòõøúñýñøø÷ùø÷øóùðýöù÷ùòþõøóûøúòö÷û÷ûñôùþõóòùõööûøùöþóú÷ûòøøýöûöðôúùúïýøöûöõõøùüùöøõòøþõúøôü÷þøôôö÷øñûôõ÷õñüôûóõùöôúùûñúõú÷óöüïûöø÷‚‚b‚|‚e‚o‚g‚z‚l‚kûþöøöúöùô÷÷öõõñýøøñüõýüøôöõúïöóöóøóôü‚ øûô‚þúøôõýö÷õö÷öøôø‚÷÷ï÷üûðøðø÷öòóúõõûôýüú‚ööüûûùöþùùô÷õøüûð÷÷úùóõûûúöúðûôùñþõûù÷ùüøøóûôúòøðýýúö÷÷ôúøõúí÷øüøõöûøöøúùõ÷õñýö÷÷ðøù÷õòò÷øøõ‚‚m‚t‚e‚f‚s‚n‚v‚uûøýüóûôöüõõøø÷ùøõùúûîõóõþôóøòùõ÷ýúüóûþøûüúôýýúôõùõìù÷úõöïöõýôðñ‚ ýõóù÷‚ôöôùøùõõõýôòöýôüõøø‚ýùóùö‚ õûøøøùüúõøõù÷ýüôöøôøøûù÷úþñúö÷ûõýõøþýýúùü÷ôûùôøôõîü÷óóóûûóùóøðôö÷ñúõöïùôü÷úøþ‚ ‚d‚f‚r‚l‚p‚r‚s‚tùíþó÷ðõùúïûñøôúñøüøóõ÷üøùüúðüôûóýööøýøöò÷ùþôþöùõùõýùøò÷üú÷ôóûóÿô÷ý÷ôû÷üûòó÷ý÷ò÷öýôòùýû÷÷ùû÷ûñûù÷øøúùø‚ öøöûûýòüþøóýôõðþùùøþøõï‚ üúøöüú÷ÿòöõûòôó÷óùôöïôùýðøòüù÷üðùùöïøûùöüõ÷ûú÷ö‚‚‚€‚k‚n‚y‚w‚t‚_øúòûöô÷ùöõöýõôñòöúö÷ïñ÷ùûñôöøöøôøùõòòôñøûúñûúôûúùûñüùúüöüïûûøòøö‚õùùøùúøÿüüúööþøûñøòûù÷õöõüôúúòõøñüóù÷ðòõþú÷ÿôöúüüûòøúöøñ÷þüûô÷÷øöñøùô÷ôõû÷øóôøø÷ôï÷óúöûòóîþöøòôöõôøó‚ ðöõûùÿ÷‚+‚j‚i‚x‚c‚l‚s‚e‚z‚¤‚žõþöøööóýõõóùøûñùö÷öûôÿô÷öü÷üöùó÷÷ÿ÷ýòþö÷÷òõöñðõúõòôôíùùú÷öúöôùóö÷ùýúöùúô÷ûûôúõ÷ñûöøï÷ýõðöùõöýóùøùþøõøúøü÷ôùöúðýò÷öøþúîùöøôûöüòúò÷øþúöú‚ùõùûúôõööúóïíøúòðüúýöóòùó‚ õôòøùòøóöø‚‚o‚d‚c‚j‚t‚s‚k‚f                                                                                                                                                                                                                XTENSION= 'IMAGE   '           / IMAGE extension                                BITPIX  =                   16 / number of bits per data pixel                  NAXIS   =                    2 / number of data axes                            NAXIS1  =                  182 / length of data axis 1                          NAXIS2  =                  308 / length of data axis 2                          PCOUNT  =                    0 / required keyword; must = 0                     GCOUNT  =                    1 / required keyword; must = 1                     BZERO   =                32768 / offset data range to that of unsigned short    BSCALE  =                    1 / default scaling factor                         INHERIT =                    F / inherit the primary header                     DATATYPE= 'Intensity'          / Type of Data                                   CTYPE1  = 'RA---TAN'           / R.A. in tangent plane projection               CRPIX1  =    -363.906116481141 / Ref pix of axis 1                              CRVAL1  =      25.141624729946 / RA at Ref pix in decimal degrees               CTYPE2  = 'DEC--TAN'           / DEC. in tangent plane projection               CRPIX2  =       150.0568972116 / Ref pix of axis 2                              CRVAL2  =   0.0415309897378817 / DEC at Ref pix in decimal degrees              CD1_1   = -5.8131933496229E-06 / WCS matrix element 1 1                         CD1_2   =  2.1722178999541E-05 / WCS matrix element 1 2                         CD2_1   = -2.17202122865317E-05 / WCS matrix element 2 1                        CD2_2   = -5.81182582170078E-06 / WCS matrix element 2 2                        RADECSYS= 'FK5     '           / R.A./DEC. coordinate system reference          EQUINOX =                2000. / Equinox of coordinate system                   MJD-OBS =     59498.4855168918 / MJD of start of obseration                     CCDNAME = 'BI12-09-4k-2'       / CCD chip name(s)                               AMPNAME = 'BI12-09-4k-2, 2'    / Amplifier name(s)                              GAIN    =     1.96000003814697 / Amplifier gain                                 RDNOISE =      5.3899998664856 / Readout noise                                  CCDSIZE = '[1:2048,1:4224]'    / CCD chip size                                  CCDSUM  = '1 1     '           / CCD sum                                        CCDSEC  = '[1025:1174,1987:2294]' / CCD section(s)                              DETSEC  = '[3073:3222,1987:2294]' / Detector section(s)                         DATASEC = '[1:150,1:308]'      / Data section(s)                                BIASSEC = '[151:182,1:308]'    / Bias section(s)                                FRMNAME = 'FRAME-1 ROI-0, CHIP-g<2>, AMP-2<6>' / Frame name                     FRAMEID = '1       '           / Frame Id                                       DATATYP = '        '           / Type of data frame                             EXTVER  =                   -1 / Number assigned to a FITS extension.           END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             ‚’‚¥‚™‚•‚K‚!‚‚ ‚‚&‚‚‚‚‚‚$‚‚‚‚ ‚‚ ‚‚‚!‚$‚‚"‚#‚#‚%‚!‚ ‚$‚‚(‚‚ ‚‚‚$‚ ‚$‚#‚‚ ‚!‚!‚‚ ‚ ‚!‚$‚"‚‚‚"‚‚#‚‚‚"‚"‚ ‚‚ ‚%‚ ‚‚‚%‚‚(‚‚&‚‚"‚‚!‚"‚‚‚"‚ ‚&‚‚‚%‚&‚%‚%‚‚%‚ ‚"‚$‚#‚#‚"‚‚"‚‚#‚!‚‚"‚‚‚‚‚!‚ ‚ ‚$‚‚!‚‚‚%‚#‚"‚‚ ‚#‚"‚ ‚‚‚!‚‚#‚'‚#‚"‚!‚"‚ ‚$‚%‚‚‚‚‚ ‚‚$‚‚$‚‚#‚‚ ‚"‚#‚‚ ‚‚ ‚#‚$‚ ‚‚‚#‚!‚$‚‚‚$‚ ‚‚&‚!‚‚‚!‚!‚‚‚!‚‚‚˜‚¬‚£‚Œ‚>‚!‚!‚‚‚‚&‚‚‚ ‚‚‚ ‚‚‚"‚‚"‚‚‚‚#‚‚‚$‚#‚‚!‚‚‚‚‚‚ ‚‚!‚‚"‚‚‚#‚‚!‚!‚‚‚‚'‚‚‚‚ ‚‚‚‚‚‚!‚‚#‚‚"‚‚%‚"‚‚ ‚‚‚!‚‚!‚‚$‚ ‚‚‚!‚!‚"‚‚‚!‚ ‚‚ ‚‚‚‚‚‚‚‚‚‚ ‚‚!‚‚!‚"‚!‚!‚‚‚‚‚‚‚‚‚#‚ ‚‚‚#‚!‚#‚!‚‚!‚‚‚‚‚ ‚‚‚ ‚‚ ‚‚‚‚#‚"‚ ‚‚(‚‚#‚‚!‚‚‚‚‚ ‚"‚‚‚‚$‚‚‚‚‚‚‚‚!‚‚‚!‚‚‚‚"‚‚‚ ‚‚‚‚‚‚‚‚‰‚™‚”‚€‚F‚‚‚‚‚‚‚‚‚‚‚‚!‚‚‚‚ ‚!‚‚ ‚"‚‚%‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚!‚‚‚‚‚‚‚‚‚‚"‚‚"‚‚‚‚#‚‚‚ ‚‚‚‚‚!‚‚‚ ‚"‚‚‚‚‚‚‚%‚‚‚"‚ ‚‚‚‚!‚‚‚!‚‚‚‚‚‚‚ ‚‚"‚‚‚‚ ‚‚!‚‚‚‚‚‚!‚‚%‚‚‚‚ ‚"‚!‚‚ ‚‚"‚ ‚‚‚‚‚"‚‚ ‚‚!‚‚‚‚‚‚ ‚‚‚‚‚‚ ‚!‚"‚‚‚‚‚‚‚‚‚‚‚%‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚"‚‚†‚•‚¡‚ƒ‚B‚‚‚!‚‚%‚‚‚‚$‚‚‚‚‚‚ ‚‚‚‚‚‚‚‚‚‚‚‚ ‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚!‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚!‚‚‚‚!‚‚$‚‚‚‚‚‚‚‚‚‚ ‚ ‚‚‚‚‚‚‚‚‚ ‚‚‚‚‚‚‚‚‚‚‚‚‚ ‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚"‚‚‚‚‚‚‚‚!‚‚ ‚‚ ‚‚‚‚‚‚‚‚‚¤‚‚£‚y‚A‚‚‚‚‚‚‚‚‚‚‚‚‚‚ ‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚!‚‚‚‚‚‚‚‚$‚‚‚‚‚‚‚‚‚‚‚‚‚‚ ‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚ ‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚#‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚ ‚‚‚‚‚‚‚†‚‹‚@‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚ ‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‹‚‚ž‚„‚B‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚—‚‹‚‘‚†‚?‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚Œ‚„‚u‚ˆ‚A‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‹‚{‚•‚€‚D‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚Ž‚†‚}‚ƒ‚5‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‹‚‡‚‚†‚=‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚x‚Œ‚…‚‚6‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚Ž‚x‚‚8‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚	‚‚‚‚
+‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚
+‚‚‚
+‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚~‚{‚†‚~‚7‚‚‚‚	‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚
+‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‹‚‚z‚1‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚	‚
+‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚	‚‚‚‚‚‚‚‚‚‚ƒ‚ƒ‚†‚‚A‚‚‚‚‚‚‚‚‚	‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚	‚‚
+‚‚‚‚‚‚‚‚‚‚
+‚‚	‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚	‚‚‚‚	‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚†‚‡‚„‚z‚7‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚	‚‚
+‚‚‚‚
+‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚t‚Ž‚ƒ‚‚A‚‚‚‚
+‚‚
+‚
+‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚
+‚‚‚
+‚‚‚‚‚‚‚‚‚	‚‚
+‚‚‚‚‚‚	‚‚‚‚	‚‚‚‚	‚‚‚‚‚‚‚‚‚‚
+‚‚	‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚
+‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚	‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚
+‚‚‹‚‚‹‚„‚+‚‚
+‚‚‚‚‚	‚‚‚‚‚‚	‚‚‚‚‚
+‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚	‚‚‚‚‚
+‚‚‚‚‚
+‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚
+‚‚‚‚‚‚‚	‚‚‚‚
+‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚	‚‚‚~‚Š‚‰‚‡‚4‚
+‚‚‚‚	‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚	‚
+‚‚‚‚	‚‚‚‚
+‚‚
+‚‚‚‚‚
+‚‚‚‚‚‚‚
+‚‚‚‚	‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚	‚‚‚‚‚‚
+‚
+‚‚
+‚
+‚‚‚‚‚
+‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚	‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚
+‚‚Š‚Š‚‚w‚,‚‚‚‚‚‚‚
+‚
+‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚
+‚‚‚	‚‚‚‚‚
+‚‚‚‚‚‚‚‚	‚‚‚‚‚	‚‚	‚‚‚‚‚	‚‚‚‚‚‚‚
+‚‚‚‚
+‚‚‚
+‚‚‚‚‚
+‚‚	‚
+‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚
+‚‚‚‚
+‚‚‚‚‚	‚‚‚{‚z‚‡‚v‚1‚‚‚
+‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚	‚‚
+‚‚‚‚‚
+‚‚‚‚	‚‚‚‚‚‚‚
+‚‚‚
+‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚	‚‚‚‚
+‚‚‚‚
+‚‚‚‚‚
+‚‚‚‚‚‚‚	‚‚‚‚‚
+‚
+‚‚‚‚‚‚
+‚	‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚	‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚	‚‚‚‚‚‚‚‚‚
+‚
+‚‚‚‚	‚
+‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚
+‚
+‚
+‚‚‚‚ˆ‚€‚„‚„‚.‚‚‚	‚	‚
+‚	‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚
+‚
+‚‚‚	‚‚‚‚	‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚	‚
+‚‚‚‚	‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚
+‚	‚‚‚‚‚‚	‚
+‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚
+‚‚‚‚‚‚‚‚
+‚‚‚‚
+‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚
+‚‚	‚‚‚
+‚‚‚‚‚	‚‚‚‚‚‚‚‚‚~‚/‚‚‚‚‚
+‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚
+‚‚‚
+‚‚‚	‚‚‚‚	‚	‚‚‚	‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚
+‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚
+‚‚‚‚‚
+‚‚‚‚‚
+‚‚‚‚‚‚‚	‚‚	‚
+‚‚‚‚‚‚‚|‚~‚|‚s‚.‚‚‚
+‚‚‚‚‚‚
+‚‚‚‚	‚‚‚‚
+‚‚‚	‚
+‚‚
+‚
+‚	‚
+‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚	‚‚‚‚‚‚‚‚
+‚‚‚‚	‚‚‚
+‚‚‚	‚	‚‚‚‚
+‚‚‚‚‚‚
+‚‚‚‚	‚‚‚‚‚‚‚‚‚‚	‚‚	‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚	‚‚‚
+‚‚‚‚‚‚‚
+‚‚‚‚	‚‚‚‚	‚	‚	‚‚‚‚	‚‚‚
+‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚
+‚‚‚	‚	‚
+‚‚
+‚‚‚‚‚‚‚‚{‚Œ‚’‚r‚9‚‚‚‚‚‚	‚	‚‚‚	‚‚‚
+‚‚	‚
+‚‚	‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚	‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚	‚‚‚
+‚‚	‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚	‚‚	‚‚	‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚	‚‚
+‚‚‚‚‚‚
+‚
+‚‚‚	‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚	‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚	‚	‚‚
+‚	‚‚	‚‚‚‚‚‚
+‚‚‚	‚
+‚‚z‚ˆ‚q‚1‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚	‚‚‚
+‚‚‚	‚‚
+‚‚‚‚	‚‚
+‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚	‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚	‚‚‚‚	‚‚
+‚‚‚‚‚	‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚	‚‚‚
+‚	‚‚‚‚‚	‚‚‚‚
+‚‚
+‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚	‚‚‚
+‚	‚‚‚	‚
+‚‚‚‚t‚†‚†‚ˆ‚0‚	‚‚‚‚
+‚‚	‚‚	‚
+‚‚‚‚‚
+‚‚‚
+‚
+‚	‚
+‚	‚‚	‚‚
+‚‚‚‚ ‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚	‚‚‚
+‚‚‚‚‚‚‚	‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚
+‚
+‚
+‚‚‚‚	‚‚‚‚
+‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚	‚‚‚‚
+‚
+‚
+‚‚
+‚‚‚‚‚‚‚	‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚
+‚‚‚‚‚
+‚‚‚‚‚‚}‚k‚z‚x‚/‚‚‚
+‚‚‚‚‚‚	‚
+‚‚
+‚‚‚
+‚‚‚‚
+‚‚‚‚‚
+‚‚‚‚‚‚‚	‚‚
+‚‚‚‚‚‚‚‚
+‚‚‚
+‚‚	‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚
+‚‚
+‚‚‚‚‚
+‚
+‚‚‚‚	‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚	‚	‚	‚	‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚	‚‚‚
+‚‚‚‚‚‚‚‚	‚‚‚‚‚	‚
+‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚
+‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚	‚‚	‚‚‚‚	‚‚‚‚‚‚Ž‚‡‚€‚-‚‚
+‚‚‚‚‚
+‚
+‚‚‚‚‚‚
+‚‚‚‚‚
+‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚	‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚	‚	‚‚‚‚‚‚‚‚
+‚	‚
+‚‚	‚‚‚
+‚‚‚‚‚‚‚	‚
+‚‚‚‚‚‚‚‚‚‚‚‚	‚
+‚
+‚
+‚‚‚
+‚‚
+‚‚‚‚‚‚
+‚‚‚‚	‚‚‚‚‚‚	‚‚‚‚‚	‚‚‚	‚‚‚
+‚‚‚‚‚‚‚
+‚
+‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚	‚‚‚‚	‚‚‚
+‚‚‚‚‚‚	‚‚‚‚‚	‚‚‚
+‚‚
+‚‚‚
+‚‚	‚€‚ˆ‚„‚t‚/‚
+‚‚
+‚‚	‚‚‚‚‚	‚
+‚	‚‚
+‚‚	‚‚
+‚	‚	‚‚‚‚‚‚
+‚‚‚
+‚‚‚
+‚‚‚
+‚	‚‚‚‚‚‚‚	‚‚
+‚
+‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚
+‚‚‚‚‚	‚‚
+‚‚	‚‚
+‚
+‚
+‚‚‚‚‚‚	‚
+‚‚
+‚	‚‚
+‚‚‚‚‚‚	‚
+‚	‚
+‚‚‚‚‚
+‚‚
+‚
+‚‚	‚‚‚‚	‚‚	‚‚‚
+‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚
+‚	‚‚‚‚
+‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‡‚„‚~‚|‚8‚‚‚‚‚‚‚‚
+‚‚‚
+‚
+‚‚‚‚‚‚‚‚‚‚‚	‚‚‚
+‚‚‚
+‚‚	‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚	‚‚‚
+‚	‚‚‚‚‚‚
+‚‚‚	‚‚‚‚‚‚‚	‚‚‚‚‚‚
+‚‚‚‚‚‚
+‚
+‚‚‚‚‚‚‚‚
+‚
+‚‚‚	‚	‚‚‚‚‚
+‚‚‚‚‚‚‚‚
+‚‚‚‚‚	‚‚	‚‚‚‚‚‚
+‚‚‚‚	‚‚‚‚‚
+‚‚‚‚‚
+‚	‚‚‚
+‚‚‚
+‚‚‚‚	‚
+‚‚‚‚‚‚‚	‚
+‚
+‚‚	‚‚
+‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚k‚t‚‰‚z‚6‚‚	‚
+‚‚	‚‚‚
+‚‚‚‚‚‚‚	‚‚	‚‚‚‚‚‚‚‚‚‚	‚‚‚	‚	‚‚‚
+‚‚‚‚‚‚‚
+‚‚‚‚‚‚
+‚‚‚‚‚‚	‚‚‚‚‚‚
+‚‚‚‚	‚‚
+‚	‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚	‚‚‚	‚
+‚
+‚	‚‚	‚‚‚‚	‚‚	‚‚‚‚
+‚‚	‚	‚‚‚‚	‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚
+‚‚
+‚‚‚‚‚‚‚‚	‚
+‚‚‚‚‚
+‚‚ ‚
+‚‚
+‚‚
+‚‚‚
+‚‚‚‚	‚‚‚x‚„‚„‚8‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚
+‚‚‚
+‚
+‚‚‚	‚‚‚	‚‚‚
+‚	‚	‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚	‚	‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚	‚‚‚‚
+‚‚‚‚‚‚	‚‚	‚‚‚‚
+‚‚‚‚‚	‚
+‚‚‚‚
+‚‚‚	‚‚	‚	‚
+‚‚‚‚‚‚	‚	‚‚
+‚	‚‚‚‚‚‚	‚
+‚‚‚
+‚	‚‚‚	‚‚‚‚	‚‚‚
+‚
+‚
+‚
+‚‚‚‚‚	‚‚‚‚‚‚‚	‚‚‚‚
+‚‚‚‚‚‚‚
+‚‚‚	‚‚‚‚‚‚	‚
+‚‚‚‚	‚‚
+‚‚	‚
+‚u‚ƒ‚~‚„‚4‚‚	‚‚‚	‚‚‚‚	‚‚‚‚‚‚‚‚‚	‚‚
+‚
+‚	‚‚‚‚	‚‚‚‚‚‚‚‚	‚‚‚‚
+‚	‚‚‚‚‚‚	‚‚‚‚‚‚‚
+‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚
+‚‚‚‚‚‚‚
+‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚
+‚‚‚
+‚‚
+‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚
+‚‚‚‚‚‚	‚	‚‚‚
+‚
+‚‚‚‚‚‚‚	‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚	‚ ‚‚‚‚
+‚‚‚	‚‚‚
+‚‚‚‚‚‚‚
+‚	‚‚š‚t‚‚g‚:‚‚	‚	‚‚‚‚ ‚
+‚	‚‚
+‚‚‚
+‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚	‚‚‚
+‚‚‚‚‚‚
+‚‚
+‚‚‚‚‚‚
+‚‚‚‚‚‚
+‚‚‚	‚
+‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚
+‚‚‚‚‚‚‚‚
+‚‚‚	‚‚‚
+‚	‚‚
+‚
+‚‚‚‚	‚‚	‚
+‚
+‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚	‚	‚‚‚
+‚‚
+‚‚	‚‚‚‚‚‚‚‚‚‚	‚	‚	‚	‚‚‚	‚‚‚‚‚	‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚€‚‹‚}‚‚1‚‚
+‚
+‚‚‚‚‚‚‚‚‚‚
+‚‚	‚‚‚
+‚‚
+‚‚‚
+‚‚	‚
+‚‚
+‚	‚‚‚‚‚
+‚‚	‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚
+‚‚	‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚
+‚‚‚
+‚‚	‚‚
+‚‚‚‚	‚‚‚
+‚‚‚‚
+‚	‚	‚‚
+‚‚‚
+‚
+‚‚
+‚‚
+‚‚
+‚‚
+‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚	‚‚‚‚‚
+‚‚‚‚‚‚‚	‚‚‚‚
+‚‚‚‚‚‚
+‚‚‚‚‚‚‚
+‚‚
+‚‚‚‚‚‚	‚‚‚
+‚‚‚
+‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚ƒ‚€‚‚v‚6‚‚‚‚‚‚‚‚
+‚	‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚
+‚	‚‚	‚	‚‚‚‚‚‚
+‚‚	‚‚‚‚‚‚‚‚‚‚‚
+‚‚	‚	‚‚‚
+‚‚
+‚‚
+‚‚‚
+‚
+‚‚‚
+‚‚‚‚‚‚‚
+‚	‚‚‚‚‚‚‚‚	‚‚
+‚‚
+‚‚‚‚‚‚‚‚	‚	‚	‚‚‚‚‚‚
+‚‚	‚‚	‚‚	‚‚‚‚‚
+‚‚‚‚‚‚
+‚
+‚‚	‚‚‚‚	‚‚‚‚‚‚‚‚‚
+‚‚
+‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚
+‚‚	‚‚‚‚‚‚‚‚	‚‚‚‚
+‚‚	‚‚‚
+‚€‚‚€‚y‚&‚‚‚‚‚‚‚
+‚‚
+‚‚‚	‚‚‚	‚‚‚	‚‚‚‚	‚‚‚‚‚‚	‚
+‚
+‚‚‚‚‚
+‚‚	‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚	‚	‚	‚‚
+‚
+‚
+‚‚‚‚‚‚‚‚‚‚‚	‚‚
+‚‚‚
+‚	‚‚
+‚‚‚‚‚‚	‚‚‚
+‚
+‚‚‚
+‚‚‚
+‚‚‚‚
+‚‚‚‚
+‚
+‚‚‚‚	‚
+‚
+‚‚‚‚
+‚‚
+‚‚
+‚‚‚‚‚‚	‚‚‚‚‚‚‚‚
+‚‚	‚‚‚‚‚‚‚‚‚‚‚‚
+‚	‚‚
+‚‚‚‚‚‚	‚‚	‚‚‚‚‚‚‚‚	‚	‚	‚‚‚	‚‚‚‚‚„‚~‚ƒ‚u‚,‚	‚‚
+‚‚	‚
+‚‚
+‚‚‚ ‚‚‚	‚‚	‚‚	‚‚
+‚‚‚‚‚‚‚‚
+‚
+‚‚‚‚‚‚‚‚
+‚‚
+‚	‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚	‚‚	‚‚‚‚‚	‚‚‚‚‚‚‚‚‚	‚‚‚‚	‚‚‚‚
+‚‚‚
+‚‚‚‚
+‚
+‚‚‚‚
+‚‚‚‚‚	‚‚
+‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚
+‚‚‚‚‚	‚	‚
+‚‚‚‚‚‚
+‚‚‚‚‚	‚‚	‚‚‚‚	‚ÿ‚‚‚
+‚‚
+‚‚ÿ‚‚‚
+‚‚‡‚€‚|‚g‚7‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚	‚‚‚‚‚‚	‚‚	‚	‚
+‚‚‚‚‚‚	‚‚	‚	‚‚	‚‚‚‚‚
+‚‚	‚‚‚
+‚
+‚‚‚‚‚‚‚‚‚‚‚
+‚‚
+‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚
+‚‚‚	‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚	‚	‚‚‚	‚‚
+‚‚‚‚	‚‚
+‚
+‚‚‚‚	‚‚‚ ‚	‚‚‚‚‚‚‚‚‚
+‚‚	‚‚‚	‚‚‚‚‚‚
+‚‚‚‚	‚
+‚‚	‚‚‚‚z‚ƒ‚”‚„‚4‚‚
+‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚	‚‚‚‚‚	‚	‚‚	‚	‚‚‚‚
+‚‚‚
+‚‚‚‚‚
+‚	‚‚
+‚‚‚‚
+‚‚‚‚‚‚	‚‚‚‚
+‚‚‚‚‚	‚‚‚‚‚‚‚‚	‚
+‚‚‚
+‚‚	‚
+‚‚‚‚	‚‚
+‚‚	‚‚‚	‚‚
+‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚	‚‚‚‚‚‚‚	‚
+‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚	‚
+‚
+‚	‚‚	‚‚
+‚‚‚‚‚‚‚‚
+‚‚‚
+‚‚	‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚	‚‚‚t‚~‚Š‚n‚8‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚	‚‚‚	‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚
+‚‚‚‚‚	‚‚	‚‚‚‚‚‚
+‚‚
+‚‚‚‚‚	‚‚
+‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚
+‚	‚	‚‚
+‚‚‚‚‚‚	‚‚
+‚‚‚‚‚‚‚
+‚‚‚
+‚‚‚‚‚	‚
+‚‚‚
+‚‚‚	‚‚‚
+‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚	‚	‚‚‚‚	‚	‚‚
+‚‚‚
+‚‚‚
+‚
+‚‚‚‚‚
+‚
+‚‚
+‚‚‚
+‚‚‚‚‚‚	‚‚‚	‚z‚z‚…‚v‚,‚‚‚‚‚‚‚‚	‚	‚‚‚‚‚‚‚
+‚	‚‚‚	‚	‚‚‚‚‚‚‚‚	‚‚‚‚	‚‚‚‚‚	‚‚‚
+‚	‚‚	‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚	‚‚
+‚‚	‚	‚	‚
+‚‚‚‚‚‚‚	‚
+‚	‚‚‚
+‚‚‚‚‚‚‚‚	‚‚‚
+‚‚‚‚
+‚‚‚
+‚‚‚‚‚	‚‚‚
+‚‚
+‚‚‚‚‚‚‚‚‚	‚	‚‚‚	‚
+‚
+‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚	‚‚	‚‚‚‚‚	‚
+‚
+‚‚‚‚	‚
+‚	‚
+‚‚‚‚‚‚‚‚	‚‚‚‚‚‚	‚‚€‚t‚w‚2‚‚‚‚‚
+‚‚
+‚‚‚‚‚‚	‚‚	‚
+‚‚	‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚	‚‚‚‚
+‚‚
+‚	‚‚‚‚‚‚‚	‚‚‚‚‚‚‚	‚‚‚‚	‚‚	‚‚‚‚‚‚‚‚‚	‚
+‚‚‚‚‚	‚‚
+‚	‚
+‚‚‚‚‚‚
+‚‚
+‚‚
+‚‚
+‚‚‚‚‚‚‚‚	‚‚
+‚‚
+‚	‚‚
+‚‚	‚‚‚
+‚
+‚‚
+‚‚‚
+‚‚‚‚‚	‚‚‚
+‚‚‚‚	‚	‚‚‚‚‚	‚‚‚	‚‚‚‚‚	‚‚‚‚‚‚	‚	‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚
+‚}‚t‚o‚~‚6‚‚‚	‚‚‚‚‚‚‚
+‚‚‚
+‚‚‚
+‚	‚‚‚
+‚‚	‚	‚
+‚‚‚‚‚‚‚‚‚	‚‚	‚‚‚‚	‚‚‚‚‚
+‚	‚‚	‚‚‚‚‚‚‚	‚‚‚‚‚‚‚	‚‚‚‚‚‚	‚‚‚‚‚‚‚‚
+‚‚	‚‚	‚‚
+‚‚
+‚‚‚‚‚‚‚‚‚
+‚‚‚	‚‚‚
+‚‚‚‚‚
+‚‚
+‚	‚
+‚
+‚
+‚	‚	‚‚	‚‚
+‚‚‚	‚
+‚
+‚‚‚‚	‚‚‚‚‚‚‚‚‚‚
+‚‚	‚	‚‚‚‚
+‚‚‚‚‚
+‚‚
+‚‚‚‚	‚‚‚‚‚	‚‚‚
+‚‚	‚‚‚‚‚
+‚	‚‚‚‚‚‚‚‚‚‚|‚{‚…‚z‚3‚‚
+‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚	‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚
+‚‚‚‚	‚‚‚	‚	‚
+‚‚‚‚	‚‚‚	‚‚‚‚‚
+‚‚
+‚‚‚	‚‚‚‚‚‚‚
+‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚ ‚
+‚	‚	‚‚‚‚‚
+‚‚‚‚‚‚‚‚
+‚‚
+‚‚
+‚‚‚‚‚
+‚‚‚
+‚‚‚	‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚
+‚‚‚‚‚‚	‚
+‚
+‚
+‚‚‚‚‚‚
+‚	‚‚‚‚
+‚	‚‚ ‚‚	‚‚‚‚‚‚z‚‚Œ‚y‚6‚
+‚‚‚‚‚‚‚‚‚‚	‚‚	‚ ‚‚	‚‚‚	‚
+‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚
+‚
+‚
+‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚
+‚‚‚	‚‚	‚	‚	‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚
+‚‚‚‚‚‚
+‚‚‚‚‚‚
+‚‚‚
+‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚
+‚‚‚
+‚‚‚
+‚‚‚	‚‚‚‚‚‚‚‚‚	‚‚
+‚‚‚‚‚‚‚
+‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚	‚‚‚
+‚‚…‚ˆ‚†‚|‚;‚‚‚‚‚‚‚‚	‚‚‚	‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚
+‚
+‚‚‚	‚
+‚	‚	‚‚‚‚‚	‚‚
+‚‚‚‚	‚
+‚‚‚‚
+‚‚	‚‚	‚‚
+‚‚‚‚‚‚‚‚‚‚‚	‚
+‚‚‚
+‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚
+‚
+‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚	‚‚‚
+‚‚‚	‚‚	‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚	‚
+‚	‚‚
+‚
+‚‚‚‚‚	‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚
+‚
+‚‚‚‚‚‚‚	‚	‚‚	‚‚‚”‚‚~‚x‚6‚	‚‚	‚‚‚‚‚‚
+‚	‚‚‚‚‚‚‚‚‚	‚‚‚‚	‚‚‚‚‚‚
+‚	‚‚‚
+‚‚‚‚‚‚
+‚‚
+‚‚‚‚‚
+‚‚‚‚‚‚	‚‚‚‚‚‚‚‚
+‚‚‚	‚‚‚‚‚‚‚
+‚	‚‚‚‚	‚‚‚‚‚
+‚‚
+‚‚ ‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚
+‚‚	‚‚‚‚‚‚‚
+‚
+‚‚	‚
+‚‚‚‚‚‚‚	‚‚‚‚‚‚
+‚	‚‚‚‚‚‚	‚‚‚‚‚	‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚
+‚‚
+‚‚	‚‚
+‚‚‚‚
+‚
+‚‚x‚~‚ƒ‚€‚3‚‚‚‚‚	‚‚‚‚‚	‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚	‚‚	‚‚
+‚‚
+‚	‚‚‚‚
+‚	‚‚	‚‚	‚‚‚	‚‚
+‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚	‚‚‚‚‚‚
+‚‚‚‚	‚‚‚‚
+‚‚‚‚	‚‚‚
+‚‚‚‚‚‚
+‚‚‚‚
+‚	‚‚‚‚
+‚‚‚
+‚‚‚‚‚	‚	‚‚‚
+‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚
+‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚	‚‚‚‚	‚‚ ‚‚‚
+‚‚	‚‚‚	‚‚‚‚‚‚
+‚‚‚‚‚
+‚	‚‚’‚ˆ‚ˆ‚^‚5‚‚
+‚‚‚‚‚	‚‚‚‚‚
+‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚	‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚
+‚‚‚‚‚
+‚‚‚‚
+‚‚‚‚‚
+‚	‚‚‚	‚‚‚‚‚	‚‚
+‚‚‚‚‚‚
+‚‚	‚‚‚
+‚‚‚‚
+‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚
+‚‚‚	‚‚	‚‚‚
+‚‚	‚‚	‚‚‚‚
+‚	‚
+‚
+‚
+‚‚‚‚‚‚‚‚	‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚
+‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚
+‚‚‚‚‚€‚r‚8‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚
+‚‚‚‚‚	‚‚‚‚‚	‚
+‚‚
+‚
+‚
+‚‚‚‚‚‚‚‚‚ ‚‚‚
+‚‚‚‚	‚‚‚‚‚‚‚
+‚	‚	‚‚	‚‚‚‚‚‚‚‚‚‚	‚
+‚‚
+‚‚‚
+‚‚‚‚	‚
+‚‚	‚‚	‚‚‚‚
+‚‚‚	‚‚‚‚	‚
+‚‚‚	‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚	‚‚‚	‚	‚‚‚‚‚‚‚‚‚
+‚
+‚	‚‚	‚	‚
+‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚
+‚‚
+‚	‚‚	‚‚‚	‚	‚‚‚p‚}‚„‚x‚'‚	‚
+‚ ‚‚‚	‚	‚‚‚‚	‚
+‚‚‚‚‚‚‚‚	‚‚‚‚‚‚
+‚‚	‚‚
+‚‚	‚‚‚
+‚‚‚‚‚
+‚	‚‚‚‚‚‚	‚‚‚
+‚‚‚‚‚‚
+‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚	‚‚‚‚‚
+‚‚‚	‚
+‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚
+‚‚‚
+‚
+‚‚‚‚‚‚	‚‚	‚
+‚
+‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚
+‚‚‚
+‚‚	‚
+‚	‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚{‚Ž‚€‚w‚4‚‚	‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚	‚‚	‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚	‚
+‚
+‚‚
+‚
+‚‚	‚
+‚
+‚‚‚
+‚‚‚
+‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚	‚	‚‚‚‚‚	‚
+‚‚	‚‚‚‚‚‚‚‚‚	‚
+‚‚‚‚‚‚
+‚‚‚
+‚‚‚‚‚‚	‚‚‚‚	‚	‚‚‚‚‚‚‚‚‚	‚‚	‚‚‚	‚‚‚‚‚
+‚
+‚	‚‚‚‚‚‚	‚‚‚	‚‚
+‚‚	‚‚	‚t‚†‚…‚t‚;‚‚	‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚
+‚
+‚‚‚	‚
+‚‚
+‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚	‚
+‚‚‚‚‚‚‚‚	‚
+‚
+‚‚‚	‚
+‚‚
+‚	‚‚
+‚‚‚
+‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚
+‚‚‚‚
+‚‚‚‚‚
+‚‚‚‚‚‚ ‚‚‚	‚	‚‚‚	‚‚‚
+‚‚‚‚‚‚
+‚‚‚
+‚	‚‚‚‚‚‚‚‚	‚	‚
+‚‚‚‚
+‚‚‚	‚‚‚‚‚‚‚
+‚‚‚‚‚‚
+‚	‚‚‚w‚‚~‚~‚3‚‚	‚‚	‚‚‚‚‚‚‚‚	‚‚	‚‚‚‚	‚‚‚‚
+‚‚‚
+‚‚‚‚‚
+‚	‚‚‚‚‚‚‚	‚‚‚
+‚‚‚	‚‚‚
+‚‚‚‚	‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚	‚
+‚‚‚	‚‚	‚‚‚
+‚	‚‚‚‚	‚	‚‚‚‚
+‚‚‚‚‚‚	‚‚	‚‚‚‚
+‚‚	‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚
+‚‚‚‚‚ ‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚}‚z‚ƒ‚p‚4‚‚‚‚‚‚	‚
+‚	‚
+‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚
+‚
+‚
+‚‚	‚‚
+‚‚‚‚
+‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚	‚‚‚‚	‚‚
+‚‚‚‚‚	‚‚‚‚	‚‚‚‚
+‚	‚‚‚‚‚‚‚
+‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚	‚‚‚‚	‚‚‚‚‚‚
+‚‚	‚‚	‚	‚‚‚
+‚‚‚‚‚‚‚‚
+‚	‚‚‚‚‚‚‚‚	‚	‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚˜‚|‚˜‚}‚-‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚	‚
+‚‚‚‚‚	‚
+‚‚‚‚‚‚	‚‚‚	‚‚‚‚‚‚‚
+‚‚	‚‚‚
+‚‚‚‚‚	‚‚‚‚‚‚‚	‚‚	‚	‚‚‚‚‚‚‚‚‚‚
+‚‚‚
+‚‚	‚‚‚‚‚‚	‚‚	‚	‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚
+‚‚‚‚‚
+‚	‚‚‚‚‚	‚‚‚‚‚‚	‚‚‚‚	‚	‚‚‚‚‚	‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚
+‚†‚Œ‚‚y‚8‚‚‚‚	‚	‚‚‚‚‚
+‚	‚‚ÿ‚	‚‚	‚‚‚‚	‚‚
+‚
+‚‚‚	‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚	‚‚
+‚‚‚
+‚‚‚‚‚‚‚	‚	‚‚‚	‚	‚‚‚	‚‚‚
+‚
+‚‚‚‚
+‚‚‚‚‚‚‚‚
+‚‚‚‚
+‚‚‚‚‚‚
+‚‚	‚‚	‚‚‚	‚‚‚‚‚‚‚‚‚
+‚‚‚‚	‚‚‚‚‚
+‚‚‚‚	‚‚‚‚‚‚‚‚‚‚
+‚	‚	‚‚‚‚‚‚
+‚‚	‚‚‚‚	‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚	‚‚	‚	‚‚	‚‚	‚‚‚‚	‚‚‚‚‚
+‚	‚‚‚‚‘‚‚ƒ‚{‚9‚‚	‚	‚‚‚
+‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚
+‚‚‚	‚‚
+‚‚‚‚	‚‚‚‚‚‚‚‚	‚‚	‚‚‚‚‚‚‚
+‚‚‚‚	‚‚	‚	‚‚‚‚‚
+‚‚‚
+‚‚‚‚‚‚‚‚	‚‚	‚‚‚‚‚	‚
+‚‚‚‚‚‚‚‚‚‚	‚
+‚‚
+‚‚	‚	‚‚	‚‚‚‚	‚‚‚‚‚‚
+‚‚‚‚‚‚‚	‚
+‚‚‚‚‚	‚‚‚‚	‚‚‚‚	‚‚‚‚
+‚‚‚‚	‚‚‚	‚‚‚
+‚	‚‚
+‚‚‚
+‚
+‚	‚‚‚‚‚‚
+‚‚‚‚
+‚‚‚x‚ƒ‚‚‚+‚	‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚	‚	‚
+‚‚
+‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚
+‚	‚	‚
+‚‚‚‚	‚‚‚‚	‚
+‚‚‚‚‚‚‚‚‚‚‚ÿ‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚	‚‚‚
+‚
+‚
+‚‚‚‚
+‚	‚‚‚‚‚‚‚
+‚‚	‚‚
+‚‚‚‚‚‚
+‚
+‚‚‚‚‚
+‚‚‚‚‚‚	‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚
+‚‚
+‚‚
+‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚	‚‚‚‚x‚}‚‚x‚2‚‚‚‚‚‚‚	‚‚‚‚
+‚‚‚‚‚‚‚‚
+‚‚‚	‚‚‚‚	‚‚
+‚‚‚‚‚‚‚
+‚‚‚‚‚
+‚‚‚
+‚	‚‚‚	‚‚‚‚‚‚‚‚
+‚‚	‚‚‚
+‚‚	‚‚
+‚‚‚‚‚‚‚‚‚	‚
+‚‚
+‚‚
+‚	‚‚‚‚	‚‚‚
+‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚	‚
+‚
+‚	‚‚
+‚‚‚‚
+‚
+‚‚‚‚
+‚‚‚‚
+‚‚‚	‚‚‚	‚‚‚‚‚‚‚‚‚	‚‚‚	‚	‚‚	‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚z‚•‚v‚}‚:‚‚	‚‚‚‚	‚‚‚‚	‚
+‚‚‚‚‚‚‚‚‚‚	‚	‚‚‚
+‚‚‚	‚‚‚‚
+‚‚	‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚	‚‚	‚‚‚
+‚‚	‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚
+‚
+‚
+‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚
+‚	‚‚‚	‚‚‚‚	‚‚	‚‚‚‚‚
+‚‚‚	‚‚	‚‚‚‚‚	‚
+‚‚
+‚
+‚‚‚‚‚‚‚‚‚‚	‚	‚‚‚
+‚‚ÿ‚‚‚
+‚	‚‚‚‚‚‚‚‚‚‚	‚
+ÿ‚‚‚‚‚p‚y‚x‚*‚‚‚	‚‚	‚‚	‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚	‚‚‚
+‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚
+‚	‚‚‚‚	‚‚‚‚‚‚‚
+‚	‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚
+‚	‚‚	‚‚	‚‚‚	‚‚‚‚‚‚‚‚‚‚
+‚
+‚‚	‚‚‚‚‚	‚‚‚‚
+‚‚	‚‚‚‚
+‚	‚‚‚‚
+‚
+‚‚
+‚
+‚‚‚‚‚‚‚
+‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚u‚‹‚‚‚0‚‚
+‚	‚	‚‚	‚‚‚‚‚
+‚‚‚‚‚‚	‚‚	‚‚‚‚‚
+‚‚‚‚
+‚	‚‚‚‚‚‚	‚	‚ ‚‚‚‚‚‚	‚‚‚‚	‚	‚
+‚‚‚‚
+‚‚‚‚‚‚
+‚‚	‚‚‚‚	‚‚
+‚‚‚‚‚
+‚‚‚‚‚
+‚‚	‚‚
+‚	‚‚
+‚‚‚‚	‚‚‚‚‚‚‚‚‚	‚	‚‚‚‚‚‚‚	‚‚‚‚	‚‚‚‚‚‚‚‚‚‚
+‚	‚
+‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚
+‚	‚	‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚
+‚‚
+‚	‚‚‚‚	‚
+‚‚‚	‚	‚‚	‚	‚‚‚‚‚‚‚‚‚‚}‚s‚ƒ‚>‚
+‚‚‚
+‚
+‚‚‚‚‚‚	‚	‚‚‚
+‚	‚	‚‚‚
+‚	‚‚	‚‚‚
+‚
+‚‚‚‚‚‚‚‚
+ÿ‚‚	‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚
+‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚
+‚‚‚‚
+‚	‚‚	‚‚‚‚‚
+‚‚‚	‚	‚‚‚‚	‚‚‚‚‚
+‚
+‚‚
+‚‚‚‚‚‚
+‚‚‚	‚‚‚	‚‚‚‚‚‚	‚‚
+‚‚	‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚
+‚‚‚‚	‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚
+‚	‚‚‚	‚	‚‚‚	‚}‚„‚q‚‚6‚‚‚‚‚‚
+‚‚ ‚‚‚	‚‚‚	‚‚‚‚‚ÿ‚‚‚
+‚	‚‚	‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚
+‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚
+‚‚‚	‚‚‚‚‚	‚
+‚‚‚‚‚‚‚	‚‚
+‚‚‚
+‚‚‚‚
+‚‚‚‚‚‚‚
+‚‚‚‚	‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚	‚
+‚	‚‚	‚‚
+‚	‚
+‚‚
+‚‚‚‚	‚‚
+‚	‚‚
+‚‚‚‚‚
+‚‚‚‚‚‚
+‚
+‚‚‚‚‚‚	‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚	‚‚	‚p‚~‚~‚x‚8‚
+‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚
+‚‚‚‚‚	‚
+‚‚‚	‚‚‚	‚‚‚‚‚	‚‚‚	‚‚‚	‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚
+‚
+‚
+‚
+‚‚
+‚‚‚‚‚‚
+‚
+‚
+‚‚	‚
+‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚
+‚‚	‚
+‚	‚‚‚‚
+‚
+‚‚	‚	‚‚‚‚‚‚‚	‚‚‚‚‚‚
+‚‚‚
+‚
+‚	‚‚‚‚‚‚‚	‚‚
+‚‚
+‚‚‚‚‚‚‚
+‚‚	‚‚‚	‚	‚‚‚
+‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚v‚ˆ‚}‚u‚1‚
+‚‚‚	‚
+‚‚‚‚‚‚‚
+‚‚‚	‚‚‚‚	‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚
+‚‚‚‚	‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚
+‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚	‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚
+‚‚	‚
+‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚
+‚‚	‚	‚‚‚	‚
+‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚
+‚‚‚‚
+‚‚
+‚‚
+‚‚‚‚‚‚
+‚|‚}‚‡‚ƒ‚6‚‚
+‚‚‚‚‚‚
+‚‚‚‚	‚‚‚‚‚‚
+‚
+‚‚‚‚‚‚‚‚‚	‚‚
+‚‚‚‚‚‚‚‚
+‚‚‚‚‚	‚‚	‚‚‚‚‚‚
+‚	‚‚‚
+‚‚‚‚‚‚‚
+‚‚‚	‚‚‚‚‚‚‚‚	‚‚‚‚	‚‚‚‚‚	‚‚‚
+‚‚
+‚‚	‚‚	‚‚‚‚‚‚‚‚‚	‚	‚‚‚‚‚‚‚‚	‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚	‚‚‚‚‚‚	‚	‚‚‚‚
+‚‚‚
+‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚
+‚‚‚‚
+‚‚	‚‚‚‚‚‚ ‚†‚Œ‚‡‚‹‚9‚	‚‚‚‚‚	‚‚‚‚‚‚	‚‚‚‚‚	‚
+‚‚‚‚‚‚
+‚
+‚‚‚‚	‚‚‚‚‚‚‚‚‚	‚‚
+‚‚‚‚‚‚
+‚‚
+‚‚‚‚‚
+‚‚‚‚‚
+‚‚‚‚	‚
+‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚	‚‚‚
+‚‚‚	‚	‚‚‚	‚	‚	‚‚
+‚‚‚‚‚‚
+‚	‚‚‚‚	‚‚‚‚‚‚‚‚‚‚
+‚
+‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚	‚	‚‚
+‚‚‚‚‚‚‚‚	‚‚‚ ‚	‚‚
+‚‚‚‚‚	‚‚‚‚‚{‚v‚}‚u‚3‚‚	‚‚	‚
+‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚
+‚‚‚‚‚‚
+‚‚‚‚‚
+‚‚	‚‚‚‚‚	‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚	‚‚	‚‚‚
+‚‚‚‚‚‚
+‚
+‚‚ ‚
+‚‚‚‚‚
+‚‚‚‚‚‚‚
+‚	‚‚‚
+‚‚‚‚‚‚	‚‚‚‚‚‚
+‚	‚‚	‚‚‚	‚	‚‚‚‚
+‚‚	‚
+‚‚‚‚‚‚
+‚‚‚‚
+‚‚‚‚‚	‚‚‚‚
+‚‚‚‚	‚	‚‚‚‚‚‚	‚‚‚‚‚‚‚
+‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚	‚‚‚	‚ ‚‚Š‚|‚~‚y‚3‚	‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚ ‚‚‚‚
+‚
+þ‚‚‚
+‚‚‚‚‚‚‚‚‚	‚‚‚	‚	‚‚‚	‚‚‚‚‚‚‚‚‚	‚‚‚‚	‚‚
+‚
+‚‚‚‚	‚
+‚‚‚‚‚
+‚‚‚‚‚‚	‚
+‚‚‚
+‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚	‚‚
+‚‚	‚‚
+‚
+‚‚‚	‚‚‚
+‚‚
+‚‚‚‚‚
+‚‚‚‚‚‚‚	‚‚‚‚‚‚‚	‚	‚	‚	‚‚‚‚‚‚	‚‚‚‚‚‚‚
+‚‚	‚‚	‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚
+‚
+‚‚‚‚w‚q‚{‚u‚3‚‚‚þ‚‚‚‚‚‚‚‚‚‚
+‚
+‚‚‚
+‚‚‚‚‚‚‚
+‚
+‚
+‚‚	‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚	‚‚
+‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚	‚‚
+‚	‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚	‚‚‚‚‚	‚
+‚‚‚‚‚	‚‚‚‚
+‚	‚‚‚
+‚‚‚‚‚‚‚‚
+‚‚
+‚‚	‚‚‚
+‚‚‚‚	‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚ý‚
+‚	‚‚	‚‚‚‚
+‚‚	‚
+‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚	‚	‚ ‚	‚‚‚	‚‚‚‚‚‚|‚Œ‚ˆ‚{‚(‚‚	‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚	‚	‚	‚‚‚	‚‚‚
+‚‚‚‚‚	‚‚‚‚‚‚	‚
+‚‚‚‚‚‚‚‚
+‚‚‚‚‚	‚‚‚
+‚‚‚	‚‚‚‚‚‚
+‚
+‚‚‚‚	‚‚‚	‚	‚‚	‚‚‚‚
+‚‚
+‚‚‚‚
+‚
+‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚
+‚‚
+‚‚‚‚‚‚‚‚‚	‚‚‚‚
+‚
+‚‚‚
+‚‚‚‚‚‚	‚‚
+‚‚‚‚‚‚‚
+‚‚‚‚	‚‚‚‚‚‚‚‚‚	‚‚‚	‚‚	‚€‚Œ‚~‚z‚+‚	‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚
+‚‚
+‚
+‚‚
+‚‚	‚‚‚‚
+‚‚‚
+‚‚‚‚
+‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚
+‚‚	‚‚‚‚‚‚‚‚‚	‚‚‚
+‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚	‚‚
+‚‚	‚‚	‚‚‚	‚‚‚
+‚‚	‚	‚‚	‚	‚‚	‚‚‚‚	‚‚‚	‚‚‚‚	‚‚‚	‚‚	‚‚‚‚‚‚‚‚‚
+‚‚‚ ‚‚‚‚‚‚‚‚‚‚	‚†‚}‚ˆ‚s‚*‚‚	‚‚‚‚‚‚
+‚‚‚	‚‚‚‚
+‚‚	‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚	‚
+‚	‚‚‚‚	‚	‚‚‚‚‚‚
+‚‚‚‚‚‚‚
+‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚
+‚‚‚	‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚
+‚	‚‚‚
+‚‚	‚‚‚ ‚	‚‚
+‚
+‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚
+‚‚‚	‚‚‚‚	‚‚‚‚
+‚ ‚‚z‚}‚‚‚7‚‚	‚‚
+‚‚
+‚	‚‚‚‚	‚‚‚
+‚‚‚‚‚‚‚‚	‚‚	‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚	‚‚‚
+‚‚
+‚‚‚‚	‚‚
+‚	‚‚‚‚‚‚‚	‚‚
+‚
+‚‚
+‚‚‚	‚‚‚‚‚	‚‚
+‚‚
+‚‚‚‚‚	‚
+‚‚
+‚‚‚‚‚‚‚‚	‚	‚	‚‚‚‚‚‚	‚
+‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚	‚‚‚‚‚‚‚‚‚‚	‚
+‚
+‚
+‚‚‚‚‚‚‚‚	‚‚‚‚‚
+‚‚‚‚‚‚
+‚‚‚‚	‚‚‚‚‚‚	‚‚	‚‚‚	‚‚‚‚
+‚‚‚‚v‚…‚‚‚‚7‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚
+‚‚‚
+‚‚‚‚
+‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚
+‚	‚‚
+‚‚‚‚‚‚	‚‚‚‚‚‚	‚‚‚‚
+‚‚
+‚‚‚	‚‚‚‚	‚	‚	‚‚	‚‚
+‚
+‚‚‚‚‚‚
+‚‚‚
+‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚	‚
+‚‚	‚‚‚‚
+‚‚	‚‚‚‚‚‚‚
+‚‚‚	‚
+‚‚
+‚‚‚‚‚‚‚‚‚
+‚	‚	‚‚‚‚‚‚
+‚‚
+‚‚	‚‚‚‚‚	‚‚	‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚~‚Š‚ˆ‚q‚5‚‚
+‚‚‚
+‚‚‚‚
+‚‚ÿ‚‚‚
+‚‚‚‚‚‚‚‚‚‚
+‚
+‚‚	‚
+‚
+‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚	‚‚‚
+‚‚	‚‚‚‚‚‚‚‚‚‚‚	‚
+‚‚‚‚‚‚‚‚‚
+‚
+‚‚‚‚
+‚‚
+‚‚‚‚‚‚‚‚
+þ‚
+‚‚‚	‚‚‚‚
+‚‚‚‚‚‚‚	‚‚
+‚‚‚‚
+‚‚‚‚‚‚
+‚‚	‚‚‚‚‚‚	‚‚‚‚‚‚
+‚‚‚‚
+‚
+‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚	‚‚
+‚‚‚‚	‚‚
+‚‚
+‚‚‚
+‚‚‚‚‚‚‚	‚w‚ˆ‚y‚c‚9‚‚‚‚
+‚‚‚‚
+‚‚‚‚	‚‚
+‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚	‚‚
+‚‚	‚	‚	‚
+‚‚‚‚‚‚‚‚‚‚‚
+‚
+‚‚‚‚‚
+‚‚‚‚‚‚
+‚
+‚‚
+‚‚‚‚	‚‚‚‚‚‚‚‚‚‚
+‚
+‚‚‚‚‚‚‚	‚‚‚‚‚‚‚
+‚	‚
+‚‚
+‚
+‚
+‚‚‚	‚‚‚‚‚‚‚‚‚	‚
+‚‚‚‚‚‚‚‚	‚‚‚‚	‚	‚‚‚‚‚	‚‚‚	‚
+‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚
+‚
+‚‚‚	‚‚‚
+‚
+‚‚‚‚‚
+‚‚
+‚‚
+‚‚‚‚‚ƒ‚‚t‚B‚‚	‚	‚‚	‚	‚‚‚	‚‚‚‚‚
+‚‚‚
+‚	‚‚‚
+‚‚‚‚	‚‚‚‚
+‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚	‚‚	‚	‚‚	‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚
+‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚	‚	‚
+‚‚‚	‚‚‚‚‚
+‚‚‚	‚
+‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚
+‚‚‚‚ ‚‚‚‚‚	‚‚‚‚	‚‚‚	‚
+‚	‚‚
+‚‚‚	‚‚‚‚‚‚
+‚‚‚‚‚
+‚z‚‚s‚{‚=‚	‚‚	‚‚
+‚‚	‚‚
+‚‚‚‚‚‚
+‚	‚‚‚‚‚‚þ‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚
+‚‚
+‚‚‚	‚‚‚
+‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚
+‚‚‚‚	‚‚‚‚	‚‚‚‚‚‚	‚‚‚‚‚‚	‚‚
+‚‚‚‚‚	‚	‚
+‚‚‚	‚	‚‚‚	‚‚
+‚‚‚‚‚‚‚‚‚	‚‚	‚	‚‚
+‚‚‚‚	‚‚‚	‚‚
+‚‚‚	‚‚‚‚‚
+‚‚	‚‚‚‚‚
+‚‚‚‚‚‚
+‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚y‚‚‘‚w‚=‚‚‚‚‚	‚	‚‚‚‚‚‚	‚‚‚
+‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚	‚	‚	‚
+‚‚‚‚	‚‚‚	‚‚
+‚‚	‚‚‚‚‚	‚‚‚‚
+‚
+‚‚‚	‚	‚‚‚‚‚‚‚	‚‚‚
+‚‚
+‚
+‚‚
+‚‚	‚‚‚‚‚‚
+‚‚‚‚‚‚‚
+‚‚‚‚‚
+‚‚‚
+‚	‚‚‚
+‚‚
+‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚	‚‚‚
+‚‚‚	‚‚‚‚‚‚‚‚‚‚	‚‚
+‚‚	‚	‚‚‚‚‚‚	‚
+‚‚‚‚‚‚‚‚
+‚‚‚	‚‚‚‚‚
+‚‚‚‚‚‚
+‚‚~‚‚‚‚|‚?‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚	‚
+‚‚‚	‚‚	‚‚‚‚
+‚‚‚‚‚
+‚‚‚‚	‚‚‚‚	‚‚	‚
+‚	‚‚
+‚‚‚‚	‚‚	‚‚‚‚	‚	‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚
+‚	‚
+‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚
+‚
+‚‚‚	‚‚‚‚‚‚‚‚‚‚	‚‚‚
+‚
+‚‚‚
+‚‚	‚
+‚‚
+‚‚‚
+‚‚‚	‚	‚	‚‚	‚‚‚
+‚‚	‚	‚‚‚
+‚‚‚‚	‚‚	‚‚
+‚‚‚
+‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚
+‚
+‚
+‚‚‚‚
+‚‚
+‚‚	‚
+‚‚‚‚‚‚n‚ƒ‚q‚/‚‚‚ ‚‚‚‚	‚	‚‚‚‚‚	‚‚
+‚‚‚ÿ‚	‚‚‚‚‚‚‚‚	‚‚‚‚
+‚‚‚‚
+‚‚‚‚‚‚‚	‚	‚‚
+‚‚
+‚‚‚	‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚
+‚	‚‚‚
+‚
+‚‚	‚‚
+‚	‚	‚‚‚‚‚‚‚‚	‚‚‚‚‚‚
+‚
+‚‚‚‚‚‚‚‚‚	‚‚
+‚	‚‚	‚‚‚‚	‚	‚‚‚‚‚‚‚	‚	‚‚‚‚‚	‚‚‚‚‚	‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚	‚‚	‚‚‚‚‚
+‚‚	‚‚
+‚
+‚‚‚‚‚
+‚‚‚‚
+‚‚
+‚	‚‚
+‚
+‚‚
+‚n‚„‚}‚‚5‚‚‚‚‚‚	‚‚	‚‚‚
+‚‚‚
+‚
+‚	‚‚
+‚‚	‚‚‚‚‚‚‚‚‚	‚
+‚
+‚	‚	‚‚‚
+‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚
+‚
+‚
+‚	‚‚‚‚‚	‚‚‚
+‚‚‚	‚‚‚‚‚‚	‚
+‚‚‚	‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚
+‚‚	‚‚‚‚‚‚‚‚	‚‚‚‚
+‚‚‚
+‚‚‚
+‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚
+‚‚‚‚‚	‚	‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚	‚	‚‚‹‚‰‚ƒ‚ƒ‚6‚‚‚‚‚‚‚‚‚‚‚‚	‚	‚‚
+‚‚‚‚‚‚‚‚‚‚
+‚‚‚
+‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚	‚‚
+‚
+‚	‚
+‚‚‚‚
+‚‚	‚‚‚‚
+‚‚
+‚‚	‚
+‚‚‚
+‚	‚
+‚	‚
+‚	‚‚‚
+‚‚‚
+‚‚‚	‚‚‚	‚‚‚‚‚
+‚	‚
+‚‚‚	‚	‚‚‚‚‚‚‚‚‚	‚	‚
+‚‚‚‚‚‚	‚‚‚	‚‚‚‚‚‚
+‚	‚	‚
+‚‚‚‚‚	‚‚‚‚	‚‚‚‚‚‚
+‚‚‚‚‚
+‚‚	‚‚‚‚‚‚	‚‚‚‚
+‚‚	‚‚‚	‚‚‚‚‚‚	‚‚	‚‚‚‚‚	‚‚‚‚	‚x‚{‚t‚}‚=‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚
+‚‚‚‚
+‚‚‚‚‚‚	‚‚	‚‚‚‚‚‚‚‚‚‚‚	‚‚	‚	‚‚‚‚‚‚	‚	‚‚‚‚‚‚
+‚‚‚‚	‚	‚‚‚
+‚‚‚‚	‚‚
+‚‚‚‚‚‚‚	‚‚‚‚‚‚	‚‚‚‚‚‚
+‚
+‚‚‚‚‚‚	‚‚‚‚‚	‚‚‚‚
+‚‚‚‚‚‚‚
+‚‚	‚‚‚	‚	‚‚
+‚‚‚‚‚‚‚	‚‚‚‚‚‚‚
+‚‚‚‚
+‚‚‚‚‚‚‚	‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚	‚	‚‚‚‚	‚‚‚‚‚‚
+‚‚Š‚€‚s‚‚7‚‚‚‚‚
+‚‚
+‚‚‚‚
+‚‚
+‚‚
+‚‚
+‚‚
+‚‚‚‚‚‚‚‚‚‚	‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚	‚
+‚‚	‚‚‚
+‚‚‚‚‚‚
+‚‚‚‚‚‚‚	‚‚‚‚‚‚	‚	‚‚‚‚
+‚	‚‚	‚‚	‚‚‚‚‚	‚‚‚	‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚
+‚‚‚‚‚‚	‚‚‚‚
+‚‚‚‚
+‚‚‚‚‚
+‚‚‚‚‚‚‚
+‚‚‚‚‚‚
+‚‚‚‚
+‚	‚‚‚‚‚	‚
+‚‚	‚‚‚‚‚	‚‚‚‚‚‚
+‚‚‚	‚‚‚‚
+‚‚	‚‚‚
+‚	‚‚€‚ˆ‚‰‚†‚5‚
+‚‚‚‚‚	‚‚‚
+‚
+‚‚‚‚	‚	‚	‚‚‚‚‚	‚‚	‚	‚
+‚
+‚	‚‚‚‚‚
+‚
+‚‚‚	‚‚‚‚
+‚‚
+‚‚‚
+‚‚‚‚	‚‚‚
+‚‚‚‚ÿ‚‚
+‚‚ ‚‚‚‚	‚‚‚‚‚‚	‚‚
+‚
+‚‚‚‚‚‚‚‚	‚‚‚‚‚‚
+‚‚‚‚‚‚‚	‚‚
+‚‚‚‚	‚‚‚‚	‚
+‚‚‚
+‚‚‚‚‚‚‚	‚‚‚‚	‚
+‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚	‚‚‚‚‚‚‚‚‚
+‚	‚
+‚‚‚‚	‚‚‚‚‚‚
+‚‚‚‚	‚‚‚‚‚
+‚‚‚
+‚‚	‚v‚‚–‚y‚8‚‚‚	‚‚
+‚‚‚	‚‚‚‚	‚‚‚‚	‚‚
+‚‚‚‚
+‚‚	‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚
+‚	‚	‚	‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚
+‚‚	‚‚	‚‚	‚‚‚‚‚	‚‚‚‚	‚
+‚	‚‚‚‚
+‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚
+‚
+‚‚‚‚‚ ‚	‚
+‚‚	‚‚‚‚
+‚
+‚‚‚‚‚	‚‚
+‚‚‚‚
+‚	‚‚‚	‚‚‚‚	‚
+‚‚‚‚‚
+‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‹‚Š‚z‚w‚,‚‚‚‚‚‚‚‚‚‚
+‚‚‚
+‚‚	‚‚	‚‚‚‚‚
+‚‚‚‚‚‚‚‚
+‚
+‚
+‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚	‚	‚‚‚‚‚‚	‚‚‚‚
+‚
+‚‚‚‚	‚‚	‚‚‚‚‚‚‚‚‚	‚‚‚‚‚	‚‚‚	‚
+‚‚
+‚‚‚	‚‚‚‚‚‚	‚‚‚‚‚‚	‚	‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚	‚‚‚‚	‚	‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚
+‚	‚‚	‚‚‚
+‚‚‚‚
+‚‚	‚
+‚‚‚‚‚
+‚‚‚	‚‚
+‚	‚‚‚‚‚x‚‚‚…‚r‚;‚‚‚
+‚‚‚‚
+‚‚	‚‚	‚
+‚
+‚‚
+‚‚‚‚‚‚‚‚‚‚‚ý‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚	‚‚
+‚‚‚‚‚
+‚
+‚‚‚‚‚
+‚
+‚	‚‚‚‚
+‚‚‚‚‚‚‚
+‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚
+‚	‚‚	‚‚‚‚‚	‚
+‚‚‚‚	‚	‚‚	‚‚‚‚‚‚‚
+‚‚‚‚
+‚‚‚	‚‚‚‚	‚
+‚‚‚‚‚‚
+‚	‚‚	‚‚‚
+‚‚‚‚‚‚{‚“‚t‚4‚‚	‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚
+‚	‚‚‚‚	‚
+‚‚‚‚	‚‚‚‚	‚‚‚‚‚‚‚‚‚‚	‚‚‚	‚‚
+‚‚
+‚‚	‚
+‚‚
+‚
+‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚	‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚	‚‚‚‚‚‚
+‚‚	‚‚‚‚	‚‚‚‚‚‚‚‚	‚
+‚‚‚	‚‚
+‚‚‚‚‚‚‚	‚
+‚‚	‚‚
+‚‚‚‚
+‚‚	‚‚‚‚‚‚‰‚ˆ‚‰‚x‚@‚‚	‚	‚‚‚‚‚‚‚
+‚‚‚‚‚ÿ‚‚‚‚‚
+þ‚‚‚‚‚‚‚
+‚‚‚‚‚ ‚‚‚‚‚‚‚‚‚‚
+‚	‚
+‚‚‚‚‚‚	‚
+‚‚‚‚‚‚
+‚‚ ‚
+‚‚‚
+‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚	‚‚‚‚‚‚‚
+‚‚‚‚
+‚‚‚‚	‚‚‚
+‚
+‚‚
+‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚
+‚‚‚	‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚	‚
+‚‚‚‚‚‚‚‚
+‚
+‚‚
+‚‚	‚	‚‚‚‚‚‚‚‚‚‚	‚‚‚‚	‚„‚ƒ‚‚r‚7‚‚‚‚
+‚
+‚‚‚‚‚
+‚‚‚‚‚	‚	‚	‚‚
+‚	‚‚
+‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚ÿ‚‚‚‚ ‚‚
+‚‚‚‚‚‚	‚‚	‚	‚	‚‚
+‚‚‚‚‚
+‚‚	‚‚‚‚‚‚
+‚‚‚‚	‚‚‚‚	‚‚‚‚
+‚‚‚‚‚	‚‚‚	‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚	‚‚	‚‚
+‚‚
+‚
+‚‚‚‚‚‚
+‚	‚	‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚	‚‚‚‚
+‚‚
+‚‚	‚‚‚þ‚‚‚‚‚	‚‚‚
+‚	‚‚
+‚‚‚‚
+‚	‚‚
+‚	‚t‚‚‚‚‚3‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚
+‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚	‚‚
+‚‚‚
+‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚
+‚‚‚‚
+‚‚‚‚‚‚‚‚
+‚‚
+‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚
+‚‚‚‚	‚	‚‚
+‚‚‚
+‚
+‚‚‚‚‚‚‚	‚
+‚‚‚‚‚‚‚	‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚	‚‚‚	‚‚
+‚‚
+‚‚
+‚	‚m‚…‚‚€‚6‚‚‚‚‚‚‚
+‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚	‚‚‚‚‚‚	‚‚	‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚
+‚
+‚	‚‚‚	‚‚	‚‚‚‚	‚‚	‚	‚‚
+‚‚	‚‚‚
+‚
+‚‚‚	‚‚‚‚‚	‚‚‚	‚‚‚ ‚‚‚‚	‚‚‚‚
+‚‚	‚
+‚‚‚‚
+‚	‚‚	‚‚‚‚‚	‚	‚‚‚‚‚‚	‚‚	‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚	‚‚‚‚‚Š‚u‚~‚6‚‚‚‚
+‚‚
+‚
+‚‚‚‚‚‚‚
+‚	‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚
+‚‚‚‚‚‚
+‚‚‚ ‚‚‚‚‚‚‚
+‚‚
+‚‚‚
+‚‚	‚‚‚‚
+‚‚‚‚‚
+‚‚‚‚‚	‚	‚‚
+‚‚‚‚‚	‚‚‚
+‚‚‚‚‚‚
+‚‚‚‚
+‚‚‚‚‚‚
+‚
+‚‚‚	‚	‚‚‚‚	‚‚‚‚
+‚‚‚‚‚
+‚‚‚‚‚	‚‚
+‚‚‚‚‚‚
+‚	‚‚‚
+‚‚‚	‚‚	‚
+‚‚‚‚‚‚‚‚
+‚‚‚‚‚
+‚
+‚‚‚‚‚‚	‚‚
+‚
+‚‚‚‚‚
+‚‚‚‚‚‚
+‚‚‚‚
+‚	‚‚‚‚‡‚p‚<‚	‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚
+‚‚‚‚‚
+‚‚‚‚
+‚	‚	‚‚	‚‚	‚‚‚‚‚‚‚‚	‚‚‚‚‚	‚‚‚‚‚‚‚‚
+‚	‚‚	‚	‚‚‚‚‚‚‚‚‚‚
+‚‚‚	‚
+‚‚‚‚‚‚‚‚‚
+‚‚‚
+‚‚‚‚‚‚‚	‚‚‚‚	‚‚‚‚
+‚‚‚‚‚‚	‚‚‚
+‚‚	‚‚‚‚	‚‚‚‚‚‚	‚
+‚
+‚	‚‚‚‚
+‚
+‚‚‚	‚	‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚	‚‚	‚	‚
+‚‚‚‚‚	‚‚‚‚
+‚	‚‚‚‚	‚‚‚t‚„‚…‚q‚2‚‚‚	‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚	‚‚‚‚	‚
+‚‚‚‚‚‚	‚‚‚‚	‚‚‚‚‚‚	‚‚‚‚‚‚‚
+‚‚‚‚	‚‚‚‚
+‚
+‚
+‚‚‚‚‚‚‚‚	‚‚‚	‚‚	‚‚	‚	‚‚‚‚‚‚‚‚‚
+‚	‚‚‚‚‚‚‚
+‚‚‚‚‚‚
+‚	‚‚‚	‚	‚‚‚‚‚	‚‚
+‚‚‚‚‚‚‚‚	‚
+‚
+‚‚‚‚‚‚‚
+‚‚‚‚
+‚‚‚‚	‚‚‚‚‚‚‚‚	‚‚‚‚‚‚	‚‚
+‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚	‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚€‚‚Ž‚o‚;‚‚
+‚‚‚‚‚‚	‚ ‚	‚‚
+‚‚	‚	‚‚‚‚‚	‚‚	‚‚
+‚‚‚‚‚‚‚‚	‚	‚	‚‚‚‚	‚‚	‚‚‚‚
+‚‚‚‚‚‚‚‚‚	‚‚‚‚‚	‚‚‚	‚‚‚	‚‚‚‚
+‚‚‚‚‚
+‚‚‚
+‚‚‚‚
+‚‚‚‚‚‚‚‚
+‚	‚‚‚‚	‚‚‚‚	‚	‚	‚‚‚‚‚‚	‚‚‚‚	‚‚‚‚	‚
+‚‚‚‚‚‚‚‚‚
+‚‚
+‚‚	‚‚‚‚	‚	‚
+‚	‚‚	‚‚‚‚‚
+‚	‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚	‚
+‚‚‚‚‚‚‚‚	‚	‚‚‚‚
+‚‚‚~‚€‚s‚7‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚ ‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚	‚‚	‚‚‚‚‚‚‚	‚
+‚	‚‚‚‚‚‚
+‚‚	‚	‚‚‚‚
+‚‚‚‚‚‚‚‚	‚‚‚‚
+‚‚
+‚
+‚‚‚‚	‚‚‚‚
+‚‚	‚‚‚‚‚‚
+‚	‚‚
+‚‚
+‚‚‚‚‚‚‚‚	‚	‚	‚
+‚‚
+‚‚‚	‚‚‚‚‚‚‚	‚‚‚	‚‚‚‚‚‚
+‚‚‚‚‚	‚‚‚‚‚‚
+‚‚	‚‚
+‚‚‚
+‚‚‚‚‚
+‚‚‚‚{‚‚ˆ‚l‚4‚‚
+‚‚‚‚‚‚‚	‚‚‚‚‚‚	‚
+‚‚ ‚	‚	‚‚	‚‚‚	‚‚
+‚‚‚‚	‚
+‚
+‚‚‚‚‚‚‚‚‚‚	‚‚‚	‚	‚‚	‚‚	‚‚	‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚	‚‚‚‚
+‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚	‚‚
+‚‚‚‚‚	‚‚‚‚
+‚
+‚‚‚‚‚‚	‚‚‚‚‚
+‚	‚‚‚‚‚‚‚
+‚‚
+‚‚‚‚	‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚
+‚}‚{‚{‚o‚.‚‚‚‚‚
+‚	‚
+‚‚‚	‚‚	‚‚‚‚‚‚‚‚‚‚
+‚‚
+‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚
+‚‚‚	‚	‚‚‚‚‚‚
+‚‚‚‚	‚‚‚‚	‚‚‚‚‚‚‚‚‚	‚‚	‚‚‚‚‚	‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚
+‚
+‚‚	‚‚‚‚‚‚	‚	‚‚	‚‚	‚‚
+‚‚
+‚‚	‚	‚‚‚
+‚	‚‚‚‚‚	‚‚‚	‚
+‚
+‚‚
+‚‚
+‚‚	‚‚
+‚
+‚‚
+‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚
+‚‚‚
+‚‚‚‚‚‚‚‚‚‚	‚
+‚‚‚	‚‚‚‚‚‚‚	‚‚‚‚‚
+‚‚l‚”‚r‚>‚	‚
+‚‚‚	‚	‚‚‚‚‚‚	‚ ‚‚‚
+‚	‚‚	‚‚	‚‚
+‚‚	‚‚‚‚‚‚‚	‚‚‚‚
+‚‚‚‚‚	‚‚‚‚‚‚‚
+‚‚	‚‚‚‚‚
+‚‚‚‚	‚‚‚
+‚‚‚‚‚	‚‚ÿ‚‚	‚‚‚‚	‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚	‚‚‚‚‚	‚‚	‚	‚‚	‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚
+‚	‚
+‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚	‚‚‚‚
+‚‚‚‚‚‚Ž‚y‚|‚(‚‚	‚‚‚‚‚	‚‚	‚‚‚
+‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚	‚‚
+‚
+‚‚‚‚‚‚‚‚
+‚‚‚‚	‚
+‚‚	‚‚‚‚	‚‚‚‚
+‚‚‚‚‚	‚	‚	‚‚	‚‚‚‚
+‚‚‚	‚‚‚‚
+‚	‚
+‚
+‚	‚‚‚‚‚‚‚‚	‚
+‚‚‚‚‚‚‚‚‚	‚‚‚‚	‚‚‚‚‚‚	‚‚‚	‚‚	‚
+‚	‚‚	‚
+‚‚‚‚‚‚‚‚‚	‚
+‚‚‚‚	‚‚‚‚‚‚	‚
+‚‚‚‚‚‚‚‚‚	‚
+‚	‚‚‚	‚‚‚	‚‚‚‚‚‚
+‚‚‚
+‚
+‚‚‚	‚‚‚‚
+‚‚‚
+‚
+‚
+‚‚	‚‰‚‚‚„‚{‚>‚‚
+‚‚
+‚
+‚
+‚	‚	‚
+‚‚‚‚‚‚‚‚	‚	‚‚‚‚‚
+‚	‚‚‚	‚‚‚
+‚
+‚	‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚
+‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚
+‚
+‚‚‚‚
+‚‚	‚‚‚‚
+‚‚	‚‚‚‚
+‚‚	‚‚‚	‚‚‚‚	‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚
+‚‚‚	‚‚‚	‚‚‚‚‚
+‚‚
+‚‚‚‚	‚‚‚‚‚	‚‚‚‚	‚‚‚‚‚
+‚‚‚‚
+‚‚‚‚
+‚‚‚‚‚‚‚‚‚
+‚‚	‚‚‚‚‚	‚‚
+‚‚‚‚	‚‚{‚€‚‚B‚‚‚‚‚‚	‚‚	‚‚	‚‚
+‚‚‚‚
+‚	‚‚‚‚‚‚
+‚‚	‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚
+‚
+‚	‚‚
+‚	‚‚	‚
+‚‚‚
+‚	‚‚
+‚	‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚
+‚	‚‚‚‚‚	‚‚‚‚
+‚‚‚‚‚‚	‚	‚‚
+‚‚‚‚‚‚
+‚‚	‚‚
+‚	‚	‚	‚‚‚‚‚‚‚‚‚‚‚‚	‚‚	‚	‚‚	‚‚‚
+‚‚
+‚‚
+‚‚‚‚	‚‚‚‚	‚‚‚‚‚ ‚
+‚‚‚‚‚‚‚‚	‚	‚‚‚
+‚‚‚‚	‚‚	‚‚
+‚‚
+‚‚‚‚‚‚‘‚z‚8‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚
+‚	‚‚‚‚‚	‚‚‚‚‚‚
+‚‚‚‚‚‚	‚
+‚
+‚
+‚	‚
+‚‚
+‚	‚‚	‚‚‚‚‚	‚‚‚‚	‚‚‚‚‚	‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚	‚‚‚‚‚‚‚‚	‚	‚‚	‚‚
+‚
+‚‚‚‚‚‚‚
+‚‚	‚‚‚
+‚‚‚	‚	‚	‚‚
+‚‚‚‚‚‚‚	‚‚‚‚‚‚
+‚‚
+‚
+‚
+‚‚‚‚‚‚
+‚	‚	‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚
+‚	‚‚‚‚‚‚‚	‚	‚‚‚‚‚‚‚‚‚
+‚‚†‚€‚~‚‹‚5‚‚‚‚‚
+‚
+‚	‚	‚‚‚‚‚	‚‚
+‚‚‚‚
+‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚	‚‚‚‚‚‚	‚
+‚‚	‚‚‚‚	‚‚‚‚	‚‚
+‚‚‚‚‚‚‚
+‚‚	‚‚‚‚	‚‚‚‚‚‚	‚‚‚‚	‚‚‚‚‚‚‚
+‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚	‚‚‚
+‚‚‚‚‚
+‚‚	‚
+‚‚
+‚‚‚	‚‚‚
+‚‚‚
+‚‚‚‚‚‚‚‚
+‚	‚
+‚
+‚
+‚	‚‚
+‚
+‚‚	‚‚
+‚‚‚‚	‚‚‚‚	‚
+‚‚‚
+‚‚‚‚	‚‚
+‚‚‚ƒ‚•‚x‚v‚<‚‚ÿ‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚	‚‚‚
+‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚
+‚‚‚‚
+‚‚‚
+‚‚	‚	‚‚‚‚‚‚	‚‚	‚‚	‚‚‚	‚	‚
+‚‚‚‚
+‚‚	‚
+‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚	‚
+‚‚‚‚‚‚‚‚‚
+‚
+‚
+‚	‚‚‚‚‚‚
+‚
+‚‚
+‚‚‚‚	‚‚‚	‚
+‚
+‚‚‚‚‚‚‚‚‚‚‚
+‚‚	‚‚‚‚
+‚‚‚‚‚‚‚
+‚	‚‚	‚	‚	‚	‚
+‚‚	‚‚‚‚‚
+‚‚‚‚‚‚	‚
+‚‚‚	‚‚‚x‚‚Ž‚j‚<‚‚‚‚‚‚‚
+‚‚‚‚‚‚	‚‚‚‚‚‚
+‚‚
+‚
+‚‚	‚‚‚‚‚	‚‚
+‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚	‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚	‚‚‚‚‚	‚‚‚	‚‚‚‚‚
+‚‚‚
+‚
+‚‚‚‚‚‚‚	‚‚‚‚‚	‚‚‚	‚‚‚‚‚	‚	‚‚
+‚	‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚
+‚	‚‚‚‚‚‚‚‚‚
+‚‚‚‚	‚	‚‚
+‚‚‚‚
+‚‚‚‚
+‚‚‚y‚‚‚o‚{‚5‚‚‚	‚‚‚‚‚‚‚‚‚‚	‚‚‚	‚‚	‚	‚‚	‚‚
+‚
+‚‚‚‚‚	‚	‚
+‚
+‚‚‚‚
+‚‚
+‚‚‚‚‚‚‚‚‚‚
+‚‚	‚‚‚‚‚‚	‚‚
+‚‚‚‚‚‚‚‚‚	‚‚‚‚	‚‚‚‚‚‚‚‚‚‚
+‚	‚‚‚‚
+‚‚
+‚‚‚	‚‚‚‚‚‚‚‚‚ý‚	‚‚‚‚	‚‚‚‚‚‚‚
+‚‚‚	‚
+‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚	‚‚	‚‚
+‚‚‚‚‚‚
+‚‚‚‚‚	‚	‚‚‚‚‚‚‚‚	‚‚	‚	‚‚‚‚	‚‚
+‚‚‚‚‚
+‚‚‚	‚‚‚‚	‚‚ˆ‚‹‚s‚6‚‚‚	‚	‚‚‚‚‚‚‚‚‚ ‚‚	‚	‚‚‚‚‚‚
+‚
+‚‚	‚‚‚‚‚‚	‚‚	‚‚‚‚‚
+‚	‚‚‚‚	‚	‚‚‚‚
+‚
+‚‚‚
+‚
+‚‚‚‚‚‚‚	‚
+‚‚‚	‚‚‚‚‚‚‚	‚‚‚‚	‚‚‚‚
+‚	‚‚‚‚‚‚‚‚‚	‚	‚‚‚‚	‚‚‚‚
+‚
+‚‚‚‚‚
+‚‚‚	‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚	‚	‚‚
+‚‚‚‚‚‚	‚‚‚‚
+‚‚	‚
+‚‚‚‚‚	‚	‚‚‚
+‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚x‚‚‚‚‚7‚‚	‚	‚
+‚‚‚‚‚‚‚	‚‚
+‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚	‚‚‚	‚
+‚	‚
+‚‚	‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚	‚
+‚
+‚‚	‚‚‚	‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚	‚‚‚‚‚‚	‚
+‚	‚	‚	‚‚
+‚‚
+‚	‚‚‚‚‚‚‚‚
+‚‚‚‚‚	‚‚‚‚	‚‚‚‚
+‚
+‚‚‚
+‚‚‚‚‚‚‚	‚‚‚	‚‚‚	‚‚‚	‚‚‚‚‚‚‚
+‚‚‚‚‚‚	‚
+‚‚
+‚
+‚‚‚‚‚‚	‚‚‚‚…‚‚‚Œ‚ƒ‚5‚‚‚‚‚‚	‚‚‚‚	‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚	‚‚‚
+‚‚
+‚‚‚‚‚	‚ ‚	‚	‚‚	‚‚	‚‚	‚‚‚‚	‚‚‚‚‚‚	‚‚	‚‚
+‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚
+‚‚	‚	‚‚‚‚‚‚‚‚‚
+‚‚
+‚	‚‚	‚‚
+‚‚‚‚	‚ ‚
+‚
+‚‚	‚‚‚‚‚‚‚	‚‚
+‚‚	‚‚‚
+‚‚‚‚‚	‚‚‚‚‚
+‚‚‚‚‚‚
+‚	‚‚‚‚‚‚‚‚‚‚‚‚
+‚	‚‚	‚‚‚
+‚‚‚‚‚‚‚‚
+‚‚t‚v‚}‚‹‚<‚‚	‚
+‚‚‚‚‚‚‚
+‚‚‚‚‚‚
+‚	‚‚‚‚‚‚	‚‚	‚
+‚‚‚‚‚‚‚‚‚	‚‚
+‚‚	‚‚
+‚‚‚‚‚‚‚‚
+‚‚	‚‚‚
+‚‚‚	‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚
+‚‚‚‚‚‚‚‚	‚‚‚‚	‚‚‚‚
+‚	‚	‚	‚‚‚‚‚	‚‚‚‚‚‚‚‚	‚‚‚
+‚‚‚‚‚‚
+‚	‚	‚‚‚‚‚
+‚‚‚	‚
+‚‚‚‚‚	‚
+‚	‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚
+‚‚‚‚‚‚‚‚	‚‚
+‚‚‚	‚‚‚	‚
+‚‚	‚€‚|‚Ž‚s‚0‚‚‚‚‚
+‚
+‚‚‚‚‚‚‚	‚‚‚‚‚‚‚
+‚
+‚‚	‚‚‚‚	‚‚
+‚‚‚	‚‚
+‚	‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚
+‚‚‚‚	‚‚
+‚‚
+‚‚‚‚‚‚‚‚‚
+‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚
+‚
+‚‚‚‚‚‚‚
+‚‚‚‚‚	‚
+‚	‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚
+‚‚‚
+‚‚‚‚‚‚	‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚	‚‚
+‚‰‚ƒ‚{‚…‚6‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚	‚
+‚‚‚	‚‚	‚‚‚‚‚‚‚‚	‚‚‚
+‚‚‚
+‚‚‚‚‚
+‚‚‚‚‚‚
+‚‚‚‚	‚
+‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚	‚‚‚‚‚‚	‚
+‚	‚‚‚‚
+‚‚‚
+‚‚‚‚‚‚‚‚‚‚	‚
+‚	‚
+‚‚‚‚‚‚‚‚‚
+‚‚
+‚
+‚‚	‚‚	‚‚‚	‚	‚‚
+‚‚‚‚‚‚	‚‚
+‚‚‚‚‚‚	‚‚‚‚‚	‚‚‚
+‚ƒ‚ƒ‚‡‚ˆ‚8‚‚	‚‚‚‚‚ ‚‚‚‚‚‚‚‚‚	‚‚	‚‚ÿ‚
+‚‚‚‚‚
+‚‚
+‚
+‚‚‚‚‚‚‚‚‚
+‚‚‚‚
+‚‚‚‚‚	‚	‚	‚‚	‚	‚‚‚
+‚
+‚‚‚
+‚‚
+‚‚‚	‚‚‚‚‚‚
+‚‚
+‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚	‚
+‚‚‚‚‚
+‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚
+‚‚‚‚	‚‚‚‚
+‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚
+‚‚‚‚‚
+‚‚‚‚‚‚
+‚‚‚
+‚‚‚‚
+‚—‚~‚ƒ‚‚>‚‚ÿ‚
+‚‚‚	‚	‚‚‚‚‚‚‚‚‚‚‚
+‚
+‚‚‚‚	‚‚
+‚‚‚‚‚‚‚‚‚	‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚	‚‚	‚‚‚	‚
+‚‚
+‚‚	‚	‚‚
+‚‚	‚‚‚
+‚‚
+‚‚	‚‚‚‚‚‚
+‚
+‚‚‚‚
+‚‚‚‚‚‚	‚‚‚	‚‚‚
+‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚	‚
+‚	‚‚‚‚	‚‚	‚‚‚‚‚‚‚‚‚‚
+‚‚
+‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚Ž‚u‚‚†‚=‚‚‚‚‚‚	‚‚‚	‚‚‚‚‚‚‚	‚
+‚‚‚
+‚‚‚
+‚‚‚‚‚‚‚	‚‚‚
+‚
+‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚	‚	‚‚‚
+‚‚‚
+‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚	‚
+‚
+‚‚‚‚	‚‚‚‚	‚‚‚
+‚‚	‚‚‚‚‚‚‚‚‚‚
+‚
+‚‚‚‚‚‚‚‚‚	‚‚	‚‚‚	‚‚‚	‚‚‚	‚‚‚‚‚‚	‚‚‚‚‚‚‚
+‚‚	‚
+‚‚
+‚‚‚	‚‚‚‚	‚‚‚‚‚‚
+‚‚	‚‚‚‚‚‚‚	‚x‚Ž‚—‚„‚5‚
+‚‚‚	‚	‚‚‚‚‚‚
+‚‚‚
+‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚
+‚‚‚	‚‚
+‚
+‚‚
+‚‚‚	‚‚‚‚	‚‚‚‚	‚‚	‚‚‚‚	‚‚	‚‚‚‚
+‚‚‚‚‚	‚‚	‚ ‚‚‚‚	‚	‚‚‚‚‚‚‚‚‚‚
+‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚
+‚‚
+‚‚‚‚‚‚	‚	‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚	‚‚‚
+‚	‚
+‚	‚	‚‚
+‚
+‚
+‚‚‚‚ˆ‚–‚‘‚…‚=‚‚‚‚
+‚	‚‚
+‚‚‚‚‚‚
+‚‚	‚‚‚‚‚‚
+‚‚‚	‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚
+‚
+‚‚‚‚‚‚‚
+‚‚
+‚
+‚
+‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚
+‚	‚‚‚	‚‚‚
+‚‚
+‚‚‚‚‚‚‚	‚‚‚	‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚
+‚‚‚
+‚
+‚
+‚‚‚
+‚‚	‚‚‚‚‚‚
+‚‚‚	‚‚‚‚‚‚	‚‚‚‚	‚‚‚‚‚‚‚‚‚	‚‚‚
+‚‚
+‚ ‚‚
+‚‚‚‚	‚‚‚‚	‚‚‚
+‚‚‚‚‚‚‚‚	‚‚‚™‚Ž‚x‚4‚‚‚‚‚‚‚	‚‚‚‚‚	‚‚‚‚	‚‚‚	‚‚‚‚‚ ‚‚
+‚‚‚
+‚‚‚‚‚‚
+‚‚
+‚‚
+‚‚	‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚
+‚
+‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚	‚
+‚
+‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚	‚‚‚‚‚‚‚
+‚
+‚
+‚
+‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚
+‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚
+‚‚‚‚‚‚‚
+‚	‚‚‚‚‚
+‚‚‚‚‘‚Œ‚’‚3‚	‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚	‚‚
+‚	‚	‚‚	‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚	‚	‚‚
+‚‚‚‚‚	‚‚‚‚‚
+‚‚‚‚‚‚	‚‚‚‚‚‚‚‚
+‚
+‚‚‚‚‚‚‚‚‚	‚	‚‚‚‚
+‚‚‚‚‚‚‚‚‚
+‚
+‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚	‚
+‚
+‚‚‚‚	‚
+‚‚
+‚‚‚‚‚‚‚	‚‚	‚‚‚‚‚‚‚‚‚
+‚‚
+‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚™‚ˆ‚ž‚ˆ‚<‚
+‚‚‚‚‚‚‚‚‚
+‚‚
+‚‚	‚‚‚‚‚‚	‚
+‚‚‚
+‚‚
+‚
+‚‚‚‚‚‚	‚‚‚	‚‚‚
+‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚	‚‚‚‚	‚	‚‚
+‚‚‚‚‚‚
+‚‚‚‚	‚
+‚‚‚‚‚	‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚
+‚‚‚	‚
+‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚
+‚‚‚‚	‚‚‚‚	‚‚‚
+‚	‚‚‚‚‚
+‚	‚‚	‚‚‚‚‚	‚‚‚‚‚	‚‚‚‚‚
+‚	‚‚‚	‚
+‚‚
+‚	‚‚‚‚‚	‚‚‚‚
+‚‚‚‚‡‚Š‚‰‚ƒ‚D‚‚‚‚‚‚‚‚	‚
+‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚	‚‚‚	‚‚
+‚‚‚‚‚‚‚‚
+‚‚‚	‚	‚‚‚
+‚	‚‚‚
+‚‚‚‚‚‚‚
+‚‚‚‚‚‚	‚‚‚
+‚
+‚‚‚‚	‚
+‚‚‚‚
+‚‚‚‚‚
+‚‚
+‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚	‚	‚
+‚
+‚‚‚‚	‚‚‚‚
+‚	‚‚‚‚‚‚	‚	‚
+‚‚‚‚‚	‚‚	‚‚‚
+‚‚‚
+‚‚‚‚‚‚‚‚
+‚
+‚‚‚	‚
+‚
+‚‚‚‚	‚‚‚‚‚
+‚‚
+‚‚‚‚‚
+‚‚‚‚Ž‚Ÿ‚‰‚„‚A‚‚‚	‚‚‚‚‚‚‚
+‚‚‚‚‚
+‚‚‚‚	‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚	‚
+‚‚‚‚	‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚	‚	‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚	‚
+‚‚‚‚‚‚‚‚	‚‚	‚
+‚	‚‚‚‚‚‚	‚	‚‚‚‚‚‚‚‚	‚‚
+‚	‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚	‚	‚‚‚
+‚‚	‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚ý‚	‚
+‚
+‚‚
+‚‚‚	‚‚	‚‚
+‚‚	‚	‚‚‚‚‚‚
+‚‚	‚‚‚‚‚‘‚‚“‚‡‚?‚	‚‚‚
+‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚
+‚	‚‚‚‚‚‚	‚‚‚‚‚‚‚‚
+‚‚‚
+‚‚‚	‚þ‚	‚‚‚‚
+‚‚‚‚‚
+‚‚‚‚‚	‚‚
+‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚	‚‚
+‚‚‚‚‚‚‚
+‚‚
+‚‚‚‚‚‚
+‚‚‚‚‚
+‚‚
+‚‚‚‚‚
+‚‚‚‚
+‚‚‚	‚‚
+‚‚‚‚
+‚	‚‚‚‚‚‚	‚‚‚‚‚‚‚‚
+‚‚–‚¤‚¡‚‚H‚‚‚
+‚‚‚
+‚‚‚‚‚‚	‚‚‚
+‚‚
+‚	‚‚
+‚	‚‚‚‚‚‚‚‚	‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚	‚‚	‚‚
+‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚
+‚‚‚
+‚
+‚‚‚‚	‚‚‚
+‚‚‚	‚‚‚‚	‚‚‚‚‚‚‚	‚‚	‚
+‚
+‚‚‚‚‚	‚‚	‚	‚‚‚‚‚‚‚‚‚‚
+‚
+‚‚
+‚	‚‚‚
+‚
+‚‚‚	‚‚‚‚
+‚‚‚	‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚“‚ž‚‚–‚E‚‚
+‚‚‚‚‚‚
+‚‚‚
+‚‚
+‚‚‚‚‚‚‚
+‚	‚	‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚
+‚‚‚‚‚‚
+‚
+‚‚‚	‚	‚‚‚‚
+‚‚‚‚‚	‚‚‚
+‚‚‚‚‚‚‚‚ ‚	‚‚‚‚‚‚‚‚	‚ ‚‚	‚‚	‚	‚‚‚‚‚‚‚
+‚‚	‚‚	‚	‚‚‚‚‚‚	‚‚‚‚‚‚
+‚	‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚	‚
+‚	‚‚	‚	‚	‚	‚‚‚	‚‚‚‚	‚‚‚‚‚‚
+‚‚	‚‚	‚¦‚°‚¤‚‚A‚‚	‚‚	‚	‚
+‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚	‚‚‚‚‚‚‚‚‚	‚
+‚	‚‚‚‚	‚‚	‚
+‚‚‚‚‚‚‚‚‚
+‚	‚‚‚‚‚	‚‚‚	‚‚‚‚	‚‚	‚‚‚‚	‚
+‚‚‚‚‚	‚‚
+‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚
+‚‚	‚
+‚‚‚‚
+‚
+‚‚‚
+‚	‚	‚‚	‚	‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚	‚‚‚‚‚
+‚‚‚
+‚
+‚	‚‚	‚
+‚‚
+‚‚	‚‚‚‚‚‚‚	‚‚‚
+‚‚‚‚‚‚‚‚‚¦‚¦‚«‚‘‚F‚‚‚‚‚‚‚
+‚
+‚‚‚‚‚‚
+‚‚‚‚‚
+‚‚‚	‚‚‚‚‚‚	‚	‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚
+‚‚‚	‚‚‚‚‚
+‚‚‚‚
+‚	‚‚‚‚	‚‚‚‚
+‚‚‚	‚‚‚‚
+‚‚‚‚‚‚
+‚‚‚‚‚‚‚	‚‚‚‚‚	‚‚‚	‚	‚
+‚‚
+‚
+‚‚‚‚‚
+‚	‚‚‚‚‚‚
+‚‚
+‚‚‚
+‚‚‚‚‚‚‚	‚
+‚‚‚	‚‚‚	‚‚‚‚‚
+‚‚‚‚	‚‚‚‚‚	‚‚‚‚‚‚
+‚‚	‚
+‚‚‚
+‚‚‚
+‚‚‚‚‚‚‚
+‚
+‚‚‚ ‚
+‚	‚‚	‚²‚¹‚±‚¢‚>‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚
+‚‚‚‚‚‚‚	‚	‚‚‚‚‚	‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚	‚‚‚
+‚‚	‚‚‚‚‚
+‚‚‚‚‚
+‚	‚
+‚‚‚‚‚‚‚
+‚‚‚‚
+‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚
+‚‚
+‚‚
+‚	‚	‚
+‚	‚‚‚	‚‚‚	‚
+‚‚‚‚‚	‚‚‚‚	‚‚‚‚‚	‚‚‚‚‚‚‚‚
+‚	‚‚‚	‚‚‚‚‚	‚
+‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚
+‚	‚‚	‚‚‚‚	‚‚‚
+‚‚‚¼‚º‚§‚±‚<‚‚‚
+‚‚	‚‚‚‚‚‚‚
+‚‚	‚‚	‚‚‚‚	‚‚
+‚‚‚‚‚
+‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚
+‚‚	‚	‚‚‚	‚‚‚‚‚‚	‚‚‚‚‚	‚‚	‚‚‚‚	‚‚‚‚‚‚‚‚‚
+‚‚‚‚	‚
+‚‚	‚‚	‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚
+‚
+‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚	‚‚	‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚
+‚Ì‚·‚Ë‚·‚]‚‚‚
+‚	‚‚	‚‚‚‚‚‚‚‚	‚‚‚‚‚‚	‚‚	‚
+‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚	‚
+‚‚‚‚	‚‚‚
+‚	‚‚	‚‚
+‚‚‚‚‚‚‚
+‚	‚‚‚‚	‚‚‚‚	‚‚‚‚	‚
+‚‚‚‚‚‚‚‚
+‚
+‚‚‚	‚‚‚	‚‚‚‚‚
+‚‚	‚‚‚‚‚‚
+‚‚‚‚‚‚‚
+‚‚‚‚‚‚	‚‚	‚
+‚‚‚	‚‚ ‚
+‚‚‚‚
+‚‚‚‚‚‚
+‚‚‚
+‚‚‚
+‚
+‚‚‚‚‚‚	‚	‚‚‚‚	‚‚‚
+‚‚	‚‚‚‚‚‚	‚‚Æ‚Õ‚Ì‚Æ‚I‚‚
+‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚ ‚‚‚	‚‚‚‚‚‚‚‚
+‚‚	‚
+‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚	‚ ‚‚‚‚‚ý‚‚	‚‚	‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚
+‚‚
+‚‚‚‚‚	‚‚	‚‚	‚‚
+‚‚‚‚‚‚‚‚
+‚	‚‚‚	‚‚	‚	‚
+‚‚‚‚	‚‚‚‚‚
+‚‚‚‚‚‚
+‚‚‚‚‚‚‚	‚‚‚‚‚	‚‚‚	‚‚‚‚‚	‚
+‚‚	‚‚‚‚‚‚‚‚‚‚
+‚
+‚‚‚‚‚‚‚‚	‚‚‚‚‚	‚‚‚	‚
+‚
+‚‚‚‚‚‚ü‚ò‚ß‚¿‚_‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚	‚‚	‚‚‚‚‚‚‚‚‚	‚	‚	‚‚‚‚
+‚‚‚
+‚‚‚‚‚‚‚‚‚‚	‚‚
+‚‚‚
+‚
+‚
+‚‚‚ ‚	‚‚‚‚‚‚‚‚‚‚‚	‚
+‚
+‚‚‚‚	‚‚	‚‚‚‚‚
+‚	‚‚
+‚‚‚‚‚‚‚	‚‚‚	‚‚‚‚
+‚‚‚	‚‚
+‚
+‚
+‚	‚‚‚‚‚	‚‚‚	‚	‚‚	‚	‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚
+‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚
+‚‚	‚‚‚‚‚‚‚‚‚‚	‚‚‚	‚‚‚îƒ‚â‚Ï‚\‚‚‚‚‚‚	‚	‚‚‚‚
+‚‚‚
+‚‚‚ ‚	‚‚‚
+‚‚‚‚‚
+‚‚‚‚‚	‚‚‚‚
+‚	‚‚‚‚‚
+‚‚
+‚‚‚‚‚‚‚‚	‚‚‚
+‚	‚	‚‚
+‚‚‚‚‚‚‚‚‚
+‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚
+‚‚‚‚
+‚	‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚	‚	‚
+‚‚	‚‚
+‚‚	‚‚‚
+‚‚
+‚‚‚	‚‚‚‚‚‚‚‚
+‚‚
+‚‚‚‚‚
+‚	‚
+‚‚‚‚‚	‚	‚
+‚
+‚‚
+‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚	‚‚‚ƒƒƒ‚Ó‚a‚‚‚‚
+‚	‚‚‚‚	‚‚‚‚	‚	‚‚‚‚‚‚‚‚‚
+‚‚	‚‚	‚‚‚	‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚
+‚‚‚‚‚	‚‚‚‚‚‚	‚‚‚‚‚	‚‚‚	‚‚	‚‚‚‚‚‚‚
+‚
+‚‚
+‚‚	‚‚‚
+‚‚‚
+‚‚
+‚‚	‚‚‚‚
+‚‚‚‚	‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚	‚
+‚‚‚ÿ‚‚‚
+‚	‚‚‚‚‚‚
+‚‚
+‚
+‚‚	‚‚‚‚
+‚	‚‚	‚‚
+‚‚‚‚‚‚‚‚‚‚	‚‚‚
+‚‚
+‚‚	‚‚‚‚‚‚‚‚‚ƒ)ƒ:ƒ‚í‚]‚‚‚‚‚‚	‚‚‚‚‚‚	‚‚
+‚‚	‚‚	‚
+‚‚‚	‚	‚‚‚
+‚
+‚‚‚	‚‚‚‚
+‚	‚	‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚
+‚‚
+‚‚
+‚	‚
+‚‚‚‚‚	‚
+‚‚‚‚
+‚‚
+‚‚‚‚	‚‚‚‚‚	‚‚‚‚‚‚‚
+‚	‚
+‚‚
+‚
+‚‚‚‚‚‚‚‚‚‚ ‚‚‚‚	‚‚‚	‚
+‚‚	‚‚‚
+‚‚
+‚‚‚
+‚‚‚‚‚‚‚‚	‚
+‚‚‚‚‚
+‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚
+‚	‚
+‚‚	‚‚‚‚
+‚‚‚	‚‚‚‚‚‚‚
+‚‚
+‚‚	‚‚‚	‚‚‚ƒXƒOƒƒ‚a‚‚‚‚‚‚‚‚	‚‚
+‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚	‚‚‚	‚‚‚‚‚
+‚
+‚‚‚
+‚‚‚
+‚‚‚‚‚‚	‚‚‚‚‚	‚‚‚‚
+‚‚‚‚‚
+‚‚‚‚‚‚
+‚	‚‚	‚
+‚‚‚‚‚‚‚‚‚‚‚	‚
+‚‚	‚‚‚‚‚	‚‚‚‚	‚
+‚‚‚‚	‚
+‚‚‚‚
+‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚	‚‚‚
+‚‚
+‚‚
+‚‚‚‚‚‚‚‚
+‚‚
+‚‚‚‚‚‚‚
+‚	‚‚‚‚‚‚
+‚‚‚‚‚‚‚	‚‚‚
+‚‚‚	‚ƒfƒ:ƒ,‚ÿ‚g‚	‚‚‚‚	‚‚‚‚‚‚‚‚‚	‚‚‚‚
+‚‚‚‚‚‚‚‚‚	‚	‚‚‚
+‚‚‚‚	‚
+‚‚‚‚ ‚
+‚
+‚‚‚‚
+‚‚‚
+‚‚‚‚
+‚‚‚‚	‚‚‚‚	‚‚‚‚‚‚‚‚
+‚‚	‚‚‚‚‚‚‚‚‚
+‚‚	‚
+‚‚‚‚
+‚‚‚‚	‚‚‚
+‚	‚‚	‚‚‚
+‚	‚‚‚‚‚‚‚
+‚‚
+‚‚‚	‚‚‚‚‚
+‚‚
+‚‚‚
+‚
+‚
+‚‚‚‚‚	‚‚‚	‚‚‚‚‚‚‚‚‚
+‚‚
+‚‚‚	‚‚‚‚	‚‚‚‚‚
+‚‚‚‚‚‚‚ ‚	‚	‚‚‚‚‚
+‚‚‚‚‚‚	‚ƒuƒ~ƒ2ƒ‚l‚‚‚‚‚	‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚	‚‚‚
+‚‚‚‚‚‚‚
+‚‚‚
+‚‚‚
+‚‚‚‚‚‚‚‚
+‚‚‚‚‚
+‚
+‚‚	‚‚	‚	‚
+‚
+‚	‚‚	‚	‚‚‚‚‚‚	‚‚‚
+‚‚‚	‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚	‚
+‚
+‚	‚‚‚‚
+‚	‚‚
+‚‚‚‚‚	‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚
+‚	‚
+‚‚‚‚‚‚
+‚‚	‚	‚‚‚‚‚	‚‚‚ƒgƒkƒ/ƒ‚v‚
+‚‚‚‚‚	‚‚‚‚‚‚‚
+‚	‚
+‚‚‚‚‚‚‚‚‚
+‚
+‚	‚‚
+‚‚‚‚‚‚‚‚‚‚‚	‚‚
+‚‚‚‚‚‚‚
+‚‚‚
+‚‚‚‚‚
+‚‚	‚‚‚‚
+‚‚‚‚‚	‚‚‚‚‚‚‚‚
+‚	‚‚‚	‚	‚‚‚‚‚‚
+‚‚‚‚‚‚‚	‚
+‚‚‚‚‚‚
+‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚
+‚‚‚‚‚	‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚	‚	‚‚‚‚‚	‚	‚‚‚‚‚	‚
+‚
+‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚ƒlƒZƒ:‚ò‚i‚‚	‚‚‚‚‚‚‚‚‚	‚	‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚
+‚‚
+‚	‚	‚‚	‚	‚‚‚‚‚
+‚
+‚‚‚	‚
+‚‚‚‚	‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚	‚
+‚	‚
+‚	‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚
+‚	‚‚‚‚‚‚
+‚‚‚	‚‚‚‚
+‚‚
+‚‚‚‚‚‚‚
+‚‚‚	‚‚
+‚‚	‚
+‚
+‚‚‚‚‚	‚‚
+‚
+‚‚‚
+‚
+‚‚
+‚
+‚‚‚	‚‚‚‚‚‚‚
+‚‚‚‚‚
+‚	‚‚‚‚‚	‚‚	‚	‚‚	‚	‚‚‚
+‚‚	‚
+‚‚ƒcƒEƒ%‚÷‚Y‚‚
+‚‚
+‚	‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚
+‚
+‚‚‚	‚	‚‚	‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚
+‚	‚‚‚‚‚‚‚
+‚‚‚‚‚	‚‚‚‚‚	‚‚‚‚	‚‚
+‚‚	‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚	‚‚‚
+‚‚‚
+‚‚‚‚‚‚‚‚	‚‚‚
+‚‚	‚‚	‚‚‚‚
+‚‚‚	‚‚‚
+‚‚‚
+‚‚‚‚
+‚‚‚‚‚‚‚	‚‚	‚	‚‚‚	‚‚‚	ƒ+ƒƒ	‚Ø‚d‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚	‚	‚‚‚‚‚‚‚‚‚‚‚‚	‚‚
+‚‚
+‚	‚	‚‚‚‚‚‚
+‚‚‚‚
+‚	‚‚
+‚	‚‚‚‚‚‚‚‚‚‚	‚‚‚	‚	‚‚‚‚‚‚‚	‚‚	‚‚‚‚‚‚‚	‚‚‚	‚‚‚‚
+‚‚‚
+‚‚‚
+‚
+‚	‚
+‚‚‚‚‚‚‚‚‚‚	‚‚‚‚
+‚‚‚‚‚
+‚‚	‚‚‚‚‚‚‚‚‚	‚‚‚‚	‚‚‚‚‚‚	‚	‚‚‚‚‚
+‚‚
+‚‚‚
+‚‚‚‚‚
+‚‚‚‚‚‚‚‚	‚‚	‚‚‚
+‚‚‚‚‚‚‚	‚ƒƒ‚Ü‚Ò‚b‚‚	‚‚‚‚
+‚	‚‚‚‚‚‚‚
+‚‚‚	‚‚‚‚	‚‚‚	‚‚‚‚‚
+‚‚‚‚‚‚‚
+‚‚	‚‚‚‚	‚‚
+‚	‚	‚‚‚‚‚‚	‚‚	‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚
+‚	‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚
+‚‚‚	‚‚‚	‚‚‚‚‚	‚‚‚‚
+‚‚‚
+‚‚	‚‚‚	‚
+‚	‚‚‚‚‚	‚	‚‚‚
+‚	‚
+‚‚‚	‚‚‚‚‚	‚‚
+‚	‚‚
+‚
+‚‚‚	‚‚‚ƒ‚Ú‚ñ‚È‚]‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚	‚‚‚‚‚‚‚‚
+‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚
+‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚
+‚‚‚
+‚	‚‚
+‚‚‚‚‚‚‚‚‚	‚‚	‚‚‚‚‚‚‚‚‚
+‚‚
+‚‚‚‚‚
+‚
+‚‚‚‚
+‚‚‚	‚‚	‚‚	‚‚‚‚‚
+‚	‚‚	‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚	‚‚‚‚
+‚‚‚	‚‚‚
+‚‚	‚‚‚‚‚	‚‚	‚‚‚‚‚	‚‚‚‚‚‚‚ ‚‚‚‚‚Ø‚Ï‚Ã‚½‚O‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚	‚‚‚‚
+‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚	‚
+‚
+‚‚‚‚	‚‚
+‚‚‚‚‚‚
+‚	‚‚
+‚	‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚
+‚‚
+‚ ‚‚‚‚‚	‚	‚
+‚
+‚
+‚‚	‚‚
+‚‚‚‚‚‚
+‚‚
+‚‚‚	‚‚‚‚	‚‚‚‚
+‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚	‚‚
+‚‚‚
+‚‚	‚‚	‚‚‚
+‚‚‚‚‚
+‚
+‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚
+‚‚‚	‚
+‚‚‚‚‚‚‚‚	‚‚‚‚
+‚‚‚	‚‚‚‚Ñ‚½‚º‚¬‚H‚	‚‚
+‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚	‚‚
+‚	‚‚‚‚‚‚‚
+‚‚‚
+‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚	‚‚‚‚‚‚‚	‚‚‚‚
+‚‚
+‚
+‚‚‚‚‚	‚‚‚	‚	‚‚‚‚
+‚‚	‚‚
+‚‚‚‚	‚‚
+‚‚‚‚‚	‚‚‚‚‚‚	‚‚‚‚‚‚‚‚
+‚‚	‚
+‚‚‚‚‚‚	‚‚
+‚‚‚‚‚‚‚‚
+‚‚‚‚‚	‚‚‚	‚‚	‚
+‚‚‚
+‚‚‚‚‚	‚‚‚
+‚‚‚‚	‚‚‚
+‚‚‚‚	‚‚‚‚‚	‚‚
+‚	‚	‚‚
+‚‚
+‚‚‚‚‚‚‚¶‚¨‚µ‚Ÿ‚H‚‚	‚‚
+‚‚‚‚
+‚‚‚	‚
+‚‚‚	‚‚‚‚‚‚‚	‚‚‚	‚‚
+‚‚‚‚	‚‚‚‚
+‚‚	‚‚‚‚‚	‚‚‚	‚‚
+‚‚
+‚	‚‚	‚‚‚‚‚‚‚‚‚	‚‚‚	‚‚	‚‚‚‚‚‚‚‚‚‚	‚‚‚
+‚	‚‚	‚‚‚‚‚	‚‚	‚‚	‚‚‚
+‚
+‚‚
+‚
+‚‚‚
+‚‚‚‚‚	‚	‚
+‚
+‚‚‚‚
+‚	‚‚‚‚‚‚‚
+‚	‚‚	‚‚‚‚‚‚‚‚‚‚	‚‚	‚	‚‚‚‚
+‚‚‚‚‚‚‚	‚
+‚
+‚‚‚‚
+‚	‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚
+‚‚‚	‚	‚	‚‚¯‚­‚˜‚‚N‚‚‚‚‚‚‚‚
+‚‚‚‚ ‚
+‚‚	‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚
+‚‚‚‚	‚
+‚‚‚‚‚‚‚‚	‚‚‚‚	‚‚‚
+‚‚‚	‚‚‚‚	‚‚‚‚‚‚‚	‚	‚‚	‚
+‚‚‚	‚	‚
+‚‚
+‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚	‚‚‚	‚‚‚‚‚‚
+‚‚‚‚‚‚	‚	‚‚‚‚‚‚‚‚‚	‚‚‚‚‚
+‚	‚	‚‚‚	‚‚‚	‚‚‚‚‚‚‚
+‚‚	‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚
+‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚
+‚‚	‚‚	‚˜‚¨‚™‚‘‚E‚‚
+‚‚	‚‚	‚‚‚
+‚‚‚‚	‚‚‚‚	‚‚ ‚‚‚‚
+‚‚‚	‚‚‚‚‚‚
+‚ ‚‚‚‚‚	‚
+‚‚
+‚‚‚‚‚‚‚	‚
+‚
+‚‚	‚‚‚‚‚	‚‚‚‚‚‚
+‚‚‚
+‚‚‚‚‚	‚‚‚‚‚‚‚‚
+‚	‚‚
+‚‚	‚‚‚
+‚‚‚	‚	‚‚‚‚‚‚	‚
+‚‚‚‚
+‚	‚‚‚‚‚‚
+‚	‚‚‚
+‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚
+‚‚‚‚	‚‚‚‚‚	‚‚‚
+‚‚‚	‚‚‚‚‚‚‚‚‚	‚‚‚
+‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚
+‚‚‚¤‚’‚“‚„‚D‚‚‚‚‚‚‚‚‚
+‚‚‚	‚‚‚‚‚‚‚‚‚	‚‚‚	‚‚
+‚
+‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚	‚‚‚‚‚
+‚
+‚	‚‚‚‚‚‚	‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚
+‚‚
+‚‚‚‚‚‚
+‚‚‚
+‚‚‚
+‚‚‚	‚	‚‚‚‚‚‚	‚‚‚‚‚‚	‚‚‚‚‚	‚‚	‚‚‚
+‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚	‚‚‚‚
+‚‚
+‚‚	‚‚
+‚‚‚‚
+‚‚	‚
+‚	‚	‚‚‚‚	‚‚‚‚‚‚‚
+‚‚‚‚
+‚‚‚‚‚‚‚‚‚
+‚
+‚‚‚‚Ž‚¤‚–‚Ž‚=‚‚‚	‚‚‚‚‚
+‚
+‚‚‚‚‚‚
+‚‚‚
+‚‚	‚‚
+‚‚‚‚‚‚‚‚	‚	‚‚‚‚
+‚‚‚‚	‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚	‚‚‚	‚‚‚	‚‚	‚‚‚‚‚‚‚‚	‚‚‚	‚‚‚‚‚	‚‚‚‚‚	‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚
+‚‚‚
+‚	‚‚
+‚
+‚‚‚‚‚‚‚
+‚‚‚‚
+‚‚
+‚‚‚‚‚‚‚‚‚‚
+‚‚	‚
+‚‚‚‚‚‚‚	‚‚‚‚‚	‚‚‚‚‚‚
+‚
+‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚	‚‚
+‚‰‚–‚˜‚†‚8‚‚
+‚‚‚‚‚‚
+‚‚‚‚‚	‚‚	‚	‚	‚‚‚	‚‚‚‚‚‚	‚‚	‚‚‚
+‚
+‚‚‚‚‚þ‚‚‚	‚‚‚	‚‚‚‚
+‚	‚‚‚
+‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚
+‚‚‚	‚‚‚
+‚‚	‚
+‚‚‚	‚
+‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚
+‚‚‚‚	‚‚‚	‚
+‚	‚
+‚‚	‚‚	‚‚‚‚
+‚	‚‚	‚‚‚‚
+‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚	‚
+‚‚‚‚	‚
+‚‚
+‚	‚‚‚‚‚
+‚‚‚
+‚‚
+‚	‚‚	‚‚‚
+‚‚
+‚‚‚‚‚	‚„‚–‚‹‚‹‚?‚
+‚‚‚‚‚‚‚‚‚‚‚	‚‚
+‚‚‚‚‚‚‚‚	‚	‚‚‚	‚‚‚‚‚‚‚‚‚‚‚	‚	‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚
+‚‚‚‚‚‚	‚‚‚‚‚‚‚	‚‚‚	‚‚‚‚‚
+‚	‚‚‚‚	‚‚‚‚
+‚	‚‚‚‚	‚‚‚‚‚‚‚‚	‚‚‚‚
+‚
+‚‚
+‚‚‚‚‚	‚‚‚‚‚‚	‚‚‚‚‚‚‚	‚‚‚‚‚	‚‚‚‚‚‚‚‚	‚‚‚	‚‚	‚
+‚‚‚‚‚‚‚
+‚‚‚
+‚‚‚	‚‚‚	‚‚
+‚‚‚‚‚‚	‚‚‚‚‚‚‚
+‚z‚‡‚ƒ‚‚<‚‚‚‚‚	‚‚	‚‚‚‚‚‚‚	‚‚	‚‚‚
+‚	‚
+‚‚‚‚‚‚‚‚
+‚‚
+‚‚‚	‚
+‚‚‚	‚	‚‚	‚‚‚
+‚‚‚‚‚	‚	‚	‚‚‚‚‚‚‚‚‚‚‚
+‚
+‚	‚‚‚
+‚‚‚	‚
+‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚
+‚‚‚‚‚	‚
+‚‚‚‚‚
+‚‚‚‚‚‚‚‚
+‚
+‚	‚	‚	‚‚‚	‚
+‚‚‚	‚‚‚‚‚‚
+‚‚	‚
+‚	‚‚‚‚‚
+‚
+‚‚‚	‚‚	‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚
+‚‚
+‚‚‚‚	‚‚‚
+‚‹‚Š‚€‚‚‚8‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚
+‚‚‚‚‚‚	‚‚
+‚	‚‚‚‚þ‚	‚‚‚‚	‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚	‚‚‚‚‚‚
+‚‚‚	‚‚‚‚
+‚
+‚‚‚‚‚	‚‚
+‚
+‚‚‚‚‚‚‚‚	‚‚‚‚‚‚
+‚
+‚‚‚	‚‚‚‚‚	‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚þ‚‚
+‚
+‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚
+‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚
+‚‚	‚‚‚
+‚‚‚‚‚‚‚‚	‚‚‚
+‚‚‚‚‘‚‡‚Š‚w‚E‚‚	‚‚‚‚‚	‚‚‚‚
+‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚	‚
+‚‚
+‚‚	‚
+‚‚‚‚‚‚	‚
+‚‚
+‚‚‚‚‚‚‚
+‚
+‚	‚‚‚
+‚‚‚
+‚‚‚‚	‚‚‚	‚	‚
+‚‚‚‚
+‚
+‚‚	‚‚‚‚	‚
+‚
+‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚	‚‚‚	‚‚‚‚‚	‚‚‚‚	‚‚
+‚
+‚‚‚‚‚‚	‚‚‚‚‚‚‚Œ‚‚–‚}‚7‚	‚‚‚‚‚‚‚‚	‚
+‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚	‚	‚
+‚‚‚‚‚‚‚
+‚
+‚‚ ‚‚	‚‚‚	‚‚‚
+‚‚	‚‚‚‚	‚‚	‚‚‚‚‚‚
+‚‚‚‚	‚	‚‚‚‚‚‚‚
+‚‚‚‚	‚‚‚‚‚‚
+‚‚	‚‚‚‚‚‚	‚
+‚‚‚
+‚‚‚‚	‚	‚‚	‚‚‚‚
+‚‚‚‚
+‚‚‚‚‚	‚‚‚‚‚‚‚ ‚‚‚‚‚	‚‚‚‚‚‚‚‚
+‚	‚	‚
+‚
+‚‚‚‚‚	‚‚‚‚‚
+‚‚‚	‚‚‚‚‚‚
+‚‚
+‚	‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚
+‚}‚Œ‚~‚~‚5‚‚
+‚‚‚‚‚‚	‚‚
+‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚
+‚‚‚‚‚‚
+‚‚‚‚‚	‚
+‚‚	‚‚	‚‚‚	‚‚‚‚‚‚‚‚‚	‚	‚‚‚	‚‚‚‚	‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚	‚
+‚‚‚‚	‚‚
+‚‚‚
+‚	‚‚‚‚
+‚
+‚‚‚	‚	‚‚‚
+‚‚	‚‚	‚‚‚‚‚‚‚‚‚‚	‚‚
+‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚	‚‚
+‚
+‚‚‚‚	‚‚‚‚
+‚‚‚‚‚‚‚	‚‚	‚‚‚‚
+‚‚‚
+‚
+‚	‚s‚ƒ‚Š‚ƒ‚4‚‚‚‚‚‚‚
+‚‚‚‚‚‚	‚‚‚	‚‚‚‚‚	‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚	‚
+‚‚
+‚	‚‚‚‚‚‚‚
+‚‚	‚
+‚‚‚‚
+‚‚	‚	‚‚‚
+‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚	‚‚‚‚	‚‚
+‚‚‚‚‚
+‚‚‚‚‚‚‚‚
+‚
+‚‚
+‚‚‚‚‚	‚‚‚	‚
+‚‚‚‚‚	‚‚‚‚	‚‚
+‚‚‚‚
+‚‚‚	‚‚‚
+‚‚
+‚‚‚‚‚	‚	‚‚	‚	‚‚‚‚
+‚‚‚‚‚‚‚
+‚‚
+‚
+‚
+‚
+‚
+‚	‚‚‚
+‚‚‚‚‚	‚‚u‚‚‚‰‚Š‚?‚	‚‚‚‚‚
+‚
+‚‚‚‚	‚	‚‚‚	‚‚‚‚‚
+‚	‚‚‚‚‚	‚
+‚	‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚	‚‚‚
+‚‚
+‚‚	‚‚	‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚	‚	‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚	‚‚‚	‚‚	‚‚‚‚‚‚‚	‚‚‚‚
+‚	‚‚
+‚‚
+‚‚
+‚‚‚‚‚	‚‚‚‚‚‚‚	‚
+‚‚‚‚‚‚‚‚‚‚‚	‚	‚‚	‚‚‚	‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚
+‚	‚‚‚	‚‚‚‚‚
+‚	‚‚‚‚‚
+‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚Œ‚~‚<‚‚‚	‚‚‚‚‚‚ ‚
+‚‚	‚	‚‚‚‚ ‚‚
+‚‚‚‚‚‚‚‚‚‚
+‚‚
+‚‚ ‚‚‚‚‚‚	‚
+‚‚‚‚‚‚
+‚
+‚‚‚‚‚‚‚
+‚	‚‚‚
+‚‚‚	‚‚‚‚‚ ‚	‚‚‚
+‚
+‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚	‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚
+‚
+‚	‚‚‚‚‚	‚‚
+‚‚‚‚‚‚
+‚‚‚	‚‚‚‚‚
+‚‚
+‚	‚‚‚‚
+‚‚
+‚‚	‚‚
+‚‚‚‚‚‚
+‚‚‚	‚	‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚
+‚‚‚‚‚
+‚€‚Ž‚€‚‡‚2‚‚	‚‚‚‚‚‚‚
+‚‚‚	‚‚‚‚‚
+‚‚‚‚‚
+‚‚‚‚‚‚
+‚‚‚‚
+‚‚‚‚‚‚‚
+‚
+‚‚‚‚‚‚‚‚	‚‚‚
+‚‚‚‚
+‚‚
+‚‚	‚‚‚	‚
+‚
+‚
+‚‚‚‚	‚	‚
+‚‚	‚	‚‚‚‚‚‚‚
+‚	‚‚‚‚‚‚	‚‚	‚‚‚‚‚‚‚
+‚	‚	‚‚
+‚‚
+‚‚‚‚‚‚‚‚‚‚	‚‚‚	‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚
+‚‚‚
+‚‚‚‚	‚	‚‚‚‚‚‚	‚s‚ƒ‚ˆ‚|‚B‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚
+‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚
+‚‚‚‚	‚‚
+‚‚‚
+‚‚‚ ‚‚
+‚
+‚‚‚‚	‚	‚‚‚‚‚	‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚	‚‚
+‚‚‚	‚	‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚	‚‚‚	‚	‚‚‚‚‚‚‚‚‚
+‚
+‚	‚‚‚‚	‚‚	‚‚‚‚	‚	‚‚‚‚	‚	‚‚
+‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚„‚‡‚‹‚u‚:‚‚‚‚‚‚
+‚‚‚‚‚
+‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚
+‚‚‚	‚	‚
+‚‚
+‚
+‚‚‚‚
+‚‚‚‚‚‚‚‚	‚‚
+‚‚‚
+‚‚	‚‚	‚
+‚‚‚‚	‚‚	‚‚‚‚
+‚‚	‚‚‚
+‚	‚
+‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚
+‚ ‚‚	‚‚‚‚‚
+‚‚‚‚‚‚‚‚
+‚‚‚	‚‚‚
+‚
+‚	‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚	‚‚
+‚‚‚‚‚‚	‚‚‚‚‚‚
+‚
+‚‚
+‚	‚‚
+‚‚
+‚‚‚‚
+‚‰‚†‚Œ‚|‚9‚‚‚‚‚‚‚‚	‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚	‚‚	‚‚
+‚‚‚‚‚	‚‚
+‚	‚‚‚‚
+‚‚‚‚‚	‚
+‚‚	‚‚‚‚‚‚‚‚‚‚	‚‚	‚‚‚‚‚‚‚
+‚‚
+‚
+‚‚‚‚	‚‚‚‚
+‚‚‚‚‚‚‚‚	‚‚	‚‚‚
+‚
+‚‚‚	‚‚
+‚‚
+‚	‚‚‚‚	‚‚‚‚‚
+‚‚‚‚‚‚	‚‚‚	‚‚‚	‚	‚‚	‚‚‚
+‚
+‚‚	‚‚‚‚‚
+‚‚	‚‚‚	‚‚‚‚	‚‚‚‚‚	‚‚‚‚
+‚‚	‚‚‚	‚
+‚‚
+‚
+‚
+‚‚
+‚‚‚	‚~‚‚‚i‚2‚
+‚‚	‚‚	‚‚‚‚‚‚	‚‚‚‚	‚	‚	‚	‚
+‚	‚‚‚‚	‚‚	‚‚‚‚‚
+‚‚	‚‚	‚‚‚‚	‚‚‚‚‚‚
+‚	‚‚‚‚‚‚
+‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚	‚‚‚‚‚
+‚‚‚
+‚‚‚‚‚
+‚‚‚‚‚‚
+‚‚‚‚	‚
+‚‚‚‚‚‚	‚	‚‚‚‚‚
+‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚	‚‚‚‚
+‚	‚‚‚‚‚‚‚	‚‚‚‚‚‚	‚‚‚
+‚‚
+‚‚‚‚
+‚‚‚‚
+‚‚‚ ‚‚‚‚	‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚œ‚‰‚‚<‚‚‚‚	‚	‚‚‚‚	‚‚	‚
+‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚	‚‚‚	‚‚	‚‚‚‚‚‚‚‚‚‚‚
+‚
+‚‚‚	‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚	‚‚‚	‚‚‚‚
+‚
+‚‚‚
+‚‚‚‚‚	‚‚‚	‚‚‚‚
+‚‚‚‚‚‚‚ÿ‚‚‚‚
+‚
+‚‚‚
+‚‚‚
+‚‚‚‚‚
+‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚
+‚	‚	‚‚	‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚
+‚	‚‚‚‚‚‚
+‚
+‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚	‚‚‚‚	‚
+‚o‚ˆ‚‚†‚A‚‚‚	‚‚	‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚	‚‚
+‚
+‚‚‚	‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚	‚‚‚	‚‚	‚‚‚‚
+‚‚‚
+‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚	‚‚‚‚
+‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚
+‚	‚‚‚‚
+‚‚‚‚‚	‚‚	‚‚‚‚	‚‚‚‚	‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚
+‚‚‚	‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚	‚~‚Œ‚†‚s‚;‚‚	‚‚‚‚
+‚‚	‚‚‚‚	‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚	‚‚‚‚‚‚‚‚
+ÿ‚‚‚
+‚‚‚‚‚‚‚	‚‚‚‚‚	‚	‚‚‚
+‚‚‚‚‚‚‚‚‚‚	‚‚‚	‚‚‚	‚	‚‚‚
+‚	‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚
+‚
+‚‚‚‚‚
+‚‚‚‚	‚
+‚	‚
+‚‚	‚	‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚}‚Š‚‚v‚4‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚	‚‚‚‚‚
+‚‚‚‚‚
+‚
+‚	‚‚
+‚ ‚‚‚‚‚‚‚
+‚‚‚
+‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚	‚‚‚	‚‚
+‚‚‚	‚
+‚
+‚‚‚‚	‚
+‚‚‚‚
+‚‚‚‚
+‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚	‚‚
+‚
+‚‚	‚‚‚‚‚	‚‚‚‚	‚
+‚‚‚
+‚‚‚‚‚‚‚	‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚	‚‚ ‚‚‚
+‚‚‚‚
+‚‚‚
+‚‚‚‚
+‚‚
+‚‚‚‚‚‚‚‚‚‚‚t‚ƒ‚|‚„‚4‚‚‚	‚‚‚‚‚	‚‚‚
+‚‚‚‚‚‚
+‚‚‚	‚‚‚
+‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚	‚	‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚
+‚
+‚‚ ‚	‚‚‚‚‚‚‚‚‚‚‚
+‚‚
+‚
+‚‚‚‚‚
+‚‚
+‚
+‚‚	‚‚‚
+‚‚‚
+‚	‚‚‚	‚‚	‚‚‚‚‚‚‚
+‚
+‚	‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚	‚	‚‚‚ˆ‚‚}‚~‚>‚‚‚	‚	‚‚‚‚
+‚‚‚‚‚‚‚‚
+‚‚‚‚
+‚
+‚	‚	‚‚‚‚	‚
+‚‚‚	‚‚‚‚‚‚	‚‚‚‚	‚‚‚‚	‚	‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚	‚
+‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚
+‚
+‚‚	‚	‚‚‚	‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚
+‚‚‚
+‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚	‚	‚‚‚‚‚‚‚‚‚	‚
+‚‚
+‚‚‚‚‚‚
+‚‚‚‚	‚
+‚‚
+‚‚‚	‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚€‚†‚‡‚m‚J‚‚‚	‚	‚‚‚‚‚‚
+‚‚‚	‚‚‚	‚‚
+‚‚	‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚
+‚‚ ‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚
+‚‚‚‚‚‚‚‚‚	‚‚‚‚	‚‚‚
+‚
+‚
+‚‚‚	‚	‚‚‚
+‚‚‚‚‚‚
+‚‚
+‚‚‚
+‚‚‚‚‚‚‚‚‚
+‚‚‚‚	‚
+‚	‚‚‚‚
+‚‚‚‚‚‚
+‚‚‚
+‚‚‚‚
+‚‚‚‚
+‚‚
+‚	‚„‚‘‚Ž‚z‚A‚‚‚‚‚‚‚	‚‚
+‚‚‚‚‚‚‚‚‚	‚	‚‚‚‚	‚
+‚‚‚‚
+‚‚‚‚‚‚‚
+‚‚
+‚‚
+‚‚‚‚‚‚‚‚	‚‚
+‚‚‚‚‚‚‚
+‚	‚‚	‚‚‚
+‚‚‚‚‚‚‚‚	‚	‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚
+‚	‚‚‚‚‚‚
+‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚
+‚‚‚	‚	‚‚‚‚‚
+‚	‚‚‚‚
+‚‚‚‚‚	‚‚‚	‚
+‚‚‚	‚‚‚	‚‚‚	‚‚‚‚‚‚‚‚	‚‚‚‚	‚‚‚
+‚‚‚
+‚‚‚‚þ‚	‚‚‚
+‚‚‚‚‚‚‚‚‚y‚€‚‚„‚B‚‚‚
+‚
+‚‚‚‚	‚	‚‚	‚‚‚	‚‚‚‚‚‚
+‚‚‚	‚	‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚
+‚‚
+‚‚	‚‚‚
+‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚
+‚‚‚‚	‚‚‚	‚‚‚‚	‚‚‚‚‚‚‚‚	‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚	‚	‚‚
+‚
+‚
+‚‚
+‚‚‚‚‚‚
+‚‚‚‚	‚‚‚‚	‚	‚‚	‚‚‚‚
+‚‚‚
+‚‚‚‚‚‚‚
+‚	‚‚
+‚‚	‚‚‚‚‚	‚‚‚‚	‚‚‚‚‚‚‚
+‚‚	‚	‚
+‚‚
+‚‚	‚‚t‚Š‚€‚ƒ‚5‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚	‚‚‚‚‚	‚‚‚‚‚‚‚‚
+‚‚
+‚
+‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚	‚‚‚‚‚‚‚‚
+‚	‚‚‚‚‚	‚‚‚‚‚‚‚	‚‚‚‚
+‚‚‚‚ ‚
+‚‚‚	‚‚‚‚‚‚	‚
+‚
+‚‚	‚‚
+‚‚‚	‚	‚
+‚‚‚	‚‚‚‚	‚‚‚	‚
+‚	‚‚‚‚	‚‚‚‚	‚‚‚‚‚‚‚	‚‚‚‚‚
+‚‚‚‚	‚‚‚‚‚‚‚‚	‚
+‚‚‚	‚‚‚‚‚‚‚	‚‚	‚‚‚‚‚‚
+‚
+‚
+‚‚‚ˆ‚„‚<‚‚‚‚‚‚‚‚
+‚	‚‚‚‚‚	‚‚‚‚‚
+‚‚‚‚‚‚
+‚‚	‚‚	‚‚	‚
+‚‚
+‚
+‚	‚‚‚‚	‚‚‚‚‚‚‚	‚‚	‚‚	‚ ‚
+‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚
+‚‚	‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚	‚	‚‚‚‚‚‚‚
+‚‚‚‚
+‚‚‚‚‚‚‚‚	‚	‚‚‚‚
+‚	‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚	‚‚
+‚‚‚
+‚	‚‚	‚‚‚‚‚‚‚‚	‚‚‚‚	‚
+‚‚‚‚‚‚‚
+‚‚	‚‚‚‚‚}‚„‚y‚}‚D‚‚‚‚‚‚‚	‚‚‚‚
+‚‚	‚‚‚‚
+‚‚
+‚‚‚‚
+‚‚	‚‚‚‚‚‚‚‚
+‚	‚‚‚‚‚	‚‚‚	‚þ‚	‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚
+‚	‚	‚‚‚‚‚‚	‚‚‚‚	‚‚‚‚‚	‚	‚‚‚‚‚‚	‚	‚‚
+‚	‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚
+‚‚‚	‚
+‚	‚‚‚	‚‚‚‚
+‚‚	‚‚‚‚‚	‚	‚
+‚
+‚‚‚	‚‚‚‚
+‚‚‚‚‚‚‚‚‚	‚‚‚	‚‚
+‚‚
+‚‚	‚‚‚	‚‚‚‚	‚‚
+þ‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚x‚‚„‚t‚4‚
+‚‚‚	‚	‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚	‚	‚‚‚‚	‚‚‚
+‚‚‚‚‚‚‚‚	‚‚‚‚	‚‚‚	‚‚‚‚
+‚‚‚
+‚‚
+‚‚	‚‚
+‚‚	‚‚‚‚‚‚‚‚	‚‚‚	‚‚‚‚
+‚	‚‚	‚‚‚‚‚	‚
+‚‚‚
+‚‚‚‚
+‚‚‚‚‚‚
+‚‚‚	‚
+‚‚‚‚‚‚‚‚‚
+‚
+‚‚	‚‚‚‚‚
+‚‚
+‚‚‚‚‚‚‚	‚‚‚‚	‚
+‚‚‚‚
+‚	‚‚‚‚
+‚
+‚‚‚‚‚‚
+‚‚
+‚‚‚‚‚	‚
+‚‚‚‚‚‚
+‚‚‚	‚	‚‚‚‚Š‚ƒ‚ˆ‚D‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚	‚
+‚‚‚‚	‚‚‚‚
+‚	‚‚‚‚‚‚‚‚
+‚
+‚‚‚‚
+‚‚‚‚‚‚
+‚	‚‚‚	‚‚‚‚	‚‚‚‚‚	‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚	‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚	‚	‚‚‚‚‚‚‚‚	‚‚	‚‚‚‚
+‚‚‚‚‚
+‚	‚‚‚	‚‚‚	‚‚‚‚
+‚‚‚‚
+‚‚‚‚‚‚‚‚
+‚‚‚	‚	‚‚‚‚‚‚‚‚‚
+‚‚‚	‚
+‚‚‚‚‚‚
+‚‚‚‚‚‚	‚
+‚‚‚‚‚‚‚‚‚‚
+‚
+‚‚‚‹‚u‚u‚‚A‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚
+‚‚‚	‚‚‚‚‚	‚‚‚‚‚‚‚	‚‚‚‚‚‚‚	‚	‚
+‚	‚‚‚‚‚‚‚‚‚‚‚‚ ‚	‚
+‚‚‚‚‚‚‚‚	‚‚‚‚‚	‚‚‚‚‚‚‚
+‚‚‚	‚‚	‚‚	‚‚‚‚‚	‚‚
+‚‚‚‚‚‚
+‚‚	‚‚‚‚‚‚‚	‚‚‚‚
+‚‚‚
+‚
+‚‚	‚‚‚
+‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚	‚	‚‚‚‚	‚
+‚	‚‚
+‚
+‚‚‚‚‚‚
+‚‚‚‚‚	‚‚‚‚‚
+‚‚‚‚
+‚
+‚	‚‚‚
+‚‚Š‚‰‚€‚A‚‚‚‚‚
+‚	‚‚‚‚‚‚‚‚‚‚‚	‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚
+‚‚‚‚‚‚
+‚‚‚‚	‚‚‚
+‚‚‚‚‚‚‚‚
+‚‚
+‚‚	‚‚‚‚
+‚‚‚‚	‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚	‚‚
+‚‚‚	‚‚	‚‚‚‚‚‚
+‚‚‚‚
+‚
+‚
+‚‚‚
+‚‚‚‚‚‚‚‚‚	‚
+‚‚‚	‚‚	‚‚‚	‚‚‚‚	‚‚‚‚‚‚‚‚‚	‚
+‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚	‚‚‚‚‚‚‚„‚…‚y‚”‚;‚‚‚‚
+‚‚‚‚‚‚‚‚	‚‚‚‚	‚‚‚
+‚‚	‚‚‚‚‚‚	‚‚‚‚‚
+‚‚‚‚‚‚
+‚‚‚
+‚‚‚‚‚	‚	‚‚‚‚
+‚‚
+‚‚
+‚‚	‚‚	‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚
+‚‚‚	‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚	‚
+‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚
+‚‚‚‚‚‚	‚‚
+‚‚‚‚
+‚
+‚‚	‚‚‚	‚‚‚	‚‚‚	‚‚
+‚‚‚‚‚‚
+‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚	‚‚‚‚‚‚x‚‚}‚‹‚?‚‚‚‚‚	‚‚‚
+‚‚‚‚	‚‚
+‚‚‚‚‚‚
+‚
+‚‚‚‚	‚‚‚
+‚
+‚‚	‚‚‚‚‚
+‚‚‚‚‚‚‚‚
+‚
+‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚	‚‚‚	‚‚‚‚‚	‚‚‚‚‚
+‚‚‚
+‚‚‚
+‚
+‚	‚
+‚‚‚	‚	‚
+‚‚‚
+‚‚‚‚	‚	‚	‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚	‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚
+‚‚‚‚
+ÿ‚‚‚‚
+‚‚‚
+‚‚‚	‚
+‚‚‚	‚
+‚	‚‚‚‚‚‚‚‚‚‚‚‚„‚|‚…‚u‚?‚‚‚‚‚	‚‚	‚‚‚
+‚‚	‚‚‚‚‚‚‚‚‚	‚‚‚	‚‚‚‚	‚‚
+‚‚‚
+‚‚	‚‚‚‚
+‚	‚‚	‚‚‚
+‚‚‚‚
+‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚	‚‚
+‚‚	‚‚‚	‚‚‚
+‚	‚‚‚‚‚‚‚‚
+‚	‚‚‚‚‚‚	‚‚‚	‚	‚‚	‚
+‚‚
+‚‚‚‚
+‚
+‚	‚‚‚‚‚
+‚	‚‚‚‚‚‚‚‚
+‚‚‚
+‚‚‚‚‚‚
+‚	‚
+‚‚
+‚‚‚‚
+‚‚‚‚
+‚‚‚	‚‚
+‚‚‚‚‚‚‚‚‚
+‚‚	‚‚‚‚‚‚	‚‚‚‚‚‚‚‚	‚
+‚‚
+‚‚‚Ž‚‹‚€‚|‚C‚‚
+‚‚‚	‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚
+‚‚‚
+‚‚‚‚‚‚‚
+‚‚
+‚‚‚
+‚‚
+‚‚‚‚‚‚
+‚‚‚
+‚‚‚
+‚
+‚‚
+‚‚‚‚‚‚‚‚‚
+‚‚	‚‚‚‚‚
+‚
+‚‚‚‚‚	‚‚
+‚‚‚‚‚‚‚‚
+‚‚‚	‚‚	‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚
+‚	‚
+‚	‚ ‚‚‚
+‚‚
+‚‚
+‚‚‚‚‚‚‚‚‚	‚‚‚‚	‚
+‚‚‚‚	‚‚‚	‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚
+‚
+‚‚‚‚	‚
+‚‚‚‚
+‚‚ˆ‚†‚{‚€‚C‚‚‚‚‚‚‚‚	‚‚‚‚	‚
+‚‚‚‚	‚‚‚‚‚‚
+‚‚	‚	‚	‚‚‚
+‚‚	‚‚‚‚‚‚‚‚‚	‚
+‚‚‚‚‚‚‚
+‚‚	‚‚‚‚‚	‚‚‚‚‚
+‚‚
+‚‚‚‚‚‚‚	‚‚‚‚	‚‚‚‚‚‚‚‚‚
+‚
+‚‚	‚‚‚
+‚‚‚‚‚‚	‚‚‚
+‚	‚‚‚‚‚‚‚‚	‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚
+‚‚
+‚
+‚	‚	‚‚‚‚‚‚	‚‚‚‚
+‚
+‚‚‚
+‚‚‚‚‚‚‚‚‚‚
+‚	‚
+‚‚‚‚‚‚‚
+‚	‚‚‚
+‚‚‚‚
+‚k‚s‚…‚…‚4‚
+‚‚‚
+‚‚‚‚‚
+‚	‚‚‚
+‚‚‚	‚‚‚‚‚‚‚‚	‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚	‚‚‚‚
+‚	‚‚‚‚
+‚
+‚‚	‚‚‚‚
+‚‚‚‚‚	‚‚
+‚	‚	‚	‚‚‚‚‚‚‚‚‚
+‚
+‚‚‚‚
+‚‚‚‚‚	‚‚‚‚	‚
+‚‚‚‚‚‚‚
+‚‚‚‚	‚‚‚	‚
+‚‚‚
+‚
+‚‚‚
+‚
+‚‚‚‚‚	‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚	‚
+‚‚‚‚‚‚	‚	‚‚‚	‚‚	‚‚	‚
+‚‚
+‚‚‚‚‚
+‚	‚þ‚‚
+‚‚‚‚‚‚
+‚‚‚	‚‚‚	‚‚	‚‚ƒ‚€‚n‚|‚8‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚	‚‚‚‚‚‚‚‚
+‚‚‚‚‚	‚‚‚‚‚
+‚‚‚‚‚‚
+‚‚‚‚‚‚‚
+‚‚‚
+‚‚‚	‚‚‚‚‚‚	‚‚‚‚‚‚‚
+‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚
+‚‚
+‚‚‚‚‚‚‚‚‚‚	‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚
+‚	‚‚
+‚	‚
+‚‚‚‚‚‚‚‚‚	‚	‚‚‚	‚‚
+‚‚‚‚‚‚‚‚‚w‚s‚‚s‚8‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚
+‚‚‚‚	‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚	‚‚
+‚	‚‚‚	‚‚‚‚‚	‚‚‚‚‚‚‚	‚
+‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚
+‚‚‚‚‚‚
+‚‚‚	‚‚	‚	‚‚	‚‚‚
+‚
+‚‚	‚
+‚‚‚‚‚‚	‚	‚‚‚
+‚‚‚‚‚‚‚
+‚	‚
+‚‚‚‚‚	‚‚‚	‚‚‚‚‚‚
+‚
+‚	‚	‚‚‚‚‚	‚‚‚‚‚‚‚‚‚	‚‚‚‚
+‚‚‚‚	‚‚	‚‚‚‚
+‚	‚‚
+‚‚
+‚‚‚‚x‚‚‚“‚„‚=‚‚
+‚‚ ‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚
+‚ ‚	‚	‚‚‚‚‚‚
+‚‚‚‚‚
+‚‚‚‚
+‚‚‚
+‚‚‚‚‚
+‚
+‚‚‚‚	‚
+‚‚‚‚‚‚‚
+‚	‚‚	‚‚‚‚‚‚‚
+‚	‚‚	‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚
+‚‚‚‚‚‚‚	‚	‚‚‚‚‚‚‚‚‚
+‚	‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚	‚‚‚‚‚‚	‚‚‚
+‚	‚‚‚	‚‚
+‚‚
+‚‚‚‚
+‚‚‚‚‚‚‚‚‚
+‚	‚
+‚‚
+‚‚‚‚‚	‚‚‚‚
+‚‚	‚
+‚‚	‚‚	‚‚‚„‚€‚‡‚‚9‚‚‚‚‚‚‚‚	‚‚‚‚	‚‚‚‚‚
+‚‚‚	‚	‚‚‚‚‚‚	‚‚
+‚‚‚‚
+‚‚	‚‚
+‚‚	‚‚‚‚	‚‚‚	‚
+‚‚‚	‚	‚‚	‚‚‚‚‚	‚	‚‚‚‚‚‚‚‚‚‚‚‚	‚
+‚‚‚	‚‚	‚‚‚‚‚‚‚
+‚
+‚‚‚	‚‚‚‚‚‚‚‚‚	‚‚	‚‚‚‚‚‚‚
+‚‚‚‚	‚‚	‚
+‚‚
+‚‚‚‚	‚	‚‚
+‚
+‚‚‚‚‚	‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚	‚
+‚	‚‚	‚
+‚‚	‚‚‚	‚‚‚‚‚‚‚	‚x‚‹‚~‚v‚:‚‚‚‚‚	‚	‚‚‚‚	‚‚‚‚‚‚‚‚
+‚‚‚‚‚
+‚	‚
+‚‚‚‚‚‚‚‚‚	‚‚
+‚‚	‚‚‚‚	‚‚	‚‚‚‚‚‚‚
+‚‚‚‚‚	‚‚	‚‚‚‚‚‚
+‚	‚‚‚	‚‚‚‚	‚	‚‚‚‚‚‚‚‚‚‚	‚‚‚ ‚‚‚
+‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚	‚‚‚‚‚‚‚‚
+‚‚	‚‚‚‚‚‚‚‚
+‚	‚‚	‚‚‚‚	‚‚‚
+‚
+‚‚‚	‚‚	‚
+‚‚‚	‚	‚‚‚
+‚‚‚‚‚‚‚	‚‚‚„‚‚‚x‚E‚‚‚‚‚‚‚	‚‚‚‚‚	‚	‚‚
+‚‚‚‚
+‚‚
+‚	‚‚	‚‚‚‚
+‚
+‚‚‚‚‚
+‚	‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚	‚
+‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚
+‚‚	‚‚
+‚‚‚
+‚‚	‚
+‚‚‚‚‚‚‚‚
+‚
+‚‚‚‚‚
+‚‚‚	‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚
+‚	‚‚
+‚‚‚‚‚‚	‚‚	‚‚‚‚‚	‚‚‚‚‚‚‚	‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‰‚‚„‚9‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚	‚‚
+‚
+‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚	‚
+‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚
+‚
+‚‚
+‚‚‚‚‚‚‚‚‚	‚‚‚‚
+‚‚	‚‚‚‚‚‚‚
+‚	‚	‚‚‚‚‚‚‚
+‚
+‚‚‚‚‚‚	‚‚‚‚
+‚‚‚
+‚‚‚‚‚‚
+‚‚‚	‚‚‚	‚‚	‚‚‚‚‚‚	‚‚‚	‚
+‚‚
+‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚	‚‚‚‚
+‚
+‚‚r‚†‚„‚w‚@‚‚‚‚‚‚‚‚‚
+‚‚	‚‚‚‚‚‚‚‚‚‚
+‚‚
+‚	‚‚	‚‚‚‚‚‚
+‚‚
+‚‚‚	‚	‚	‚‚‚‚‚‚‚	‚‚‚
+‚‚	‚‚‚‚	‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚
+‚‚‚‚‚	‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚
+‚‚‚‚‚‚‚	‚‚‚	‚‚‚‚‚‚
+‚‚	‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚
+‚	‚‚‚‚‚‚‚‚	‚‚
+‚‚‚‚‚	‚
+‚
+‚‚‚‚‚	‚‚‚‚‚‚‚	‚
+‚‚‚‚
+‚
+‚‚€‚ˆ‚ƒ‚~‚>‚‚
+‚
+‚	‚‚‚‚
+‚
+‚
+‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚	‚‚‚‚
+‚‚‚
+‚
+‚‚‚	‚
+‚‚‚‚
+‚‚‚‚
+‚‚‚‚	‚‚
+‚‚
+‚‚‚‚‚	‚	‚	‚‚	‚
+‚
+‚‚‚
+‚‚‚‚‚	‚	‚	‚‚‚	‚‚‚‚
+‚
+‚‚‚	‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚	‚‚‚‚‚‚‚‚	‚
+‚	‚‚
+‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚
+‚‚
+‚‚
+‚‚‚‚‚	‚
+‚‚‚‚‚‚‚
+‚‚‚
+‚‚
+‚	‚
+‚‚‚‚‚‚‚v‚r‚?‚‚‚‚
+‚‚‚‚‚‚‚	‚‚‚‚
+‚	‚‚‚‚‚‚‚
+‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚	‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚	‚‚
+‚
+‚‚‚	‚‚‚‚‚‚‚	‚
+‚‚‚	‚‚‚‚‚
+‚	‚‚
+‚‚‚‚	‚‚‚	‚‚‚
+‚‚‚‚	‚‚þ‚
+‚
+‚‚	‚‚‚‚‚‚	‚‚‚‚‚‚‚‚
+‚	‚‚	‚‚
+‚‚‚	‚
+‚‚
+‚‚‚
+‚	‚‚‚‚	‚
+‚‚‚‚‚‚	‚‚‚‚‚	‚‚‚‚‚‚
+‚‚t‚|‚‰‚‚>‚	‚‚‚‚‚‚‚‚‚‚‚ ‚‚‚	‚‚‚
+‚‚‚‚‚	‚‚‚‚	‚‚
+‚‚
+‚‚	‚‚‚‚‚
+‚
+‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚	‚‚‚‚
+‚‚	‚‚‚‚‚‚‚
+‚‚	‚‚‚‚‚‚	‚‚	‚‚	‚‚
+‚‚	‚‚‚
+‚	‚‚‚‚	‚‚
+‚‚‚	‚
+‚‚	‚‚‚‚	‚‚‚	‚‚	‚	‚‚‚	‚‚	‚‚‚‚‚‚
+‚‚
+‚‚
+‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚
+‚‚‚‚‚	‚	‚‚‚‚	‚‚‚‚	‚
+‚‚‚‚	‚‚‚‚
+‚	‚‚
+‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚„‚x‚v‚1‚‚‚‚	‚
+‚‚
+‚‚‚‚‚‚‚	‚‚‚‚‚‚‚
+‚
+‚‚
+‚‚‚
+‚	‚‚
+‚‚‚
+‚‚‚‚‚‚‚‚‚
+‚
+‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚	‚‚‚‚‚‚‚
+‚‚‚‚
+‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚	‚‚	‚‚‚‚‚‚‚‚
+‚‚‚	‚‚‚
+‚‚‚‚‚‚‚	‚‚
+‚‚‚‚‚	‚	‚‚
+‚‚‚‚‚‚
+‚‚‚	‚‚‚‚‚‚‚‚‚	‚‚‚‚
+‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚
+‚
+‚	‚‚‚	‚	‚‚‚	‚y‚s‚€‚|‚?‚‚‚‚‚	‚‚‚‚	‚‚	‚‚‚‚‚‚	‚‚	‚‚‚‚‚
+‚‚‚
+‚‚	‚‚
+‚‚‚	‚	‚‚‚
+‚‚‚
+‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚	‚‚‚‚‚‚‚‚
+‚
+‚‚‚‚	‚‚‚‚‚	‚‚	‚‚‚
+‚	‚
+‚‚‚‚‚‚‚
+‚	‚
+‚‚‚	‚‚‚‚‚‚‚‚‚‚	‚‚
+‚	‚
+‚‚	‚‚‚
+‚‚‚‚‚
+‚‚	‚
+‚	‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚
+‚‚‚‚‚‚
+‚
+‚‚‚‚‚‚‚	‚	‚	‚	‚
+‚‚†‚…‚~‚t‚2‚‚‚‚‚‚
+‚	‚‚‚
+‚‚‚	‚‚‚‚
+‚‚‚	‚‚‚	‚‚‚‚‚	‚	‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚
+‚‚‚‚‚	‚‚
+‚
+‚‚	‚‚‚‚‚
+‚
+‚
+‚‚‚
+‚‚‚	‚‚‚‚‚‚	‚	‚‚
+‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚
+‚‚
+‚	‚	‚‚‚‚	‚‚
+‚‚	‚‚	‚‚‚‚‚‚	‚‚‚‚
+‚‚‚‚
+‚‚‚
+‚‚‚‚	‚‚‚‚‚‚‚‚
+‚‚	‚
+‚
+‚‚‚‚‚	‚‚	‚‚
+‚‚‚‚‚‚‚	‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚q‚‚ˆ‚{‚O‚‚‚‚‚	‚‚‚‚‚‚
+‚‚‚ ‚
+‚‚‚‚‚‚‚
+‚‚‚
+‚‚
+‚‚‚	‚
+‚‚‚‚‚‚‚‚‚‚‚‚
+‚	‚‚‚
+‚‚‚‚
+‚	‚‚	‚‚‚
+‚‚‚	‚
+‚‚‚‚‚‚‚‚‚
+‚‚
+‚‚
+‚‚‚‚‚‚
+‚‚‚
+‚‚	‚
+‚‚
+‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚	‚‚
+‚‚‚	‚‚	‚
+‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚	‚	‚‚‚‚	‚‚‚‚‚‚‚‚‚	‚‚
+‚‚‚‚
+‚‚‚‚‚	‚‚‚‚‚
+‚‚‚
+‚‚‚	‚‚‚‚‚‡‚€‚p‚„‚G‚‚‚‚‚‚	‚‚‚	‚‚
+‚‚‚‚‚
+‚‚‚‚‚‚‚
+‚‚‚‚‚	‚‚‚‚
+‚	‚‚	‚‚
+‚‚‚‚‚‚‚‚
+‚	‚‚
+‚‚‚‚‚‚	‚‚‚‚‚	‚‚‚‚‚‚ ‚	‚‚‚‚‚‚‚
+‚‚	‚
+‚‚‚‚‚‚‚‚‚‚
+‚
+‚‚‚‚
+‚	‚	‚	‚	‚‚
+‚
+‚	‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚	‚	‚‚	‚‚‚‚
+‚‚‚‚
+‚‚‚‚‚‚‚‚
+‚‚‚	‚‚
+‚‚‚‚	‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚
+‚	‚
+‚‚
+‚‚‚‚‚…‚‚‰‚‚‚B‚	‚‚‚‚‚‚‚‚‚	‚‚þ‚ ‚‚‚	‚‚‚	‚‚‚‚‚‚‚‚‚ ‚‚	‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚
+‚	‚‚‚
+‚
+‚‚‚‚‚	‚
+‚
+‚	‚‚‚	‚
+‚‚‚‚‚‚
+‚
+‚	‚‚‚‚‚‚	‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚
+‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚	‚
+‚‚‚‚‚‚
+‚‚‚‚‚‚‚	‚‚‚	‚‚‚	‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚	‚
+‚‚‚
+‚	‚‚
+‚‚‚‚	‚‚‚	‚
+‚‚‚
+‚‚‚z‚‚‡‚q‚>‚	‚‚‚‚
+‚	‚‚‚‚
+‚‚‚‚‚‚
+‚
+‚	‚‚‚‚‚‚	‚	‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚
+‚
+‚‚‚	‚‚	‚‚‚	‚‚‚‚‚‚‚	‚‚	‚‚	‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚	‚
+‚	‚‚	‚‚‚
+‚‚	‚‚‚‚‚‚
+‚‚‚‚
+‚‚‚‚	‚‚‚‚‚‚‚‚	‚‚‚‚
+‚‚	‚‚‚‚	‚‚‚‚‚‚‚	‚‚‚‚‚
+‚	‚‚‚‚‚‚‚	‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚
+‚‚‚‚‚‚
+‚	‚‚‚‚‚{‚ˆ‚t‚‚?‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚	‚
+‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚	‚‚
+‚‚‚
+‚‚‚
+‚‚‚‚‚	‚‚‚‚‚‚	‚
+‚‚‚	‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚	‚‚‚‚‚‚‚‚	‚‚
+‚‚‚‚‚‚‚	‚‚‚‚	‚‚‚‚‚‚‚‚
+‚‚‚‚‚	‚‚‚‚‚	‚	‚‚‚‚‚‚‚‚‚	‚‚‚
+‚‚‚‚	‚‚‚‚‚
+‚
+‚‚‚‚‚‚‚‚‚‚‚‚	‚‚	‚‚	‚
+‚‚
+‚
+‚‚q‚€‚ˆ‚~‚;‚‚	‚‚‚‚‚‚
+‚‚	‚	‚‚‚‚‚
+‚‚
+‚‚‚‚‚‚‚‚‚‚‚	‚‚	‚‚
+‚
+‚‚
+‚‚‚‚‚‚‚‚	‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚
+‚
+‚‚‚‚‚
+‚‚‚
+‚‚‚‚‚	‚‚‚‚	‚‚
+‚
+‚‚
+‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚	‚
+‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚
+‚‚‚
+‚
+‚‚‚‚‚‚‚
+‚	‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚	‚‚‚‚‚	‚
+‚
+‚‚	‚‚‚‚
+‚‚‚‚‚‚w‚…‚‚‚+‚
+‚‚
+‚‚‚
+‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚	‚‚	‚‚
+‚‚‚
+‚‚‚
+‚
+‚‚
+‚‚‚‚	‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚	‚
+‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚
+‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚ ‚‚‚‚	‚‚‚‚‚
+‚‚‚
+‚‚‚‚‚‚‚‚‚	‚
+‚‚‚
+‚‚
+‚‚	‚‚
+‚‚	‚‚‚‚‚‚	‚‚‚‚‚‚	‚	‚‚
+‚‚‚‚‚	‚‚‚‚‚	‚‚‚‚‚‚‚
+‚
+‚‚‚‚‚	‚}‚|‚‚†‚G‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚	‚‚‚‚	‚‚‚	‚	‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚	‚‚	‚‚	‚‚‚‚‚‚‚‚	‚‚‚‚
+‚‚‚	‚‚‚‚‚‚‚‚‚	‚‚‚	‚‚‚‚‚	‚‚‚	‚‚‚	‚‚‚	‚‚‚
+‚
+‚	‚
+‚	‚‚
+‚‚‚
+‚‚‚
+‚‚‚‚‚‚‚	‚‚‚	‚	‚‚‚‚
+‚‚
+‚‚
+‚‚
+‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚
+‚‚‚‚
+‚‚
+‚
+‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚	‚†‚‚w‚‚8‚‚‚‚	‚‚	‚‚‚‚‚	‚‚
+‚‚‚‚‚‚‚‚‚‚‚
+‚‚	‚	‚‚
+‚‚‚	‚‚‚‚‚	‚‚‚‚‚‚	‚
+‚‚‚
+‚‚‚‚‚‚‚	‚‚	‚‚
+‚‚
+‚‚‚‚	‚	‚‚	‚‚‚‚
+‚	‚‚	‚	‚‚‚‚‚	‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚	‚‚
+‚‚‚	‚‚‚‚‚‚‚‚	‚
+‚‚‚‚‚‚
+‚‚‚‚‚‚
+‚‚‚
+‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚
+‚‚‚‚‚
+‚‚
+‚‚
+‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚	‚y‚†‚u‚{‚7‚‚‚‚‚‚‚	‚
+‚‚‚‚
+‚‚	‚‚‚‚
+‚‚‚‚‚	‚‚‚‚‚‚
+‚	‚‚	‚
+‚‚
+‚‚‚‚‚‚‚‚‚‚	‚	‚ ‚
+‚‚‚
+‚‚‚‚	‚‚‚
+‚	‚
+‚
+‚‚‚‚‚‚‚‚	‚‚‚‚
+‚‚‚	‚‚‚
+‚	‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚	‚‚	‚	‚‚
+‚	‚‚‚‚
+‚‚	‚
+‚‚‚	‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚
+‚‚‚‚‚
+‚‚‚‚‚‚
+þ‚‚‚‚‚	‚‚‚‚‚‚
+‚	‚‚‚‚„‚‚‚„‚6‚
+‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚
+‚‚‚
+‚‚
+‚‚
+‚‚
+‚‚
+‚‚‚‚‚‚	‚
+‚‚‚‚	‚‚‚	‚
+‚‚‚	‚‚‚‚	‚‚‚‚
+‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚	‚‚‚‚‚‚‚
+‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚	‚‚‚‚
+‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚
+‚‚‚‚‚	‚‚‚‚‚‚‚‚	‚‚‚‚‚	‚‚	‚
+‚‚‚	‚	‚
+‚‚‚‚	‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚	‚‚‚€‚ƒ‚‚‚…‚B‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚	‚‚
+‚‚‚	‚	‚‚
+‚‚‚‚	‚	‚‚‚‚‚	‚‚‚	‚	‚
+‚‚‚‚
+‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚
+‚	‚‚‚‚‚‚‚‚	‚	‚‚	‚
+‚‚‚‚
+‚‚‚‚‚‚‚‚
+‚	‚	‚‚	‚‚
+‚‚‚
+‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚
+‚‚‚‚‚‚‚
+‚‚‚	‚‚‚‚‚‚‚	‚
+‚‚‚‚‚‚	‚‚‚	‚‚‚‚‚‚
+‚‚‚
+‚	‚‚‚‚‚‚‚‚
+‚‚‚	‚‚	‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚	‚}‚‚‚y‚u‚;‚	‚‚
+‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚
+‚‚‚‚‚‚
+‚‚‚‚
+‚‚‚	‚‚‚‚‚‚‚	‚‚	‚
+‚‚‚	‚‚‚‚‚‚‚‚
+‚‚‚‚	‚
+‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚	‚‚‚‚‚‚‚
+‚
+‚‚‚‚
+‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚
+‚‚‚‚‚	‚
+‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚
+‚	‚
+‚‚‚‚‚‚
+‚‚‚‚‚	‚‚‚‚‚‚‚
+‚‚
+‚‚	‚‚‚‚‚	‚‚‚‚
+‚‚	‚‚“‚Ž‚€‚}‚<‚‚‚‚
+‚	‚	‚‚
+‚	‚‚‚	‚‚‚‚‚	‚	‚
+‚‚‚‚‚þ‚‚‚‚‚‚‚‚‚‚‚
+‚‚
+‚
+‚‚‚‚‚
+‚‚	‚	‚‚‚‚‚‚‚‚‚‚‚	‚‚‚	‚‚‚‚‚	‚	‚
+‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚
+‚‚‚‚‚	‚‚
+‚‚‚
+‚	‚	‚‚
+‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚
+‚‚
+‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚	‚‚‚‚‚‚‚
+‚‚	‚
+‚‚
+‚‚‚‚
+‚‚‚‚‚	‚‚	‚‚ƒ‚„‚€‚s‚6‚‚	‚‚
+‚‚‚‚‚‚
+‚‚‚‚‚
+‚‚‚	‚‚	‚‚‚‚‚‚‚	‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚	‚	‚	‚
+‚	‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚
+‚‚	‚‚‚
+‚‚‚‚‚‚‚
+‚‚‚‚‚‚
+‚	‚	‚
+‚‚‚‚‚	‚‚
+‚
+‚
+‚‚	‚‚‚‚‚	‚	‚‚‚
+‚‚‚‚‚
+‚	‚‚
+‚‚‚‚‚
+‚
+‚	‚	‚‚‚‚‚‚	‚‚‚‚
+‚‚‚
+‚
+‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚
+‚‚‚‚
+‚‚‚‚‚‚	‚‚
+‚
+‚‚	‚‚‚‚‚‚	‚…‚€‚†‚„‚8‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚
+‚‚‚
+‚‚‚‚‚‚
+‚‚‚	‚‚	‚‚‚
+‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚ ‚‚‚	‚‚‚	‚‚	‚‚‚‚‚‚‚‚
+‚‚‚	‚	‚
+‚
+‚‚‚‚‚‚	‚‚‚‚‚‚‚
+‚‚‚	‚‚
+‚
+‚‚‚	‚	‚‚‚	‚‚‚	‚‚‚‚‚‚‚‚	‚‚
+‚‚‚	‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚	‚‚‚	‚‚‚‚‚‚
+‚‚‚‚	‚
+‚‚‚
+‚	‚‚‚ ‚‚	‚
+‚‚	‚	‚‚‚
+‚‚
+‚‚‚‚	‚‚	‚
+‚
+‚‚ƒ‚†‚ƒ‚‹‚4‚‚‚
+‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚	‚‚	‚
+‚	‚
+‚
+‚‚
+‚‚
+‚	‚‚
+‚	‚	‚‚
+‚‚
+‚‚‚‚‚‚‚
+‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚	‚‚‚‚
+‚‚‚‚‚
+‚
+‚	‚‚‚
+‚‚‚
+‚‚‚	‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚
+‚‚	‚‚‚‚‚‚‚	‚‚‚‚
+‚‚‚‚
+‚‚‚	‚‚	‚	‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚
+‚‚‚‚
+‚‚	‚‚
+‚‚‚‚
+‚‚‚	‚
+‚‚‚	‚‚‚‚	‚
+‚	‚
+‚	‚‚
+‚‚‚
+‚‚‚
+‚v‚‚…‚…‚;‚	‚‚
+‚‚	‚‚	‚‚ ‚‚‚	‚
+‚‚‚‚‚‚‚	‚
+‚‚‚‚	‚
+‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚
+‚‚‚
+‚‚‚	‚‚‚‚‚‚‚
+‚‚‚‚
+‚‚	‚‚‚‚
+‚	‚‚‚	‚‚‚	‚‚‚
+‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚	‚‚‚‚‚‚	‚‚‚	‚	‚‚	‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚	‚‚‚‚‚‚‚‚‚	‚
+‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚	‚‚	‚‚‚‚
+‚	‚‚	‚	‚‚‚€‚v‚…‚‚I‚‚
+‚‚‚‚‚‚‚‚‚‚‚	‚‚‚
+‚‚
+‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚	‚‚	‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚	‚‚
+‚‚‚	‚‚‚‚‚‚‚
+‚‚‚‚‚‚
+‚	‚‚‚‚‚‚‚‚	‚‚
+‚‚‚	‚‚‚‚‚‚‚‚‚‚
+‚‚
+‚‚‚‚‚‚‚
+‚‚‚‚‚	‚‚
+‚‚‚‚‚	‚
+‚‚‚‚	‚‚
+‚	‚	‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚	‚	‚‚
+‚
+‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚
+‚‚‚
+‚‚‚‚‚	‚‚‚‚‚‚{‚€‚u‚A‚‚
+‚‚
+‚‚‚‚‚‚‚‚‚	‚‚‚‚‚
+‚	‚	‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚
+‚	‚	‚‚‚‚‚
+‚‚‚‚‚	‚‚
+‚‚	‚‚‚‚‚‚‚
+‚
+‚‚‚‚‚‚
+‚‚‚‚	‚‚	‚‚
+‚‚‚‚‚‚	‚
+‚‚‚‚	‚‚‚
+‚‚
+‚
+‚	‚‚	‚‚
+‚
+‚‚‚‚	‚‚‚‚‚‚	‚‚	‚‚‚‚‚
+‚
+‚‚
+‚
+‚
+‚‚‚‚‚‚	‚‚
+‚
+‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚	‚	‚	‚‚‚	‚‚‚
+‚‚
+‚‚	‚‚‚‚
+‚‚
+‚‚‚‚‚‚‚|‚†‚z‚„‚5‚
+‚‚‚ ‚‚‚‚‚
+‚‚	‚
+‚
+‚
+‚‚‚‚‚‚‚‚‚‚
+‚	‚
+‚‚‚
+‚‚‚
+‚‚‚‚‚	‚‚‚‚‚‚‚‚
+‚‚‚‚‚
+‚‚‚‚‚‚‚‚
+‚	‚‚	‚‚‚	‚	‚‚‚‚	‚‚‚‚‚	‚‚‚	‚‚‚‚‚‚‚‚‚	‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚	‚ ‚‚
+‚‚‚‚
+‚‚‚‚‚‚‚‚
+‚
+‚‚
+‚‚‚‚‚‚‚	‚
+‚‚
+‚	‚‚	‚‚‚‚‚‚‚‚‚‚
+‚‚	‚‚‚‚‚‚‚
+‚‚	‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚
+‚…‚•‚x‚y‚-‚‚‚‚
+‚
+‚‚‚‚	‚‚‚‚‚
+‚‚‚	‚‚‚	‚‚‚‚	‚‚‚‚‚‚	‚‚‚‚‚‚
+‚‚‚‚‚
+‚‚‚‚
+‚‚‚‚‚
+‚	‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚	‚‚‚
+‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚
+‚	‚‚‚‚	‚
+‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚	‚‚‚	‚‚‚‚‚‚‚	‚‚‚	‚‚‚‚‚‚	‚‚	‚‚	‚‚‚‚‚	‚‚‚‚‚
+‚
+‚‚‚	‚‚‚	‚‚‚‚	‚‚	‚‚‚‚‚	‚	‚
+‚‚‚
+‚
+‚‚‚‚‚‚‚‚‚	‚‚
+‚‚	‚‚}‚‡‚|‚n‚7‚‚‚	‚
+‚	‚‚‚‚‚‚‚‚‚‚‚‚	‚
+‚‚‚‚‚‚‚
+‚	‚‚‚	‚‚‚‚‚
+‚‚	‚‚‚‚	‚	‚
+‚
+‚‚‚
+‚‚	‚‚‚‚‚	‚‚‚
+‚‚
+‚‚‚‚‚‚‚‚
+‚‚‚
+‚
+‚‚‚‚
+‚‚‚‚‚‚‚‚‚
+‚‚‚
+‚
+‚‚
+‚
+‚	‚‚‚‚‚	‚‚‚
+‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚ ‚‚‚‚	‚‚
+‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚
+‚
+‚
+‚‚‚‚‚
+‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚	‚‚‚
+‚‚…‚‚{‚„‚=‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚	‚‚	‚‚‚‚‚‚‚‚‚	‚‚‚
+‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚
+‚‚
+‚‚‚‚‚	‚‚‚
+‚‚‚‚‚‚‚	‚‚	‚‚‚‚‚	‚‚‚‚
+‚
+‚‚‚	‚
+‚‚‚‚
+‚‚‚	‚‚‚
+‚‚
+‚‚‚
+‚	‚‚‚
+‚‚‚	‚‚‚‚‚	‚‚	‚
+‚	‚‚‚‚‚‚
+‚‚
+‚‚‚‚‚‚‚‚	‚	‚	‚	‚‚
+‚‚
+‚‚‚	‚‚‚‚
+‚‚‚‚‚
+‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚
+‚‚‚‚‚‚
+‚‚
+‚‚‚ ‚y‚’‚|‚o‚:‚‚	‚‚‚‚‚‚‚‚‚‚‚	‚
+‚‚	‚‚	‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚	‚‚
+‚	‚‚‚‚
+‚‚‚‚
+‚‚‚
+‚‚‚‚‚‚
+‚‚	‚	‚‚‚‚‚
+‚	‚‚
+‚‚‚
+‚‚‚‚‚‚‚‚
+‚‚
+‚‚‚
+‚	‚‚	‚‚‚‚	‚
+‚	‚	‚‚‚‚
+‚
+‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚	‚	‚‚	‚‚‚
+‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚
+‚‚‚	‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚	‚‚‚‚‚{‚z‚~‚€‚7‚‚‚‚‚‚‚	‚	‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚
+‚‚
+‚	‚‚
+‚
+‚‚‚‚‚‚	‚‚
+‚	‚	‚‚‚‚‚‚‚
+‚‚	‚‚‚‚	‚‚‚‚
+‚‚‚	‚‚‚‚‚‚	‚‚
+‚‚
+‚‚‚‚‚‚‚‚‚‚	‚‚	‚‚‚
+‚‚‚‚‚‚‚
+‚‚
+‚‚‚‚‚‚‚	‚‚
+‚‚‚	‚
+‚‚	‚
+‚‚‚‚‚	‚‚	‚
+‚‚‚‚‚‚‚
+‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚	‚‚
+‚‚‚‚‚
+‚
+‚‚	‚
+‚‚‚‚
+‚‚‚‚‚‚‚‚
+‚
+‚
+‚‚	‚…‚Œ‚}‚q‚1‚‚
+‚	‚‚‚‚
+‚	‚
+‚‚‚‚	‚‚‚‚‚‚‚‚	‚‚‚
+‚	‚
+‚‚‚	‚‚‚‚	‚	‚‚‚‚‚‚
+‚‚‚‚	‚‚‚‚‚‚‚‚
+‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚
+‚‚
+‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚
+‚‚‚‚‚‚‚‚
+‚‚‚
+‚‚‚	‚‚‚‚‚	‚
+‚‚‚	‚‚‚
+‚‚	‚‚
+‚
+‚‚‚‚‚‚‚	‚‚‚	‚‚
+‚	‚‚‚	‚‚‚‚‚‚
+‚‚‚
+‚‚‚	‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚
+‚‚‚‚	‚‚‚‚	‚‚‚	‚‚‚‚
+‚z‚€‚‹‚r‚;‚
+‚
+‚‚‚‚‚‚‚‚	‚‚	‚	‚	‚‚‚‚
+‚	‚‚‚‚	‚‚‚‚‚‚‚
+‚	‚‚‚	‚	‚‚	‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚	‚‚‚
+‚	‚‚	‚‚‚
+‚‚‚	‚‚‚
+‚‚‚‚
+‚‚‚‚
+‚	‚‚‚‚‚‚
+‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚
+‚
+‚‚‚‚	‚‚‚	‚‚	‚‚‚
+‚‚
+‚‚‚‚‚‚	‚‚‚‚
+‚
+‚‚‚‚
+‚‚‚‚
+‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚
+‚‚‚‚
+‚‚‚‚	‚‚‚w‚w‚z‚z‚<‚‚ ‚‚‚‚	‚	‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚
+‚
+‚‚	‚‚‚‚‚‚‚‚‚
+‚‚	‚‚‚‚‚‚	‚‚‚‚‚
+‚‚‚‚	‚	‚‚‚‚‚‚‚‚	‚‚
+‚‚‚	‚
+‚‚
+‚‚‚‚
+‚‚‚	‚‚‚	‚‚‚
+‚	‚‚‚‚‚
+‚‚‚‚
+‚‚‚
+‚‚
+‚‚‚
+‚‚‚‚	‚‚‚‚‚‚‚	‚
+‚‚‚‚‚	‚‚‚‚
+‚‚‚‚‚‚	‚
+‚‚
+‚‚
+‚‚‚‚
+‚‚‚‚	‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚
+‚‚
+‚‚‚	‚
+‚‚‚‚‚‚‚	‚‚‚	‚‚‚‚‚‚|‚ƒ‚‚‚€‚K‚‚‚
+‚‚‚ ‚
+‚‚‚‚
+‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚	‚‚‚	‚‚‚‚	‚‚‚‚
+‚‚‚‚‚‚
+‚‚‚‚	‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚
+‚‚‚‚‚‚‚‚ ‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚	‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚	‚‚‚‚‚‚‚‚‚
+‚‚‚
+‚
+‚‚‚	‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚	‚‚‚
+‚	‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚	‚‚‚‚‚‚„‚‚‚“‚Š‚J‚
+‚‚	‚‚‚‚‚‚‚‚	‚	‚‚‚‚
+‚‚
+‚	‚‚‚
+‚‚‚	‚‚	‚‚
+‚‚‚‚‚‚‚‚	‚‚	‚	‚‚‚‚‚	‚‚	‚‚‚‚‚‚	‚‚‚‚‚
+‚‚‚‚
+‚‚‚	‚‚‚‚‚‚
+‚‚	‚	‚	‚‚‚‚‚‚‚‚‚
+‚	‚
+‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚	‚‚
+‚‚‚‚
+‚‚
+‚‚‚	‚	‚‚‚‚‚	‚‚
+‚‚‚‚‚‚
+‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚	‚‚‚‚	‚‚‚
+‚‚‚‚‚	‚‚	‚‚	‚‚‚‚‚
+‚‚‚‚‚†‚‚„‚<‚	‚
+‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚	‚	‚‚
+‚‚‚‚	‚‚‚‚	‚
+‚‚‚	‚‚‚‚	‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚	‚‚
+‚
+‚‚
+‚‚	‚‚‚‚‚‚
+‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚	‚
+‚	‚‚	‚‚‚‚‚‚	‚
+‚	‚‚
+‚
+‚‚
+‚‚
+‚‚‚‚‚	‚‚‚‚
+‚‚	‚‚‚‚	‚‚‚
+‚‚
+‚‚	‚‚‚‚‚	‚	‚‚‚
+‚‚‚‚‚‚‚‚‚	‚‚‚‚
+‚
+‚‚‚	‚
+‚‚‚‚‚‚	‚‚	‚‚	‚	‚‚‚‚‚~‚ƒ‚ˆ‚f‚E‚‚‚‚	‚‚‚‚	‚‚
+‚‚‚‚
+‚	‚
+‚‚‚‚	‚‚‚‚‚‚‚
+‚‚‚‚‚‚	‚‚‚‚	‚‚‚	‚‚	‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚
+‚‚‚‚‚‚‚‚
+‚‚‚
+‚‚‚‚	‚‚‚‚	‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚	‚‚‚ ‚‚‚
+‚	‚‚‚
+‚
+‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚	‚‚‚‚	‚‚‚‚‚	‚‚‚‚‚‚	‚‚	‚‚	‚‚‚
+‚	‚‚
+‚‚‚	‚‚	‚
+‚‚‚‚‚‚‚‚	‚	‚
+‚‚	‚‚‚‚	‚‚‚y‚„‚ˆ‚€‚9‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚
+‚
+‚‚‚‚‚
+‚‚‚‚‚	‚	‚‚	‚
+‚	‚‚‚
+‚‚
+‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚
+‚	‚‚‚	‚
+‚‚‚‚
+‚
+‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚
+‚‚	‚	‚
+‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚
+‚‚‚	‚
+‚
+‚
+‚‚‚‚‚‚
+‚‚‚
+‚‚‚	‚‚‚‚‚‚‚‚‚‚‚	‚‚‚
+‚
+‚‚‚‚	‚‚‚
+‚‚‚‚‚‚‚‚‚ƒ‚…‚u‚u‚<‚‚	‚‚
+‚
+‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚
+‚
+‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚ÿ‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚	‚‚‚‚
+‚
+‚‚	‚‚‚‚	‚‚
+‚‚‚‚‚‚‚‚
+‚‚	‚‚‚‚‚‚‚
+‚‚‚‚	‚‚‚‚
+‚	‚‚‚‚‚	‚‚‚‚	‚
+‚‚‚‚‚‚‚‚
+‚	‚‚	‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚
+‚
+‚‚‚
+‚‚‚‚‚
+‚‚‚	‚‚‚	‚‚~‚‡‚v‚z‚C‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚	‚‚
+‚‚‚	‚‚‚‚‚‚‚‚‚	‚
+‚‚	‚	‚	‚	‚	‚‚‚‚	‚‚
+‚‚‚‚	‚‚
+‚
+‚‚
+‚‚	‚‚‚‚	‚‚	‚‚‚	‚‚‚‚‚‚	‚
+‚‚‚‚‚‚‚
+‚‚
+‚‚‚‚‚‚‚‚	‚	‚‚‚
+‚‚‚‚‚‚‚‚‚‚	‚‚
+‚‚	‚‚‚‚‚‚‚‚‚
+‚‚
+‚‚‚
+‚
+‚‚‚‚	‚‚‚‚
+‚‚
+‚‚‚	‚‚‚‚‚‚‚
+‚‚‚	‚‚‚
+‚‚‚‚‚‚‚
+‚
+‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚ƒ‚‘‚„‚‘‚8‚‚
+‚‚
+‚‚‚‚
+‚‚‚
+‚‚þ‚‚	‚‚‚‚‚
+‚‚‚
+‚‚‚‚	‚	‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚
+‚
+‚
+‚‚‚‚‚‚‚	‚‚‚‚‚
+‚‚	‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚	‚	‚‚‚‚‚‚‚	‚‚‚‚‚‚‚	‚‚‚	‚‚‚	‚‚
+‚‚‚	‚‚
+‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚	‚‚‚
+‚‚‚‚‚	‚‚‚
+‚‚‚‚‚
+‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚	‚‚
+‚‚
+‚‚	‚‚‚
+‚‚
+‚‚
+‚
+‚‚‚‚‚‚‚‘‚‚<‚‚‚‚‚‚‚‚	‚
+‚
+‚‚‚‚‚‚‚	‚‚	‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚	‚
+‚‚‚	‚‚
+‚‚‚‚
+‚‚‚‚‚‚	‚
+‚‚
+‚
+‚‚‚	‚‚‚‚‚‚‚
+‚‚‚	‚‚‚‚‚‚
+‚‚
+‚‚‚‚‚	‚‚‚‚
+‚‚‚‚
+‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚	‚‚‚	‚	‚
+‚
+‚‚‚‚‚‚‚‚‚	‚‚‚‚‚	‚	‚‚‚‚‚	‚‚‚	‚‚‚	‚‚
+‚‚‚‚
+‚	‚‚‚
+‚	‚
+‚
+‚‚
+‚
+‚‚
+‚‚
+‚‚	‚‚‚‚‚‚‚
+‚
+‚‚‚‚‚‚
+‚‚
+‚‚‚Š‚‚‚}‚=‚
+‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚
+‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚	‚‚	‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚
+‚‚‚‚
+‚	‚	‚‚‚‚	‚‚
+‚‚‚‚‚‚‚‚‚
+‚‚‚
+‚
+‚
+‚‚‚	‚‚‚‚‚	‚	‚‚‚‚‚	‚	‚	‚‚‚‚‚
+‚‚
+‚‚‚
+‚‚	‚‚‚
+‚	‚‚	‚‚‚‚‚‚‚‚‚	‚‚‚	‚	‚
+‚‚‚
+‚‚‚
+‚	‚‚‚‚
+‚‚‚‚‚‚‚‚‚	‚‚‚‚	‚‚‚‚‚‚
+‚‚‚‚‚‚
+‚‚
+‚‚…‚€‚…‚‚6‚‚‚	‚	‚
+‚‚‚‚‚‚‚‚‚	‚	‚‚‚‚‚‚	‚
+‚‚‚‚‚‚	‚‚‚	‚
+‚	‚‚
+‚‚‚‚	‚‚‚‚‚‚‚‚	‚‚‚‚	‚
+‚	‚	‚	‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚
+‚‚‚‚‚	‚	‚
+‚‚‚‚‚	‚‚	‚‚‚	‚‚‚‚‚
+‚‚‚
+‚‚‚‚‚	‚
+‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚
+‚‚‚‚‚
+‚	‚	‚
+‚‚‚
+‚‚
+‚	‚‚‚	‚‚‚‚‚‚‚‚‚	‚
+‚‚‚‚‚‚‚‚‚‚‚
+‚
+‚‚‚‚‚‚‚‚‚	‚‚
+‚‚q‚x‚u‚u‚L‚‚	‚
+‚	‚	‚	‚‚
+‚	‚‚
+‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚	‚	‚‚
+‚‚‚‚‚‚
+‚‚‚‚
+‚‚‚
+‚‚	‚‚	‚‚	‚‚‚‚‚‚	‚	‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚	‚	‚‚
+‚‚
+‚‚‚
+‚
+‚	‚‚	‚	‚‚‚	‚‚‚‚‚‚
+‚‚
+‚‚	‚‚‚	‚‚‚	‚‚	‚‚‚	‚‚‚‚‚‚	‚‚‚‚‚
+‚
+‚‚‚
+‚	‚‚‚‚	‚‚‚‚	‚‚
+‚
+‚	‚‚
+‚‚‚‚‚‚
+‚	‚‚‚}‚…‚}‚|‚D‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚	‚ ‚	‚‚‚‚‚‚‚	‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚
+‚‚‚	‚‚‚
+‚	‚‚‚‚‚‚
+‚
+‚
+‚‚‚‚
+‚‚‚‚‚‚‚	‚
+‚	‚‚
+‚‚	‚	‚
+‚‚‚	‚	‚‚
+‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚	‚
+‚‚‚‚‚‚
+‚‚‚	‚	‚‚	‚‚‚
+‚	‚‚‚‚
+‚‚
+‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚	‚‚‚‚
+‚	‚‚
+‚‚‚‚‚‚‚
+‚‚
+‚‚‚‚‚
+‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚	‚
+‚‚‚‚t‚~‚“‚Š‚@‚‚‚
+‚‚‚	‚‚‚‚‚	‚‚‚‚‚‚‚‚
+‚‚‚	‚‚‚‚‚
+‚‚‚‚‚‚‚‚	‚‚‚‚
+‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚
+‚‚	‚	‚
+‚‚‚‚	‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚	‚‚‚‚
+‚‚‚
+‚‚‚‚ ‚‚
+‚
+‚‚
+‚‚‚‚‚‚‚‚‚	‚‚‚‚	‚‚‚‚	‚‚‚‚
+‚‚
+‚‚‚‚‚
+‚	‚‚‚‚‚‚	‚‚	‚‚
+‚
+‚‚
+‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚
+‚‚‚
+‚‚‚‚ƒ‚™‚€‚†‚7‚‚‚‚‚‚‚‚	‚‚‚‚‚	‚‚‚
+‚‚‚‚
+‚	‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚	‚‚‚	‚‚
+‚‚‚‚‚‚‚‚	‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚
+‚	‚‚‚	‚‚
+‚‚‚‚
+‚
+‚
+‚‚‚‚
+‚‚‚
+‚‚	‚‚‚‚‚‚‚‚‚
+‚‚‚‚
+‚	‚	‚‚	‚‚‚‚
+‚‚	‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚	‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚
+‚‚‚‚
+‚‚‚‚
+‚	‚‚‚‚‚t‚t‚Ž‚s‚9‚‚‚‚‚‚‚‚
+‚‚	‚‚‚‚
+‚‚‚‚‚‚
+‚
+‚‚
+‚‚	‚‚‚‚‚‚‚‚‚
+‚‚	‚‚‚‚	‚	‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚	‚‚‚
+‚‚‚	‚‚	‚‚‚
+‚‚	‚	‚‚‚	‚‚‚	‚‚‚	‚‚‚‚‚	‚‚
+‚‚
+‚‚‚‚	‚	‚
+‚‚	‚‚
+‚
+‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚
+‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚
+‚‚	‚‚‚‚‚	‚
+‚	‚	‚‚‚ˆ‚|‚„‚v‚>‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚	‚‚
+‚‚
+‚‚‚‚	‚‚‚ ‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚	‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚	‚‚‚‚‚
+‚
+‚‚‚‚‚‚‚‚‚	‚
+‚	‚‚	‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚
+‚‚	‚‚‚
+‚‚‚
+‚‚‚‚‚	‚‚‚‚	‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚
+‚‚‚
+‚‚‚‚‚‚
+‚‚‚‚‚	‚ˆ‚z‚„‚‰‚J‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚	‚‚‚
+‚‚‚‚‚‚‚
+‚‚‚	‚‚
+‚‚‚	‚‚‚‚	‚‚	‚‚‚‚‚‚‚‚‚‚‚
+‚‚	‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚	‚‚	‚‚	‚‚‚‚‚‚‚‚‚‚	‚‚‚‚	‚‚‚‚‚	‚
+‚‚
+‚	‚‚‚
+‚
+‚‚‚
+‚‚
+‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚	‚	‚‚	‚
+‚	‚
+‚‚
+‚‚
+‚	‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚{‚~‚‡‚A‚	‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚	‚‚‚‚‚‚‚‚	‚‚‚‚‚‚	‚‚
+‚‚‚‚	‚‚‚‚‚‚	‚‚‚
+‚‚‚	‚‚	‚	‚	‚‚
+‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚	‚	‚‚‚‚‚‚
+‚‚‚‚‚‚
+‚‚	‚‚‚‚‚
+‚‚‚
+‚‚‚	‚	‚‚‚‚‚‚‚	‚	‚‚‚	‚‚	‚‚‚	‚‚‚‚‚	‚
+‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚	‚‚‚	‚‚
+‚‚‚‚‚‚‚	‚‚	‚‚‚‚‚
+‚‚‚‚‚‚‚‚	‚w‚‰‚ˆ‚‚?‚‚‚‚‚‚‚‚‚‚
+‚‚
+‚‚‚‚‚
+‚‚‚
+‚‚‚	‚‚‚‚	‚‚‚
+‚‚‚‚‚‚‚‚	‚‚‚‚
+‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚	‚‚‚
+‚‚‚‚‚‚‚‚	‚‚	‚‚‚‚‚‚
+‚‚‚‚‚
+‚
+‚	‚‚‚
+‚‚‚‚
+‚‚
+‚‚‚	‚
+‚‚‚‚	‚
+‚	‚	‚
+‚‚‚‚	‚‚‚‚‚	‚	‚‚‚‚‚‚	‚‚‚‚	‚‚
+‚‚‚‚‚	‚‚‚
+‚‚‚‚‚‚
+‚‚‚‚‚	‚‚‚‚‚‚
+‚‚	‚‚‚‚	‚‚‚‚‚‚	‚‚‚
+‚‚‚‚	‚‚‚y‚„‚‚‚n‚=‚‚
+‚
+‚‚‚‚‚	‚	‚‚‚‚
+‚‚‚	‚	‚	‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚	‚‚‚‚
+‚‚‚	‚‚‚‚
+‚‚‚‚‚	‚	‚‚‚
+‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚	‚
+‚‚	‚‚
+‚
+‚‚‚‚‚‚‚‚‚	‚
+‚‚‚‚‚‚‚
+‚‚	‚‚‚‚‚‚‚‚‚
+‚	‚	‚‚‚‚‚‚‚‚	‚
+‚‚
+‚‚‚‚‚‚	‚‚‚	‚‚‚‚‚
+‚‚
+‚‚‚‚	‚‚‚‚‚‚	‚‚	‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚
+‚‚‚‚‚‚	‚‚‚
+‚	‚	‚‚…‚‡‚‘‚‘‚:‚‚	‚‚‚	‚‚‚	‚‚‚‚‚
+‚	‚‚
+‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚	‚‚
+‚‚
+‚‚
+‚	‚
+‚‚
+‚	‚‚	‚‚‚	‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚	‚‚‚‚‚‚	‚
+‚
+‚‚‚‚	‚‚‚
+‚‚‚‚‚‚‚	‚‚
+‚‚‚
+‚‚‚
+‚‚‚‚
+‚	‚	‚‚‚‚‚‚‚‚
+‚	‚‚‚	‚
+‚‚‚‚‚‚‚‚‚‚‚‚	‚
+‚
+‚
+‚‚‚‚‚‚‚‚	‚‚
+‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚	‚‚‚
+‚‚v‚‚t‚‚D‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚
+‚‚
+‚‚
+‚‚‚‚‚‚‚
+‚‚	‚‚
+‚‚‚‚	‚	‚‚	‚‚‚‚‚	‚	‚	‚‚‚	‚‚‚‚
+‚‚‚	‚‚‚
+‚
+‚	‚	‚‚‚‚
+‚	‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚	‚	‚
+‚‚‚‚‚‚‚
+‚	‚	‚
+‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚	‚‚‚
+‚‚‚‚‚‚	‚‚‚‚
+‚‚‚‚‚‚	‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚	‚‚‚z‚}‚t‚k‚G‚‚
+‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚
+‚	‚	‚‚‚‚‚	‚	‚‚‚‚‚‚‚‚‚	‚‚‚	‚‚
+‚	‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚
+‚‚
+‚
+‚‚	‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚
+‚	‚‚‚‚‚‚‚‚‚
+‚‚
+‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚	‚‚‚‚‚‚	‚‚‚‚‚‚	‚‚‚‚‚‚	‚
+‚‚	‚‚‚‚þ‚‚‚	‚‚‚‚‚‚	‚‚‚‚‚‚‚
+‚‚	‚‚‚‚‚‚‚‚‚‚‚	‚
+‚
+‚‚‚
+‚‚‚‚‚‚
+‚‚‚‚{‚|‚x‚€‚?‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚	‚‚‚	‚‚	‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚	‚	‚‚‚‚	‚
+‚
+‚
+‚
+‚‚
+‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚	‚
+‚	‚	‚‚‚‚	‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚	‚
+‚‚‚‚‚‚‚‚‚‚	‚‚‚
+‚‚	‚‚‚{‚„‚v‚|‚9‚
+‚‚‚	‚‚‚‚‚
+‚	‚‚‚‚‚	‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚
+‚‚‚	‚‚‚‚‚‚‚	‚‚‚‚‚	‚‚‚
+‚‚
+‚‚‚‚	‚
+‚	‚‚‚	‚‚	‚‚‚‚
+‚‚‚‚‚‚ ‚	‚
+‚‚
+‚‚‚‚‚‚‚	‚‚‚	‚‚‚‚‚‚‚‚‚‚	‚‚‚‚
+‚‚‚‚‚	‚‚
+‚	‚‚‚
+‚	‚‚‚‚‚	‚
+‚‚‚
+‚	‚‚‚‚
+‚‚‚‚‚‚	‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚
+‚‚‚
+‚‚‚‚‚‚
+‚‚v‚‚‚|‚5‚‚‚‚‚‚‚‚
+‚
+‚‚	‚‚‚	‚‚
+‚‚	‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚	‚‚
+‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚	‚
+‚‚‚‚
+‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚	‚‚‚
+‚‚‚
+‚‚‚‚
+‚	‚	‚‚
+‚‚	‚‚‚‚‚‚‚‚‚
+‚	‚
+‚‚‚
+‚
+‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚
+‚‚
+‚	‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚
+‚‚‚‚‚‚‚‚	‚	‚‚‚‚‚‚‚	‚‚‚‚
+‚‚
+‚‚}‚w‚x‚}‚9‚‚‚‚
+‚‚‚
+‚‚‚‚‚	‚‚‚‚‚‚‚‚	‚‚‚
+‚‚	‚
+‚‚
+‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚
+‚	‚‚‚
+‚‚	‚‚
+‚‚	‚‚	‚‚‚‚‚‚‚‚	‚‚‚
+‚‚‚‚‚
+‚‚ ‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚	‚
+‚‚‚‚‚‚‚‚‚‚
+‚	‚
+‚‚‚	‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚
+‚‚‚	‚‚
+‚‚
+‚‚‚‚‚‚‚‚‚	‚	‚‚‚‚‚‚
+‚‚	‚‚
+‚
+‚‚‚‚
+‚‚
+‚‡‚z‚‚z‚P‚	‚‚‚‚‚‚‚
+‚
+‚‚‚‚	‚‚‚
+‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚
+‚‚‚	‚
+‚	‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚	‚	‚‚	‚‚
+‚‚‚‚‚
+‚‚	‚‚‚ ‚‚	‚	‚‚‚‚‚‚‚	‚
+‚‚‚‚	‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚
+‚
+‚‚‚
+‚	‚
+‚	‚‚‚‚‚‚‚‚‚	‚	‚	‚	‚
+‚‚	‚‚‚‚‚	‚‚‚	‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚	‚‚‚	‚‚	‚‚‚‚‚‚
+‚‚‚‚	‚‚‚
+‚	‚‚‚‡‚ƒ‚‚ƒ‚=‚‚ ‚‚	‚‚‚	‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚	‚‚‚‚‚
+‚	‚‚‚‚‚
+‚
+‚‚‚‚‚‚
+‚	‚	‚‚
+‚	‚	‚‚‚‚‚‚‚‚
+‚‚
+‚	‚‚	‚‚	‚‚‚‚‚
+‚	‚‚‚‚‚‚‚‚‚‚‚ÿ‚‚	‚‚‚‚‚	‚‚‚‚‚‚
+‚
+‚‚‚‚‚‚	‚‚
+‚‚‚‚‚‚	‚
+‚‚‚‚	‚‚
+‚‚‚
+‚‚
+‚‚‚	‚‚‚‚‚
+‚‚‚‚	‚	‚‚‚‚
+‚
+‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚
+‚‚‚‚u‚—‚}‚…‚<‚‚‚‚‚‚‚‚‚‚ ‚
+‚‚‚‚
+‚‚‚‚‚‚‚‚
+‚‚‚‚	‚‚‚‚‚‚‚	‚‚‚‚	‚‚‚
+‚	‚‚‚‚‚‚‚
+‚	‚‚‚‚‚‚‚
+‚‚	‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚
+‚‚‚	‚‚‚‚	‚	‚‚‚‚‚‚‚‚
+‚
+‚
+‚	‚‚‚‚	‚‚‚‚‚‚‚
+‚‚
+‚‚‚‚‚‚
+‚‚‚‚‚‚‚	‚	‚‚‚‚‚‚‚‚‚
+‚	‚
+‚
+‚‚ ‚	‚
+‚‚‚	‚‚‚‚‚‚	‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚
+‚	‚‚‚‚‚‚‚‡‚z‚x‚€‚C‚‚	‚ ‚
+‚‚‚‚	‚‚‚‚
+‚‚‚‚
+‚	‚‚‚	‚‚‚‚
+‚‚	‚‚‚	‚‚‚‚‚	‚‚‚‚‚
+‚‚‚	‚‚‚‚
+‚‚
+‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚	‚‚‚‚‚‚‚
+‚
+‚‚	‚
+‚‚
+‚
+‚	‚‚
+‚‚‚‚‚‚	‚‚‚‚‚‚‚	‚‚	‚‚‚	‚‚‚	‚‚‚‚‚‚‚‚‚‚	‚‚‚‚	‚‚
+‚	‚‚‚‚‚‚‚‚‚	‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚
+‚	‚‚‚	‚‚
+‚ ‚	‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚	‚‚‚‚	‚‚‰‚‰‚w‚u‚G‚‚
+‚‚‚‚‚
+‚	‚‚‚‚
+‚‚
+‚	‚‚‚‚‚‚‚‚	‚‚	‚
+‚‚	‚‚	‚‚	‚‚‚‚‚‚	‚	‚‚
+‚‚‚
+‚
+‚‚‚
+‚‚‚‚‚‚‚‚‚
+‚
+‚‚	‚
+‚‚‚‚‚‚‚‚
+‚‚	‚‚‚‚
+‚‚‚‚‚‚
+‚
+‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚	‚‚‚‚
+‚‚‚	‚‚‚‚‚‚‚	‚‚‚	‚‚	‚‚	‚‚‚
+‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚	‚‚‚‚	‚‚‚‚‚‚‚‚	‚‚‚	‚‚‚‚‚	‚	‚‚‚‚‚‚	‚‚‚‚‚‚‚‚
+‚‚‚w‚Ž‚ˆ‚|‚8‚‚‚‚‚‚‚‚‚	‚‚‚‚	‚‚‚‚
+‚‚‚‚‚‚‚
+‚
+‚‚
+‚‚‚‚‚‚‚‚‚‚‚
+‚‚
+‚‚
+‚‚‚
+‚‚‚‚‚‚	‚‚
+‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚	‚	‚‚‚‚‚
+‚‚‚‚‚‚‚‚
+‚‚‚‚	‚‚
+‚‚‚
+‚‚‚
+‚‚‚
+‚‚‚	‚	‚‚‚‚
+‚‚‚‚‚
+‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚	‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚
+‚
+‚‚‚	‚‚‚‚
+‚‚	‚‚	‚‚q‚‚}‚y‚H‚‚‚‚‚‚	‚‚‚‚‚‚	‚‚‚
+‚‚‚‚‚‚‚‚
+‚‚‚‚
+‚‚‚	‚‚‚‚‚‚‚‚	‚‚‚	‚‚	‚‚
+‚‚‚‚
+‚‚	‚
+‚‚‚	‚‚‚‚
+‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚	‚‚	‚	‚‚
+‚‚‚
+‚‚	‚‚‚	‚‚‚‚‚‚‚‚‚ ‚‚‚
+‚	‚‚‚‚‚‚‚‚	‚	‚‚‚
+‚‚‚‚‚‚‚‚
+‚‚‚‚‚
+‚
+‚
+‚‚‚‚‚‚‚	‚‚
+‚‚‚
+‚	‚
+‚‚‚	‚‚‚‚‚
+‚	‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚
+‚‚‚‚
+‚‚
+‚‚‚‚‚‚~‚‘‚„‚ƒ‚@‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚	‚	‚‚‚‚‚‚‚‚‚‚‚‚‚	‚
+‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚
+‚
+‚‚‚
+‚‚
+‚‚	‚‚‚
+‚‚‚‚‚‚
+‚‚‚‚‚
+‚‚	‚	‚‚‚
+‚	‚‚
+‚‚‚	‚‚‚‚‚‚
+‚‚‚
+‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚
+‚‚‚‚‚‚	‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚	‚‚‚
+‚	‚‚	‚‚	‚‚‚
+‚‚‚‚
+‚‚‚‚‚
+‚‚‚‚
+‚
+‚‚Š‚€‚€‚D‚‚‚‚‚	‚‚
+‚	‚
+‚
+‚‚	‚‚‚‚‚‚‚‚
+‚	‚‚ ‚‚‚‚‚‚‚‚
+‚‚‚‚	‚
+‚‚‚‚	‚‚
+‚‚‚
+‚
+‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚
+‚‚‚	‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚	‚‚
+‚‚‚‚‚‚	‚‚‚‚‚‚
+‚‚‚‚
+‚‚‚‚‚	‚‚‚‚‚‚‚
+‚‚‚	‚	‚‚	‚‚‚‚‚‚‚
+‚‚‚
+‚‚‚‚	‚‚‚‚‚
+‚‚	‚‚	‚‚‚	‚	‚‚‚
+‚	‚‚‚	‚‚‚‚
+‚	‚
+‚‚
+‚€‚{‚„‚€‚B‚‚‚‚‚‚‚‚
+‚‚‚	‚‚‚‚‚
+‚‚‚	‚‚‚‚‚
+‚‚‚
+‚‚
+‚‚‚	‚
+‚‚‚	‚‚‚‚‚
+‚‚
+‚‚‚
+‚‚‚‚‚‚‚‚
+‚	‚‚‚‚‚‚‚	‚‚‚‚ ‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚
+‚‚‚‚
+‚	‚	‚
+‚‚‚‚‚‚	‚‚	‚‚‚‚‚‚	‚
+‚‚‚	‚‚‚	‚	‚‚‚
+‚
+‚‚‚‚	‚‚‚‚‚‚‚‚	‚‚‚
+‚‚‚	‚	‚
+‚‚‚‚‚
+‚	‚‚	‚‚	‚‚
+‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚
+‚‚‚‚‚‚‚‚‚
+‚	‚”‚ƒ‚…‚}‚<‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚	‚‚‚
+‚	‚	‚‚‚‚
+‚	‚‚‚‚‚‚‚
+‚
+‚‚‚‚	‚‚‚‚‚‚	‚‚‚‚‚
+‚‚‚‚‚‚‚‚	‚‚
+‚
+‚	‚‚	‚‚
+‚‚‚
+‚‚‚ ‚‚	‚‚‚‚‚‚‚
+‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚	‚‚‚	‚‚	‚
+‚	‚‚
+‚‚	‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚
+‚
+‚‚‚‚‚‚‚‚
+‚‚	‚‚‚‚‚
+‚‚
+‚
+‚
+‚‚‚‚z‚‚H‚‚‚‚‚	‚‚‚	‚‚‚‚
+‚‚	‚‚‚‚‚‚‚	‚‚‚‚
+‚‚‚‚‚
+‚‚	‚‚‚‚‚‚‚‚‚	‚‚‚	‚‚
+‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚	‚‚	‚‚	‚‚‚
+‚‚
+‚
+‚
+‚‚
+‚‚‚‚	‚‚‚‚‚‚‚	‚‚
+‚‚‚‚‚‚‚	‚‚‚
+‚‚‚‚
+‚‚‚
+‚‚‚‚‚‚‚
+‚
+‚‚‚	‚‚‚‚‚‚	‚‚‚‚‚‚	‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚	‚‚‚‚ ‚‚	‚‚‚‚‚‚‚
+‚‚‚
+‚‚	‚‚‚‚‚‚‚‚‚‚‚	‚…‚Š‚Š‚}‚B‚‚‚
+‚‚‚
+‚‚‚‚	‚‚‚‚‚
+‚‚
+‚‚‚‚‚‚‚‚‚þ‚‚
+‚‚‚‚‚
+‚	‚‚‚‚‚‚	‚‚‚
+‚‚‚	‚‚‚	‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚ÿ‚‚‚‚‚‚
+‚‚	‚‚‚‚	‚‚‚‚‚‚‚‚	‚‚‚	‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚	‚‚
+‚	‚‚‚‚‚‚‚‚	‚‚‚	‚‚
+‚
+‚‚‚‚‚	‚	‚	‚‚‚
+‚
+‚
+‚‚‚‚‚‚	‚‚‚‚‚‚‚	‚‚
+‚‚‚‚	‚	‚~‚Š‚‚‚7‚‚‚‚‚‚‚‚‚	‚‚
+‚	‚	‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚
+‚‚‚	‚‚‚‚‚‚
+‚‚‚‚
+‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚
+‚‚
+‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚	‚
+‚‚‚‚‚
+‚‚‚‚‚	‚	‚‚‚‚
+‚‚‚‚‚‚
+‚‚‚‚	‚‚‚‚‚‚‚‚‚
+‚‚
+‚‚
+‚‚‚‚	‚‚‚‚
+‚‚‚
+‚
+‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚v‚’‚x‚‚;‚‚‚‚‚‚	‚‚‚‚‚
+‚‚	‚‚	‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚ ‚	‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚	‚‚‚‚	‚‚‚‚‚‚‚	‚
+‚‚‚‚‚‚‚‚‚	‚‚
+‚‚‚‚‚	‚‚‚‚‚‚‚
+‚‚‚‚‚
+‚
+‚	‚‚
+‚‚‚‚	‚‚	‚
+‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚	‚
+‚
+‚‚	‚‚‚‚‚‚
+‚‚‚‚	‚‚‚‚‚‚	‚	‚‚‚	‚‚‚‚‚	‚	‚‚
+‚
+‚‚‚	‚
+‚‚‚
+‚	‚‚
+‚
+‚‚‚‚‚	‚
+‚	‚
+‚	‚‚‚‚‚‚‚‚ƒ‚x‚‡‚ƒ‚<‚‚	‚‚‚	‚‚	‚‚‚‚‚‚‚‚‚
+‚	‚‚	‚‚‚	‚‚‚‚‚‚‚‚‚	‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚	‚‚‚‚‚‚‚‚
+‚‚	‚‚‚	‚‚‚‚‚‚
+‚‚‚	‚‚‚‚	‚‚‚‚‚	‚‚‚‚‚‚‚‚‚	‚‚
+‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚
+‚‚‚‚	‚‚	‚‚	‚	‚‚‚
+‚‚‚
+‚‚‚‚‚‚	‚‚
+‚‚‚‚‚‚‚‚	‚‚
+‚‚	‚‚‚‚	‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚|‚~‚Š‚|‚>‚‚
+‚‚
+‚	‚‚‚‚‚
+‚‚‚‚‚‚
+‚‚‚‚	‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚
+‚	‚
+‚	‚
+‚
+‚‚	‚
+‚‚
+‚
+‚‚‚‚‚‚‚‚‚	‚‚‚‚‚	‚‚‚
+‚‚‚	‚‚	‚‚	‚	‚
+‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚
+‚‚	‚‚‚‚‚‚	‚
+‚‚‚‚‚
+‚‚
+‚
+‚‚	‚‚‚‚‚	‚‚
+‚‚‚‚
+‚‚‚‚	‚‚
+‚‚‚‚‚‚‚	‚	‚‚‚
+‚	‚
+‚‚‚	‚‚‚	‚
+‚	‚‚‚‚‚‚
+‚‚‚‚‚‚‚
+‚
+‚‚‚	‚‚‚‚
+‚	‚‚‚‚‚‚
+‚‚‚‚‚|‚ƒ‚Œ‚C‚‚‚‚	‚	‚‚‚‚
+‚‚‚‚‚	‚‚‚
+‚‚‚‚‚‚	‚‚‚‚‚‚	‚‚	‚	‚‚‚
+‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚	‚‚	‚
+‚
+‚‚‚‚	‚‚‚‚
+‚‚
+‚‚‚‚	‚	‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚	‚‚
+‚	‚‚‚‚‚	‚	‚‚	‚‚‚‚‚	‚‚	‚‚	‚
+‚
+‚‚‚‚
+‚‚
+‚‚‚
+‚‚‚‚‚‚	‚	‚	‚‚‚	‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚	‚‚‚‚‚‚‚‚‚
+‚‚‚	‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚
+‚z‚‚‡‚~‚<‚‚‚‚‚
+‚ ‚‚
+‚
+‚‚	‚‚‚‚‚‚‚‚
+‚‚‚‚
+‚‚
+‚‚	‚‚
+‚‚‚‚‚	‚‚	‚‚‚‚‚
+‚‚‚‚‚	‚‚‚
+‚	‚‚	‚‚‚‚‚	‚‚‚	‚‚‚	‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚
+‚‚
+‚‚
+‚‚‚‚‚‚‚‚
+‚
+‚‚‚
+‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚	‚
+‚‚
+‚‚‚‚
+‚‚	‚‚‚‚‚‚‚‚‚	‚‚	‚‚‚
+‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚q‚u‚{‚†‚A‚‚
+‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚
+‚‚‚‚‚‚	‚‚‚
+‚‚
+‚
+‚‚‚‚‚‚‚	‚‚‚‚‚‚
+‚	‚‚
+‚	ÿ‚
+‚‚‚‚‚‚‚‚‚‚	‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚
+‚
+‚‚
+‚	‚	‚	‚‚‚‚	‚
+‚‚	‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚	‚‚‚‚	‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚
+‚
+‚‚‚
+‚‚‚‚‚
+‚‚‚‚‚	‚‚	‚Ž‚‚‚‡‚x‚@‚	‚	‚‚‚‚‚‚	‚‚
+‚‚	‚‚‚‚‚	‚‚ ‚‚‚‚	‚‚‚‚‚
+‚
+‚‚‚‚‚‚‚‚ ‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚	‚
+‚	‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚	‚	‚	‚‚
+‚‚‚‚‚‚‚‚‚‚
+‚‚
+‚‚‚	‚
+‚‚‚‚‚‚
+‚‚‚
+‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚
+‚
+‚	‚
+‚‚	‚‚‚
+‚‚‚
+‚‚	‚	‚‚‚‚‚	‚‚‚‚
+‚‚‚‚	‚
+‚‚‚‚
+‚‚‚	‚‚‚‚
+‚
+‚‚‚‚
+‚‚‚‚‚‚t‚E‚‚‚‚	‚‚‚‚‚‚	‚
+‚‚‚
+‚‚‚
+‚‚‚‚
+‚‚‚	‚‚‚‚‚‚‚‚‚‚‚
+‚	‚‚‚
+‚‚‚‚‚	‚
+‚‚‚‚‚‚‚	‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚	‚
+‚‚‚‚‚‚
+‚‚	‚‚‚‚‚	‚‚‚	‚	‚‚‚‚‚‚‚‚‚‚	‚‚	‚‚	‚‚‚	‚‚‚‚‚	‚‚‚	‚‚‚
+‚‚‚‚‚‚‚	‚‚‚	‚‚‚‚	‚	‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚ý‚ƒ‚Œ‚…‚}‚?‚‚‚‚‚	ÿ‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚	‚
+‚‚	‚‚‚	‚‚‚‚
+‚‚	‚‚‚	‚
+‚
+‚‚‚‚‚‚‚‚‚‚
+‚‚	‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚	‚‚‚‚‚‚‚‚‚	‚	‚‚‚‚‚‚‚‚	‚‚‚	‚‚	‚‚‚‚‚
+‚‚	‚‚‚‚
+‚	‚
+‚‚‚‚‚
+‚‚‚‚	‚
+‚‚
+‚‚‚‚
+‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚	‚‚‚‚	‚‚	‚
+‚	‚
+‚	‚
+‚‚
+‚‚‚‚‚‚‚‚‚‚
+‚‚‚
+‚‚‚
+‚‚‚‚	‚z‚‚‚}‚}‚9‚‚‚‚‚	‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚	‚‚‚‚
+‚
+‚‚‚‚
+‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚
+‚	‚‚‚‚‚
+‚
+‚‚	‚‚‚‚‚‚‚	‚	‚‚‚‚
+‚‚‚‚‚‚	‚
+‚‚‚‚	‚
+‚‚
+‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚	‚
+‚‚‚	‚	‚‚
+‚‚‚‚‚
+‚‚‚
+‚‚	‚‚‚‚	‚
+‚‚
+‚‚	‚‚‚‚‚‚‚‚‚	‚
+‚‚
+‚|‚~‚‚s‚?‚‚‚‚	‚ ‚‚‚	‚‚‚	‚‚‚
+‚	‚
+‚
+‚
+‚‚‚‚
+‚‚
+‚‚‚‚
+‚‚‚‚‚
+‚‚‚‚‚
+‚‚
+‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚	‚	‚‚‚‚	‚‚‚‚‚‚‚‚‚‚
+‚	‚‚‚‚	‚‚	‚‚	‚‚‚‚	‚‚‚‚‚‚‚‚
+‚
+‚‚‚
+‚‚‚‚‚	‚‚	‚‚	‚ ‚‚	‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚	‚‚	‚‚‚	‚‚‚
+‚‚‚‚	‚
+‚‚
+‚‚‚	‚‚‚
+‚‚‚	‚
+‚‚‚
+‚	‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚
+‚‚	‚‚	‚‚‚‚‚‚‚€‚Š‚F‚
+‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚
+‚‚
+‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚
+‚‚‚‚‚	‚‚‚‚‚‚
+‚‚‚
+‚‚‚‚‚
+‚	‚‚‚‚ÿ‚	‚	‚‚‚‚
+‚‚
+‚‚
+‚‚‚‚
+‚‚‚
+‚	‚
+‚‚
+‚
+‚‚‚‚‚	‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚	‚‚‚‚	‚‚‚‚
+‚‚
+‚
+‚‚	‚‚‚‚	‚‚‚‚
+‚‚‚‚‚‚‚‚	‚	‚‚‚‚‚‚‚‚‚‚	‚‚
+‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚
+‚‚‚‚„‚€‚ƒ‚{‚@‚
+‚‚	‚‚	‚‚‚‚‚‚
+‚‚	‚‚‚‚
+‚‚
+‚‚‚‚‚
+‚‚
+‚‚	‚‚‚	‚‚‚
+‚‚‚	‚
+‚‚	‚‚	‚‚‚
+‚‚	‚	‚
+‚‚
+‚‚‚‚‚‚‚	‚‚‚
+‚
+‚
+‚‚‚‚‚‚	‚‚‚‚‚	‚‚‚‚	‚‚‚‚‚‚	‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚	‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚
+‚‚‚‚
+‚‚‚‚‚	‚‚
+‚‚	‚‚‚‚‚‚‚‚
+‚‚‚‚
+‚‚‚‚
+‚‚	‚‚‚‚
+‚
+‚‚‚‚‚‚
+‚
+‚	‚þ‚	‚‚‚	‚‚‚
+‚‚‚‚‚
+‚‚‚‚‚€‚‰‚~‚†‚D‚‚
+‚‚‚‚‚‚‚‚‚‚	‚‚‚	‚‚‚‚	‚‚‚	‚	‚‚‚‚	‚‚	‚‚‚	‚‚‚
+‚‚‚‚‚	‚	‚
+‚‚‚‚‚‚‚	‚‚
+‚	‚‚	‚‚‚‚‚‚‚‚‚
+‚‚‚
+‚‚
+‚‚
+‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚
+‚
+‚	‚‚‚‚‚‚‚‚
+‚‚	‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚	‚‚‚	‚‚‚‚
+‚‚‚	‚‚	‚‚‚‚‚‚‚‚‚‚ ‚‚‚
+‚
+‚‚‚‚‚	‚
+‚‚‚‚
+‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚
+‚‚‚‚ˆ‚ˆ‚u‚>‚‚	‚	‚	‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚	‚
+‚	‚‚‚
+‚‚‚‚‚‚‚‚
+‚‚‚
+‚‚‚
+‚‚
+‚‚‚‚‚‚‚	‚	‚‚‚	‚‚	‚
+‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚	‚‚‚‚‚‚
+‚‚
+‚‚‚	‚‚
+‚‚‚‚‚‚‚‚‚	‚‚‚	‚‚‚‚‚‚‚‚‚‚‚	‚‚
+‚‚‚‚‚‚‚‚	‚‚‚‚‚	‚	‚‚‚‚‚	‚
+‚‚	‚‚‚‚‚	‚‚	‚
+‚‚
+‚‚	‚
+‚‚‚‚	‚‚‚‚	‚‚‚
+‚‚‚‚‚	‚‚‚‚‚‚
+‚
+‚‚‚‚
+‚‚‚~‚€‚{‚x‚B‚‚‚‚‚‚	‚‚‚‚‚	‚	‚
+‚‚	‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚
+‚
+‚‚‚‚‚‚	‚‚‚‚	‚	‚‚‚‚‚‚‚‚‚
+‚	‚‚	‚
+‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚	‚‚‚
+‚‚‚‚	‚‚‚‚‚
+‚	‚‚‚	‚	‚‚‚‚	‚	‚‚‚‚‚‚‚
+‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚ ‚‚‚	‚‚	‚‚‚‚‚‚
+‚‚‚‚	‚
+‚	‚‚‚‚‚‚|‚ƒ‚–‚{‚8‚‚
+‚	‚ ‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚	‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚	‚	‚‚‚‚‚‚‚‚‚	‚	‚‚‚
+‚‚	‚‚	‚‚‚‚‚‚‚‚‚‚‚‚	‚	‚	‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚
+‚‚
+‚
+‚	‚‚	‚‚‚‚‚‚‚‚	‚‚‚‚‚
+‚
+‚‚‚‚‚‚	‚‚‚
+‚‚‚‚‚
+‚‚‚‚‚‚‚
+‚‚
+‚‚‚	‚‚‚‚‚‚
+‚‚‚	‚	‚	‚
+‚	‚‚‚‚‚‚	‚‚‚‚‚	‚	‚‚‚‚
+‚‚‚‚‚
+‚‚‚‚‚‚‚‚z‚‚‚x‚}‚:‚‚‚	‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚
+‚
+‚‚‚‚
+‚‚	‚	‚‚‚‚‚	‚‚‚‚	‚‚‚
+‚‚‚‚‚
+‚‚‚
+þ‚‚‚	‚ÿ‚‚‚‚‚‚	‚	‚‚‚‚
+‚‚	‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚
+‚‚‚
+‚	‚‚	‚‚‚‚‚	‚‚‚‚‚	‚
+‚‚‚
+‚‚‚	‚‚‚‚‚‚‚‚
+‚‚	‚‚‚‚‚‚‚‚	‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚	‚‚‚
+‚‚‚‚‚
+‚‚	‚
+‚‚‚	‚‚
+‚‚‚þ‚	‚	‚
+‚‚
+‚‚‚‚‚	‚
+‚‚	‚„‚ƒ‚~‚{‚A‚‚‚‚‚‚‚‚‚‚‚‚	‚	‚	‚	‚‚‚‚‚‚‚	‚‚‚‚‚‚
+‚‚‚‚‚‚‚ ‚‚‚	‚‚	‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚	‚
+‚‚
+‚‚‚‚‚	‚
+‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚	‚‚‚
+‚	‚‚	‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚
+‚‚	‚	‚‚‚‚
+‚
+‚‚
+‚‚‚‚‚‚‚‚‚	‚‚‚‚‚
+‚‚‚‚‚
+‚‚‚‚	‚
+‚
+‚‚‚‚
+‚
+‚‚	‚‚‚‚
+‚‚‚‚‚‚	‚
+‚	‚‚‚‚
+‚‚‚‚‚‚
+‚ˆ‚t‚†‚Š‚A‚‚	‚‚‚‚	‚
+‚‚	‚‚‚‚‚‚‚	‚‚‚‚‚	‚‚‚‚‚‚‚‚‚	‚‚‚	‚
+‚
+ÿ‚‚‚‚
+‚
+‚	‚‚	‚‚
+‚‚‚
+‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚
+‚‚‚‚‚‚
+‚	‚‚‚
+‚‚‚‚‚‚‚‚
+‚‚
+‚‚	‚‚‚‚‚	‚‚	‚‚‚‚‚‚‚	‚	‚
+‚‚‚‚
+‚‚‚	‚	‚‚	‚‚‚‚‚‚‚‚	‚‚‚‚‚‚
+‚‚
+‚‚‚‚‚‚	‚‚
+‚‚‚‚‚
+‚
+‚‚‚	‚w‚‚~‚}‚C‚‚‚	‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚	‚‚‚‚‚‚	‚‚‚‚‚‚‚	‚‚‚
+‚‚‚‚‚
+‚‚
+‚‚‚‚‚
+‚‚‚‚‚‚
+‚‚	‚‚‚‚
+‚‚‚	‚‚‚‚‚‚	‚
+‚	‚‚	‚	‚
+‚‚‚‚‚	‚‚
+‚
+‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚	‚‚
+‚
+‚‚
+‚‚‚‚‚‚‚‚‚‚‚
+‚
+‚
+‚
+‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚	‚‚‚‚	‚	‚‚	‚‚	‚‚‚‚‚‡‚~‚~‚x‚?‚	‚‚‚‚‚‚	‚‚‚	‚‚‚‚‚‚‚‚‚‚‚	‚
+‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚	‚‚‚‚‚
+‚‚	‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚
+‚‚‚‚
+‚‚‚	‚
+‚‚	‚‚‚‚‚‚‚‚
+‚	‚
+‚‚‚‚‚	‚‚‚‚
+‚‚‚	‚‚‚‚	‚‚
+‚‚‚
+‚‚‚‚‚‚‚‚	‚‚‚‚‚	‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚	‚‚
+‚‚‚‚‚‚‚‚‚	‚
+‚‚‚‚‚‚
+‚‚	‚ ‚‚‚	‚	‚‚‚‚‚‚‚‚Š‚‚”‚k‚;‚‚
+‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚	‚‚
+‚ ‚‚	‚‚‚‚‚	‚	‚‚‚‚‚‚‚‚‚‚
+‚	‚‚‚‚‚‚‚‚	‚
+‚	‚	‚‚‚‚‚‚
+‚	‚‚‚‚‚‚‚‚	‚	‚ ‚
+‚‚
+‚‚‚‚‚‚‚
+‚‚‚	‚‚
+‚‚‚‚‚‚‚‚
+‚
+‚‚	‚‚‚	‚‚‚‚
+‚‚‚	‚	‚‚‚‚‚‚‚‚‚‚‚‚‚
+‚‚‚‚‚‚‚‚‚
+‚
+‚‚	‚‚‚	‚
+‚
+‚‚‚
+‚‚‚‚‚‚‚	‚‚‚
+‚‚‚‚‚‚‚
+‚‚‚	‚
+‚‚‚‚‚‚‚‚‚Š‚w‚‡‚d‚:‚‚	‚
+‚‚‚‚‚
+‚‚‚	‚‚‚‚‚‚‚	‚‚‚‚‚‚‚‚	‚‚‚‚‚
+‚‚‚‚‚‚‚‚	‚
+‚‚‚‚‚	‚‚
+‚‚‚‚	‚‚‚‚‚‚
+‚‚‚‚
+‚‚
+‚‚‚‚
+‚‚
+‚‚	‚‚
+‚‚‚‚
+‚‚‚	‚
+‚‚‚
+‚‚	‚‚‚	‚‚‚‚‚‚‚
+‚‚‚
+‚‚‚‚‚‚‚‚‚‚	‚‚
+‚‚‚‚	‚	‚‚
+‚	‚‚	‚	‚‚‚‚
+‚‚‚‚‚‚‚‚‚‚‚	‚‚‚‚‚‚
+‚‚‚
+‚	‚
+‚‚	‚‚
+‚‚‚	‚‚‚	‚
+‚	‚‚‚	‚‚‚
+‚	‚‚‚‚‚‚
+‚‚	‚ª‚µ                                                                                                                                                                                                                

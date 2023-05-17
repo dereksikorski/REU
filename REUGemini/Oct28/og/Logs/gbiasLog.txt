@@ -1,0 +1,282 @@
+----------------------------------------------------------------------------
+GBIAS -- Wed Jul 20 20:26:43 EDT 2022
+
+Input images:
+  N20211028S0073.fits
+  N20211028S0074.fits
+  N20211028S0075.fits
+  N20211028S0076.fits
+  N20211028S0077.fits
+
+Output bias image: MCbias.fits
+ 
+----------------------------------------------------------------------------
+GIREDUCE -- Wed Jul 20 20:26:43 EDT 2022
+
+
+Input files:
+N20211028S0073
+N20211028S0074
+N20211028S0075
+N20211028S0076
+N20211028S0077
+
+Output files:
+tmpfile3839dhdN20211028S0073
+tmpfile3839dhdN20211028S0074
+tmpfile3839dhdN20211028S0075
+tmpfile3839dhdN20211028S0076
+tmpfile3839dhdN20211028S0077
+
+GIREDUCE: Image tmpfile3839dhdN20211028S0073 overscan subtracted
+GIREDUCE: Image tmpfile3839dhdN20211028S0074 overscan subtracted
+GIREDUCE: Image tmpfile3839dhdN20211028S0075 overscan subtracted
+GIREDUCE: Image tmpfile3839dhdN20211028S0076 overscan subtracted
+GIREDUCE: Image tmpfile3839dhdN20211028S0077 overscan subtracted
+GIREDUCE: Image tmpfile3839dhdN20211028S0073 trimmed
+GIREDUCE: Image tmpfile3839dhdN20211028S0074 trimmed
+GIREDUCE: Image tmpfile3839dhdN20211028S0075 trimmed
+GIREDUCE: Image tmpfile3839dhdN20211028S0076 trimmed
+GIREDUCE: Image tmpfile3839dhdN20211028S0077 trimmed
+
+
+GIREDUCE - Cleaning up -- Wed Jul 20 20:28:19 EDT 2022
+
+GIREDUCE -- Wed Jul 20 20:28:19 EDT 2022
+GIREDUCE exit status:  good.
+----------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+GEMCOMBINE -- Wed Jul 20 20:28:19 EDT 2022
+ 
+GEMCOMBINE: input = @tmpcombin3839ahd
+GEMCOMBINE: output = MCbias.fits
+GEMCOMBINE: title = Bias
+GEMCOMBINE: bpmfile = 
+GEMCOMBINE: sci_ext = SCI
+GEMCOMBINE: var_ext = VAR
+GEMCOMBINE: dq_ext = DQ
+ 
+WARNING - GEMCOMBINE: five or less images to combine.
+
+Jul 20 20:28: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 1
+  lsigma = 3., hsigma = 3.
+  blank = 0.
+  statsec = Jul 20 20:28
+                Images 
+  tmpfile3839dhdN20211028S0073.fits[SCI,1]
+  tmpfile3839dhdN20211028S0074.fits[SCI,1]
+  tmpfile3839dhdN20211028S0075.fits[SCI,1]
+  tmpfile3839dhdN20211028S0076.fits[SCI,1]
+  tmpfile3839dhdN20211028S0077.fits[SCI,1]
+
+  Output image = tmpcombout3839kkd, ncombine = 5
+  Number rejected mask = tmpcombdq3839lkd.pl
+  Sigma image = tmpcombsig3839mkd
+WARNING - GEMCOMBINE: five or less images to combine.
+
+Jul 20 20:28: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 1
+  lsigma = 3., hsigma = 3.
+  blank = 0.
+  statsec = Jul 20 20:28
+                Images 
+  tmpfile3839dhdN20211028S0073.fits[SCI,2]
+  tmpfile3839dhdN20211028S0074.fits[SCI,2]
+  tmpfile3839dhdN20211028S0075.fits[SCI,2]
+  tmpfile3839dhdN20211028S0076.fits[SCI,2]
+  tmpfile3839dhdN20211028S0077.fits[SCI,2]
+
+  Output image = tmpcombout3839tkd, ncombine = 5
+  Number rejected mask = tmpcombdq3839ukd.pl
+  Sigma image = tmpcombsig3839vkd
+WARNING - GEMCOMBINE: five or less images to combine.
+
+Jul 20 20:28: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 1
+  lsigma = 3., hsigma = 3.
+  blank = 0.
+  statsec = Jul 20 20:28
+                Images 
+  tmpfile3839dhdN20211028S0073.fits[SCI,3]
+  tmpfile3839dhdN20211028S0074.fits[SCI,3]
+  tmpfile3839dhdN20211028S0075.fits[SCI,3]
+  tmpfile3839dhdN20211028S0076.fits[SCI,3]
+  tmpfile3839dhdN20211028S0077.fits[SCI,3]
+
+  Output image = tmpcombout3839xkd, ncombine = 5
+  Number rejected mask = tmpcombdq3839ykd.pl
+  Sigma image = tmpcombsig3839zkd
+WARNING - GEMCOMBINE: five or less images to combine.
+
+Jul 20 20:28: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 1
+  lsigma = 3., hsigma = 3.
+  blank = 0.
+  statsec = Jul 20 20:28
+                Images 
+  tmpfile3839dhdN20211028S0073.fits[SCI,4]
+  tmpfile3839dhdN20211028S0074.fits[SCI,4]
+  tmpfile3839dhdN20211028S0075.fits[SCI,4]
+  tmpfile3839dhdN20211028S0076.fits[SCI,4]
+  tmpfile3839dhdN20211028S0077.fits[SCI,4]
+
+  Output image = tmpcombout3839bld, ncombine = 5
+  Number rejected mask = tmpcombdq3839cld.pl
+  Sigma image = tmpcombsig3839dld
+WARNING - GEMCOMBINE: five or less images to combine.
+
+Jul 20 20:28: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 1
+  lsigma = 3., hsigma = 3.
+  blank = 0.
+  statsec = Jul 20 20:28
+                Images 
+  tmpfile3839dhdN20211028S0073.fits[SCI,5]
+  tmpfile3839dhdN20211028S0074.fits[SCI,5]
+  tmpfile3839dhdN20211028S0075.fits[SCI,5]
+  tmpfile3839dhdN20211028S0076.fits[SCI,5]
+  tmpfile3839dhdN20211028S0077.fits[SCI,5]
+
+  Output image = tmpcombout3839fld, ncombine = 5
+  Number rejected mask = tmpcombdq3839gld.pl
+  Sigma image = tmpcombsig3839hld
+WARNING - GEMCOMBINE: five or less images to combine.
+
+Jul 20 20:28: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 1
+  lsigma = 3., hsigma = 3.
+  blank = 0.
+  statsec = Jul 20 20:28
+                Images 
+  tmpfile3839dhdN20211028S0073.fits[SCI,6]
+  tmpfile3839dhdN20211028S0074.fits[SCI,6]
+  tmpfile3839dhdN20211028S0075.fits[SCI,6]
+  tmpfile3839dhdN20211028S0076.fits[SCI,6]
+  tmpfile3839dhdN20211028S0077.fits[SCI,6]
+
+  Output image = tmpcombout3839jld, ncombine = 5
+  Number rejected mask = tmpcombdq3839kld.pl
+  Sigma image = tmpcombsig3839lld
+WARNING - GEMCOMBINE: five or less images to combine.
+
+Jul 20 20:28: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 1
+  lsigma = 3., hsigma = 3.
+  blank = 0.
+  statsec = Jul 20 20:28
+                Images 
+  tmpfile3839dhdN20211028S0073.fits[SCI,7]
+  tmpfile3839dhdN20211028S0074.fits[SCI,7]
+  tmpfile3839dhdN20211028S0075.fits[SCI,7]
+  tmpfile3839dhdN20211028S0076.fits[SCI,7]
+  tmpfile3839dhdN20211028S0077.fits[SCI,7]
+
+  Output image = tmpcombout3839nld, ncombine = 5
+  Number rejected mask = tmpcombdq3839old.pl
+  Sigma image = tmpcombsig3839pld
+WARNING - GEMCOMBINE: five or less images to combine.
+
+Jul 20 20:28: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 1
+  lsigma = 3., hsigma = 3.
+  blank = 0.
+  statsec = Jul 20 20:28
+                Images 
+  tmpfile3839dhdN20211028S0073.fits[SCI,8]
+  tmpfile3839dhdN20211028S0074.fits[SCI,8]
+  tmpfile3839dhdN20211028S0075.fits[SCI,8]
+  tmpfile3839dhdN20211028S0076.fits[SCI,8]
+  tmpfile3839dhdN20211028S0077.fits[SCI,8]
+
+  Output image = tmpcombout3839rld, ncombine = 5
+  Number rejected mask = tmpcombdq3839sld.pl
+  Sigma image = tmpcombsig3839tld
+WARNING - GEMCOMBINE: five or less images to combine.
+
+Jul 20 20:28: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 1
+  lsigma = 3., hsigma = 3.
+  blank = 0.
+  statsec = Jul 20 20:28
+                Images 
+  tmpfile3839dhdN20211028S0073.fits[SCI,9]
+  tmpfile3839dhdN20211028S0074.fits[SCI,9]
+  tmpfile3839dhdN20211028S0075.fits[SCI,9]
+  tmpfile3839dhdN20211028S0076.fits[SCI,9]
+  tmpfile3839dhdN20211028S0077.fits[SCI,9]
+
+  Output image = tmpcombout3839vld, ncombine = 5
+  Number rejected mask = tmpcombdq3839wld.pl
+  Sigma image = tmpcombsig3839xld
+WARNING - GEMCOMBINE: five or less images to combine.
+
+Jul 20 20:28: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 1
+  lsigma = 3., hsigma = 3.
+  blank = 0.
+  statsec = Jul 20 20:28
+                Images 
+  tmpfile3839dhdN20211028S0073.fits[SCI,10]
+  tmpfile3839dhdN20211028S0074.fits[SCI,10]
+  tmpfile3839dhdN20211028S0075.fits[SCI,10]
+  tmpfile3839dhdN20211028S0076.fits[SCI,10]
+  tmpfile3839dhdN20211028S0077.fits[SCI,10]
+
+  Output image = tmpcombout3839zld, ncombine = 5
+  Number rejected mask = tmpcombdq3839amd.pl
+  Sigma image = tmpcombsig3839bmd
+WARNING - GEMCOMBINE: five or less images to combine.
+
+Jul 20 20:28: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 1
+  lsigma = 3., hsigma = 3.
+  blank = 0.
+  statsec = Jul 20 20:28
+                Images 
+  tmpfile3839dhdN20211028S0073.fits[SCI,11]
+  tmpfile3839dhdN20211028S0074.fits[SCI,11]
+  tmpfile3839dhdN20211028S0075.fits[SCI,11]
+  tmpfile3839dhdN20211028S0076.fits[SCI,11]
+  tmpfile3839dhdN20211028S0077.fits[SCI,11]
+
+  Output image = tmpcombout3839dmd, ncombine = 5
+  Number rejected mask = tmpcombdq3839emd.pl
+  Sigma image = tmpcombsig3839fmd
+WARNING - GEMCOMBINE: five or less images to combine.
+
+Jul 20 20:28: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 1
+  lsigma = 3., hsigma = 3.
+  blank = 0.
+  statsec = Jul 20 20:28
+                Images 
+  tmpfile3839dhdN20211028S0073.fits[SCI,12]
+  tmpfile3839dhdN20211028S0074.fits[SCI,12]
+  tmpfile3839dhdN20211028S0075.fits[SCI,12]
+  tmpfile3839dhdN20211028S0076.fits[SCI,12]
+  tmpfile3839dhdN20211028S0077.fits[SCI,12]
+
+  Output image = tmpcombout3839hmd, ncombine = 5
+  Number rejected mask = tmpcombdq3839imd.pl
+  Sigma image = tmpcombsig3839jmd
+ 
+GEMCOMBINE -- Finished: Wed Jul 20 20:28:32 EDT 2022
+ 
+GEMCOMBINE -- Exit status: GOOD
+--------------------------------------------------------------------------------
+
+GBIAS: Exit status: GOOD.
+----------------------------------------------------------------------------

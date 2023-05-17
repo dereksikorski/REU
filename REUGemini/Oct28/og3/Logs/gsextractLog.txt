@@ -1,0 +1,180 @@
+--------------------------------------------------------------------------------
+GSEXTRACT -- 2022-07-21T20:03:48
+ 
+inimages     = @stdFiles.txt
+outimages    = 
+outprefix    = e
+refimages    = 
+apwidth      = 1.
+fl_inter     = no
+find         = yes
+recenter     = yes
+trace        = yes
+coloffset    = 0
+tfunction    = spline3
+torder       = 9
+tnsum        = 20
+tstep        = 50
+weights      = variance
+clean        = no
+background   = none
+fl_vardq     = no
+sci_ext      = SCI
+key_ron      = RDNOISE
+key_gain     = GAIN
+ron          = 3.5
+gain         = 2.2
+ 
+
+Extracting spectrum stsN20211028S0025.fits[SCI,1]
+Jul 21 16:03: FIND - 1 apertures found for stsN20211028S0025[SCI,1]
+Jul 21 16:03: TRACE - Trace of aperture 1 in stsN20211028S0025[SCI,1] lost at column 4189.
+Jul 21 16:03: TRACE - Trace of aperture 1 in stsN20211028S0025[SCI,1] recovered at column 4239.
+Jul 21 16:03: TRACE - Trace of aperture 1 in stsN20211028S0025[SCI,1] lost at column 2051.
+Jul 21 16:03: TRACE - Trace of aperture 1 in stsN20211028S0025[SCI,1] recovered at column 2001.
+Jul 21 16:03: TRACE - 1 apertures traced in stsN20211028S0025[SCI,1].
+Jul 21 16:03: DATABASE - 1 apertures for stsN20211028S0025[SCI,1] written to database
+Jul 21 16:03: EXTRACT: Aperture 1 variance spectrum bias factor is 0.9998073
+Jul 21 16:03: EXTRACT - Aperture 1 from stsN20211028S0025[SCI,1] --> tmpspec1188cxc
+ 
+GSEXTRACT: Done -- 2022-07-21T20:03:49
+GSEXTRACT: Exit status GOOD
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+GSEXTRACT -- 2022-07-22T19:13:14
+ 
+inimages     = cstObject.fits
+outimages    = Final.fits
+outprefix    = e
+refimages    = 
+apwidth      = 2.
+fl_inter     = yes
+find         = yes
+recenter     = yes
+trace        = yes
+coloffset    = 0
+tfunction    = spline3
+torder       = 3
+tnsum        = 20
+tstep        = 50
+weights      = variance
+clean        = no
+background   = none
+fl_vardq     = no
+sci_ext      = SCI
+key_ron      = RDNOISE
+key_gain     = GAIN
+ron          = 3.5
+gain         = 2.2
+ 
+
+Extracting spectrum cstObject.fits[SCI,1]
+Jul 22 15:13: FIND - 1 apertures found for cstObject[SCI,1]
+Jul 22 15:14: EDIT - 0 apertures edited for cstObject[SCI,1]
+WARNING - GSEXTRACT: apall failed for cstObject.fits[SCI,1]
+ 
+GSEXTRACT: Done -- 2022-07-22T19:15:28
+GSEXTRACT: Exit status GOOD
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+GSEXTRACT -- 2022-07-22T19:17:46
+ 
+inimages     = cstObject.fits
+outimages    = Final.fits
+outprefix    = e
+refimages    = 
+apwidth      = 2.
+fl_inter     = yes
+find         = yes
+recenter     = yes
+trace        = yes
+coloffset    = 0
+tfunction    = spline3
+torder       = 3
+tnsum        = 20
+tstep        = 50
+weights      = variance
+clean        = no
+background   = none
+fl_vardq     = no
+sci_ext      = SCI
+key_ron      = RDNOISE
+key_gain     = GAIN
+ron          = 3.5
+gain         = 2.2
+ 
+
+Extracting spectrum cstObject.fits[SCI,1]
+Jul 22 15:17: FIND - 1 apertures found for cstObject[SCI,1]
+Jul 22 15:23: TRACE - Trace of aperture 1 in cstObject[SCI,1] lost at column 4200.
+Jul 22 15:23: TRACE - Trace of aperture 1 in cstObject[SCI,1] recovered at column 4250.
+Jul 22 15:23: TRACE - Trace of aperture 1 in cstObject[SCI,1] lost at column 6250.
+Jul 22 15:26: TRACE - 1 apertures traced in cstObject[SCI,1].
+Jul 22 15:26: EDIT - 1 apertures edited for cstObject[SCI,1]
+Jul 22 15:26: TRACE - Trace of aperture 1 in cstObject[SCI,1] lost at column 4200.
+Jul 22 15:26: TRACE - Trace of aperture 1 in cstObject[SCI,1] recovered at column 4250.
+Jul 22 15:26: TRACE - Trace of aperture 1 in cstObject[SCI,1] lost at column 6250.
+Jul 22 15:26: TRACE - 1 apertures traced in cstObject[SCI,1].
+Jul 22 15:26: DATABASE - 1 apertures for cstObject[SCI,1] written to database
+Jul 22 15:26: EXTRACT: WARNING - Aperture 1:
+Jul 22 15:26:    Total variance weighted spectrum flux is 0.
+Jul 22 15:26:    Total unweighted spectrum flux is 0.
+Jul 22 15:26:    Variance spectrum bias factor ignored
+Jul 22 15:27: EXTRACT - Aperture 1 from cstObject[SCI,1] --> tmpspec1188czc
+ 
+GSEXTRACT: Done -- 2022-07-22T19:27:32
+GSEXTRACT: Exit status GOOD
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+GSEXTRACT -- 2022-07-22T19:29:51
+ 
+inimages     = cstObject.fits
+outimages    = Final.fits
+outprefix    = e
+refimages    = 
+apwidth      = 2.
+fl_inter     = yes
+find         = yes
+recenter     = yes
+trace        = yes
+coloffset    = 0
+tfunction    = spline3
+torder       = 3
+tnsum        = 20
+tstep        = 50
+weights      = variance
+clean        = no
+background   = none
+fl_vardq     = no
+sci_ext      = SCI
+key_ron      = RDNOISE
+key_gain     = GAIN
+ron          = 3.5
+gain         = 2.2
+ 
+
+Extracting spectrum cstObject.fits[SCI,1]
+Jul 22 15:29: DATABASE  - 1 apertures read for cstObject[SCI,1] from database
+Jul 22 15:29: RECENTER  - 1 apertures shifted by -0.03 for cstObject[SCI,1].
+Jul 22 15:32: EXTRACT: WARNING - Aperture 1:
+Jul 22 15:32:    Total variance weighted spectrum flux is 0.
+Jul 22 15:32:    Total unweighted spectrum flux is 0.
+Jul 22 15:32:    Variance spectrum bias factor ignored
+Jul 22 15:32: EXTRACT - Aperture 1 from cstObject[SCI,1] --> Final1.fits
+Jul 22 15:32: EDIT - 1 apertures edited for cstObject[SCI,1]
+Jul 22 15:32: TRACE - Trace of aperture 1 in cstObject[SCI,1] lost at column 4189.
+Jul 22 15:32: TRACE - Trace of aperture 1 in cstObject[SCI,1] recovered at column 4239.
+Jul 22 15:32: TRACE - Trace of aperture 1 in cstObject[SCI,1] lost at column 6239.
+Jul 22 15:32: TRACE - Trace of aperture 1 in cstObject[SCI,1] lost at column 2051.
+Jul 22 15:32: TRACE - Trace of aperture 1 in cstObject[SCI,1] recovered at column 2001.
+Jul 22 15:32: TRACE - 1 apertures traced in cstObject[SCI,1].
+Jul 22 15:32: DATABASE - 1 apertures for cstObject[SCI,1] written to database
+Jul 22 15:32: EXTRACT: WARNING - Aperture 1:
+Jul 22 15:32:    Total variance weighted spectrum flux is 0.
+Jul 22 15:32:    Total unweighted spectrum flux is 0.
+Jul 22 15:32:    Variance spectrum bias factor ignored
+Jul 22 15:32: EXTRACT - Aperture 1 from cstObject[SCI,1] --> tmpspec1188ozc
+ 
+GSEXTRACT: Done -- 2022-07-22T19:32:55
+GSEXTRACT: Exit status GOOD
+--------------------------------------------------------------------------------

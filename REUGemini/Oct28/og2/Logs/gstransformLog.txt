@@ -1,0 +1,105 @@
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Thu Jul 21 15:18:10 EDT 2022
+ 
+
+inimages   = Object.fits
+outimages  = 
+outprefix  = t
+fl_stran   = no
+fl_wavtran = yes
+wavtraname = @arcFiles.txt
+database   = database
+fl_vardq   = yes
+interptype = linear
+lambda1    = INDEF
+lambda2    = INDEF
+dx         = INDEF
+nx         = INDEF
+lambdalog  = no
+ylog       = no
+fl_flux    = yes
+gratingdb  = gmos$data/GMOSgratings.dat
+filterdb   = gmos$data/GMOSfilters.dat
+key_dispaxis = DISPAXIS
+dispaxis   = 1
+sci_ext    = SCI
+var_ext = VAR
+dq_ext  = DQ
+
+Transforming Object.fits[SCI,1]
+MDF row: 1
+
+NOAO/IRAF V2.16 dmsikors@i27.red.uits.iu.edu Thu 15:18:11 21-Jul-2022
+  Transform Object.fits[SCI,1] to tmpsci1188ova.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      6814., x2 =      9191., dx =     0.3787, nx = 6278, xlog = no
+    y1 =         1., y2 =       512., dy =         1., ny =  512, ylog = no
+
+NOAO/IRAF V2.16 dmsikors@i27.red.uits.iu.edu Thu 15:18:12 21-Jul-2022
+  Transform Object.fits[VAR,1] to tmpvar1188pva.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      6814., x2 =      9191., dx =     0.3787, nx = 6278, xlog = no
+    y1 =         1., y2 =       512., dy =         1., ny =  512, ylog = no
+
+NOAO/IRAF V2.16 dmsikors@i27.red.uits.iu.edu Thu 15:18:12 21-Jul-2022
+  Transform Object.fits[DQ,1] to tmpdq1188qva.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      6814., x2 =      9191., dx =     0.3787, nx = 6278, xlog = no
+    y1 =         1., y2 =       512., dy =         1., ny =  512, ylog = no
+
+GSTRANSFORM exit status: good
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Thu Jul 21 15:18:14 EDT 2022
+ 
+
+inimages   = @stdFiles.txt
+outimages  = 
+outprefix  = t
+fl_stran   = no
+fl_wavtran = yes
+wavtraname = @arcFiles.txt
+database   = database
+fl_vardq   = no
+interptype = linear
+lambda1    = INDEF
+lambda2    = INDEF
+dx         = INDEF
+nx         = INDEF
+lambdalog  = no
+ylog       = no
+fl_flux    = yes
+gratingdb  = gmos$data/GMOSgratings.dat
+filterdb   = gmos$data/GMOSfilters.dat
+key_dispaxis = DISPAXIS
+dispaxis   = 1
+sci_ext    = SCI
+
+Transforming sN20211028S0025.fits[SCI,1]
+MDF row: 1
+
+NOAO/IRAF V2.16 dmsikors@i27.red.uits.iu.edu Thu 15:18:14 21-Jul-2022
+  Transform sN20211028S0025.fits[SCI,1] to tmpsci1188cwa.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      6814., x2 =      9191., dx =     0.3787, nx = 6278, xlog = no
+    y1 =         1., y2 =       512., dy =         1., ny =  512, ylog = no
+
+GSTRANSFORM exit status: good
+-------------------------------------------------------------------------------
+

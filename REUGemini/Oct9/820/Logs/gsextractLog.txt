@@ -1,0 +1,53 @@
+--------------------------------------------------------------------------------
+GSEXTRACT -- 2022-08-02T02:25:04
+ 
+inimages     = @stdFiles.txt
+outimages    = 
+outprefix    = e
+refimages    = 
+apwidth      = 1.
+fl_inter     = no
+find         = yes
+recenter     = yes
+trace        = yes
+coloffset    = 0
+tfunction    = spline3
+torder       = 9
+tnsum        = 20
+tstep        = 50
+weights      = variance
+clean        = no
+background   = none
+fl_vardq     = no
+sci_ext      = SCI
+key_ron      = RDNOISE
+key_gain     = GAIN
+ron          = 3.5
+gain         = 2.2
+ 
+
+Extracting spectrum stsN20210820S0020.fits[SCI,1]
+Aug  1 22:25: FIND - 1 apertures found for stsN20210820S0020[SCI,1]
+Aug  1 22:25: TRACE - Trace of aperture 1 in stsN20210820S0020[SCI,1] lost at column 4189.
+Aug  1 22:25: TRACE - Trace of aperture 1 in stsN20210820S0020[SCI,1] recovered at column 4239.
+Aug  1 22:25: TRACE - Trace of aperture 1 in stsN20210820S0020[SCI,1] lost at column 2051.
+Aug  1 22:25: TRACE - Trace of aperture 1 in stsN20210820S0020[SCI,1] recovered at column 2001.
+Aug  1 22:25: TRACE - 1 apertures traced in stsN20210820S0020[SCI,1].
+Aug  1 22:25: DATABASE - 1 apertures for stsN20210820S0020[SCI,1] written to database
+Aug  1 22:25: EXTRACT: Aperture 1 variance spectrum bias factor is 0.9991519
+Aug  1 22:25: EXTRACT - Aperture 1 from stsN20210820S0020[SCI,1] --> tmpspec3910vlg
+
+Extracting spectrum stsN20211028S0025.fits[SCI,1]
+Aug  1 22:25: FIND - 1 apertures found for stsN20211028S0025[SCI,1]
+Aug  1 22:25: TRACE - Trace of aperture 1 in stsN20211028S0025[SCI,1] lost at column 4189.
+Aug  1 22:25: TRACE - Trace of aperture 1 in stsN20211028S0025[SCI,1] recovered at column 4239.
+Aug  1 22:25: TRACE - Trace of aperture 1 in stsN20211028S0025[SCI,1] lost at column 2051.
+Aug  1 22:25: TRACE - Trace of aperture 1 in stsN20211028S0025[SCI,1] recovered at column 2001.
+Aug  1 22:25: TRACE - 1 apertures traced in stsN20211028S0025[SCI,1].
+Aug  1 22:25: DATABASE - 1 apertures for stsN20211028S0025[SCI,1] written to database
+Aug  1 22:25: EXTRACT: Aperture 1 variance spectrum bias factor is 0.9998508
+Aug  1 22:25: EXTRACT - Aperture 1 from stsN20211028S0025[SCI,1] --> tmpspec3910dmg
+ 
+GSEXTRACT: Done -- 2022-08-02T02:25:06
+GSEXTRACT: Exit status GOOD
+--------------------------------------------------------------------------------

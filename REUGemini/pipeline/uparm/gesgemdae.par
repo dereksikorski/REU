@@ -1,0 +1,5 @@
+zone,s,h,"UT",UT|local,,"Time zone"
+verbose,b,h,no,,,"Verbose"
+outdate,s,h,"2022-08-02T06:49:11",,,"Output formatted date"
+status,i,h,0,,,"Exit status (0=good)"
+mode,s,h,"ql",,,

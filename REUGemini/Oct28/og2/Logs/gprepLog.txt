@@ -1,0 +1,335 @@
+----------------------------------------------------------------------------
+GPREPARE -- Thu Jul 21 15:08:39 EDT 2022
+
+Input list    = @biasFiles.txt
+Output list   = @biasFiles.txt
+Output prefix = 
+Raw path      = ../raw
+MDF dir       = gmos$data/
+Add MDF       = yes
+Input MDF in case header keyword not found = 
+
+Input  ../raw/N20211028S0073.fits   Output  N20211028S0073.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2022-07-21T19:08:40
+File[extension]:            AMPNAME               GAIN   READNOISE
+N20211028S0073.fits[SCI,1]: " "BI13-20-4k-1, 4""  1.675  4.06
+N20211028S0073.fits[SCI,2]: " "BI13-20-4k-1, 3""  1.618  4.12
+N20211028S0073.fits[SCI,3]: " "BI13-20-4k-1, 2""  1.620  4.12
+N20211028S0073.fits[SCI,4]: " "BI13-20-4k-1, 1""  1.568  3.99
+N20211028S0073.fits[SCI,5]: " "BI12-09-4k-2, 4""  1.690  4.20
+N20211028S0073.fits[SCI,6]: " "BI12-09-4k-2, 3""  1.650  3.98
+N20211028S0073.fits[SCI,7]: " "BI12-09-4k-2, 2""  1.633  3.88
+N20211028S0073.fits[SCI,8]: " "BI12-09-4k-2, 1""  1.664  4.20
+N20211028S0073.fits[SCI,9]: " "BI13-18-4k-2, 4""  1.604  4.04
+N20211028S0073.fits[SCI,10]: " "BI13-18-4k-2, 3""  1.630  4.35
+N20211028S0073.fits[SCI,11]: " "BI13-18-4k-2, 2""  1.587  4.02
+N20211028S0073.fits[SCI,12]: " "BI13-18-4k-2, 1""  1.654  4.55
+
+GGAIN -- Finished: 2022-07-21T19:08:41
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+Input  ../raw/N20211028S0074.fits   Output  N20211028S0074.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2022-07-21T19:08:43
+File[extension]:            AMPNAME               GAIN   READNOISE
+N20211028S0074.fits[SCI,1]: " "BI13-20-4k-1, 4""  1.675  4.06
+N20211028S0074.fits[SCI,2]: " "BI13-20-4k-1, 3""  1.618  4.12
+N20211028S0074.fits[SCI,3]: " "BI13-20-4k-1, 2""  1.620  4.12
+N20211028S0074.fits[SCI,4]: " "BI13-20-4k-1, 1""  1.568  3.99
+N20211028S0074.fits[SCI,5]: " "BI12-09-4k-2, 4""  1.690  4.20
+N20211028S0074.fits[SCI,6]: " "BI12-09-4k-2, 3""  1.650  3.98
+N20211028S0074.fits[SCI,7]: " "BI12-09-4k-2, 2""  1.633  3.88
+N20211028S0074.fits[SCI,8]: " "BI12-09-4k-2, 1""  1.664  4.20
+N20211028S0074.fits[SCI,9]: " "BI13-18-4k-2, 4""  1.604  4.04
+N20211028S0074.fits[SCI,10]: " "BI13-18-4k-2, 3""  1.630  4.35
+N20211028S0074.fits[SCI,11]: " "BI13-18-4k-2, 2""  1.587  4.02
+N20211028S0074.fits[SCI,12]: " "BI13-18-4k-2, 1""  1.654  4.55
+
+GGAIN -- Finished: 2022-07-21T19:08:44
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+Input  ../raw/N20211028S0075.fits   Output  N20211028S0075.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2022-07-21T19:08:45
+File[extension]:            AMPNAME               GAIN   READNOISE
+N20211028S0075.fits[SCI,1]: " "BI13-20-4k-1, 4""  1.675  4.06
+N20211028S0075.fits[SCI,2]: " "BI13-20-4k-1, 3""  1.618  4.12
+N20211028S0075.fits[SCI,3]: " "BI13-20-4k-1, 2""  1.620  4.12
+N20211028S0075.fits[SCI,4]: " "BI13-20-4k-1, 1""  1.568  3.99
+N20211028S0075.fits[SCI,5]: " "BI12-09-4k-2, 4""  1.690  4.20
+N20211028S0075.fits[SCI,6]: " "BI12-09-4k-2, 3""  1.650  3.98
+N20211028S0075.fits[SCI,7]: " "BI12-09-4k-2, 2""  1.633  3.88
+N20211028S0075.fits[SCI,8]: " "BI12-09-4k-2, 1""  1.664  4.20
+N20211028S0075.fits[SCI,9]: " "BI13-18-4k-2, 4""  1.604  4.04
+N20211028S0075.fits[SCI,10]: " "BI13-18-4k-2, 3""  1.630  4.35
+N20211028S0075.fits[SCI,11]: " "BI13-18-4k-2, 2""  1.587  4.02
+N20211028S0075.fits[SCI,12]: " "BI13-18-4k-2, 1""  1.654  4.55
+
+GGAIN -- Finished: 2022-07-21T19:08:47
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+Input  ../raw/N20211028S0076.fits   Output  N20211028S0076.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2022-07-21T19:08:48
+File[extension]:            AMPNAME               GAIN   READNOISE
+N20211028S0076.fits[SCI,1]: " "BI13-20-4k-1, 4""  1.675  4.06
+N20211028S0076.fits[SCI,2]: " "BI13-20-4k-1, 3""  1.618  4.12
+N20211028S0076.fits[SCI,3]: " "BI13-20-4k-1, 2""  1.620  4.12
+N20211028S0076.fits[SCI,4]: " "BI13-20-4k-1, 1""  1.568  3.99
+N20211028S0076.fits[SCI,5]: " "BI12-09-4k-2, 4""  1.690  4.20
+N20211028S0076.fits[SCI,6]: " "BI12-09-4k-2, 3""  1.650  3.98
+N20211028S0076.fits[SCI,7]: " "BI12-09-4k-2, 2""  1.633  3.88
+N20211028S0076.fits[SCI,8]: " "BI12-09-4k-2, 1""  1.664  4.20
+N20211028S0076.fits[SCI,9]: " "BI13-18-4k-2, 4""  1.604  4.04
+N20211028S0076.fits[SCI,10]: " "BI13-18-4k-2, 3""  1.630  4.35
+N20211028S0076.fits[SCI,11]: " "BI13-18-4k-2, 2""  1.587  4.02
+N20211028S0076.fits[SCI,12]: " "BI13-18-4k-2, 1""  1.654  4.55
+
+GGAIN -- Finished: 2022-07-21T19:08:49
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+Input  ../raw/N20211028S0077.fits   Output  N20211028S0077.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2022-07-21T19:08:50
+File[extension]:            AMPNAME               GAIN   READNOISE
+N20211028S0077.fits[SCI,1]: " "BI13-20-4k-1, 4""  1.675  4.06
+N20211028S0077.fits[SCI,2]: " "BI13-20-4k-1, 3""  1.618  4.12
+N20211028S0077.fits[SCI,3]: " "BI13-20-4k-1, 2""  1.620  4.12
+N20211028S0077.fits[SCI,4]: " "BI13-20-4k-1, 1""  1.568  3.99
+N20211028S0077.fits[SCI,5]: " "BI12-09-4k-2, 4""  1.690  4.20
+N20211028S0077.fits[SCI,6]: " "BI12-09-4k-2, 3""  1.650  3.98
+N20211028S0077.fits[SCI,7]: " "BI12-09-4k-2, 2""  1.633  3.88
+N20211028S0077.fits[SCI,8]: " "BI12-09-4k-2, 1""  1.664  4.20
+N20211028S0077.fits[SCI,9]: " "BI13-18-4k-2, 4""  1.604  4.04
+N20211028S0077.fits[SCI,10]: " "BI13-18-4k-2, 3""  1.630  4.35
+N20211028S0077.fits[SCI,11]: " "BI13-18-4k-2, 2""  1.587  4.02
+N20211028S0077.fits[SCI,12]: " "BI13-18-4k-2, 1""  1.654  4.55
+
+GGAIN -- Finished: 2022-07-21T19:08:52
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Thu Jul 21 15:08:52 EDT 2022
+
+Input list    = @flatFiles.txt
+Output list   = @flatFiles.txt
+Output prefix = 
+Raw path      = ../raw
+MDF dir       = gmos$data/
+Add MDF       = yes
+Input MDF in case header keyword not found = 
+
+Input  ../raw/N20211028S0018.fits   Output  N20211028S0018.fits
+GPREPARE: Using MDF defined in the header 1.0arcsec
+GPREPARE: Taking MDF from directory gmos$data/
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2022-07-21T19:08:54
+File[extension]:            AMPNAME               GAIN   READNOISE
+N20211028S0018.fits[SCI,1]: " "BI13-20-4k-1, 4""  1.675  4.06
+N20211028S0018.fits[SCI,2]: " "BI13-20-4k-1, 3""  1.618  4.12
+N20211028S0018.fits[SCI,3]: " "BI13-20-4k-1, 2""  1.620  4.12
+N20211028S0018.fits[SCI,4]: " "BI13-20-4k-1, 1""  1.568  3.99
+N20211028S0018.fits[SCI,5]: " "BI12-09-4k-2, 4""  1.690  4.20
+N20211028S0018.fits[SCI,6]: " "BI12-09-4k-2, 3""  1.650  3.98
+N20211028S0018.fits[SCI,7]: " "BI12-09-4k-2, 2""  1.633  3.88
+N20211028S0018.fits[SCI,8]: " "BI12-09-4k-2, 1""  1.664  4.20
+N20211028S0018.fits[SCI,9]: " "BI13-18-4k-2, 4""  1.604  4.04
+N20211028S0018.fits[SCI,10]: " "BI13-18-4k-2, 3""  1.630  4.35
+N20211028S0018.fits[SCI,11]: " "BI13-18-4k-2, 2""  1.587  4.02
+N20211028S0018.fits[SCI,12]: " "BI13-18-4k-2, 1""  1.654  4.55
+
+GGAIN -- Finished: 2022-07-21T19:08:55
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+Input  ../raw/N20211028S0021.fits   Output  N20211028S0021.fits
+GPREPARE: Using MDF defined in the header 1.0arcsec
+GPREPARE: Taking MDF from directory gmos$data/
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2022-07-21T19:08:57
+File[extension]:            AMPNAME               GAIN   READNOISE
+N20211028S0021.fits[SCI,1]: " "BI13-20-4k-1, 4""  1.675  4.06
+N20211028S0021.fits[SCI,2]: " "BI13-20-4k-1, 3""  1.618  4.12
+N20211028S0021.fits[SCI,3]: " "BI13-20-4k-1, 2""  1.620  4.12
+N20211028S0021.fits[SCI,4]: " "BI13-20-4k-1, 1""  1.568  3.99
+N20211028S0021.fits[SCI,5]: " "BI12-09-4k-2, 4""  1.690  4.20
+N20211028S0021.fits[SCI,6]: " "BI12-09-4k-2, 3""  1.650  3.98
+N20211028S0021.fits[SCI,7]: " "BI12-09-4k-2, 2""  1.633  3.88
+N20211028S0021.fits[SCI,8]: " "BI12-09-4k-2, 1""  1.664  4.20
+N20211028S0021.fits[SCI,9]: " "BI13-18-4k-2, 4""  1.604  4.04
+N20211028S0021.fits[SCI,10]: " "BI13-18-4k-2, 3""  1.630  4.35
+N20211028S0021.fits[SCI,11]: " "BI13-18-4k-2, 2""  1.587  4.02
+N20211028S0021.fits[SCI,12]: " "BI13-18-4k-2, 1""  1.654  4.55
+
+GGAIN -- Finished: 2022-07-21T19:08:58
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Thu Jul 21 15:08:58 EDT 2022
+
+Input list    = @arcFiles.txt
+Output list   = @arcFiles.txt
+Output prefix = 
+Raw path      = ../raw
+MDF dir       = gmos$data/
+Add MDF       = yes
+Input MDF in case header keyword not found = 
+
+Input  ../raw/N20211028S0047.fits   Output  N20211028S0047.fits
+GPREPARE: Using MDF defined in the header 1.0arcsec
+GPREPARE: Taking MDF from directory gmos$data/
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2022-07-21T19:09:00
+File[extension]:            AMPNAME               GAIN   READNOISE
+N20211028S0047.fits[SCI,1]: " "BI13-20-4k-1, 4""  2.010  8.02
+N20211028S0047.fits[SCI,2]: " "BI13-20-4k-1, 3""  1.950  6.88
+N20211028S0047.fits[SCI,3]: " "BI13-20-4k-1, 2""  1.970  6.02
+N20211028S0047.fits[SCI,4]: " "BI13-20-4k-1, 1""  1.910  5.88
+N20211028S0047.fits[SCI,5]: " "BI12-09-4k-2, 4""  2.030  6.71
+N20211028S0047.fits[SCI,6]: " "BI12-09-4k-2, 3""  1.970  6.34
+N20211028S0047.fits[SCI,7]: " "BI12-09-4k-2, 2""  1.960  5.39
+N20211028S0047.fits[SCI,8]: " "BI12-09-4k-2, 1""  2.010  5.86
+N20211028S0047.fits[SCI,9]: " "BI13-18-4k-2, 4""  1.950  6.10
+N20211028S0047.fits[SCI,10]: " "BI13-18-4k-2, 3""  1.950  6.13
+N20211028S0047.fits[SCI,11]: " "BI13-18-4k-2, 2""  1.890  5.98
+N20211028S0047.fits[SCI,12]: " "BI13-18-4k-2, 1""  1.950  6.79
+
+GGAIN -- Finished: 2022-07-21T19:09:02
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Thu Jul 21 15:09:02 EDT 2022
+
+Input list    = @objFiles.txt
+Output list   = @objFiles.txt
+Output prefix = 
+Raw path      = ../raw
+MDF dir       = gmos$data/
+Add MDF       = yes
+Input MDF in case header keyword not found = 
+
+Input  ../raw/N20211028S0019.fits   Output  N20211028S0019.fits
+GPREPARE: Using MDF defined in the header 1.0arcsec
+GPREPARE: Taking MDF from directory gmos$data/
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2022-07-21T19:09:03
+File[extension]:            AMPNAME               GAIN   READNOISE
+N20211028S0019.fits[SCI,1]: " "BI13-20-4k-1, 4""  1.675  4.06
+N20211028S0019.fits[SCI,2]: " "BI13-20-4k-1, 3""  1.618  4.12
+N20211028S0019.fits[SCI,3]: " "BI13-20-4k-1, 2""  1.620  4.12
+N20211028S0019.fits[SCI,4]: " "BI13-20-4k-1, 1""  1.568  3.99
+N20211028S0019.fits[SCI,5]: " "BI12-09-4k-2, 4""  1.690  4.20
+N20211028S0019.fits[SCI,6]: " "BI12-09-4k-2, 3""  1.650  3.98
+N20211028S0019.fits[SCI,7]: " "BI12-09-4k-2, 2""  1.633  3.88
+N20211028S0019.fits[SCI,8]: " "BI12-09-4k-2, 1""  1.664  4.20
+N20211028S0019.fits[SCI,9]: " "BI13-18-4k-2, 4""  1.604  4.04
+N20211028S0019.fits[SCI,10]: " "BI13-18-4k-2, 3""  1.630  4.35
+N20211028S0019.fits[SCI,11]: " "BI13-18-4k-2, 2""  1.587  4.02
+N20211028S0019.fits[SCI,12]: " "BI13-18-4k-2, 1""  1.654  4.55
+
+GGAIN -- Finished: 2022-07-21T19:09:05
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+Input  ../raw/N20211028S0020.fits   Output  N20211028S0020.fits
+GPREPARE: Using MDF defined in the header 1.0arcsec
+GPREPARE: Taking MDF from directory gmos$data/
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2022-07-21T19:09:06
+File[extension]:            AMPNAME               GAIN   READNOISE
+N20211028S0020.fits[SCI,1]: " "BI13-20-4k-1, 4""  1.675  4.06
+N20211028S0020.fits[SCI,2]: " "BI13-20-4k-1, 3""  1.618  4.12
+N20211028S0020.fits[SCI,3]: " "BI13-20-4k-1, 2""  1.620  4.12
+N20211028S0020.fits[SCI,4]: " "BI13-20-4k-1, 1""  1.568  3.99
+N20211028S0020.fits[SCI,5]: " "BI12-09-4k-2, 4""  1.690  4.20
+N20211028S0020.fits[SCI,6]: " "BI12-09-4k-2, 3""  1.650  3.98
+N20211028S0020.fits[SCI,7]: " "BI12-09-4k-2, 2""  1.633  3.88
+N20211028S0020.fits[SCI,8]: " "BI12-09-4k-2, 1""  1.664  4.20
+N20211028S0020.fits[SCI,9]: " "BI13-18-4k-2, 4""  1.604  4.04
+N20211028S0020.fits[SCI,10]: " "BI13-18-4k-2, 3""  1.630  4.35
+N20211028S0020.fits[SCI,11]: " "BI13-18-4k-2, 2""  1.587  4.02
+N20211028S0020.fits[SCI,12]: " "BI13-18-4k-2, 1""  1.654  4.55
+
+GGAIN -- Finished: 2022-07-21T19:09:07
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Thu Jul 21 15:09:08 EDT 2022
+
+Input list    = @stdFiles.txt
+Output list   = @stdFiles.txt
+Output prefix = 
+Raw path      = ../raw
+MDF dir       = gmos$data/
+Add MDF       = yes
+Input MDF in case header keyword not found = 
+
+Input  ../raw/N20211028S0025.fits   Output  N20211028S0025.fits
+GPREPARE: Using MDF defined in the header 1.0arcsec
+GPREPARE: Taking MDF from directory gmos$data/
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2022-07-21T19:09:09
+File[extension]:            AMPNAME               GAIN   READNOISE
+N20211028S0025.fits[SCI,1]: " "BI13-20-4k-1, 4""  1.675  4.06
+N20211028S0025.fits[SCI,2]: " "BI13-20-4k-1, 3""  1.618  4.12
+N20211028S0025.fits[SCI,3]: " "BI13-20-4k-1, 2""  1.620  4.12
+N20211028S0025.fits[SCI,4]: " "BI13-20-4k-1, 1""  1.568  3.99
+N20211028S0025.fits[SCI,5]: " "BI12-09-4k-2, 4""  1.690  4.20
+N20211028S0025.fits[SCI,6]: " "BI12-09-4k-2, 3""  1.650  3.98
+N20211028S0025.fits[SCI,7]: " "BI12-09-4k-2, 2""  1.633  3.88
+N20211028S0025.fits[SCI,8]: " "BI12-09-4k-2, 1""  1.664  4.20
+N20211028S0025.fits[SCI,9]: " "BI13-18-4k-2, 4""  1.604  4.04
+N20211028S0025.fits[SCI,10]: " "BI13-18-4k-2, 3""  1.630  4.35
+N20211028S0025.fits[SCI,11]: " "BI13-18-4k-2, 2""  1.587  4.02
+N20211028S0025.fits[SCI,12]: " "BI13-18-4k-2, 1""  1.654  4.55
+
+GGAIN -- Finished: 2022-07-21T19:09:10
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------

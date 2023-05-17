@@ -1,0 +1,871 @@
+
+--------------------------------------------------------------------------------
+GSFLAT -- Thu Jul 28 16:27:08 EDT 2022
+
+Input images or list              = @flatFiles.txt
+Output spectral flat              = MCflat.fits
+Correct for slit function         = no
+Keep combined flat combflat       = no
+
+Fitting parameters for Spectral Flatfield: 
+  interactive = no
+  function    = spline3
+  order       = 13,11,28
+  low_reject  = 3.
+  high_reject = 3.
+  niterate    = 2
+  Fit detectors separately fl_detec = yes
+
+Overscan Subtraction fl_over   = yes
+Trim image           fl_trim   = yes
+Bias Subtraction     fl_bias   = yes
+Dark Subtraction     fl_dark   = no
+QE Correction        fl_qecorr = no
+VAR & DQ planes      fl_vardq  = yes
+Fixpix chip gaps     fl_fixpix = no
+Oversize slit length fl_oversize = no
+Fit detec. by detec. fl_detec  = yes
+Fit rows separately  fl_seprows = yes
+Use gradient method  fl_usegrad= no
+Mask emission lines  fl_emis   = no
+Reference image      refimage  = 
+N&S double flatfield fl_double = no
+
+bias        = MCbias.fits
+dark        = 
+qe_refim    = 
+qe_corrim   = 
+qe_corrpref = qecorr
+sci_ext     = SCI
+var_ext     = VAR
+dq_ext      = DQ
+bpm         = 
+key_mdf     = MASKNAME
+mdffile     = 
+mdfdir      = gmos$data/
+Chip gaps   = gmos$data/chipgaps.dat
+rawpath     = 
+
+ 
+GSFLAT: Calling GSREDUCE.
+ 
+
+----------------------------------------------------------------------------
+GSREDUCE -- Thu Jul 28 16:27:08 EDT 2022
+
+Input image or list  = @tmpfilelist5217vgj
+Output image or list = 
+Output prefix        = gs
+
+Overscan subtraction  fl_over      = yes
+Trim image            fl_trim      = yes
+Bias subtraction      fl_bias      = yes
+Cosmic ray cleaning   fl_gscrrej   = no
+New CR cleaning       fl_crspec    = no
+Dark subtraction      fl_dark      = no
+QE Correction         fl_qecorr    = no
+Flat field correction fl_flat      = no
+Mosaic the CCDs       fl_gmosaic   = no
+Fixpix chip gaps      fl_fixpix    = no
+Cut MOS spectra       fl_cut       = no
+Add titles to MOS     fl_title     = no
+Oversize slit length  fl_oversize  = yes
+Run gsappwave         fl_gsappwave = no
+Run gsscatsub         fl_scatsub   = no
+VAR & DQ planes       fl_vardq     = yes
+
+geointer = linear
+gradimage= 
+refimage = 
+bias     = MCbias.fits
+dark     = 
+qe_refim    = 
+qe_corrim   = 
+qe_corrpref = qecorr
+flatim   = 
+sci_ext  = SCI
+var_ext  = VAR
+dq_ext   = DQ
+key_mdf  = MASKNAME
+mdffile  = 
+mdfdir   = gmos$data/
+bpm      = 
+Chip gaps= gmos$data/chipgaps.dat
+
+Input image = N20210807S0180.fits; Output image = gsN20210807S0180.fits
+GSREDUCE: Image N20210807S0180.fits has been QE corrected? no
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+GSREDUCE: Calling GIREDUCE to process image
+----------------------------------------------------------------------------
+GIREDUCE -- Thu Jul 28 16:27:08 EDT 2022
+
+
+Input files:
+N20210807S0180
+
+Output files:
+tmpimage15217chj
+
+WARNING - GIREDUCE: Bad Pixel Mask filename is an empty string
+                    Only saturated pixels will be flagged
+GIREDUCE: Image tmpimage15217chj overscan subtracted
+GIREDUCE: Image tmpimage15217chj trimmed
+
+Output image       Bias                 Flat               Dark       Scale 
+tmpimage15217chj   MCbias               INDEF              INDEF       0.00
+GSAT - Started: 2022-07-28T16:27:29
+GSAT: Bias level is 506.5723 Gain level is 1.675
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 1 Ybin is 2
+GSAT: Amplifier is BI13-20-4k-1, 4 1x1 Full Well Depth is: 129000.
+GSAT: Calculated CCD saturation limit is 154029.85074627
+GSAT: Calculated controller saturation limit is 65028.4277
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63727.859146
+GSAT - Finished: 2022-07-28T16:27:30
+GSAT - Exit status: GOOD
+GSAT - Started: 2022-07-28T16:27:30
+GSAT: Bias level is 505.6206 Gain level is 1.618
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 1 Ybin is 2
+GSAT: Amplifier is BI13-20-4k-1, 3 1x1 Full Well Depth is: 129000.
+GSAT: Calculated CCD saturation limit is 159456.11866502
+GSAT: Calculated controller saturation limit is 65029.3794
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63728.791812
+GSAT - Finished: 2022-07-28T16:27:30
+GSAT - Exit status: GOOD
+GSAT - Started: 2022-07-28T16:27:31
+GSAT: Bias level is 470.7929 Gain level is 1.62
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 1 Ybin is 2
+GSAT: Amplifier is BI13-20-4k-1, 2 1x1 Full Well Depth is: 129000.
+GSAT: Calculated CCD saturation limit is 159259.25925926
+GSAT: Calculated controller saturation limit is 65064.2071
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63762.922958
+GSAT - Finished: 2022-07-28T16:27:31
+GSAT - Exit status: GOOD
+GSAT - Started: 2022-07-28T16:27:32
+GSAT: Bias level is 476.8973 Gain level is 1.568
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 1 Ybin is 2
+GSAT: Amplifier is BI13-20-4k-1, 1 1x1 Full Well Depth is: 129000.
+GSAT: Calculated CCD saturation limit is 164540.81632653
+GSAT: Calculated controller saturation limit is 65058.1027
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63756.940646
+GSAT - Finished: 2022-07-28T16:27:32
+GSAT - Exit status: GOOD
+GSAT - Started: 2022-07-28T16:27:33
+GSAT: Bias level is 514.8474 Gain level is 1.69
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 1 Ybin is 2
+GSAT: Amplifier is BI12-09-4k-2, 4 1x1 Full Well Depth is: 123000.
+GSAT: Calculated CCD saturation limit is 145562.13017751
+GSAT: Calculated controller saturation limit is 65020.1526
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63719.749548
+GSAT - Finished: 2022-07-28T16:27:33
+GSAT - Exit status: GOOD
+GSAT - Started: 2022-07-28T16:27:34
+GSAT: Bias level is 488.2316 Gain level is 1.65
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 1 Ybin is 2
+GSAT: Amplifier is BI12-09-4k-2, 3 1x1 Full Well Depth is: 123000.
+GSAT: Calculated CCD saturation limit is 149090.90909091
+GSAT: Calculated controller saturation limit is 65046.7684
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63745.833032
+GSAT - Finished: 2022-07-28T16:27:34
+GSAT - Exit status: GOOD
+GSAT - Started: 2022-07-28T16:27:35
+GSAT: Bias level is 521.5861 Gain level is 1.633
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 1 Ybin is 2
+GSAT: Amplifier is BI12-09-4k-2, 2 1x1 Full Well Depth is: 121000.
+GSAT: Calculated CCD saturation limit is 148193.50887936
+GSAT: Calculated controller saturation limit is 65013.4139
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63713.145622
+GSAT - Finished: 2022-07-28T16:27:36
+GSAT - Exit status: GOOD
+GSAT - Started: 2022-07-28T16:27:36
+GSAT: Bias level is 501.4292 Gain level is 1.664
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 1 Ybin is 2
+GSAT: Amplifier is BI12-09-4k-2, 1 1x1 Full Well Depth is: 124000.
+GSAT: Calculated CCD saturation limit is 149038.46153846
+GSAT: Calculated controller saturation limit is 65033.5708
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63732.899384
+GSAT - Finished: 2022-07-28T16:27:37
+GSAT - Exit status: GOOD
+GSAT - Started: 2022-07-28T16:27:38
+GSAT: Bias level is 497.2866 Gain level is 1.604
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 1 Ybin is 2
+GSAT: Amplifier is BI13-18-4k-2, 4 1x1 Full Well Depth is: 126000.
+GSAT: Calculated CCD saturation limit is 157107.2319202
+GSAT: Calculated controller saturation limit is 65037.7134
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63736.959132
+GSAT - Finished: 2022-07-28T16:27:38
+GSAT - Exit status: GOOD
+GSAT - Started: 2022-07-28T16:27:39
+GSAT: Bias level is 383.8053 Gain level is 1.63
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 1 Ybin is 2
+GSAT: Amplifier is BI13-18-4k-2, 3 1x1 Full Well Depth is: 124000.
+GSAT: Calculated CCD saturation limit is 152147.2392638
+GSAT: Calculated controller saturation limit is 65151.1947
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63848.170806
+GSAT - Finished: 2022-07-28T16:27:39
+GSAT - Exit status: GOOD
+GSAT - Started: 2022-07-28T16:27:40
+GSAT: Bias level is 407.3888 Gain level is 1.587
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 1 Ybin is 2
+GSAT: Amplifier is BI13-18-4k-2, 2 1x1 Full Well Depth is: 125000.
+GSAT: Calculated CCD saturation limit is 157529.93068683
+GSAT: Calculated controller saturation limit is 65127.6112
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63825.058976
+GSAT - Finished: 2022-07-28T16:27:40
+GSAT - Exit status: GOOD
+GSAT - Started: 2022-07-28T16:27:42
+GSAT: Bias level is 405.2286 Gain level is 1.654
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 1 Ybin is 2
+GSAT: Amplifier is BI13-18-4k-2, 1 1x1 Full Well Depth is: 123000.
+GSAT: Calculated CCD saturation limit is 148730.35066505
+GSAT: Calculated controller saturation limit is 65129.7714
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63827.175972
+GSAT - Finished: 2022-07-28T16:27:42
+GSAT - Exit status: GOOD
+GIREDUCE: Subtracted bias MCbias from tmpimage15217chj
+GIREDUCE: multiplying image tmpimage15217chj by gain
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2022-07-28T20:27:42
+File[extension]:              AMPNAME               GAIN   READNOISE
+tmpimage15217chj.fits[SCI,1]: " "BI13-20-4k-1, 4""  1.675  4.06
+tmpimage15217chj.fits[SCI,2]: " "BI13-20-4k-1, 3""  1.618  4.12
+tmpimage15217chj.fits[SCI,3]: " "BI13-20-4k-1, 2""  1.620  4.12
+tmpimage15217chj.fits[SCI,4]: " "BI13-20-4k-1, 1""  1.568  3.99
+tmpimage15217chj.fits[SCI,5]: " "BI12-09-4k-2, 4""  1.690  4.20
+tmpimage15217chj.fits[SCI,6]: " "BI12-09-4k-2, 3""  1.650  3.98
+tmpimage15217chj.fits[SCI,7]: " "BI12-09-4k-2, 2""  1.633  3.88
+tmpimage15217chj.fits[SCI,8]: " "BI12-09-4k-2, 1""  1.664  4.20
+tmpimage15217chj.fits[SCI,9]: " "BI13-18-4k-2, 4""  1.604  4.04
+tmpimage15217chj.fits[SCI,10]: " "BI13-18-4k-2, 3""  1.630  4.35
+tmpimage15217chj.fits[SCI,11]: " "BI13-18-4k-2, 2""  1.587  4.02
+tmpimage15217chj.fits[SCI,12]: " "BI13-18-4k-2, 1""  1.654  4.55
+
+GGAIN -- Finished: 2022-07-28T20:28:00
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+GIREDUCE: output counts in electrons
+
+GIREDUCE - Cleaning up -- Thu Jul 28 16:28:01 EDT 2022
+
+GIREDUCE -- Thu Jul 28 16:28:01 EDT 2022
+GIREDUCE exit status:  good.
+----------------------------------------------------------------------------
+GSREDUCE: Updating PHU and cleaning up
+Input image = N20210807S0182.fits; Output image = gsN20210807S0182.fits
+GSREDUCE: Image N20210807S0182.fits has been QE corrected? no
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+GSREDUCE: Calling GIREDUCE to process image
+----------------------------------------------------------------------------
+GIREDUCE -- Thu Jul 28 16:28:01 EDT 2022
+
+
+Input files:
+N20210807S0182
+
+Output files:
+tmpimage15217xij
+
+WARNING - GIREDUCE: Bad Pixel Mask filename is an empty string
+                    Only saturated pixels will be flagged
+GIREDUCE: Image tmpimage15217xij overscan subtracted
+GIREDUCE: Image tmpimage15217xij trimmed
+
+Output image       Bias                 Flat               Dark       Scale 
+tmpimage15217xij   MCbias               INDEF              INDEF       0.00
+GSAT - Started: 2022-07-28T16:28:22
+GSAT: Bias level is 509.4924 Gain level is 1.675
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 1 Ybin is 2
+GSAT: Amplifier is BI13-20-4k-1, 4 1x1 Full Well Depth is: 129000.
+GSAT: Calculated CCD saturation limit is 154029.85074627
+GSAT: Calculated controller saturation limit is 65025.5076
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63724.997448
+GSAT - Finished: 2022-07-28T16:28:22
+GSAT - Exit status: GOOD
+GSAT - Started: 2022-07-28T16:28:23
+GSAT: Bias level is 508.7898 Gain level is 1.618
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 1 Ybin is 2
+GSAT: Amplifier is BI13-20-4k-1, 3 1x1 Full Well Depth is: 129000.
+GSAT: Calculated CCD saturation limit is 159456.11866502
+GSAT: Calculated controller saturation limit is 65026.2102
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63725.685996
+GSAT - Finished: 2022-07-28T16:28:23
+GSAT - Exit status: GOOD
+GSAT - Started: 2022-07-28T16:28:24
+GSAT: Bias level is 473.9722 Gain level is 1.62
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 1 Ybin is 2
+GSAT: Amplifier is BI13-20-4k-1, 2 1x1 Full Well Depth is: 129000.
+GSAT: Calculated CCD saturation limit is 159259.25925926
+GSAT: Calculated controller saturation limit is 65061.0278
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63759.807244
+GSAT - Finished: 2022-07-28T16:28:24
+GSAT - Exit status: GOOD
+GSAT - Started: 2022-07-28T16:28:25
+GSAT: Bias level is 479.6395 Gain level is 1.568
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 1 Ybin is 2
+GSAT: Amplifier is BI13-20-4k-1, 1 1x1 Full Well Depth is: 129000.
+GSAT: Calculated CCD saturation limit is 164540.81632653
+GSAT: Calculated controller saturation limit is 65055.3605
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63754.25329
+GSAT - Finished: 2022-07-28T16:28:25
+GSAT - Exit status: GOOD
+GSAT - Started: 2022-07-28T16:28:26
+GSAT: Bias level is 519.0876 Gain level is 1.69
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 1 Ybin is 2
+GSAT: Amplifier is BI12-09-4k-2, 4 1x1 Full Well Depth is: 123000.
+GSAT: Calculated CCD saturation limit is 145562.13017751
+GSAT: Calculated controller saturation limit is 65015.9124
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63715.594152
+GSAT - Finished: 2022-07-28T16:28:26
+GSAT - Exit status: GOOD
+GSAT - Started: 2022-07-28T16:28:27
+GSAT: Bias level is 493.349 Gain level is 1.65
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 1 Ybin is 2
+GSAT: Amplifier is BI12-09-4k-2, 3 1x1 Full Well Depth is: 123000.
+GSAT: Calculated CCD saturation limit is 149090.90909091
+GSAT: Calculated controller saturation limit is 65041.651
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63740.81798
+GSAT - Finished: 2022-07-28T16:28:27
+GSAT - Exit status: GOOD
+GSAT - Started: 2022-07-28T16:28:28
+GSAT: Bias level is 525.2643 Gain level is 1.633
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 1 Ybin is 2
+GSAT: Amplifier is BI12-09-4k-2, 2 1x1 Full Well Depth is: 121000.
+GSAT: Calculated CCD saturation limit is 148193.50887936
+GSAT: Calculated controller saturation limit is 65009.7357
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63709.540986
+GSAT - Finished: 2022-07-28T16:28:28
+GSAT - Exit status: GOOD
+GSAT - Started: 2022-07-28T16:28:29
+GSAT: Bias level is 506.2121 Gain level is 1.664
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 1 Ybin is 2
+GSAT: Amplifier is BI12-09-4k-2, 1 1x1 Full Well Depth is: 124000.
+GSAT: Calculated CCD saturation limit is 149038.46153846
+GSAT: Calculated controller saturation limit is 65028.7879
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63728.212142
+GSAT - Finished: 2022-07-28T16:28:29
+GSAT - Exit status: GOOD
+GSAT - Started: 2022-07-28T16:28:30
+GSAT: Bias level is 498.3432 Gain level is 1.604
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 1 Ybin is 2
+GSAT: Amplifier is BI13-18-4k-2, 4 1x1 Full Well Depth is: 126000.
+GSAT: Calculated CCD saturation limit is 157107.2319202
+GSAT: Calculated controller saturation limit is 65036.6568
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63735.923664
+GSAT - Finished: 2022-07-28T16:28:30
+GSAT - Exit status: GOOD
+GSAT - Started: 2022-07-28T16:28:31
+GSAT: Bias level is 384.6208 Gain level is 1.63
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 1 Ybin is 2
+GSAT: Amplifier is BI13-18-4k-2, 3 1x1 Full Well Depth is: 124000.
+GSAT: Calculated CCD saturation limit is 152147.2392638
+GSAT: Calculated controller saturation limit is 65150.3792
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63847.371616
+GSAT - Finished: 2022-07-28T16:28:32
+GSAT - Exit status: GOOD
+GSAT - Started: 2022-07-28T16:28:32
+GSAT: Bias level is 407.7803 Gain level is 1.587
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 1 Ybin is 2
+GSAT: Amplifier is BI13-18-4k-2, 2 1x1 Full Well Depth is: 125000.
+GSAT: Calculated CCD saturation limit is 157529.93068683
+GSAT: Calculated controller saturation limit is 65127.2197
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63824.675306
+GSAT - Finished: 2022-07-28T16:28:33
+GSAT - Exit status: GOOD
+GSAT - Started: 2022-07-28T16:28:34
+GSAT: Bias level is 405.8877 Gain level is 1.654
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 1 Ybin is 2
+GSAT: Amplifier is BI13-18-4k-2, 1 1x1 Full Well Depth is: 123000.
+GSAT: Calculated CCD saturation limit is 148730.35066505
+GSAT: Calculated controller saturation limit is 65129.1123
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63826.530054
+GSAT - Finished: 2022-07-28T16:28:34
+GSAT - Exit status: GOOD
+GIREDUCE: Subtracted bias MCbias from tmpimage15217xij
+GIREDUCE: multiplying image tmpimage15217xij by gain
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2022-07-28T20:28:34
+File[extension]:              AMPNAME               GAIN   READNOISE
+tmpimage15217xij.fits[SCI,1]: " "BI13-20-4k-1, 4""  1.675  4.06
+tmpimage15217xij.fits[SCI,2]: " "BI13-20-4k-1, 3""  1.618  4.12
+tmpimage15217xij.fits[SCI,3]: " "BI13-20-4k-1, 2""  1.620  4.12
+tmpimage15217xij.fits[SCI,4]: " "BI13-20-4k-1, 1""  1.568  3.99
+tmpimage15217xij.fits[SCI,5]: " "BI12-09-4k-2, 4""  1.690  4.20
+tmpimage15217xij.fits[SCI,6]: " "BI12-09-4k-2, 3""  1.650  3.98
+tmpimage15217xij.fits[SCI,7]: " "BI12-09-4k-2, 2""  1.633  3.88
+tmpimage15217xij.fits[SCI,8]: " "BI12-09-4k-2, 1""  1.664  4.20
+tmpimage15217xij.fits[SCI,9]: " "BI13-18-4k-2, 4""  1.604  4.04
+tmpimage15217xij.fits[SCI,10]: " "BI13-18-4k-2, 3""  1.630  4.35
+tmpimage15217xij.fits[SCI,11]: " "BI13-18-4k-2, 2""  1.587  4.02
+tmpimage15217xij.fits[SCI,12]: " "BI13-18-4k-2, 1""  1.654  4.55
+
+GGAIN -- Finished: 2022-07-28T20:28:50
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+GIREDUCE: output counts in electrons
+
+GIREDUCE - Cleaning up -- Thu Jul 28 16:28:51 EDT 2022
+
+GIREDUCE -- Thu Jul 28 16:28:51 EDT 2022
+GIREDUCE exit status:  good.
+----------------------------------------------------------------------------
+GSREDUCE: Updating PHU and cleaning up
+ 
+GSREDUCE done
+----------------------------------------------------------------------------
+GSFLAT: Returned from GSREDUCE.
+GSFLAT: Image #1 - Working on : gsN20210807S0180.fits
+GSFLAT: Image #2 - Working on : gsN20210807S0182.fits
+ 
+WARNING - GSFLAT: only combining two images, turning off rejection
+                  and setting combine type to average.
+--------------------------------------------------------------------------------
+GEMCOMBINE -- Thu Jul 28 16:28:51 EDT 2022
+ 
+GEMCOMBINE: input = @tmpscilist5217pgj
+GEMCOMBINE: output = tmpcombflat5217sgj
+GEMCOMBINE: title = 
+GEMCOMBINE: bpmfile = 
+GEMCOMBINE: sci_ext = SCI
+GEMCOMBINE: var_ext = VAR
+GEMCOMBINE: dq_ext = DQ
+ 
+
+------------------------------------------------------------
+GEMSECCHK -- Started: 2022-07-28T16:28:51
+
+GEMSECCHK: Input parameters...
+    inimage     = gsN20210807S0180.fits[SCI,1]
+    section     = 
+
+GEMSECCHK: Output image section -- [*,*]
+
+GEMSECCHK -- Finished: 2022-07-28T16:28:51
+
+GEMSECCHK -- Exit status: GOOD
+------------------------------------------------------------
+WARNING - GEMCOMBINE: five or less images to combine.
+
+Jul 28 16:28: IMCOMBINE
+  combine = average, scale = mean, zero = none, weight = none
+  blank = 0.
+  statsec = Jul 28 16:28
+                Images     Mean  Scale
+  gsN20210807S0180.fits[SCI,1]  33571.  1.000
+  gsN20210807S0182.fits[SCI,1]  33784.  0.994
+
+  Output image = tmpcombout5217flj, ncombine = 2
+  Number rejected mask = tmpcombdq5217glj.pl
+  Sigma image = tmpcombsig5217hlj
+
+------------------------------------------------------------
+GEMSECCHK -- Started: 2022-07-28T16:28:52
+
+GEMSECCHK: Input parameters...
+    inimage     = gsN20210807S0180.fits[SCI,2]
+    section     = 
+
+GEMSECCHK: Output image section -- [*,*]
+
+GEMSECCHK -- Finished: 2022-07-28T16:28:52
+
+GEMSECCHK -- Exit status: GOOD
+------------------------------------------------------------
+WARNING - GEMCOMBINE: five or less images to combine.
+
+Jul 28 16:28: IMCOMBINE
+  combine = average, scale = mean, zero = none, weight = none
+  blank = 0.
+  statsec = Jul 28 16:28
+                Images     Mean  Scale
+  gsN20210807S0180.fits[SCI,2]  33718.  1.000
+  gsN20210807S0182.fits[SCI,2]  33921.  0.994
+
+  Output image = tmpcombout5217olj, ncombine = 2
+  Number rejected mask = tmpcombdq5217plj.pl
+  Sigma image = tmpcombsig5217qlj
+
+------------------------------------------------------------
+GEMSECCHK -- Started: 2022-07-28T16:28:53
+
+GEMSECCHK: Input parameters...
+    inimage     = gsN20210807S0180.fits[SCI,3]
+    section     = 
+
+GEMSECCHK: Output image section -- [*,*]
+
+GEMSECCHK -- Finished: 2022-07-28T16:28:53
+
+GEMSECCHK -- Exit status: GOOD
+------------------------------------------------------------
+WARNING - GEMCOMBINE: five or less images to combine.
+
+Jul 28 16:28: IMCOMBINE
+  combine = average, scale = mean, zero = none, weight = none
+  blank = 0.
+  statsec = Jul 28 16:28
+                Images     Mean  Scale
+  gsN20210807S0180.fits[SCI,3]  37277.  1.000
+  gsN20210807S0182.fits[SCI,3]  37472.  0.995
+
+  Output image = tmpcombout5217slj, ncombine = 2
+  Number rejected mask = tmpcombdq5217tlj.pl
+  Sigma image = tmpcombsig5217ulj
+
+------------------------------------------------------------
+GEMSECCHK -- Started: 2022-07-28T16:28:54
+
+GEMSECCHK: Input parameters...
+    inimage     = gsN20210807S0180.fits[SCI,4]
+    section     = 
+
+GEMSECCHK: Output image section -- [*,*]
+
+GEMSECCHK -- Finished: 2022-07-28T16:28:54
+
+GEMSECCHK -- Exit status: GOOD
+------------------------------------------------------------
+WARNING - GEMCOMBINE: five or less images to combine.
+
+Jul 28 16:28: IMCOMBINE
+  combine = average, scale = mean, zero = none, weight = none
+  blank = 0.
+  statsec = Jul 28 16:28
+  masktype = goodval, maskval = 0
+                Images     Mean  Scale Maskfile
+  gsN20210807S0180.fits[SCI,4]  39496.  1.000 tmpdq5217wkj_1.pl
+  gsN20210807S0182.fits[SCI,4]  39679.  0.995 tmpdq5217wkj_2.pl
+
+  Output image = tmpcombout5217wlj, ncombine = 2
+  Number rejected mask = tmpcombdq5217xlj.pl
+  Sigma image = tmpcombsig5217ylj
+
+------------------------------------------------------------
+GEMSECCHK -- Started: 2022-07-28T16:28:55
+
+GEMSECCHK: Input parameters...
+    inimage     = gsN20210807S0180.fits[SCI,5]
+    section     = 
+
+GEMSECCHK: Output image section -- [*,*]
+
+GEMSECCHK -- Finished: 2022-07-28T16:28:55
+
+GEMSECCHK -- Exit status: GOOD
+------------------------------------------------------------
+WARNING - GEMCOMBINE: five or less images to combine.
+
+Jul 28 16:28: IMCOMBINE
+  combine = average, scale = mean, zero = none, weight = none
+  blank = 0.
+  statsec = Jul 28 16:28
+                Images     Mean  Scale
+  gsN20210807S0180.fits[SCI,5]  39658.  1.000
+  gsN20210807S0182.fits[SCI,5]  39850.  0.995
+
+  Output image = tmpcombout5217amj, ncombine = 2
+  Number rejected mask = tmpcombdq5217bmj.pl
+  Sigma image = tmpcombsig5217cmj
+
+------------------------------------------------------------
+GEMSECCHK -- Started: 2022-07-28T16:28:56
+
+GEMSECCHK: Input parameters...
+    inimage     = gsN20210807S0180.fits[SCI,6]
+    section     = 
+
+GEMSECCHK: Output image section -- [*,*]
+
+GEMSECCHK -- Finished: 2022-07-28T16:28:56
+
+GEMSECCHK -- Exit status: GOOD
+------------------------------------------------------------
+WARNING - GEMCOMBINE: five or less images to combine.
+
+Jul 28 16:28: IMCOMBINE
+  combine = average, scale = mean, zero = none, weight = none
+  blank = 0.
+  statsec = Jul 28 16:28
+                Images     Mean  Scale
+  gsN20210807S0180.fits[SCI,6]  39246.  1.000
+  gsN20210807S0182.fits[SCI,6]  39441.  0.995
+
+  Output image = tmpcombout5217emj, ncombine = 2
+  Number rejected mask = tmpcombdq5217fmj.pl
+  Sigma image = tmpcombsig5217gmj
+
+------------------------------------------------------------
+GEMSECCHK -- Started: 2022-07-28T16:28:57
+
+GEMSECCHK: Input parameters...
+    inimage     = gsN20210807S0180.fits[SCI,7]
+    section     = 
+
+GEMSECCHK: Output image section -- [*,*]
+
+GEMSECCHK -- Finished: 2022-07-28T16:28:57
+
+GEMSECCHK -- Exit status: GOOD
+------------------------------------------------------------
+WARNING - GEMCOMBINE: five or less images to combine.
+
+Jul 28 16:28: IMCOMBINE
+  combine = average, scale = mean, zero = none, weight = none
+  blank = 0.
+  statsec = Jul 28 16:28
+                Images     Mean  Scale
+  gsN20210807S0180.fits[SCI,7]  37690.  1.000
+  gsN20210807S0182.fits[SCI,7]  37880.  0.995
+
+  Output image = tmpcombout5217imj, ncombine = 2
+  Number rejected mask = tmpcombdq5217jmj.pl
+  Sigma image = tmpcombsig5217kmj
+
+------------------------------------------------------------
+GEMSECCHK -- Started: 2022-07-28T16:28:59
+
+GEMSECCHK: Input parameters...
+    inimage     = gsN20210807S0180.fits[SCI,8]
+    section     = 
+
+GEMSECCHK: Output image section -- [*,*]
+
+GEMSECCHK -- Finished: 2022-07-28T16:28:59
+
+GEMSECCHK -- Exit status: GOOD
+------------------------------------------------------------
+WARNING - GEMCOMBINE: five or less images to combine.
+
+Jul 28 16:28: IMCOMBINE
+  combine = average, scale = mean, zero = none, weight = none
+  blank = 0.
+  statsec = Jul 28 16:28
+                Images     Mean  Scale
+  gsN20210807S0180.fits[SCI,8]  32561.  1.000
+  gsN20210807S0182.fits[SCI,8]  32725.  0.995
+
+  Output image = tmpcombout5217mmj, ncombine = 2
+  Number rejected mask = tmpcombdq5217nmj.pl
+  Sigma image = tmpcombsig5217omj
+
+------------------------------------------------------------
+GEMSECCHK -- Started: 2022-07-28T16:29:00
+
+GEMSECCHK: Input parameters...
+    inimage     = gsN20210807S0180.fits[SCI,9]
+    section     = 
+
+GEMSECCHK: Output image section -- [*,*]
+
+GEMSECCHK -- Finished: 2022-07-28T16:29:00
+
+GEMSECCHK -- Exit status: GOOD
+------------------------------------------------------------
+WARNING - GEMCOMBINE: five or less images to combine.
+
+Jul 28 16:29: IMCOMBINE
+  combine = average, scale = mean, zero = none, weight = none
+  blank = 0.
+  statsec = Jul 28 16:29
+                Images     Mean  Scale
+  gsN20210807S0180.fits[SCI,9]  23749.  1.000
+  gsN20210807S0182.fits[SCI,9]  23863.  0.995
+
+  Output image = tmpcombout5217qmj, ncombine = 2
+  Number rejected mask = tmpcombdq5217rmj.pl
+  Sigma image = tmpcombsig5217smj
+
+------------------------------------------------------------
+GEMSECCHK -- Started: 2022-07-28T16:29:01
+
+GEMSECCHK: Input parameters...
+    inimage     = gsN20210807S0180.fits[SCI,10]
+    section     = 
+
+GEMSECCHK: Output image section -- [*,*]
+
+GEMSECCHK -- Finished: 2022-07-28T16:29:01
+
+GEMSECCHK -- Exit status: GOOD
+------------------------------------------------------------
+WARNING - GEMCOMBINE: five or less images to combine.
+
+Jul 28 16:29: IMCOMBINE
+  combine = average, scale = mean, zero = none, weight = none
+  blank = 0.
+  statsec = Jul 28 16:29
+                Images     Mean  Scale
+  gsN20210807S0180.fits[SCI,10]  19850.  1.000
+  gsN20210807S0182.fits[SCI,10]  19946.  0.995
+
+  Output image = tmpcombout5217umj, ncombine = 2
+  Number rejected mask = tmpcombdq5217vmj.pl
+  Sigma image = tmpcombsig5217wmj
+
+------------------------------------------------------------
+GEMSECCHK -- Started: 2022-07-28T16:29:02
+
+GEMSECCHK: Input parameters...
+    inimage     = gsN20210807S0180.fits[SCI,11]
+    section     = 
+
+GEMSECCHK: Output image section -- [*,*]
+
+GEMSECCHK -- Finished: 2022-07-28T16:29:02
+
+GEMSECCHK -- Exit status: GOOD
+------------------------------------------------------------
+WARNING - GEMCOMBINE: five or less images to combine.
+
+Jul 28 16:29: IMCOMBINE
+  combine = average, scale = mean, zero = none, weight = none
+  blank = 0.
+  statsec = Jul 28 16:29
+                Images     Mean  Scale
+  gsN20210807S0180.fits[SCI,11]  20887.  1.000
+  gsN20210807S0182.fits[SCI,11]  20995.  0.995
+
+  Output image = tmpcombout5217ymj, ncombine = 2
+  Number rejected mask = tmpcombdq5217zmj.pl
+  Sigma image = tmpcombsig5217anj
+
+------------------------------------------------------------
+GEMSECCHK -- Started: 2022-07-28T16:29:04
+
+GEMSECCHK: Input parameters...
+    inimage     = gsN20210807S0180.fits[SCI,12]
+    section     = 
+
+GEMSECCHK: Output image section -- [*,*]
+
+GEMSECCHK -- Finished: 2022-07-28T16:29:04
+
+GEMSECCHK -- Exit status: GOOD
+------------------------------------------------------------
+WARNING - GEMCOMBINE: five or less images to combine.
+
+Jul 28 16:29: IMCOMBINE
+  combine = average, scale = mean, zero = none, weight = none
+  blank = 0.
+  statsec = Jul 28 16:29
+                Images     Mean  Scale
+  gsN20210807S0180.fits[SCI,12]  20739.  1.000
+  gsN20210807S0182.fits[SCI,12]  20854.  0.994
+
+  Output image = tmpcombout5217cnj, ncombine = 2
+  Number rejected mask = tmpcombdq5217dnj.pl
+  Sigma image = tmpcombsig5217enj
+GEMCOMBINE: Attaching the MDF
+ 
+GEMCOMBINE -- Finished: Thu Jul 28 16:29:06 EDT 2022
+ 
+GEMCOMBINE -- Exit status: GOOD
+--------------------------------------------------------------------------------
+GSFLAT: GEMCOMBINE complete.  Output in file : tmpcombflat5217sgj
+ 
+ 
+GSFLAT: Begin fitting response functions for detectors
+ 
+WARNING- GSFLAT: order of fitting function must be greater than zero
+WARNING- GSFLAT: setting order of fitting function to 13 for all amps.
+GSFLAT: fitting response functions for CCD1
+        sample in fitting 17:512
+GSFLAT: fitting response functions for CCD2
+        sample in fitting 1:512
+GSFLAT: fitting response functions for CCD3
+        sample in fitting 1:512
+GSFLAT: fitting response functions for CCD4
+        sample in fitting 1:495
+GSFLAT: fitting response functions for CCD5
+        sample in fitting 16:512
+GSFLAT: fitting response functions for CCD6
+        sample in fitting 1:512
+GSFLAT: fitting response functions for CCD7
+        sample in fitting 1:512
+GSFLAT: fitting response functions for CCD8
+        sample in fitting 1:495
+GSFLAT: fitting response functions for CCD9
+        sample in fitting 16:512
+GSFLAT: fitting response functions for CCD10
+        sample in fitting 1:512
+GSFLAT: fitting response functions for CCD11
+        sample in fitting 1:512
+GSFLAT: fitting response functions for CCD12
+        sample in fitting 1:484
+ 
+GSFLAT done Thu Jul 28 16:29:20 EDT 2022
+--------------------------------------------------------------------------------
