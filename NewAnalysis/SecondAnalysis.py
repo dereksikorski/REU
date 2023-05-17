@@ -8,7 +8,7 @@ from scipy.interpolate import UnivariateSpline
 
 
 ## First, import data in:
-filepath = r"C:\Users\sikor\OneDrive\Desktop\Research\KansasREU\REU\NewAnalysis\CQ4472.txt"
+filepath = r"C:\Users\sikor\OneDrive\Desktop\Research\KansasREU\REU\NewAnalysis\CQ507Trimmed.txt"
 
 data = np.loadtxt(filepath, delimiter=",")      # Load data into numpy array
 
